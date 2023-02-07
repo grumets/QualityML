@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
+<head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>QualityML</title>
         <link rel="shortcut icon" href="/favicon.ico" />
@@ -14,8 +14,13 @@
      <!-- Estils del projecte -->
     <link href="/css4/miramon.css" rel="stylesheet"/>	
 	<script type="text/javascript" src="/qualityml.js"></script>
+	
+	<!-- Instructions for pretify from: http://rahularora.net/google-code-prettify/ -->
+	<link rel="stylesheet" href="/google-code-prettify/prettify.css" />	
+	<script src="/google-code-prettify/prettify.js"></script>
 
-<body onLoad="CarregaQualityMLjson();">
+</head>
+<body onLoad="CarregaQualityMLjson();setTimeout('prettyPrint()',300);">
 <div class="container">
 <div class="text-justify">	
 <a href="/"><img src="/qualityml.png" border="0"/></a>

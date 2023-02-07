@@ -5,6 +5,11 @@ function CheckHttps()
 		document.location.protocol = 'https:';
 }
 
+function arrayBufferToString(buffer){
+    var arr = new Uint8Array(buffer);
+    var str = String.fromCharCode.apply(String, arr);
+    return str;
+}
 
 //Preparo una funció per descarregar les dades JSON assincronament
 //Extreta de: http://stackoverflow.com/questions/9838812/how-can-i-open-a-json-file-in-javascript-without-jquery
