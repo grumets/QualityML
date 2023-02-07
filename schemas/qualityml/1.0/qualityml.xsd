@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns:qml="http://www.qualityml.org/1.0/metrics" xmlns:un="http://www.uncertml.org/2.0" xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.qualityml.org/1.0/metrics" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<import namespace="http://www.uncertml.org/2.0" schemaLocation="../../uncertml/2.0/uncertml.xsd"/>
+	<!--==== Basic Types ====-->
+	<simpleType name="booleanArray">
+		<list itemType="boolean"/>
+	</simpleType>
+	<simpleType name="nonNegativeRealNumber">
+		<restriction base="double">
+			<minInclusive value="0.0"/>
+		</restriction>
+	</simpleType>
+	<simpleType name="nonNegativeRealNumberArray">
+		<list itemType="qml:nonNegativeRealNumber"/>
+	</simpleType>
+	<!--==== More complex Types ====-->
+	<complexType name="BooleanNumbersType">
+		<simpleContent>
+			<extension base="qml:booleanArray">
+				<attributeGroup ref="un:HREFAttributeGroup"/>
+			</extension>
+		</simpleContent>
+	</complexType>
+	<complexType name="RatesType">
+		<simpleContent>
+			<extension base="qml:nonNegativeRealNumberArray">
+				<attribute name="max" type="qml:nonNegativeRealNumber" default="1"/>
+			</extension>
+		</simpleContent>
+	</complexType>
+	<complexType name="ContinuousValuesSummaryStatisticType">
+		<complexContent>
+			<extension base="un:AbstractSummaryStatisticType">
+				<sequence>
+					<element name="values" type="un:ContinuousValuesType"/>
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+	<!--==== Inheritance Types ====-->
+	<element name="AbstractMetricsSet" type="qml:AbstractMetricsSetType" abstract="true" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<complexType name="AbstractMetricsSetType" abstract="true">
+		<complexContent>
+			<extension base="un:AbstractSummaryStatisticType"/>
+		</complexContent>
+	</complexType>
+	<!--==== qualityml GeoViQua Core Summary Statistics ====-->
+	<element name="MeanAbsolute" type="qml:ContinuousValuesSummaryStatisticType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<element name="MeanAbsolute2D" type="qml:ContinuousValuesSummaryStatisticType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<element name="MeanAbsolute3D" type="qml:ContinuousValuesSummaryStatisticType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<element name="MeanBias" type="qml:ContinuousValuesSummaryStatisticType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<element name="RootMeanSquare" type="qml:ContinuousValuesSummaryStatisticType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<element name="RootMeanSquare2D" type="qml:ContinuousValuesSummaryStatisticType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<element name="RootMeanSquare3D" type="qml:ContinuousValuesSummaryStatisticType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<element name="NormalizedRootMeanSquare" type="qml:ContinuousValuesSummaryStatisticType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<element name="CoefficientOfVariationRootMeanSquare" type="qml:ContinuousValuesSummaryStatisticType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<element name="Items" type="qml:ItemsType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<complexType name="ItemsType">
+		<complexContent>
+			<extension base="un:AbstractSummaryStatisticType">
+				<sequence>
+					<choice>
+						<element name="indicator" type="qml:BooleanNumbersType"/>
+						<element name="count" type="un:NaturalNumbersType"/>
+						<element name="rate" type="qml:RatesType"/>
+					</choice>
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+	<element name="Purity" type="qml:PurityType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<complexType name="PurityType">
+		<complexContent>
+			<extension base="un:AbstractSummaryStatisticType">
+				<sequence>
+					<element name="values" type="un:ProbabilityValuesType"/>
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+	<element name="HalfLengthConfidenceInterval" type="un:QuantileType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<element name="CircularError" substitutionGroup="un:AbstractSummaryStatistic">
+		<!-- explicitily define the complex typ? Reuse the level definition from uncertml if possible? -->
+		<complexType>
+			<complexContent>
+				<extension base="qml:ContinuousValuesSummaryStatisticType">
+					<attribute name="level" use="required">
+						<simpleType>
+							<restriction base="double">
+								<minInclusive value="0.0"/>
+								<maxInclusive value="1.0"/>
+							</restriction>
+						</simpleType>
+					</attribute>
+				</extension>
+			</complexContent>
+		</complexType>
+	</element>
+	<!--==== qualityml GeoViQua + Summary Statistics ====-->
+	<element name="LMAS" type="qml:ContinuousValuesSummaryStatisticType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<element name="ALE" type="qml:ContinuousValuesSummaryStatisticType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<element name="ACE" type="qml:ContinuousValuesSummaryStatisticType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<element name="CMAS" type="qml:ContinuousValuesSummaryStatisticType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<element name="ConfidenceEllipse" type="qml:ConfidenceEllipseType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<complexType name="ConfidenceEllipseType">
+		<complexContent>
+			<extension base="un:AbstractSummaryStatisticType">
+				<sequence>
+					<element name="a" type="un:ContinuousValuesType"/>
+					<element name="b" type="un:ContinuousValuesType"/>
+					<element name="a_angle" type="un:ContinuousValuesType"/>
+				</sequence>
+				<attribute name="confidence" use="required">
+					<simpleType>
+						<restriction base="double">
+							<pattern value="0.683"/>
+							<pattern value="0.95"/>
+							<pattern value="0.99"/>
+						</restriction>
+					</simpleType>
+				</attribute>
+			</extension>
+		</complexContent>
+	</complexType>
+	<element name="RelativeError1D" type="qml:ContinuousValuesSummaryStatisticType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<element name="RelativeError2D" type="qml:ContinuousValuesSummaryStatisticType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<element name="CoefficientOfDetermination" type="qml:CoefficientOfDeterminationType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<complexType name="CoefficientOfDeterminationType">
+		<complexContent>
+			<extension base="un:AbstractSummaryStatisticType">
+				<sequence>
+					<element name="values" type="un:ProbabilityValuesType"/>
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+	<element name="ConfusionMatrix" type="qml:ConfusionMatrixType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<complexType name="ConfusionMatrixType">
+		<complexContent>
+			<extension base="un:AbstractSummaryStatisticType">
+				<sequence>
+					<element name="actualCategories" type="un:CategoricalValuesType"/>
+					<element name="predictedCategories" type="un:CategoricalValuesType"/>
+					<element name="values" type="un:ContinuousValuesType"/>
+				</sequence>
+				<attribute name="max" type="qml:nonNegativeRealNumber"/>
+			</extension>
+		</complexContent>
+	</complexType>
+	<element name="RelativeConfusionMatrix" type="qml:RelativeConfusionMatrixType" substitutionGroup="qml:ConfusionMatrix"/>
+	<complexType name="RelativeConfusionMatrixType">
+		<complexContent>
+			<extension base="qml:ConfusionMatrixType">
+				<attribute name="category">
+					<simpleType>
+						<restriction base="string">
+							<enumeration value="actual"/>
+							<enumeration value="predicted"/>
+						</restriction>
+					</simpleType>
+				</attribute>
+			</extension>
+		</complexContent>
+	</complexType>
+	<complexType name="CategorizedValuesType">
+		<complexContent>
+			<extension base="un:AbstractSummaryStatisticType">
+				<sequence>
+					<element name="categories" type="un:CategoricalValuesType"/>
+					<element name="values" type="un:ContinuousValuesType"/>
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+	<element name="OmissionError" type="qml:CategorizedValuesType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<element name="CommissionError" type="qml:CategorizedValuesType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<complexType name="CategorizedRatesType">
+		<complexContent>
+			<extension base="un:AbstractSummaryStatisticType">
+				<sequence>
+					<element name="categories" type="un:CategoricalValuesType"/>
+					<element name="values" type="qml:RatesType"/>
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+	<element name="Reliability" type="qml:CategorizedRatesType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<element name="Accuracy" type="qml:CategorizedRatesType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<element name="AverageReliability" type="qml:ContinuousValuesSummaryStatisticType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<element name="AverageAccuracy" type="qml:ContinuousValuesSummaryStatisticType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<element name="OverallAccuracy" type="qml:ContinuousValuesSummaryStatisticType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<simpleType name="kappaCoefficientValue">
+		<restriction base="double">
+			<maxInclusive value="1.0"/>
+		</restriction>
+	</simpleType>
+	<simpleType name="kappaCoefficientValueArray">
+		<list itemType="qml:kappaCoefficientValue"/>
+	</simpleType>
+	<element name="KappaCoefficient" type="qml:KappaCoefficientType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<complexType name="KappaCoefficientType">
+		<complexContent>
+			<extension base="un:AbstractSummaryStatisticType">
+				<sequence>
+					<element name="values" type="qml:kappaCoefficientValueArray"/>
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+	<element name="ConfusionMatrixDerivates" type="qml:ConfusionMatrixDerivatesType" substitutionGroup="qml:AbstractMetricsSet"/>
+	<complexType name="ConfusionMatrixDerivatesType">
+		<complexContent>
+			<extension base="qml:AbstractMetricsSetType">
+				<sequence>
+					<element ref="qml:ConfusionMatrix" minOccurs="0"/>
+					<element ref="qml:OmissionError" minOccurs="0"/>
+					<element ref="qml:CommissionError" minOccurs="0"/>
+					<element ref="qml:Reliability" minOccurs="0"/>
+					<element ref="qml:AverageReliability" minOccurs="0"/>
+					<element ref="qml:Accuracy" minOccurs="0"/>
+					<element ref="qml:AverageAccuracy" minOccurs="0"/>
+					<element ref="qml:OverallAccuracy" minOccurs="0"/>
+					<element ref="qml:KappaCoefficient" minOccurs="0"/>
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+	<simpleType name="binaryNoDataValue">
+		<restriction base="string">
+			<enumeration value="true"/>
+			<enumeration value="false"/>
+			<enumeration value="nodata"/>
+		</restriction>
+	</simpleType>
+	<simpleType name="binaryNoDataArray">
+		<list itemType="qml:binaryNoDataValue"/>
+	</simpleType>
+	<complexType name="BinaryNoDataValuesType">
+		<simpleContent>
+			<extension base="qml:binaryNoDataArray">
+				<attributeGroup ref="un:HREFAttributeGroup"/>
+			</extension>
+		</simpleContent>
+	</complexType>
+	<element name="DiscreteConfusionMatrix" type="qml:DiscreteConfusionMatrixType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<complexType name="DiscreteConfusionMatrixType">
+		<complexContent>
+			<extension base="un:AbstractSummaryStatisticType">
+				<sequence>
+					<element name="actualCategories" type="qml:BinaryNoDataValuesType"/>
+					<element name="predictedCategories" type="qml:BinaryNoDataValuesType"/>
+					<element name="values" type="un:ContinuousValuesType"/>
+				</sequence>
+				<attribute name="max" type="qml:nonNegativeRealNumber"/>
+			</extension>
+		</complexContent>
+	</complexType>
+	<element name="Sensitivity" type="qml:ContinuousValuesSummaryStatisticType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<element name="Specificity" type="qml:ContinuousValuesSummaryStatisticType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<element name="TruePositive" type="qml:ContinuousValuesSummaryStatisticType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<element name="TrueNegative" type="qml:ContinuousValuesSummaryStatisticType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<element name="FalsePositive" type="qml:ContinuousValuesSummaryStatisticType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<element name="FalseNegative" type="qml:ContinuousValuesSummaryStatisticType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<element name="FalsePositiveRate" type="qml:ContinuousValuesSummaryStatisticType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<element name="PositivePredictiveValue" type="qml:ContinuousValuesSummaryStatisticType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<element name="FalseDiscoveryRate" type="qml:ContinuousValuesSummaryStatisticType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<element name="MatthewsCorrelationCoefficient" type="qml:ContinuousValuesSummaryStatisticType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<element name="AreaUnderROCCurve" type="qml:ContinuousValuesSummaryStatisticType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<element name="DiscreteClassification" type="qml:DiscreteClassificationType" substitutionGroup="qml:AbstractMetricsSet"/>
+	<complexType name="DiscreteClassificationType">
+		<complexContent>
+			<extension base="qml:AbstractMetricsSetType">
+				<sequence>
+					<element ref="qml:DiscreteConfusionMatrix" minOccurs="0"/>
+					<element ref="qml:TruePositive" minOccurs="0"/>
+					<element ref="qml:TrueNegative" minOccurs="0"/>
+					<element ref="qml:FalsePositive" minOccurs="0"/>
+					<element ref="qml:FalseNegative" minOccurs="0"/>
+					<element ref="qml:Sensitivity" minOccurs="0"/>
+					<element ref="qml:Specificity" minOccurs="0"/>
+					<element ref="qml:OverallAccuracy" minOccurs="0"/>
+					<element ref="qml:FalsePositiveRate" minOccurs="0"/>
+					<element ref="qml:PositivePredictiveValue" minOccurs="0"/>
+					<element ref="qml:FalseDiscoveryRate" minOccurs="0"/>
+					<element ref="qml:MatthewsCorrelationCoefficient" minOccurs="0"/>
+					<element ref="qml:AreaUnderROCCurve" minOccurs="0"/>
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+	<element name="CorrespondenceMatrix" type="qml:CorrespondenceMatrixType" substitutionGroup="un:AbstractSummaryStatistic"/>
+	<complexType name="CorrespondenceMatrixType">
+		<complexContent>
+			<extension base="un:AbstractSummaryStatisticType">
+				<sequence>
+					<element name="categoriesS" type="un:CategoricalValuesType"/>
+					<element name="categoriesT" type="un:CategoricalValuesType"/>
+					<element name="values" type="un:ContinuousValuesType"/>
+				</sequence>
+				<attribute name="max" type="qml:nonNegativeRealNumber"/>
+			</extension>
+		</complexContent>
+	</complexType>
+	<element name="RelativeCorrespondenceMatrix" type="qml:RelativeCorrespondenceMatrixType" substitutionGroup="qml:CorrespondenceMatrix"/>
+	<complexType name="RelativeCorrespondenceMatrixType">
+		<complexContent>
+			<extension base="qml:CorrespondenceMatrixType">
+				<attribute name="category">
+					<simpleType>
+						<restriction base="string">
+							<enumeration value="T"/>
+							<enumeration value="S"/>
+						</restriction>
+					</simpleType>
+				</attribute>
+			</extension>
+		</complexContent>
+	</complexType>
+	<element name="NumberMajorCategories" type="qml:ItemsType" substitutionGroup="un:AbstractSummaryStatistic"/>
+</schema>

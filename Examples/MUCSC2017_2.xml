@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://schemas.opengis.net/iso/19139/20060504/gmd/gmd.xsd http://www.isotc211.org/2005/gmx http://schemas.opengis.net/iso/19139/20060504/gmx/gmx.xsd ">
+	<gmd:fileIdentifier>
+		<gco:CharacterString>ussol_2017I_68634</gco:CharacterString>
+	</gmd:fileIdentifier>
+	<gmd:language>
+		<gmd:LanguageCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+	</gmd:language>
+	<gmd:characterSet>
+		<gmd:MD_CharacterSetCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="8859part1">8859part1</gmd:MD_CharacterSetCode>
+	</gmd:characterSet>
+	<gmd:hierarchyLevel>
+		<gmd:MD_ScopeCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">Layer</gmd:MD_ScopeCode>
+	</gmd:hierarchyLevel>
+	<gmd:hierarchyLevelName>
+		<gco:CharacterString>Layer-sheet</gco:CharacterString>
+	</gmd:hierarchyLevelName>
+	<gmd:contact>
+		<gmd:CI_ResponsibleParty>
+			<gmd:organisationName>
+				<gco:CharacterString>Generalitat de Catalunya</gco:CharacterString>
+			</gmd:organisationName>
+			<gmd:contactInfo>
+				<gmd:CI_Contact>
+					<gmd:address>
+						<gmd:CI_Address>
+							<gmd:electronicMailAddress>
+								<gco:CharacterString>https://territori.gencat.cat/</gco:CharacterString>
+							</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+					</gmd:address>
+					<gmd:onlineResource>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>https://territori.gencat.cat/ca/01_departament/12_cartografia_i_toponimia/bases_cartografiques/medi_ambient_i_sostenibilitat/usos-del-sol/</gmd:URL>
+							</gmd:linkage>
+							<gmd:function>
+								<gmd:CI_OnLineFunctionCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="">Unknown</gmd:CI_OnLineFunctionCode>
+							</gmd:function>
+						</gmd:CI_OnlineResource>
+					</gmd:onlineResource>
+				</gmd:CI_Contact>
+			</gmd:contactInfo>
+			<gmd:role>
+				<gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor">Processor</gmd:CI_RoleCode>
+			</gmd:role>
+		</gmd:CI_ResponsibleParty>
+	</gmd:contact>
+	<gmd:dateStamp>
+		<gco:Date>2022-03-17</gco:Date>
+	</gmd:dateStamp>
+	<gmd:metadataStandardName>
+		<gco:CharacterString>ISO 19115:2003/Cor.1:2006 Geographic Information - Metadata</gco:CharacterString>
+	</gmd:metadataStandardName>
+	<gmd:metadataStandardVersion>
+		<gco:CharacterString>IS</gco:CharacterString>
+	</gmd:metadataStandardVersion>
+	<gmd:spatialRepresentationInfo>
+		<gmd:MD_Georectified>
+			<gmd:numberOfDimensions>
+				<gco:Integer>2</gco:Integer>
+			</gmd:numberOfDimensions>
+			<gmd:axisDimensionProperties>
+				<gmd:MD_Dimension>
+					<gmd:dimensionName>
+						<gmd:MD_DimensionNameTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="row">Row</gmd:MD_DimensionNameTypeCode>
+					</gmd:dimensionName>
+					<gmd:dimensionSize>
+						<gco:Integer>25949</gco:Integer>
+					</gmd:dimensionSize>
+					<gmd:resolution>
+						<gco:Length uom="m">10</gco:Length>
+					</gmd:resolution>
+				</gmd:MD_Dimension>
+			</gmd:axisDimensionProperties>
+			<gmd:axisDimensionProperties>
+				<gmd:MD_Dimension>
+					<gmd:dimensionName>
+						<gmd:MD_DimensionNameTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="column">Column</gmd:MD_DimensionNameTypeCode>
+					</gmd:dimensionName>
+					<gmd:dimensionSize>
+						<gco:Integer>26940</gco:Integer>
+					</gmd:dimensionSize>
+					<gmd:resolution>
+						<gco:Length uom="m">10</gco:Length>
+					</gmd:resolution>
+				</gmd:MD_Dimension>
+			</gmd:axisDimensionProperties>
+			<gmd:cellGeometry>
+				<gmd:MD_CellGeometryCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CellGeometryCode" codeListValue="area">Area</gmd:MD_CellGeometryCode>
+			</gmd:cellGeometry>
+			<gmd:transformationParameterAvailability>
+				<gco:Boolean>true</gco:Boolean>
+			</gmd:transformationParameterAvailability>
+			<gmd:checkPointAvailability>
+				<gco:Boolean>false</gco:Boolean>
+			</gmd:checkPointAvailability>
+			<gmd:cornerPoints>
+				<gml:Point gml:id="NW_corner">
+					<gml:pos>260165 4747975</gml:pos>
+				</gml:Point>
+			</gmd:cornerPoints>
+			<gmd:cornerPoints>
+				<gml:Point gml:id="SE_corner">
+					<gml:pos>529555 4488495</gml:pos>
+				</gml:Point>
+			</gmd:cornerPoints>
+			<gmd:pointInPixel>
+				<gmd:MD_PixelOrientationCode>center</gmd:MD_PixelOrientationCode>
+			</gmd:pointInPixel>
+		</gmd:MD_Georectified>
+	</gmd:spatialRepresentationInfo>
+	<gmd:referenceSystemInfo>
+		<gmd:MD_ReferenceSystem>
+			<gmd:referenceSystemIdentifier>
+				<gmd:RS_Identifier>
+					<gmd:code>
+						<gco:CharacterString>http://www.opengis.net/def/crs/EPSG/0/25831</gco:CharacterString>
+					</gmd:code>
+				</gmd:RS_Identifier>
+			</gmd:referenceSystemIdentifier>
+		</gmd:MD_ReferenceSystem>
+	</gmd:referenceSystemInfo>
+	<gmd:identificationInfo>
+		<gmd:MD_DataIdentification>
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString>Catalonia 2017 v.3 Land Use/Land Cover Map</gco:CharacterString>
+					</gmd:title>
+					<gmd:alternateTitle>
+						<gco:CharacterString>Catalonia 2017 v.3 Land Use/Land Cover Map</gco:CharacterString>
+					</gmd:alternateTitle>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2019-01-16</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">Creation</gmd:CI_DateTypeCode>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2019-01-16</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">Revision</gmd:CI_DateTypeCode>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:editionDate>
+						<gco:Date>2019-01-16</gco:Date>
+					</gmd:editionDate>
+					<gmd:identifier>
+						<gmd:RS_Identifier>
+							<gmd:code>
+								<gco:CharacterString>ussol_2017I_68634_v3</gco:CharacterString>
+							</gmd:code>
+						</gmd:RS_Identifier>
+					</gmd:identifier>
+				</gmd:CI_Citation>
+			</gmd:citation>
+			<gmd:abstract>
+				<gco:CharacterString>2017 Land use and land cover map of Catalonia obtained through automatic classification of Sentinel-2A and Sentinel-2B images with a spatial resolution of 10 m and auxiliary information from the Urbanistic Map and the Road Map as well as the forest fire mapping base of Catalonia, provided by the Generalitat de Catalunya, and lidar data from the Cartographic and Geological Institute of Catalonia (ICGC). In version 2, the representation of some categories in the south of Catalonia was improved, especially conifer forests. Version 3 improves some points of the classification in urban and industrial or commercial areas. This base is the original at 10 m.</gco:CharacterString>
+			</gmd:abstract>
+			<gmd:purpose>
+				<gco:CharacterString>Analysis of land use and land cover changes in Catalonia between 2012 and 2017 and study of the speeds and accelerations of change in the period 1987-2017.</gco:CharacterString>
+			</gmd:purpose>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty>
+					<gmd:organisationName>
+						<gco:CharacterString>Grup de Recerca en Teledetecció i Sistemes d&apos;Informació Geogràfica [Grumets, CREAF-UAB]</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:contactInfo>
+						<gmd:CI_Contact>
+							<gmd:address>
+								<gmd:CI_Address>
+									<gmd:electronicMailAddress>
+										<gco:CharacterString>https://www.grumets.cat/</gco:CharacterString>
+									</gmd:electronicMailAddress>
+								</gmd:CI_Address>
+							</gmd:address>
+							<gmd:onlineResource>
+								<gmd:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>https://www.grumets.cat/</gmd:URL>
+									</gmd:linkage>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">Information</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</gmd:CI_OnlineResource>
+							</gmd:onlineResource>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+					<gmd:role>
+						<gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author">Author</gmd:CI_RoleCode>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty>
+					<gmd:organisationName>
+						<gco:CharacterString>Generalitat de Catalunya</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:contactInfo>
+						<gmd:CI_Contact>
+							<gmd:address>
+								<gmd:CI_Address>
+									<gmd:electronicMailAddress>
+										<gco:CharacterString>https://www.gencat.cat</gco:CharacterString>
+									</gmd:electronicMailAddress>
+								</gmd:CI_Address>
+							</gmd:address>
+							<gmd:onlineResource>
+								<gmd:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>https://www.gencat.cat</gmd:URL>
+									</gmd:linkage>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">Information</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</gmd:CI_OnlineResource>
+							</gmd:onlineResource>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+					<gmd:role>
+						<gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="owner">Owner</gmd:CI_RoleCode>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+						<gco:CharacterString>Xavier Pons</gco:CharacterString>
+					</gmd:individualName>
+					<gmd:organisationName>
+						<gco:CharacterString>Grup de Recerca en Teledetecció i Sistemes d&apos;Informació Geogràfica [Grumets, CREAF-UAB]</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:positionName>
+						<gco:CharacterString>Principal Investigator</gco:CharacterString>
+					</gmd:positionName>
+					<gmd:role>
+						<gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator">Principal investigator</gmd:CI_RoleCode>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>soil use</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+					</gmd:type>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gco:CharacterString>GEMET Thesaurus version 1.0</gco:CharacterString>
+							</gmd:title>
+							<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:Date>2008-06-10</gco:Date>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">Revision</gmd:CI_DateTypeCode>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+							<gmd:citedResponsibleParty>
+								<gmd:CI_ResponsibleParty>
+									<gmd:organisationName>
+										<gco:CharacterString>European Environment Information and Observation Network (Eionet)</gco:CharacterString>
+									</gmd:organisationName>
+									<gmd:contactInfo>
+										<gmd:CI_Contact>
+											<gmd:onlineResource>
+												<gmd:CI_OnlineResource>
+													<gmd:linkage>
+														<gmd:URL>https://www.eionet.europa.eu/gemet/</gmd:URL>
+													</gmd:linkage>
+													<gmd:function>
+														<gmd:CI_OnLineFunctionCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue=""/>
+													</gmd:function>
+												</gmd:CI_OnlineResource>
+											</gmd:onlineResource>
+										</gmd:CI_Contact>
+									</gmd:contactInfo>
+									<gmd:role>
+										<gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">Originator</gmd:CI_RoleCode>
+									</gmd:role>
+								</gmd:CI_ResponsibleParty>
+							</gmd:citedResponsibleParty>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>land cover</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+					</gmd:type>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gco:CharacterString>GEMET Thesaurus version 1.0</gco:CharacterString>
+							</gmd:title>
+							<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:Date>2008-06-10</gco:Date>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">Revision</gmd:CI_DateTypeCode>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+							<gmd:citedResponsibleParty>
+								<gmd:CI_ResponsibleParty>
+									<gmd:organisationName>
+										<gco:CharacterString>European Environment Information and Observation Network (Eionet)</gco:CharacterString>
+									</gmd:organisationName>
+									<gmd:contactInfo>
+										<gmd:CI_Contact>
+											<gmd:onlineResource>
+												<gmd:CI_OnlineResource>
+													<gmd:linkage>
+														<gmd:URL>https://www.eionet.europa.eu/gemet/</gmd:URL>
+													</gmd:linkage>
+													<gmd:function>
+														<gmd:CI_OnLineFunctionCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue=""/>
+													</gmd:function>
+												</gmd:CI_OnlineResource>
+											</gmd:onlineResource>
+										</gmd:CI_Contact>
+									</gmd:contactInfo>
+									<gmd:role>
+										<gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">Originator</gmd:CI_RoleCode>
+									</gmd:role>
+								</gmd:CI_ResponsibleParty>
+							</gmd:citedResponsibleParty>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>remote sensing</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+					</gmd:type>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gco:CharacterString>GEMET Thesaurus version 1.0</gco:CharacterString>
+							</gmd:title>
+							<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:Date>2008-06-10</gco:Date>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">Revision</gmd:CI_DateTypeCode>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+							<gmd:citedResponsibleParty>
+								<gmd:CI_ResponsibleParty>
+									<gmd:organisationName>
+										<gco:CharacterString>European Environment Information and Observation Network (Eionet)</gco:CharacterString>
+									</gmd:organisationName>
+									<gmd:contactInfo>
+										<gmd:CI_Contact>
+											<gmd:onlineResource>
+												<gmd:CI_OnlineResource>
+													<gmd:linkage>
+														<gmd:URL>https://www.eionet.europa.eu/gemet/</gmd:URL>
+													</gmd:linkage>
+													<gmd:function>
+														<gmd:CI_OnLineFunctionCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue=""/>
+													</gmd:function>
+												</gmd:CI_OnlineResource>
+											</gmd:onlineResource>
+										</gmd:CI_Contact>
+									</gmd:contactInfo>
+									<gmd:role>
+										<gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">Originator</gmd:CI_RoleCode>
+									</gmd:role>
+								</gmd:CI_ResponsibleParty>
+							</gmd:citedResponsibleParty>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>mapping</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+					</gmd:type>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gco:CharacterString>GEMET Thesaurus version 1.0</gco:CharacterString>
+							</gmd:title>
+							<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:Date>2008-06-10</gco:Date>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">Revision</gmd:CI_DateTypeCode>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+							<gmd:citedResponsibleParty>
+								<gmd:CI_ResponsibleParty>
+									<gmd:organisationName>
+										<gco:CharacterString>European Environment Information and Observation Network (Eionet)</gco:CharacterString>
+									</gmd:organisationName>
+									<gmd:contactInfo>
+										<gmd:CI_Contact>
+											<gmd:onlineResource>
+												<gmd:CI_OnlineResource>
+													<gmd:linkage>
+														<gmd:URL>https://www.eionet.europa.eu/gemet/</gmd:URL>
+													</gmd:linkage>
+													<gmd:function>
+														<gmd:CI_OnLineFunctionCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue=""/>
+													</gmd:function>
+												</gmd:CI_OnlineResource>
+											</gmd:onlineResource>
+										</gmd:CI_Contact>
+									</gmd:contactInfo>
+									<gmd:role>
+										<gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">Originator</gmd:CI_RoleCode>
+									</gmd:role>
+								</gmd:CI_ResponsibleParty>
+							</gmd:citedResponsibleParty>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>Catalonia</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place">place</gmd:MD_KeywordTypeCode>
+					</gmd:type>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gco:CharacterString>MiraMon Thesaurus</gco:CharacterString>
+							</gmd:title>
+							<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:Date>2021-05-25</gco:Date>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">Revision</gmd:CI_DateTypeCode>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+							<gmd:citedResponsibleParty>
+								<gmd:CI_ResponsibleParty>
+									<gmd:organisationName>
+										<gco:CharacterString>MiraMon</gco:CharacterString>
+									</gmd:organisationName>
+									<gmd:contactInfo>
+										<gmd:CI_Contact>
+											<gmd:onlineResource>
+												<gmd:CI_OnlineResource>
+													<gmd:linkage>
+														<gmd:URL>https://www.miramon.cat</gmd:URL>
+													</gmd:linkage>
+													<gmd:function>
+														<gmd:CI_OnLineFunctionCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">Information</gmd:CI_OnLineFunctionCode>
+													</gmd:function>
+												</gmd:CI_OnlineResource>
+											</gmd:onlineResource>
+										</gmd:CI_Contact>
+									</gmd:contactInfo>
+									<gmd:role>
+										<gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">Originator</gmd:CI_RoleCode>
+									</gmd:role>
+								</gmd:CI_ResponsibleParty>
+							</gmd:citedResponsibleParty>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:spatialRepresentationType>
+				<gmd:MD_SpatialRepresentationTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">Grid</gmd:MD_SpatialRepresentationTypeCode>
+			</gmd:spatialRepresentationType>
+			<gmd:spatialResolution>
+				<gmd:MD_Resolution>
+					<gmd:equivalentScale>
+						<gmd:MD_RepresentativeFraction>
+							<gmd:denominator>
+								<gco:Integer>25000</gco:Integer>
+							</gmd:denominator>
+						</gmd:MD_RepresentativeFraction>
+					</gmd:equivalentScale>
+				</gmd:MD_Resolution>
+			</gmd:spatialResolution>
+			<gmd:spatialResolution>
+				<gmd:MD_Resolution>
+					<gmd:distance>
+						<gco:Distance uom="m">10</gco:Distance>
+					</gmd:distance>
+				</gmd:MD_Resolution>
+			</gmd:spatialResolution>
+			<gmd:language>
+				<gmd:LanguageCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">English</gmd:LanguageCode>
+			</gmd:language>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>biota</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>imageryBaseMapsEarthCover</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>inlandWaters</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:geographicElement>
+						<gmd:EX_GeographicDescription>
+							<gmd:extentTypeCode>
+								<gco:Boolean>true</gco:Boolean>
+							</gmd:extentTypeCode>
+							<gmd:geographicIdentifier>
+								<gmd:MD_Identifier>
+									<gmd:code>
+										<gco:CharacterString>Catalunya</gco:CharacterString>
+									</gmd:code>
+								</gmd:MD_Identifier>
+							</gmd:geographicIdentifier>
+						</gmd:EX_GeographicDescription>
+					</gmd:geographicElement>
+					<gmd:geographicElement>
+						<gmd:EX_GeographicBoundingBox>
+							<gmd:extentTypeCode>
+								<gco:Boolean>true</gco:Boolean>
+							</gmd:extentTypeCode>
+							<gmd:westBoundLongitude>
+								<gco:Decimal>0.0648605767954534</gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal>3.36198094989502</gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal>40.5124741400814</gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal>42.8838480920365</gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+			<gmd:supplementalInformation>
+				<gco:CharacterString>The values of the geometric quality documented in this metadata has been calculated by placing test points on the current ICGC orthophoto (2016-2018) at a scale of 1:5000. </gco:CharacterString>
+			</gmd:supplementalInformation>
+		</gmd:MD_DataIdentification>
+	</gmd:identificationInfo>
+	<gmd:contentInfo>
+		<gmd:MD_CoverageDescription>
+			<gmd:attributeDescription>
+				<gco:RecordType>CLASSIF_2017:  (byte-RLE)</gco:RecordType>
+			</gmd:attributeDescription>
+			<gmd:contentType>
+				<gmd:MD_CoverageContentTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="thematicClassification">Categorical thematic classification (e.g., land cover map)</gmd:MD_CoverageContentTypeCode>
+			</gmd:contentType>
+			<gmd:dimension>
+				<gmd:MD_RangeDimension>
+					<gmd:sequenceIdentifier>
+						<gco:MemberName id="ID_CLASSIF_2017">
+							<gco:aName>
+								<gco:CharacterString>CLASSIF_2017</gco:CharacterString>
+							</gco:aName>
+							<gco:attributeType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>CampGeneric</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</gco:attributeType>
+						</gco:MemberName>
+					</gmd:sequenceIdentifier>
+				</gmd:MD_RangeDimension>
+			</gmd:dimension>
+		</gmd:MD_CoverageDescription>
+	</gmd:contentInfo>
+	<gmd:distributionInfo>
+		<gmd:MD_Distribution>
+			<gmd:distributor>
+				<gmd:MD_Distributor>
+					<gmd:distributorContact>
+						<gmd:CI_ResponsibleParty>
+							<gmd:organisationName>
+								<gco:CharacterString>Generalitat de Catalunya</gco:CharacterString>
+							</gmd:organisationName>
+							<gmd:role>
+								<gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">Distributor</gmd:CI_RoleCode>
+							</gmd:role>
+						</gmd:CI_ResponsibleParty>
+					</gmd:distributorContact>
+					<gmd:distributorFormat>
+						<gmd:MD_Format>
+							<gmd:name>
+								<gco:CharacterString>MMZX</gco:CharacterString>
+							</gmd:name>
+							<gmd:version>
+								<gco:CharacterString>1</gco:CharacterString>
+							</gmd:version>
+							<gmd:amendmentNumber>
+								<gco:CharacterString>0</gco:CharacterString>
+							</gmd:amendmentNumber>
+							<gmd:specification>
+								<gco:CharacterString>ISO 19165-2:2020</gco:CharacterString>
+							</gmd:specification>
+							<gmd:fileDecompressionTechnique>
+								<gco:CharacterString>ZIP</gco:CharacterString>
+							</gmd:fileDecompressionTechnique>
+						</gmd:MD_Format>
+					</gmd:distributorFormat>
+					<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions>
+							<gmd:unitsOfDistribution>
+								<gco:CharacterString>Catalunya</gco:CharacterString>
+							</gmd:unitsOfDistribution>
+							<gmd:transferSize>
+								<gco:Real>33</gco:Real>
+							</gmd:transferSize>
+							<!-- ##DISTRIBUTION_INFO:ORGANISME:TRANSFER_OPTIONS:ONLINE_RESOURCES## -->
+							<gmd:onLine>
+								<gmd:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>https://territori.gencat.cat/ca/01_departament/12_cartografia_i_toponimia/bases_cartografiques/medi_ambient_i_sostenibilitat/usos-del-sol/</gmd:URL>
+									</gmd:linkage>
+									<gmd:protocol>
+										<gco:CharacterString>https</gco:CharacterString>
+									</gmd:protocol>
+									<gmd:description>
+										<gco:CharacterString>Standard MMZX (ISO 19165) and GeoTIFF downloads</gco:CharacterString>
+									</gmd:description>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">Download</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</gmd:CI_OnlineResource>
+							</gmd:onLine>
+							<!-- ##FiDISTRIBUTION_INFO:ORGANISME:TRANSFER_OPTIONS:ONLINE_RESOURCES## -->
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
+				</gmd:MD_Distributor>
+			</gmd:distributor>
+		</gmd:MD_Distribution>
+	</gmd:distributionInfo>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">Layer</gmd:MD_ScopeCode>
+					</gmd:level>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+			<gmd:report>
+				<gmd:DQ_RelativeInternalPositionalAccuracy>
+					<gmd:nameOfMeasure>
+						<gco:CharacterString>RMS (independent test)</gco:CharacterString>
+					</gmd:nameOfMeasure>
+					<gmd:measureIdentification>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/measure/RootMeanSquare?domain=DifferentialErrors2D">Root Mean Square Error</gmx:Anchor>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmd:measureIdentification>
+					<gmd:measureDescription>
+						<gco:CharacterString>Positional accuracy:Relative horizontal accuracy:RMS (independent test)</gco:CharacterString>
+					</gmd:measureDescription>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueType>
+								<gco:RecordType>Double precision real</gco:RecordType>
+							</gmd:valueType>
+							<gmd:valueUnit xlink:href="https://www.isotc211.org/2005/resources/uom/ML_gmxUom.xml#m"/>
+							<gmd:errorStatistic>
+								<gco:CharacterString>https://www.qualityml.org/1.0/metrics/RootMeanSquareError2D</gco:CharacterString>
+							</gmd:errorStatistic>
+							<gmd:value>
+								<gco:Record>3.7747</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_RelativeInternalPositionalAccuracy>
+			</gmd:report>
+			<gmd:report>
+				<gmd:DQ_RelativeInternalPositionalAccuracy>
+					<gmd:nameOfMeasure>
+						<gco:CharacterString>RMS on X (independent test)</gco:CharacterString>
+					</gmd:nameOfMeasure>
+					<gmd:measureIdentification>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/measure/RootMeanSquare?domain=DifferentialErrorsX">Root Mean Square Error X</gmx:Anchor>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmd:measureIdentification>
+					<gmd:measureDescription>
+						<gco:CharacterString>Positional accuracy:Relative horizontal accuracy:RMS on X (independent test)</gco:CharacterString>
+					</gmd:measureDescription>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueType>
+								<gco:RecordType>Double precision real</gco:RecordType>
+							</gmd:valueType>
+							<gmd:valueUnit xlink:href="https://www.isotc211.org/2005/resources/uom/ML_gmxUom.xml#m"/>
+							<gmd:errorStatistic>
+								<gco:CharacterString>https://www.qualityml.org/1.0/metrics/RootMeanSquareError</gco:CharacterString>
+							</gmd:errorStatistic>
+							<gmd:value>
+								<gco:Record>5.6887</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_RelativeInternalPositionalAccuracy>
+			</gmd:report>
+			<gmd:report>
+				<gmd:DQ_RelativeInternalPositionalAccuracy>
+					<gmd:nameOfMeasure>
+						<gco:CharacterString>RMS on Y (independent test)</gco:CharacterString>
+					</gmd:nameOfMeasure>
+					<gmd:measureIdentification>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/measure/RootMeanSquare?domain=DifferentialErrorsY">Root Mean Square Error Y</gmx:Anchor>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmd:measureIdentification>
+					<gmd:measureDescription>
+						<gco:CharacterString>Positional accuracy:Relative horizontal accuracy:RMS on Y (independent test)</gco:CharacterString>
+					</gmd:measureDescription>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueType>
+								<gco:RecordType>Double precision real</gco:RecordType>
+							</gmd:valueType>
+							<gmd:valueUnit xlink:href="https://www.isotc211.org/2005/resources/uom/ML_gmxUom.xml#m"/>
+							<gmd:errorStatistic>
+								<gco:CharacterString>https://www.qualityml.org/1.0/metrics/RootMeanSquareError</gco:CharacterString>
+							</gmd:errorStatistic>
+							<gmd:value>
+								<gco:Record>3.8078</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_RelativeInternalPositionalAccuracy>
+			</gmd:report>
+			<gmd:lineage>
+				<gmd:LI_Lineage>
+					<gmd:statement>
+						<gco:CharacterString>González-Guerrero, O, Pons X (2020) The 2017 Land Use/Land Cover Map of Catalonia based on Sentinel-2 images and auxiliary data. Revista de Teledetección, 55: 81-92. https://doi.org/10.4995/raet.2020.13112</gco:CharacterString>
+					</gmd:statement>
+				</gmd:LI_Lineage>
+			</gmd:lineage>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="https://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="attribute">Attribute</gmd:MD_ScopeCode>
+					</gmd:level>
+					<gmd:levelDescription>
+						<gmd:MD_ScopeDescription>
+							<gmd:attributes xlink:href="ID_CLASSIF_2017"/>
+						</gmd:MD_ScopeDescription>
+					</gmd:levelDescription>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+			<gmd:report>
+				<gmd:DQ_ThematicClassificationCorrectness>
+					<gmd:nameOfMeasure>
+						<gco:CharacterString>Global accuracy (without taking into account unclassified pixels)</gco:CharacterString>
+					</gmd:nameOfMeasure>
+					<gmd:measureIdentification>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/measure/Misclassification?domain=PredictedValues,ActualValues">Misclassification,PredictedValues/ActualValues</gmx:Anchor>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmd:measureIdentification>
+					<gmd:measureDescription>
+						<gco:CharacterString>Semantic accuracy (categorical data):Accuracy of thematic classification:Global accuracy (without taking into account unclassified pixels)</gco:CharacterString>
+					</gmd:measureDescription>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueType>
+								<gco:RecordType>Double precision real (max=100)</gco:RecordType>
+							</gmd:valueType>
+							<gmd:valueUnit/>
+							<gmd:errorStatistic>
+								<gco:CharacterString>https://www.qualityml.org/1.0/metrics/OverallAccuracy</gco:CharacterString>
+							</gmd:errorStatistic>
+							<gmd:value>
+								<gco:Record>98.66</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_ThematicClassificationCorrectness>
+			</gmd:report>
+			<gmd:report>
+				<gmd:DQ_ThematicClassificationCorrectness>
+					<gmd:nameOfMeasure>
+						<gco:CharacterString>Global accuracy</gco:CharacterString>
+					</gmd:nameOfMeasure>
+					<gmd:measureIdentification>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/measure/Misclassification?domain=PredictedValues,ActualValues">Misclassification,PredictedValues/ActualValues</gmx:Anchor>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmd:measureIdentification>
+					<gmd:measureDescription>
+						<gco:CharacterString>Semantic accuracy (categorical data):Accuracy of thematic classification:Global accuracy</gco:CharacterString>
+					</gmd:measureDescription>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueType>
+								<gco:RecordType>Double precision real (max=100)</gco:RecordType>
+							</gmd:valueType>
+							<gmd:valueUnit/>
+							<gmd:errorStatistic>
+								<gco:CharacterString>https://www.qualityml.org/1.0/metrics/OverallAccuracy</gco:CharacterString>
+							</gmd:errorStatistic>
+							<gmd:value>
+								<gco:Record>98.55</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_ThematicClassificationCorrectness>
+			</gmd:report>
+			<gmd:report>
+				<gmd:DQ_ThematicClassificationCorrectness>
+					<gmd:nameOfMeasure>
+						<gco:CharacterString>Weighted global accuracy based on the area of the evaluated layer</gco:CharacterString>
+					</gmd:nameOfMeasure>
+					<gmd:measureIdentification>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/measure/Misclassification?domain=PredictedValues,ActualValues">Misclassification,PredictedValues/ActualValues</gmx:Anchor>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmd:measureIdentification>
+					<gmd:measureDescription>
+						<gco:CharacterString>Semantic accuracy (categorical data):Accuracy of thematic classification:Weighted global accuracy based on the area of the evaluated layer</gco:CharacterString>
+					</gmd:measureDescription>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueType>
+								<gco:RecordType>Double precision real (max=100)</gco:RecordType>
+							</gmd:valueType>
+							<gmd:valueUnit/>
+							<gmd:errorStatistic>
+								<gco:CharacterString>https://www.qualityml.org/1.0/metrics/OverallAccuracy</gco:CharacterString>
+							</gmd:errorStatistic>
+							<gmd:value>
+								<gco:Record>96.69</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_ThematicClassificationCorrectness>
+			</gmd:report>
+			<gmd:report>
+				<gmd:DQ_ThematicClassificationCorrectness>
+					<gmd:nameOfMeasure>
+						<gco:CharacterString>Weighted global accuracy based on the area of the evaluated layer (only classified pixels)</gco:CharacterString>
+					</gmd:nameOfMeasure>
+					<gmd:measureIdentification>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/measure/Misclassification?domain=PredictedValues,ActualValues">Misclassification,PredictedValues/ActualValues</gmx:Anchor>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmd:measureIdentification>
+					<gmd:measureDescription>
+						<gco:CharacterString>Semantic accuracy (categorical data):Accuracy of thematic classification:Weighted global accuracy based on the area of the evaluated layer (only classified pixels)</gco:CharacterString>
+					</gmd:measureDescription>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueType>
+								<gco:RecordType>Double precision real (max=100)</gco:RecordType>
+							</gmd:valueType>
+							<gmd:valueUnit/>
+							<gmd:errorStatistic>
+								<gco:CharacterString>https://www.qualityml.org/1.0/metrics/OverallAccuracy</gco:CharacterString>
+							</gmd:errorStatistic>
+							<gmd:value>
+								<gco:Record>98.13</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_ThematicClassificationCorrectness>
+			</gmd:report>
+			<gmd:report>
+				<gmd:DQ_ThematicClassificationCorrectness>
+					<gmd:nameOfMeasure>
+						<gco:CharacterString>Weighted global accuracy based on the ground truth area</gco:CharacterString>
+					</gmd:nameOfMeasure>
+					<gmd:measureIdentification>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/measure/Misclassification?domain=PredictedValues,ActualValues">Misclassification,PredictedValues/ActualValues</gmx:Anchor>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmd:measureIdentification>
+					<gmd:measureDescription>
+						<gco:CharacterString>Semantic accuracy (categorical data):Accuracy of thematic classification:Weighted global accuracy based on the ground truth area</gco:CharacterString>
+					</gmd:measureDescription>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueType>
+								<gco:RecordType>Double precision real (max=100)</gco:RecordType>
+							</gmd:valueType>
+							<gmd:valueUnit/>
+							<gmd:errorStatistic>
+								<gco:CharacterString>https://www.qualityml.org/1.0/metrics/OverallAccuracy</gco:CharacterString>
+							</gmd:errorStatistic>
+							<gmd:value>
+								<gco:Record>98.12</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_ThematicClassificationCorrectness>
+			</gmd:report>
+			<gmd:report>
+				<gmd:DQ_ThematicClassificationCorrectness>
+					<gmd:nameOfMeasure>
+						<gco:CharacterString>Weighted global accuracy based on the ground truth area (only classified pixels)</gco:CharacterString>
+					</gmd:nameOfMeasure>
+					<gmd:measureIdentification>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/measure/Misclassification?domain=PredictedValues,ActualValues">Misclassification,PredictedValues/ActualValues</gmx:Anchor>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmd:measureIdentification>
+					<gmd:measureDescription>
+						<gco:CharacterString>Semantic accuracy (categorical data):Accuracy of thematic classification:Weighted global accuracy based on the ground truth area (only classified pixels)</gco:CharacterString>
+					</gmd:measureDescription>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueType>
+								<gco:RecordType>Double precision real (max=100)</gco:RecordType>
+							</gmd:valueType>
+							<gmd:valueUnit/>
+							<gmd:errorStatistic>
+								<gco:CharacterString>https://www.qualityml.org/1.0/metrics/OverallAccuracy</gco:CharacterString>
+							</gmd:errorStatistic>
+							<gmd:value>
+								<gco:Record>98.12</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_ThematicClassificationCorrectness>
+			</gmd:report>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+</gmd:MD_Metadata>

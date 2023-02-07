@@ -1,0 +1,2390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="http://schemas.geoviqua.org/GVQ/3.0.0/stylesheets/GeoViQuaComponents-HTMLTable.xsl"?>  -->
+<gvq:GVQ_Metadata xmlns:updated19115="http://www.geoviqua.org/19115_updates"
+									xmlns:gmx="http://www.isotc211.org/2005/gmx"
+									xmlns:xlink="http://www.w3.org/1999/xlink"
+									xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+									xmlns:gmd="http://www.isotc211.org/2005/gmd"
+									xmlns:gco="http://www.isotc211.org/2005/gco"
+									xmlns:gvq="http://www.geoviqua.org/QualityInformationModel/4.0"
+									xmlns:gml="http://www.opengis.net/gml/3.2"
+									xmlns:gmd19157="http://www.geoviqua.org/gmd19157"
+									xmlns:un="http://www.uncertml.org/2.0"
+									xmlns:qml="http://www.qualityml.org/1.0"
+xsi:schemaLocation="http://www.isotc211.org/2005/gmx ../../../iso/19139/20070417/gmx/gmx.xsd http://www.geoviqua.org/QualityInformationModel/4.0 ../../../GVQ/4.0/GeoViQua_PQM_UQM.xsd http://www.uncertml.org/2.0 ../../../uncertml/2.0/uncertml.xsd http://www.qualityml.org/1.0 ../qualityml.xsd" id="dataset_MD">
+	<gmd:fileIdentifier>
+		<gco:CharacterString>ClsMix_12cat</gco:CharacterString>
+	</gmd:fileIdentifier>
+	<gmd:language>
+		<gco:CharacterString>eng</gco:CharacterString>
+	</gmd:language>
+	<gmd:characterSet>
+		<gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_CharacterSetCode" codeListValue="8859part1"/>
+	</gmd:characterSet>
+	<gmd:contact>
+		<gmd:CI_ResponsibleParty id="ES_UAB">
+			<gmd:individualName>
+				<gco:CharacterString>Eva Sevillano</gco:CharacterString>
+			</gmd:individualName>
+			<gmd:organisationName>
+				<gco:CharacterString>Geography Department, Universitat Autònoma de Barcelona</gco:CharacterString>
+			</gmd:organisationName>
+			<gmd:positionName>
+				<gco:CharacterString>Researcher</gco:CharacterString>
+			</gmd:positionName>
+			<gmd:contactInfo>
+				<gmd:CI_Contact>
+					<gmd:address>
+						<gmd:CI_Address>
+							<gmd:electronicMailAddress>
+								<gco:CharacterString>eva.sevillano@uab.cat</gco:CharacterString>
+							</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+					</gmd:address>
+				</gmd:CI_Contact>
+			</gmd:contactInfo>
+			<gmd:role>
+				<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="author"/>
+			</gmd:role>
+		</gmd:CI_ResponsibleParty>
+	</gmd:contact>
+	<gmd:dateStamp>
+		<gco:Date>2013-06-14</gco:Date>
+	</gmd:dateStamp>
+	<gmd:metadataStandardName>
+		<gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+	</gmd:metadataStandardName>
+	<gmd:metadataStandardVersion>
+		<gco:CharacterString>1.0</gco:CharacterString>
+	</gmd:metadataStandardVersion>
+	<gmd:spatialRepresentationInfo>
+		<gmd:MD_Georectified id="dataset_SR">
+			<gmd:numberOfDimensions>
+				<gco:Integer>2</gco:Integer>
+			</gmd:numberOfDimensions>
+			<gmd:axisDimensionProperties>
+				<gmd:MD_Dimension>
+					<gmd:dimensionName>
+						<gmd:MD_DimensionNameTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_DimensionNameTypeCode" codeListValue="row"/>
+					</gmd:dimensionName>
+					<gmd:dimensionSize>
+						<gco:Integer>8757</gco:Integer>
+					</gmd:dimensionSize>
+					<gmd:resolution>
+						<gco:Measure uom="m">20</gco:Measure>
+					</gmd:resolution>
+				</gmd:MD_Dimension>
+			</gmd:axisDimensionProperties>
+			<gmd:axisDimensionProperties>
+				<gmd:MD_Dimension>
+					<gmd:dimensionName>
+						<gmd:MD_DimensionNameTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_DimensionNameTypeCode" codeListValue="column"/>
+					</gmd:dimensionName>
+					<gmd:dimensionSize>
+						<gco:Integer>8115</gco:Integer>
+					</gmd:dimensionSize>
+					<gmd:resolution>
+						<gco:Measure uom="m">20</gco:Measure>
+					</gmd:resolution>
+				</gmd:MD_Dimension>
+			</gmd:axisDimensionProperties>
+			<gmd:cellGeometry>
+				<gmd:MD_CellGeometryCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_CellGeometryCode" codeListValue="area"/>
+			</gmd:cellGeometry>
+			<gmd:transformationParameterAvailability>
+				<gco:Boolean>true</gco:Boolean>
+			</gmd:transformationParameterAvailability>
+			<gmd:checkPointAvailability>
+				<gco:Boolean>false</gco:Boolean>
+			</gmd:checkPointAvailability>
+			<gmd:cornerPoints>
+				<gml:Point gml:id="NW">
+					<gml:pos>372730 4730990</gml:pos>
+				</gml:Point>
+			</gmd:cornerPoints>
+			<gmd:cornerPoints>
+				<gml:Point gml:id="NE">
+					<gml:pos>535010 4730990</gml:pos>
+				</gml:Point>
+			</gmd:cornerPoints>
+			<gmd:cornerPoints>
+				<gml:Point gml:id="SE">
+					<gml:pos>535010 4555870</gml:pos>
+				</gml:Point>
+			</gmd:cornerPoints>
+			<gmd:cornerPoints>
+				<gml:Point gml:id="SW">
+					<gml:pos>372730 4555870</gml:pos>
+				</gml:Point>
+			</gmd:cornerPoints>
+			<gmd:pointInPixel>
+				<gmd:MD_PixelOrientationCode>center</gmd:MD_PixelOrientationCode>
+			</gmd:pointInPixel>
+		</gmd:MD_Georectified>
+	</gmd:spatialRepresentationInfo>
+	<gmd:referenceSystemInfo>
+		<gmd:MD_ReferenceSystem>
+			<gmd:referenceSystemIdentifier>
+				<gmd:RS_Identifier>
+					<gmd:code>
+						<gco:CharacterString>EPSG:23031</gco:CharacterString>
+					</gmd:code>
+				</gmd:RS_Identifier>
+			</gmd:referenceSystemIdentifier>
+		</gmd:MD_ReferenceSystem>
+	</gmd:referenceSystemInfo>
+	<gmd:identificationInfo>
+		<gvq:GVQ_DataIdentification>
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString>Landcover Bcn-Girona 12 categories (Landcover Classification of a Landsat scene)</gco:CharacterString>
+					</gmd:title>
+					<gmd:alternateTitle>
+						<gco:CharacterString>LCL12</gco:CharacterString>
+					</gmd:alternateTitle>
+					<gmd:alternateTitle>
+						<gco:CharacterString>Landsat classification multilayer Bcn-Girona (12 categorías)</gco:CharacterString>
+					</gmd:alternateTitle>
+					<gmd:alternateTitle>
+						<gco:CharacterString>Probabilistic Classification Landsat Bcn-Girona (12 categorías)</gco:CharacterString>
+					</gmd:alternateTitle>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2013-01-25</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:identifier>
+						<updated19115:MD_Identifier id="LCL12_BcnGrn_2005_07">
+							<gmd:code>
+								<gco:CharacterString>LCL12_BcnGrn_2005_07</gco:CharacterString>
+							</gmd:code>
+							<updated19115:codeSpace>
+								<!--DANIEL: URL of WMS-Q Geoviqua Server: http://wms-q-demo.geoviqua.org/geoviqua/wmsq/ Special attention shoudl be made on distributions WMTS-Q, WCS, as well as this complete metadata record in XML (this file) -->
+								<gco:CharacterString>http://www.opengis.uab.cat</gco:CharacterString>
+							</updated19115:codeSpace>
+						</updated19115:MD_Identifier>
+					</gmd:identifier>
+					<!-- JOAN: Discuss if GEOSS CSR identitifier need to be added when registered as a second gmd:identifier. Check with JM and other GVQ partners as part of the universal identififer issues -->
+					<gmd:presentationForm>
+						<gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_PresentationFormCode" codeListValue="mapDigital"/>
+					</gmd:presentationForm>
+					<gmd:presentationForm>
+						<!-- TBD: if we add reliability diagrams or other kind of graphs, should we add a new presentationForm? -->
+						<gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_PresentationFormCode" codeListValue="modelDigital"/>
+					</gmd:presentationForm>
+					<!-- TBD: A series could be defined to include all the classifiers used to obtain classifications of the same area and source images (i.e. ASTON's test or MaxVers classifiers). Those several classifications can be considered as another dataset, and thus not explained on this metadata file as a "dataset" but referenced on this metadata file as a source file to obtain quality indicators (by means of comparing classifications among them). On the other hand those classifications can be considered as part of this dataset and thus the series element will not be present but several new gmd:contentInfo | gmd:CoverageDescriptions will be added. -->
+					<gmd:collectiveTitle>
+						<gco:CharacterString>Landcover Bcn-Girona</gco:CharacterString>
+					</gmd:collectiveTitle>
+				</gmd:CI_Citation>
+			</gmd:citation>
+			<gmd:abstract>
+				<gco:CharacterString>Probabilistic landcover digital maps and classification quality indicators. Maps have been generated by means of remote sensing corrections, statistical techniques, hybrid classification processing, probabilistic models by logistic and linear regression, Geographic Information Systems analysis and methods comparison -sensitivity testing-.</gco:CharacterString>
+			</gmd:abstract>
+			<gmd:purpose>
+				<gco:CharacterString>Classification products derived from remote sensing scenes are widely used. However, the accuracy indicators provided at pixel and object level are not always available. Probability of belonging to the assigned class should be quantified and communicated to the user. In addition to the standard classification product of a crisp classification, several quality indicators derived from the classifier parameters and uncertainty statistical models, togther with the probability for every class is provided at pixel level and object level.  Coherence between the common global indicators extracted from the confusion matrix and the pixel or object indicators is assessed in this multilayer product. Finally, the comparison of results between different classifiers is intended to cover sensitivity testing performance. A relevant characteristic for the creation of this product is the usage as ground truth of a detailed landcover map obtained by photointerpretation matching the temporal series of the scenes, covering around 41.38% of the whole area of study.</gco:CharacterString>
+				<!-- ASTON?: add new ideas refering to classifiers comparation and uncertML encoding and xlinks based on latests trials -->
+			</gmd:purpose>
+			<gmd:status>
+				<gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ProgressCode" codeListValue="underDevelopment"/>
+			</gmd:status>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty id="XP_UAB">
+					<gmd:individualName>
+						<gco:CharacterString>Xavier Pons</gco:CharacterString>
+					</gmd:individualName>
+					<gmd:organisationName>
+						<gco:CharacterString>Geography Department, Universitat Autònoma de Barcelona</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:positionName>
+						<gco:CharacterString>Professor</gco:CharacterString>
+					</gmd:positionName>
+					<gmd:role>
+						<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="author"/>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty id="PS_UAB">
+					<gmd:individualName>
+						<gco:CharacterString>Pere Serra</gco:CharacterString>
+					</gmd:individualName>
+					<gmd:organisationName>
+						<gco:CharacterString>Geography Department, Universitat Autònoma de Barcelona</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:positionName>
+						<gco:CharacterString>Professor</gco:CharacterString>
+					</gmd:positionName>
+					<gmd:role>
+						<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="author"/>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+			<gmd:pointOfContact xlink:href="#ES_UAB"/>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty id="GM_CREAF">
+					<gmd:individualName>
+						<gco:CharacterString>Gerard Moré</gco:CharacterString>
+					</gmd:individualName>
+					<gmd:organisationName>
+						<gco:CharacterString>CREAF</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:positionName>
+						<gco:CharacterString>Researcher</gco:CharacterString>
+					</gmd:positionName>
+					<gmd:role>
+						<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="processor"/>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+			<gmd:resourceMaintenance>
+				<gmd:MD_MaintenanceInformation>
+					<gmd:maintenanceAndUpdateFrequency>
+						<gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded"/>
+					</gmd:maintenanceAndUpdateFrequency>
+					<gmd:updateScope>
+						<gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ScopeCode" codeListValue="dataset"/>
+					</gmd:updateScope>
+					<gmd:maintenanceNote>
+						<gco:CharacterString>The product is intended to provide insights on error modelling and validation. No update is envisaged. Nonetheless, the methodology work flow can be generally applied to classification processes and landcover mapping to obtain per pixel uncertainty estimates, object level and global quality indicators. Temporal comparison of land use can be derived as new RS and ground truth data becomes available.</gco:CharacterString>
+					</gmd:maintenanceNote>
+				</gmd:MD_MaintenanceInformation>
+			</gmd:resourceMaintenance>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>Classification</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>Landcover</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>Error modelling and spatializing</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme"/>
+					</gmd:type>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>Barcelona-Girona</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>WRS-2 path 197, row 31</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="place"/>
+					</gmd:type>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:resourceConstraints>
+				<gmd:MD_Constraints>
+					<gmd:useLimitation>
+						<gco:CharacterString>There is no use or access limitation.</gco:CharacterString>
+					</gmd:useLimitation>
+				</gmd:MD_Constraints>
+			</gmd:resourceConstraints>
+			<gmd:spatialRepresentationType>
+				<gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid"/>
+			</gmd:spatialRepresentationType>
+			<gmd:spatialResolution>
+				<gmd:MD_Resolution>
+					<gmd:equivalentScale>
+						<gmd:MD_RepresentativeFraction>
+							<gmd:denominator>
+								<gco:Integer>20000</gco:Integer>
+							</gmd:denominator>
+						</gmd:MD_RepresentativeFraction>
+					</gmd:equivalentScale>
+				</gmd:MD_Resolution>
+			</gmd:spatialResolution>
+			<gmd:language>
+				<gco:CharacterString>cat</gco:CharacterString>
+			</gmd:language>
+			<gmd:language>
+				<gco:CharacterString>spa</gco:CharacterString>
+			</gmd:language>
+			<gmd:language>
+				<gco:CharacterString>eng</gco:CharacterString>
+			</gmd:language>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>imageryBaseMapsEarthCover</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:extent>
+				<gmd:EX_Extent id="datasetExtent">
+					<gmd:description>
+						<gco:CharacterString>Landsat path over Barcelona-Girona 2005-2007</gco:CharacterString>
+					</gmd:description>
+					<gmd:geographicElement>
+						<gmd:EX_GeographicBoundingBox>
+							<gmd:westBoundLongitude>
+								<gco:Decimal>1.44556418</gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal>3.42776062</gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal>41.14336347</gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal>42.73072470</gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+			<gvq:referenceDoc>
+				<gvq:GVQ_Publication id="EGU">
+					<gmd:title>
+						<gco:CharacterString>Per pixel uncertainty modelling and its spatial representation on land cover maps obtained by hybrid classification</gco:CharacterString>
+					</gmd:title>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2013-04</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:citedResponsibleParty xlink:href="#XP_UAB"/>
+					<gmd:citedResponsibleParty xlink:href="#ES_UAB"/>
+					<gmd:citedResponsibleParty xlink:href="#GM_UAB"/>
+					<gmd:citedResponsibleParty xlink:href="#PS_UAB"/>
+					<gmd:citedResponsibleParty>
+						<gmd:CI_ResponsibleParty id="DC_ASTON">
+							<gmd:individualName>
+								<gco:CharacterString>Dan Cornford</gco:CharacterString>
+							</gmd:individualName>
+							<gmd:organisationName>
+								<gco:CharacterString>Computer Science, Aston University</gco:CharacterString>
+							</gmd:organisationName>
+							<gmd:contactInfo>
+								<gmd:CI_Contact>
+									<gmd:address>
+										<gmd:CI_Address>
+											<gmd:electronicMailAddress>
+												<gco:CharacterString>d.cornford@aston.ac.uk</gco:CharacterString>
+											</gmd:electronicMailAddress>
+										</gmd:CI_Address>
+									</gmd:address>
+								</gmd:CI_Contact>
+							</gmd:contactInfo>
+							<gmd:role>
+								<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="author"/>
+							</gmd:role>
+						</gmd:CI_ResponsibleParty>
+					</gmd:citedResponsibleParty>
+					<gmd:citedResponsibleParty>
+						<gmd:CI_ResponsibleParty id="MN_UAB">
+							<gmd:individualName>
+								<gco:CharacterString>Miquel Ninyerola</gco:CharacterString>
+							</gmd:individualName>
+							<gmd:organisationName>
+								<gco:CharacterString>Animal and Plant Biology and Ecology Department, Universitat Autònoma de Barcelona</gco:CharacterString>
+							</gmd:organisationName>
+							<gmd:positionName>
+								<gco:CharacterString>Professor</gco:CharacterString>
+							</gmd:positionName>
+							<gmd:contactInfo>
+								<gmd:CI_Contact>
+									<gmd:address>
+										<gmd:CI_Address>
+											<gmd:electronicMailAddress>
+												<gco:CharacterString>miquel.ninyerola@uab.cat</gco:CharacterString>
+											</gmd:electronicMailAddress>
+										</gmd:CI_Address>
+									</gmd:address>
+								</gmd:CI_Contact>
+							</gmd:contactInfo>
+							<gmd:role>
+								<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="author"/>
+							</gmd:role>
+						</gmd:CI_ResponsibleParty>
+					</gmd:citedResponsibleParty>
+					<gmd:series>
+						<gmd:CI_Series>
+							<gmd:name>
+								<gco:CharacterString>Geophysical Research Abstracts</gco:CharacterString>
+							</gmd:name>
+							<gmd:issueIdentification>
+								<gco:CharacterString>Volume 15, EGU2013</gco:CharacterString>
+							</gmd:issueIdentification>
+						</gmd:CI_Series>
+					</gmd:series>
+					<gvq:target xlink:href="#LCL12_GrnBcn_2005_07"/>
+					<gvq:purpose>
+						<gvq:GVQ_PublicationPurposeCode codeList="http://www.geoviqua.org/QualityInformationModel/3.1/resources/codeList.xml#GVQ_PublicationPurposeCode" codeListValue="describe">describe</gvq:GVQ_PublicationPurposeCode>
+					</gvq:purpose>
+					<gvq:scope xlink:href="#datasetScope"/>
+					<gvq:category>
+						<gvq:GVQ_PublicationCategoryCode codeList="http://www.geoviqua.org/QualityInformationModel/3.1/resources/codeList.xml#GVQ_PublicationCategoryCode" codeListValue="conferenceProceedings">conferenceProceedings</gvq:GVQ_PublicationCategoryCode>
+					</gvq:category>
+				</gvq:GVQ_Publication>
+			</gvq:referenceDoc>
+			<gvq:referenceDoc>
+				<gvq:GVQ_Publication id="EGU_2">
+					<gmd:title>
+						<gco:CharacterString>Remote sensing classification uncertainty: validating probabilistic pixel level classification</gco:CharacterString>
+					</gmd:title>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2013-04</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:citedResponsibleParty>
+						<gmd:CI_ResponsibleParty id="MV_ASTON">
+							<gmd:individualName>
+								<gco:CharacterString>Michail Vrettas</gco:CharacterString>
+							</gmd:individualName>
+							<gmd:organisationName>
+								<gco:CharacterString>Computer Science, Aston University</gco:CharacterString>
+							</gmd:organisationName>
+							<gmd:role>
+								<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="author"/>
+							</gmd:role>
+						</gmd:CI_ResponsibleParty>
+					</gmd:citedResponsibleParty>
+					<gmd:citedResponsibleParty xlink:href="#DC_ASTON"/>
+					<gmd:citedResponsibleParty>
+						<gmd:CI_ResponsibleParty id="LB_ASTON">
+							<gmd:individualName>
+								<gco:CharacterString>Lucy Bastin</gco:CharacterString>
+							</gmd:individualName>
+							<gmd:organisationName>
+								<gco:CharacterString>Computer Science, Aston University</gco:CharacterString>
+							</gmd:organisationName>
+							<gmd:contactInfo>
+								<gmd:CI_Contact>
+									<gmd:address>
+										<gmd:CI_Address>
+											<gmd:electronicMailAddress>
+												<gco:CharacterString>l.bastin@aston.ac.uk</gco:CharacterString>
+											</gmd:electronicMailAddress>
+										</gmd:CI_Address>
+									</gmd:address>
+								</gmd:CI_Contact>
+							</gmd:contactInfo>
+							<gmd:role>
+								<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="author"/>
+							</gmd:role>
+						</gmd:CI_ResponsibleParty>
+					</gmd:citedResponsibleParty>
+					<gmd:citedResponsibleParty xlink:href="#XP_UAB"/>
+					<gmd:citedResponsibleParty xlink:href="#ES_UAB"/>
+					<gmd:citedResponsibleParty xlink:href="#GM_UAB"/>
+					<gmd:citedResponsibleParty xlink:href="#PS_UAB"/>
+					<gmd:citedResponsibleParty xlink:href="#MN_UAB"/>
+					<gmd:series>
+						<gmd:CI_Series>
+							<gmd:name>
+								<gco:CharacterString>Geophysical Research Abstracts</gco:CharacterString>
+							</gmd:name>
+							<gmd:issueIdentification>
+								<gco:CharacterString>Volume 15, EGU2013 -11943</gco:CharacterString>
+							</gmd:issueIdentification>
+						</gmd:CI_Series>
+					</gmd:series>
+					<gvq:target xlink:href="#LCL12_GrnBcn_2005_07"/>
+					<gvq:purpose>
+						<gvq:GVQ_PublicationPurposeCode codeList="http://www.geoviqua.org/QualityInformationModel/3.1/resources/codeList.xml#GVQ_PublicationPurposeCode" codeListValue="describe">describe</gvq:GVQ_PublicationPurposeCode>
+					</gvq:purpose>
+					<gvq:scope xlink:href="#datasetScope"/>
+					<gvq:category>
+						<gvq:GVQ_PublicationCategoryCode codeList="http://www.geoviqua.org/QualityInformationModel/3.1/resources/codeList.xml#GVQ_PublicationCategoryCode" codeListValue="conferenceProceedings">conferenceProceedings</gvq:GVQ_PublicationCategoryCode>
+					</gvq:category>
+					<gvq:onlineResource>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>http://www.ogc.uab.cat/GeoViQUA/WMSQ/
+								</gmd:URL>
+							</gmd:linkage>
+						</gmd:CI_OnlineResource>
+					</gvq:onlineResource>
+				</gvq:GVQ_Publication>
+			</gvq:referenceDoc>
+		</gvq:GVQ_DataIdentification>
+	</gmd:identificationInfo>
+	<gmd:contentInfo>
+		<gmd:MD_CoverageDescription id="ft_LC">
+			<gmd:attributeDescription>
+				<gco:RecordType>Landcover classes (12 categories)</gco:RecordType>
+			</gmd:attributeDescription>
+			<gmd:contentType>
+				<gmd:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="MD_CoverageContentTypeCode_thematicClassification">thematicClassification</gmd:MD_CoverageContentTypeCode>
+			</gmd:contentType>
+		</gmd:MD_CoverageDescription>
+	</gmd:contentInfo>
+	<gmd:contentInfo>
+		<gmd:MD_CoverageDescription id="ft_LC_prob">
+			<!-- ASTON/CREAF/UREAD: where to describe the units of the coverage? doubts doc-->
+			<gmd:attributeDescription>
+				<gco:RecordType>Probability for the assigned class (hybrid classifier) obtained from logistic regression model</gco:RecordType>
+			</gmd:attributeDescription>
+			<gmd:contentType>
+				<gmd:MD_CoverageContentTypeCode codeList="http://schemas.geoviqua.org/GVQ/4.0/resources/Codelist/gvqCodelists.xml#MD_CoverageContentTypeCode" codeListValue="modelResult">modelResult</gmd:MD_CoverageContentTypeCode>
+			</gmd:contentType>
+		</gmd:MD_CoverageDescription>
+	</gmd:contentInfo>
+	<gmd:contentInfo>
+		<gmd:MD_CoverageDescription id="ft_LC2">
+			<gmd:attributeDescription>
+				<gco:RecordType>Second most probable landcover classes (12 categories)</gco:RecordType>
+			</gmd:attributeDescription>
+			<gmd:contentType>
+				<gmd:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="MD_CoverageContentTypeCode_thematicClassification">thematicClassification</gmd:MD_CoverageContentTypeCode>
+			</gmd:contentType>
+		</gmd:MD_CoverageDescription>
+	</gmd:contentInfo>
+	<gmd:contentInfo>
+		<gmd:MD_CoverageDescription id="ft_LC3">
+			<gmd:attributeDescription>
+				<gco:RecordType>Third most probable landcover classes (12 categories)</gco:RecordType>
+			</gmd:attributeDescription>
+			<gmd:contentType>
+				<gmd:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="MD_CoverageContentTypeCode_thematicClassification">thematicClassification</gmd:MD_CoverageContentTypeCode>
+			</gmd:contentType>
+		</gmd:MD_CoverageDescription>
+	</gmd:contentInfo>
+	<gmd:contentInfo>
+		<gmd:MD_CoverageDescription id="ft_F">
+			<gmd:attributeDescription>
+				<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/Fidelity">Fidelity of the assigned class (12 categories; hybrid classifier)</gco:RecordType>
+			</gmd:attributeDescription>
+			<gmd:contentType>
+				<gmd:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="MD_CoverageContentTypeCode_qualityInformation">qualityInformation</gmd:MD_CoverageContentTypeCode>
+				<!-- Fidelity is the number of pixels that are assigned to a potential thematic class for each of the statistical cluster -i.e., the frequency measure- in the hybrid classification report. Then the crisp decision assigns that statistical cluster to the thematic category in which the fidelity is highest. It is moreover a parameter in the classifier (you can force the classifier a fidelity threshold for the assignment; for instance, you don't allow a statistical cluster to be assigned to a thematic category if the fidelity is below a 50% threshold. you would classify less surface by setting higher fidelity thresholds but in exchange you are more confident in the thematic class assgination. The fidelity is derived from the model and thus gmd:MD_CoverageContentTypeCode = modelResult is also possible. But, to emphasize that is somehow related to the quality of the classification, "qualityInformation" is documented. -->
+			</gmd:contentType>
+		</gmd:MD_CoverageDescription>
+	</gmd:contentInfo>
+	<gmd:contentInfo>
+		<gmd:MD_CoverageDescription id="ft_F2">
+			<gmd:attributeDescription>
+				<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/Fidelity">Fidelity of the second most probable class (12 categories; hybrid classifier)</gco:RecordType>
+			</gmd:attributeDescription>
+			<gmd:contentType>
+				<gmd:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="MD_CoverageContentTypeCode_qualityInformation">qualityInformation</gmd:MD_CoverageContentTypeCode>
+			</gmd:contentType>
+		</gmd:MD_CoverageDescription>
+	</gmd:contentInfo>
+	<gmd:contentInfo>
+		<gmd:MD_CoverageDescription id="ft_F3">
+			<gmd:attributeDescription>
+				<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/Fidelity">Fidelity of the third most probable class (12 categories; hybrid classifier)</gco:RecordType>
+			</gmd:attributeDescription>
+			<gmd:contentType>
+				<gmd:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="MD_CoverageContentTypeCode_qualityInformation">qualityInformation</gmd:MD_CoverageContentTypeCode>
+			</gmd:contentType>
+		</gmd:MD_CoverageDescription>
+	</gmd:contentInfo>
+	<gmd:contentInfo>
+		<gmd:MD_CoverageDescription id="ft_H">
+			<gmd:attributeDescription>
+				<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/UserDefined">Entropy</gco:RecordType>
+				<!--JOAN/LUCY  To describe how a modelResult is computed it would be useful to have a place to describe a formula (Bogaert 2002, Foody 2009, Shannon 1948) and/or a referenceDoc. This should be done here in the processStep of the dataset lineage where the creation of this layer is described, using an LE_ProcessStep | processingInformation | algorithm | citation that can be substituted by gvq:Publication that allows defining a URL with the formula and info (to uncertML, qualityML or a user URL) or a description -->
+			</gmd:attributeDescription>
+			<gmd:contentType>
+				<gmd:MD_CoverageContentTypeCode codeList="http://schemas.geoviqua.org/GVQ/4.0/resources/Codelist/gvqCodelists.xml#MD_CoverageContentTypeCode" codeListValue="modelResult">modelResult</gmd:MD_CoverageContentTypeCode>
+			</gmd:contentType>
+		</gmd:MD_CoverageDescription>
+	</gmd:contentInfo>
+	<gmd:contentInfo>
+		<gmd:MD_CoverageDescription id="ft_I">
+			<gmd:attributeDescription>
+				<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/Purity">Uncertainty</gco:RecordType>
+			</gmd:attributeDescription>
+			<gmd:contentType>
+				<gmd:MD_CoverageContentTypeCode codeList="http://schemas.geoviqua.org/GVQ/4.0/resources/Codelist/gvqCodelists.xml#MD_CoverageContentTypeCode" codeListValue="modelResult">modelResult</gmd:MD_CoverageContentTypeCode>
+			</gmd:contentType>
+		</gmd:MD_CoverageDescription>
+	</gmd:contentInfo>
+	<gmd:contentInfo>
+		<gmd:MD_CoverageDescription id="ft_P">
+			<gmd:attributeDescription>
+				<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/Promiscuity/">Promiscuity: introduced concept (in opposition to fidelity) number of thematic categories that could be assigned to a statistic cluster in a hybrid classification consisting on two steps: unsupervised classification/introduction of training areas</gco:RecordType>
+			</gmd:attributeDescription>
+			<gmd:contentType>
+				<gmd:MD_CoverageContentTypeCode codeList="http://schemas.geoviqua.org/GVQ/4.0/resources/Codelist/gvqCodelists.xml#MD_CoverageContentTypeCode" codeListValue="modelResult">modelResult</gmd:MD_CoverageContentTypeCode>
+			</gmd:contentType>
+		</gmd:MD_CoverageDescription>
+	</gmd:contentInfo>
+	<gmd:contentInfo>
+		<gmd:MD_CoverageDescription id="ft_Q">
+			<gmd:attributeDescription>
+				<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/MajorityCategories/">Majority categories: introduced concept in the study, related to fidelity and promiscuity. It states the number of categories with a fidelity higher than a determined threshold (in our case 15%) for each statistical class in a hybrid classification consisting on two steps: unsupervised classification/introduction of training areas</gco:RecordType>
+			</gmd:attributeDescription>
+			<gmd:contentType>
+				<gmd:MD_CoverageContentTypeCode codeList="http://schemas.geoviqua.org/GVQ/4.0/resources/Codelist/gvqCodelists.xml#MD_CoverageContentTypeCode" codeListValue="modelResult">modelResult</gmd:MD_CoverageContentTypeCode>
+			</gmd:contentType>
+		</gmd:MD_CoverageDescription>
+	</gmd:contentInfo>
+	<gmd:contentInfo>
+		<gmd:MD_CoverageDescription id="ft_R">
+			<gmd:attributeDescription>
+				<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/Representativity/">Representativity: this expresses the association degree of a statistical class to a thematic class. It is a classifier parameter. It must be interpreted from the inverse point of view as the other variables. Which part of the assigned thematic class a statistical class represents</gco:RecordType>
+			</gmd:attributeDescription>
+			<gmd:contentType>
+				<gmd:MD_CoverageContentTypeCode codeList="http://schemas.geoviqua.org/GVQ/4.0/resources/Codelist/gvqCodelists.xml#MD_CoverageContentTypeCode" codeListValue="modelResult">modelResult</gmd:MD_CoverageContentTypeCode>
+			</gmd:contentType>
+		</gmd:MD_CoverageDescription>
+	</gmd:contentInfo>
+	<gmd:contentInfo>
+		<gmd:MD_CoverageDescription id="ft_R2">
+			<gmd:attributeDescription>
+				<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/Representativity/">Representativity of the second most probable class: this expresses the association degree of a statistical class to the second most probable thematic class. It must be interpreted from the inverse point of view as the other variables. Which part of the not assigned thematic class (but the second most probable) a statistical class represents</gco:RecordType>
+			</gmd:attributeDescription>
+			<gmd:contentType>
+				<gmd:MD_CoverageContentTypeCode codeList="http://schemas.geoviqua.org/GVQ/4.0/resources/Codelist/gvqCodelists.xml#MD_CoverageContentTypeCode" codeListValue="modelResult">modelResult</gmd:MD_CoverageContentTypeCode>
+			</gmd:contentType>
+		</gmd:MD_CoverageDescription>
+	</gmd:contentInfo>
+	<gmd:contentInfo>
+		<gmd:MD_CoverageDescription id="ft_R3">
+			<gmd:attributeDescription>
+				<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/Representativity/">Representativity of the third most probable class: this expresses the association degree of a statistical class to the third most probable thematic class. It must be interpreted from the inverse point of view as the other variables. Which part of the not assigned thematic class (but the third most probable) a statistical class represents</gco:RecordType>
+			</gmd:attributeDescription>
+			<gmd:contentType>
+				<gmd:MD_CoverageContentTypeCode codeList="http://schemas.geoviqua.org/GVQ/4.0/resources/Codelist/gvqCodelists.xml#MD_CoverageContentTypeCode" codeListValue="modelResult">modelResult</gmd:MD_CoverageContentTypeCode>
+			</gmd:contentType>
+		</gmd:MD_CoverageDescription>
+	</gmd:contentInfo>
+	<gmd:contentInfo>
+		<gmd:MD_CoverageDescription id="ft_Object_level_accuracy_LinearRegressionModel">
+			<gmd:attributeDescription>
+				<gco:RecordType xlink:href="http://www.uncertml.org/statistics/probability
+">Probability of success in the thematic class assignment at the object level (object being the statistical cluster in the unsupervised classification stage Isodata product; average probability of success for the number of pixels contained withing the vector layer corresponding to statistical cluster in the unsupervised classification stage Isodata product)</gco:RecordType>
+			</gmd:attributeDescription>
+			<gmd:contentType>
+				<gmd:MD_CoverageContentTypeCode codeList="http://schemas.geoviqua.org/GVQ/4.0/resources/Codelist/gvqCodelists.xml#MD_CoverageContentTypeCode" codeListValue="modelResult">modelResult</gmd:MD_CoverageContentTypeCode>
+			</gmd:contentType>
+		</gmd:MD_CoverageDescription>
+	</gmd:contentInfo>
+	<gmd:distributionInfo>
+		<gmd:MD_Distribution>
+			<gmd:distributionFormat xlink:href="#dataset_Format"/>
+			<gmd:distributor>
+				<gmd:MD_Distributor>
+					<gmd:distributorContact xlink:href="#PS_UAB"/>
+					<gmd:distributorFormat xlink:href="#dataset_Format"/>
+					<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions id="LayerId">
+							<gmd:onLine>
+								<updated19115:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.ogc.uab.cat/GeoViQUA/WMSQ/</gmd:URL>
+									</gmd:linkage>
+									<gmd:description>
+										<gco:CharacterString>GeoViQua pilot cases server</gco:CharacterString>
+									</gmd:description>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="download"/>
+									</gmd:function>
+									<updated19115:protocolRequest>
+										<gco:CharacterString>Web Coverage Service (WCS) 1.0</gco:CharacterString>
+									</updated19115:protocolRequest>
+								</updated19115:CI_OnlineResource>
+							</gmd:onLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
+					<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions id="LandCover">
+							<gmd:onLine>
+								<!-- WMS 1.3.0:LandCover -->
+								<updated19115:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.ogc.uab.cat/cgi-bin/GeoViQUA/WMSQ/MiraMon.cgi?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:23031&amp;BBOX=330565,4561231,534765,4705631&amp;WIDTH=1021&amp;HEIGHT=722&amp;LAYERS=LandCover&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;STYLES=</gmd:URL>
+									</gmd:linkage>
+									<gmd:protocol>
+										<gco:CharacterString>urn:ogc:serviceType:WebMapService:1.3.0:HTTP-GET</gco:CharacterString>
+									</gmd:protocol>
+									<gmd:name>
+										<gco:CharacterString>LandCover</gco:CharacterString>
+									</gmd:name>
+									<gmd:description>
+										<gco:CharacterString>Land Cover in Catalonia</gco:CharacterString>
+									</gmd:description>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="http://schemas.geoviqua.org/ISO/19139/20130610_INSPIRE/resources/codelist/gmxINSPIRECodelists.xml#CI_OnLineFunctionCode" codeListValue="mapDigital">mapDigital</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</updated19115:CI_OnlineResource>
+							</gmd:onLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
+					<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions id="LandCover_ClsMix_Cat2">
+							<gmd:onLine>
+								<!-- WMS 1.3.0:LandCover_ClsMix_Cat2 -->
+								<updated19115:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.ogc.uab.cat/cgi-bin/GeoViQUA/WMSQ/MiraMon.cgi?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:23031&amp;BBOX=330565,4561231,534765,4705631&amp;WIDTH=1021&amp;HEIGHT=722&amp;LAYERS=LandCover_ClsMix_Cat2&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;STYLES=</gmd:URL>
+									</gmd:linkage>
+									<gmd:protocol>
+										<gco:CharacterString>urn:ogc:serviceType:WebMapService:1.3.0:HTTP-GET</gco:CharacterString>
+									</gmd:protocol>
+									<gmd:name>
+										<gco:CharacterString>LandCover_ClsMix_Cat2</gco:CharacterString>
+									</gmd:name>
+									<gmd:description>
+										<gco:CharacterString>LandCover Classification Mix 2 in Catalonia</gco:CharacterString>
+									</gmd:description>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="http://schemas.geoviqua.org/ISO/19139/20130610_INSPIRE/resources/codelist/gmxINSPIRECodelists.xml#CI_OnLineFunctionCode" codeListValue="mapDigital">mapDigital</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</updated19115:CI_OnlineResource>
+							</gmd:onLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
+					<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions id="LandCover_ClsMix_Cat3">
+							<gmd:onLine>
+								<!-- WMS 1.3.0:LandCover_ClsMix_Cat3 -->
+								<updated19115:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.ogc.uab.cat/cgi-bin/GeoViQUA/WMSQ/MiraMon.cgi?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:23031&amp;BBOX=330565,4561231,534765,4705631&amp;WIDTH=1021&amp;HEIGHT=722&amp;LAYERS=LandCover_ClsMix_Cat3&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;STYLES=</gmd:URL>
+									</gmd:linkage>
+									<gmd:protocol>
+										<gco:CharacterString>urn:ogc:serviceType:WebMapService:1.3.0:HTTP-GET</gco:CharacterString>
+									</gmd:protocol>
+									<gmd:name>
+										<gco:CharacterString>LandCover_ClsMix_Cat3</gco:CharacterString>
+									</gmd:name>
+									<gmd:description>
+										<gco:CharacterString>LandCover Classification Mix 3 in Catalonia</gco:CharacterString>
+									</gmd:description>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="http://schemas.geoviqua.org/ISO/19139/20130610_INSPIRE/resources/codelist/gmxINSPIRECodelists.xml#CI_OnLineFunctionCode" codeListValue="mapDigital">mapDigital</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</updated19115:CI_OnlineResource>
+							</gmd:onLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
+					<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions id="P">
+							<gmd:onLine>
+								<!-- WMS 1.3.0:P -->
+								<updated19115:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.ogc.uab.cat/cgi-bin/GeoViQUA/WMSQ/MiraMon.cgi?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:23031&amp;BBOX=330565,4561231,534765,4705631&amp;WIDTH=1021&amp;HEIGHT=722&amp;LAYERS=P&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;STYLES=</gmd:URL>
+									</gmd:linkage>
+									<gmd:protocol>
+										<gco:CharacterString>urn:ogc:serviceType:WebMapService:1.3.0:HTTP-GET</gco:CharacterString>
+									</gmd:protocol>
+									<gmd:name>
+										<gco:CharacterString>P</gco:CharacterString>
+									</gmd:name>
+									<gmd:description>
+										<gco:CharacterString>P in Catalonia</gco:CharacterString>
+									</gmd:description>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="http://schemas.geoviqua.org/ISO/19139/20130610_INSPIRE/resources/codelist/gmxINSPIRECodelists.xml#CI_OnLineFunctionCode" codeListValue="mapDigital">mapDigital</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</updated19115:CI_OnlineResource>
+							</gmd:onLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
+					<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions id="F">
+							<gmd:onLine>
+								<!-- WMS 1.3.0:F -->
+								<updated19115:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.ogc.uab.cat/cgi-bin/GeoViQUA/WMSQ/MiraMon.cgi?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:23031&amp;BBOX=330565,4561231,534765,4705631&amp;WIDTH=1021&amp;HEIGHT=722&amp;LAYERS=F&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;STYLES=</gmd:URL>
+									</gmd:linkage>
+									<gmd:protocol>
+										<gco:CharacterString>urn:ogc:serviceType:WebMapService:1.3.0:HTTP-GET</gco:CharacterString>
+									</gmd:protocol>
+									<gmd:name>
+										<gco:CharacterString>F</gco:CharacterString>
+									</gmd:name>
+									<gmd:description>
+										<gco:CharacterString>F in Catalonia</gco:CharacterString>
+									</gmd:description>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="http://schemas.geoviqua.org/ISO/19139/20130610_INSPIRE/resources/codelist/gmxINSPIRECodelists.xml#CI_OnLineFunctionCode" codeListValue="mapDigital">mapDigital</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</updated19115:CI_OnlineResource>
+							</gmd:onLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
+					<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions id="F2">
+							<gmd:onLine>
+								<!-- WMS 1.3.0:F2 -->
+								<updated19115:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.ogc.uab.cat/cgi-bin/GeoViQUA/WMSQ/MiraMon.cgi?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:23031&amp;BBOX=330565,4561231,534765,4705631&amp;WIDTH=1021&amp;HEIGHT=722&amp;LAYERS=F2&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;STYLES=</gmd:URL>
+									</gmd:linkage>
+									<gmd:protocol>
+										<gco:CharacterString>urn:ogc:serviceType:WebMapService:1.3.0:HTTP-GET</gco:CharacterString>
+									</gmd:protocol>
+									<gmd:name>
+										<gco:CharacterString>F2</gco:CharacterString>
+									</gmd:name>
+									<gmd:description>
+										<gco:CharacterString>F2 in Catalonia</gco:CharacterString>
+									</gmd:description>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="http://schemas.geoviqua.org/ISO/19139/20130610_INSPIRE/resources/codelist/gmxINSPIRECodelists.xml#CI_OnLineFunctionCode" codeListValue="mapDigital">mapDigital</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</updated19115:CI_OnlineResource>
+							</gmd:onLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
+					<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions id="F3">
+							<gmd:onLine>
+								<!-- WMS 1.3.0:F3 -->
+								<updated19115:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.ogc.uab.cat/cgi-bin/GeoViQUA/WMSQ/MiraMon.cgi?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:23031&amp;BBOX=330565,4561231,534765,4705631&amp;WIDTH=1021&amp;HEIGHT=722&amp;LAYERS=F3&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;STYLES=</gmd:URL>
+									</gmd:linkage>
+									<gmd:protocol>
+										<gco:CharacterString>urn:ogc:serviceType:WebMapService:1.3.0:HTTP-GET</gco:CharacterString>
+									</gmd:protocol>
+									<gmd:name>
+										<gco:CharacterString>F3</gco:CharacterString>
+									</gmd:name>
+									<gmd:description>
+										<gco:CharacterString>F3 in Catalonia</gco:CharacterString>
+									</gmd:description>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="http://schemas.geoviqua.org/ISO/19139/20130610_INSPIRE/resources/codelist/gmxINSPIRECodelists.xml#CI_OnLineFunctionCode" codeListValue="mapDigital">mapDigital</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</updated19115:CI_OnlineResource>
+							</gmd:onLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
+					<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions id="Q">
+							<gmd:onLine>
+								<!-- WMS 1.3.0:Q -->
+								<updated19115:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.ogc.uab.cat/cgi-bin/GeoViQUA/WMSQ/MiraMon.cgi?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:23031&amp;BBOX=330565,4561231,534765,4705631&amp;WIDTH=1021&amp;HEIGHT=722&amp;LAYERS=Q&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;STYLES=</gmd:URL>
+									</gmd:linkage>
+									<gmd:protocol>
+										<gco:CharacterString>urn:ogc:serviceType:WebMapService:1.3.0:HTTP-GET</gco:CharacterString>
+									</gmd:protocol>
+									<gmd:name>
+										<gco:CharacterString>Q</gco:CharacterString>
+									</gmd:name>
+									<gmd:description>
+										<gco:CharacterString>Q in Catalonia</gco:CharacterString>
+									</gmd:description>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="http://schemas.geoviqua.org/ISO/19139/20130610_INSPIRE/resources/codelist/gmxINSPIRECodelists.xml#CI_OnLineFunctionCode" codeListValue="mapDigital">mapDigital</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</updated19115:CI_OnlineResource>
+							</gmd:onLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
+					<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions id="H">
+							<gmd:onLine>
+								<!-- WMS 1.3.0:H -->
+								<updated19115:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.ogc.uab.cat/cgi-bin/GeoViQUA/WMSQ/MiraMon.cgi?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:23031&amp;BBOX=330565,4561231,534765,4705631&amp;WIDTH=1021&amp;HEIGHT=722&amp;LAYERS=H&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;STYLES=</gmd:URL>
+									</gmd:linkage>
+									<gmd:protocol>
+										<gco:CharacterString>urn:ogc:serviceType:WebMapService:1.3.0:HTTP-GET</gco:CharacterString>
+									</gmd:protocol>
+									<gmd:name>
+										<gco:CharacterString>H</gco:CharacterString>
+									</gmd:name>
+									<gmd:description>
+										<gco:CharacterString>H in Catalonia</gco:CharacterString>
+									</gmd:description>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="http://schemas.geoviqua.org/ISO/19139/20130610_INSPIRE/resources/codelist/gmxINSPIRECodelists.xml#CI_OnLineFunctionCode" codeListValue="mapDigital">mapDigital</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</updated19115:CI_OnlineResource>
+							</gmd:onLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
+					<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions id="I">
+							<gmd:onLine>
+								<!-- WMS 1.3.0:I -->
+								<updated19115:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.ogc.uab.cat/cgi-bin/GeoViQUA/WMSQ/MiraMon.cgi?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:23031&amp;BBOX=330565,4561231,534765,4705631&amp;WIDTH=1021&amp;HEIGHT=722&amp;LAYERS=I&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;STYLES=</gmd:URL>
+									</gmd:linkage>
+									<gmd:protocol>
+										<gco:CharacterString>urn:ogc:serviceType:WebMapService:1.3.0:HTTP-GET</gco:CharacterString>
+									</gmd:protocol>
+									<gmd:name>
+										<gco:CharacterString>I</gco:CharacterString>
+									</gmd:name>
+									<gmd:description>
+										<gco:CharacterString>I in Catalonia</gco:CharacterString>
+									</gmd:description>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="http://schemas.geoviqua.org/ISO/19139/20130610_INSPIRE/resources/codelist/gmxINSPIRECodelists.xml#CI_OnLineFunctionCode" codeListValue="mapDigital">mapDigital</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</updated19115:CI_OnlineResource>
+							</gmd:onLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
+					<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions id="PixelError">
+							<gmd:onLine>
+								<!-- WMS 1.3.0:PixelError -->
+								<updated19115:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.ogc.uab.cat/cgi-bin/GeoViQUA/WMSQ/MiraMon.cgi?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:23031&amp;BBOX=330565,4561231,534765,4705631&amp;WIDTH=1021&amp;HEIGHT=722&amp;LAYERS=PixelError&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;STYLES=</gmd:URL>
+									</gmd:linkage>
+									<gmd:protocol>
+										<gco:CharacterString>urn:ogc:serviceType:WebMapService:1.3.0:HTTP-GET</gco:CharacterString>
+									</gmd:protocol>
+									<gmd:name>
+										<gco:CharacterString>PixelError</gco:CharacterString>
+									</gmd:name>
+									<gmd:description>
+										<gco:CharacterString>PixelError in Catalonia</gco:CharacterString>
+									</gmd:description>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="http://schemas.geoviqua.org/ISO/19139/20130610_INSPIRE/resources/codelist/gmxINSPIRECodelists.xml#CI_OnLineFunctionCode" codeListValue="mapDigital">mapDigital</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</updated19115:CI_OnlineResource>
+							</gmd:onLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
+					<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions id="ObjectError">
+							<gmd:onLine>
+								<!-- WMS 1.3.0:ObjectError -->
+								<updated19115:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.ogc.uab.cat/cgi-bin/GeoViQUA/WMSQ/MiraMon.cgi?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:23031&amp;BBOX=330565,4561231,534765,4705631&amp;WIDTH=1021&amp;HEIGHT=722&amp;LAYERS=ObjectError&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;STYLES=</gmd:URL>
+									</gmd:linkage>
+									<gmd:protocol>
+										<gco:CharacterString>urn:ogc:serviceType:WebMapService:1.3.0:HTTP-GET</gco:CharacterString>
+									</gmd:protocol>
+									<gmd:name>
+										<gco:CharacterString>ObjectError</gco:CharacterString>
+									</gmd:name>
+									<gmd:description>
+										<gco:CharacterString>ObjectError in Catalonia</gco:CharacterString>
+									</gmd:description>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="http://schemas.geoviqua.org/ISO/19139/20130610_INSPIRE/resources/codelist/gmxINSPIRECodelists.xml#CI_OnLineFunctionCode" codeListValue="mapDigital">mapDigital</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</updated19115:CI_OnlineResource>
+							</gmd:onLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
+					<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions id="R">
+							<gmd:onLine>
+								<!-- WMS 1.3.0:R -->
+								<updated19115:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.ogc.uab.cat/cgi-bin/GeoViQUA/WMSQ/MiraMon.cgi?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:23031&amp;BBOX=330565,4561231,534765,4705631&amp;WIDTH=1021&amp;HEIGHT=722&amp;LAYERS=R&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;STYLES=</gmd:URL>
+									</gmd:linkage>
+									<gmd:protocol>
+										<gco:CharacterString>urn:ogc:serviceType:WebMapService:1.3.0:HTTP-GET</gco:CharacterString>
+									</gmd:protocol>
+									<gmd:name>
+										<gco:CharacterString>R</gco:CharacterString>
+									</gmd:name>
+									<gmd:description>
+										<gco:CharacterString>R in Catalonia</gco:CharacterString>
+									</gmd:description>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="http://schemas.geoviqua.org/ISO/19139/20130610_INSPIRE/resources/codelist/gmxINSPIRECodelists.xml#CI_OnLineFunctionCode" codeListValue="mapDigital">mapDigital</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</updated19115:CI_OnlineResource>
+							</gmd:onLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
+					<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions id="R2">
+							<gmd:onLine>
+								<!-- WMS 1.3.0:R2 -->
+								<updated19115:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.ogc.uab.cat/cgi-bin/GeoViQUA/WMSQ/MiraMon.cgi?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:23031&amp;BBOX=330565,4561231,534765,4705631&amp;WIDTH=1021&amp;HEIGHT=722&amp;LAYERS=R2&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;STYLES=</gmd:URL>
+									</gmd:linkage>
+									<gmd:protocol>
+										<gco:CharacterString>urn:ogc:serviceType:WebMapService:1.3.0:HTTP-GET</gco:CharacterString>
+									</gmd:protocol>
+									<gmd:name>
+										<gco:CharacterString>R2</gco:CharacterString>
+									</gmd:name>
+									<gmd:description>
+										<gco:CharacterString>R2 in Catalonia</gco:CharacterString>
+									</gmd:description>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="http://schemas.geoviqua.org/ISO/19139/20130610_INSPIRE/resources/codelist/gmxINSPIRECodelists.xml#CI_OnLineFunctionCode" codeListValue="mapDigital">mapDigital</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</updated19115:CI_OnlineResource>
+							</gmd:onLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
+					<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions id="R3">
+							<gmd:onLine>
+								<!-- WMS 1.3.0:R3 -->
+								<updated19115:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.ogc.uab.cat/cgi-bin/GeoViQUA/WMSQ/MiraMon.cgi?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:23031&amp;BBOX=330565,4561231,534765,4705631&amp;WIDTH=1021&amp;HEIGHT=722&amp;LAYERS=R3&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;STYLES=</gmd:URL>
+									</gmd:linkage>
+									<gmd:protocol>
+										<gco:CharacterString>urn:ogc:serviceType:WebMapService:1.3.0:HTTP-GET</gco:CharacterString>
+									</gmd:protocol>
+									<gmd:name>
+										<gco:CharacterString>R3</gco:CharacterString>
+									</gmd:name>
+									<gmd:description>
+										<gco:CharacterString>R3 in Catalonia</gco:CharacterString>
+									</gmd:description>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="http://schemas.geoviqua.org/ISO/19139/20130610_INSPIRE/resources/codelist/gmxINSPIRECodelists.xml#CI_OnLineFunctionCode" codeListValue="mapDigital">mapDigital</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</updated19115:CI_OnlineResource>
+							</gmd:onLine>
+							<!-- Simon: add KML-Q if finally developed by Fraunhofer -->
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
+				</gmd:MD_Distributor>
+			</gmd:distributor>
+		</gmd:MD_Distribution>
+	</gmd:distributionInfo>
+	<gmd:describes>
+		<gmx:MX_DataSet>
+			<gmd:has gco:nilReason="definedElsewhere"/>
+			<gmx:dataFile>
+				<gmx:MX_DataFile id="Categorical_accuracy_study_GeoViQua_MMZ_file">
+					<gmx:fileName>
+						<gmx:FileName>Categorical_GeoViQua.mmz</gmx:FileName>
+					</gmx:fileName>
+					<gmx:fileDescription>
+						<gco:CharacterString>MMZ encoding of classification data including uncertainty information at pixel level and object level</gco:CharacterString>
+					</gmx:fileDescription>
+					<gmx:fileType>
+						<gmx:MimeFileType type="application/x-mmz">MiraMon Compressed Map</gmx:MimeFileType>
+					</gmx:fileType>
+					<gmx:featureTypes>
+						<gco:LocalName>ft_LC,ft_LC_prob,ft_LC2,ft_LC3,ft_F,ft_F2,ft_F3,ft_H,ft_I,ft_P,ft_Q,ft_R,ft_R2,ft_Object_level_accuracy_LinearRegressionModel</gco:LocalName>
+					</gmx:featureTypes>
+					<gmx:fileFormat>
+						<gmd:MD_Format id="dataset_Format">
+							<gmd:name>
+								<gco:CharacterString>MiraMon Compressed Map (MMZ)</gco:CharacterString>
+							</gmd:name>
+							<gmd:version>
+								<gco:CharacterString>1.1</gco:CharacterString>
+							</gmd:version>
+							<gmd:fileDecompressionTechnique>
+								<gco:CharacterString>deflate</gco:CharacterString>
+							</gmd:fileDecompressionTechnique>
+						</gmd:MD_Format>
+					</gmx:fileFormat>
+				</gmx:MX_DataFile>
+			</gmx:dataFile>
+		</gmx:MX_DataSet>
+	</gmd:describes>
+	<gvq:dataQualityInfo>
+		<gvq:GVQ_DataQuality>
+			<gmd19157:scope>
+				<gmd19157:DQ_Scope id="datasetScope">
+					<gmd19157:level>
+						<gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ScopeCode" codeListValue="dataset"/>
+					</gmd19157:level>
+					<gmd19157:extent xlink:href="#datasetExtent"/>
+				</gmd19157:DQ_Scope>
+			</gmd19157:scope>
+			<!-- pixel level quality info -->
+			<gmd19157:report>
+				<gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+					<gmd19157:measure>
+						<gmd19157:DQ_MeasureReference>
+							<gmd19157:measureIdentification> 
+								<updated19115:MD_Identifier> 
+									<gmd:code> 
+										<gco:CharacterString>http://www.qualityml.org/1.0/measure/CategoricalMisclassification</gco:CharacterString> 
+									</gmd:code> 
+								</updated19115:MD_Identifier> 
+							</gmd19157:measureIdentification>
+							<gmd19157:nameOfMeasure>
+								<gco:CharacterString>Categorical misclassification</gco:CharacterString>
+							</gmd19157:nameOfMeasure>
+						</gmd19157:DQ_MeasureReference>
+					</gmd19157:measure>
+					<gmd19157:result>
+						<gmd19157:DQ_QuantitativeResult>
+							<gmd19157:valueType>
+								<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/RelativeCorrespondenceMatrix">
+									Representativity matrix
+								</gco:RecordType>
+							</gmd19157:valueType>
+							<gmd19157:valueUnit></gmd19157:valueUnit>
+							<gmd19157:value>
+								 <gco:Record>
+									 <qml:RelativeCorrespondenceMatrix max="100">
+										<qml:categoriesS>TBDone</qml:categoriesS>
+										<qml:categoriesT>TBDone</qml:categoriesT>
+										<qml:values href="#R3"></qml:values>
+									 </qml:RelativeCorrespondenceMatrix> 
+								 </gco:Record>
+							</gmd19157:value>
+						</gmd19157:DQ_QuantitativeResult>
+					</gmd19157:result>
+				</gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+			</gmd19157:report>
+			<gmd19157:report>
+				<gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+					<gmd19157:measure>
+						<gmd19157:DQ_MeasureReference>
+							<gmd19157:measureIdentification> 
+								<updated19115:MD_Identifier> 
+									<gmd:code> 
+										<gco:CharacterString>http://www.qualityml.org/1.0/measure/CategoricalMisclassification</gco:CharacterString> 
+									</gmd:code> 
+								</updated19115:MD_Identifier> 
+							</gmd19157:measureIdentification>
+							<gmd19157:nameOfMeasure>
+								<gco:CharacterString>Categorical misclassification</gco:CharacterString>
+							</gmd19157:nameOfMeasure>
+						</gmd19157:DQ_MeasureReference>
+					</gmd19157:measure>
+					<gmd19157:result>
+						<gmd19157:DQ_QuantitativeResult>
+							<gmd19157:valueType>
+								<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/Promiscuity">
+									Promiscuity
+								</gco:RecordType>
+							</gmd19157:valueType>
+							<gmd19157:valueUnit></gmd19157:valueUnit>
+							<gmd19157:value>
+								 <gco:Record>
+									 <qml:Items> <!-- TBS Because is number of times and no Promiscuity tag on schema -->
+										 <qml:count href="#P"></qml:count>
+									</qml:Items>
+								 </gco:Record>
+							</gmd19157:value>
+						</gmd19157:DQ_QuantitativeResult>
+					</gmd19157:result>
+				</gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+			</gmd19157:report>
+			<gmd19157:report>
+				<gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+					<gmd19157:measure>
+						<gmd19157:DQ_MeasureReference>
+							<gmd19157:measureIdentification> 
+								<updated19115:MD_Identifier> 
+									<gmd:code> 
+										<gco:CharacterString>http://www.qualityml.org/1.0/measure/CategoricalMisclassification</gco:CharacterString> 
+									</gmd:code> 
+								</updated19115:MD_Identifier> 
+							</gmd19157:measureIdentification>
+							<gmd19157:nameOfMeasure>
+								<gco:CharacterString>Categorical misclassification</gco:CharacterString>
+							</gmd19157:nameOfMeasure>
+						</gmd19157:DQ_MeasureReference>
+					</gmd19157:measure>
+					<gmd19157:result>
+						<gmd19157:DQ_QuantitativeResult>
+							<gmd19157:valueType>
+								<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/RelativeCorrespondenceMatrix">
+									Representativity matrix
+								</gco:RecordType>
+							</gmd19157:valueType>
+							<gmd19157:valueUnit></gmd19157:valueUnit>
+							<gmd19157:value>
+								 <gco:Record>
+									 <qml:RelativeCorrespondenceMatrix max="100">
+										<qml:categoriesS>TBDone</qml:categoriesS>
+										<qml:categoriesT>TBDone</qml:categoriesT>
+										<qml:values href="#R"></qml:values>
+									 </qml:RelativeCorrespondenceMatrix> 
+								 </gco:Record>
+							</gmd19157:value>
+						</gmd19157:DQ_QuantitativeResult>
+					</gmd19157:result>
+				</gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+			</gmd19157:report>
+			<gmd19157:report>
+				<gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+					<gmd19157:measure>
+						<gmd19157:DQ_MeasureReference>
+							<gmd19157:measureIdentification> 
+								<updated19115:MD_Identifier> 
+									<gmd:code> 
+										<gco:CharacterString>http://www.qualityml.org/1.0/measure/CategoricalMisclassification</gco:CharacterString> 
+									</gmd:code> 
+								</updated19115:MD_Identifier> 
+							</gmd19157:measureIdentification>
+							<gmd19157:nameOfMeasure>
+								<gco:CharacterString>Categorical misclassification</gco:CharacterString>
+							</gmd19157:nameOfMeasure>
+						</gmd19157:DQ_MeasureReference>
+					</gmd19157:measure>
+					<gmd19157:result>
+						<gmd19157:DQ_QuantitativeResult>
+							<gmd19157:valueType>
+								<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/RelativeCorrespondenceMatrix">
+									Fidelity
+								</gco:RecordType>
+							</gmd19157:valueType>
+							<gmd19157:valueUnit></gmd19157:valueUnit>
+							<gmd19157:value>
+								 <gco:Record>
+									 <qml:RelativeCorrespondenceMatrix max="100">
+										<qml:categoriesS>TBDone</qml:categoriesS>
+										<qml:categoriesT>TBDone</qml:categoriesT>
+										<qml:values href="#F"></qml:values>
+									 </qml:RelativeCorrespondenceMatrix> 
+								 </gco:Record>
+							</gmd19157:value>
+						</gmd19157:DQ_QuantitativeResult>
+					</gmd19157:result>
+				</gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+			</gmd19157:report>
+			<gmd19157:report>
+				<gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+					<gmd19157:measure>
+						<gmd19157:DQ_MeasureReference>
+							<gmd19157:measureIdentification> 
+								<updated19115:MD_Identifier> 
+									<gmd:code> 
+										<gco:CharacterString>http://www.qualityml.org/1.0/measure/CategoricalMisclassification</gco:CharacterString> 
+									</gmd:code> 
+								</updated19115:MD_Identifier> 
+							</gmd19157:measureIdentification>
+							<gmd19157:nameOfMeasure>
+								<gco:CharacterString>Categorical misclassification</gco:CharacterString>
+							</gmd19157:nameOfMeasure>
+						</gmd19157:DQ_MeasureReference>
+					</gmd19157:measure>
+					<gmd19157:result>
+						<gmd19157:DQ_QuantitativeResult>
+							<gmd19157:valueType>
+								<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/RelativeCorrespondenceMatrix">
+									Fidelity
+								</gco:RecordType>
+							</gmd19157:valueType>
+							<gmd19157:valueUnit></gmd19157:valueUnit>
+							<gmd19157:value>
+								 <gco:Record>
+									 <qml:RelativeCorrespondenceMatrix max="100">
+										<qml:categoriesS>TBDone</qml:categoriesS>
+										<qml:categoriesT>TBDone</qml:categoriesT>
+										<qml:values href="#F3"></qml:values>
+									 </qml:RelativeCorrespondenceMatrix> 
+								 </gco:Record>
+							</gmd19157:value>
+						</gmd19157:DQ_QuantitativeResult>
+					</gmd19157:result>
+				</gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+			</gmd19157:report>
+			<gmd19157:report>
+				<gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+					<gmd19157:measure>
+						<gmd19157:DQ_MeasureReference>
+							<gmd19157:measureIdentification> 
+								<updated19115:MD_Identifier> 
+									<gmd:code> 
+										<gco:CharacterString>http://www.qualityml.org/1.0/measure/CategoricalMisclassification</gco:CharacterString> 
+									</gmd:code> 
+								</updated19115:MD_Identifier> 
+							</gmd19157:measureIdentification>
+							<gmd19157:nameOfMeasure>
+								<gco:CharacterString>Categorical misclassification</gco:CharacterString>
+							</gmd19157:nameOfMeasure>
+						</gmd19157:DQ_MeasureReference>
+					</gmd19157:measure>
+					<gmd19157:result>
+						<gmd19157:DQ_QuantitativeResult>
+							<gmd19157:valueType>
+								<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/NumberMajorCategories ">
+									NumberMajorCategories 
+								</gco:RecordType>
+							</gmd19157:valueType>
+							<gmd19157:valueUnit></gmd19157:valueUnit>
+							<gmd19157:value>
+								 <gco:Record>
+									 <!-- TBD non correspondant MajorityCategories tag for this, using the relativeCorrespondanceMatric instead -->
+									 <qml:RelativeCorrespondenceMatrix max="100">
+										<qml:categoriesS>TBDone</qml:categoriesS>
+										<qml:categoriesT>TBDone</qml:categoriesT>
+										<qml:values href="#Q"></qml:values>
+									 </qml:RelativeCorrespondenceMatrix>
+								 </gco:Record>
+							</gmd19157:value>
+						</gmd19157:DQ_QuantitativeResult>
+					</gmd19157:result>
+				</gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+			</gmd19157:report>
+			<gmd19157:report>
+				<gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+					<gmd19157:measure>
+						<gmd19157:DQ_MeasureReference>
+							<gmd19157:measureIdentification> 
+								<updated19115:MD_Identifier> 
+									<gmd:code> 
+										<gco:CharacterString>http://www.qualityml.org/1.0/measure/CategoricalMisclassification</gco:CharacterString> 
+									</gmd:code> 
+								</updated19115:MD_Identifier> 
+							</gmd19157:measureIdentification>
+							<gmd19157:nameOfMeasure>
+								<gco:CharacterString>Categorical misclassification</gco:CharacterString>
+							</gmd19157:nameOfMeasure>
+						</gmd19157:DQ_MeasureReference>
+					</gmd19157:measure>
+					<gmd19157:result>
+						<gmd19157:DQ_QuantitativeResult>
+							<gmd19157:valueType>
+								<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/RelativeCorrespondenceMatrix">
+									Representativity
+								</gco:RecordType>
+							</gmd19157:valueType>
+							<gmd19157:valueUnit></gmd19157:valueUnit>
+							<gmd19157:value>
+								 <gco:Record>
+									 <qml:RelativeCorrespondenceMatrix max="100">
+										<qml:categoriesS>TBDone</qml:categoriesS>
+										<qml:categoriesT>TBDone</qml:categoriesT>
+										<qml:values href="#R2"></qml:values>
+									 </qml:RelativeCorrespondenceMatrix> 
+								 </gco:Record>
+							</gmd19157:value>
+						</gmd19157:DQ_QuantitativeResult>
+					</gmd19157:result>
+				</gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+			</gmd19157:report>
+			<gmd19157:report>
+				<gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+					<gmd19157:measure>
+						<gmd19157:DQ_MeasureReference>
+							<gmd19157:measureIdentification> 
+								<updated19115:MD_Identifier> 
+									<gmd:code> 
+										<gco:CharacterString>http://www.qualityml.org/1.0/measure/ValueDomain</gco:CharacterString> 
+									</gmd:code> 
+								</updated19115:MD_Identifier> 
+							</gmd19157:measureIdentification>
+							<gmd19157:nameOfMeasure>
+								<gco:CharacterString>Categorical attribute proportions</gco:CharacterString>
+							</gmd19157:nameOfMeasure>
+						</gmd19157:DQ_MeasureReference>
+					</gmd19157:measure>
+					<gmd19157:result>
+						<gmd19157:DQ_QuantitativeResult>
+							<gmd19157:valueType>
+								<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/Purity">
+									Purity
+								</gco:RecordType>
+							</gmd19157:valueType>
+							<gmd19157:valueUnit></gmd19157:valueUnit>
+							<gmd19157:value>
+								 <gco:Record>
+									 <qml:RelativeCorrespondenceMatrix max="100">
+										<qml:categoriesS>TBDone</qml:categoriesS>
+										<qml:categoriesT>TBDone</qml:categoriesT>
+										<qml:values href="#Purity_Summary"></qml:values>
+									 </qml:RelativeCorrespondenceMatrix> 
+								 </gco:Record>
+							</gmd19157:value>
+						</gmd19157:DQ_QuantitativeResult>
+					</gmd19157:result>
+				</gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+			</gmd19157:report>
+			<gmd19157:report>
+				<gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+					<gmd19157:measure>
+						<gmd19157:DQ_MeasureReference>
+							<gmd19157:measureIdentification> 
+								<updated19115:MD_Identifier> 
+									<gmd:code> 
+										<gco:CharacterString>http://www.qualityml.org/1.0/measure/ValueDomain</gco:CharacterString> 
+									</gmd:code> 
+								</updated19115:MD_Identifier> 
+							</gmd19157:measureIdentification>
+							<gmd19157:nameOfMeasure>
+								<gco:CharacterString>Categorical attribute proportions</gco:CharacterString>
+							</gmd19157:nameOfMeasure>
+						</gmd19157:DQ_MeasureReference>
+					</gmd19157:measure>
+					<gmd19157:result>
+						<gmd19157:DQ_QuantitativeResult>
+							<gmd19157:valueType>
+								<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/Purity">
+									Purity (Uncertainty I)
+								</gco:RecordType>
+							</gmd19157:valueType>
+							<gmd19157:valueUnit></gmd19157:valueUnit>
+							<gmd19157:value>
+								 <gco:Record>
+								 <qml:Purity>
+										<qml:values></qml:values>
+									</qml:Purity>
+									 <qml:Items>
+										 <qml:count href="#I"></qml:count>
+									 </qml:Items>
+								 </gco:Record>
+							</gmd19157:value>
+						</gmd19157:DQ_QuantitativeResult>
+					</gmd19157:result>
+				</gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+			</gmd19157:report>
+			<gmd19157:report>
+				<gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+					<gmd19157:measure>
+						<gmd19157:DQ_MeasureReference>
+							<gmd19157:measureIdentification> 
+								<updated19115:MD_Identifier> 
+									<gmd:code> 
+										<gco:CharacterString>http://www.qualityml.org/1.0/measure/CategoricalMisclassification</gco:CharacterString> 
+									</gmd:code> 
+								</updated19115:MD_Identifier> 
+							</gmd19157:measureIdentification>
+							<gmd19157:nameOfMeasure>
+								<gco:CharacterString>Categorical misclassification</gco:CharacterString>
+							</gmd19157:nameOfMeasure>
+						</gmd19157:DQ_MeasureReference>
+					</gmd19157:measure>
+					<gmd19157:result>
+						<gmd19157:DQ_QuantitativeResult>
+							<gmd19157:valueType>
+								<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/RelativeCorrespondenceMatrix">
+									Representativity
+								</gco:RecordType>
+							</gmd19157:valueType>
+							<gmd19157:valueUnit></gmd19157:valueUnit>
+							<gmd19157:value>
+								 <gco:Record>
+									 <qml:RelativeCorrespondenceMatrix max="100">
+										<qml:categoriesS>TBDone</qml:categoriesS>
+										<qml:categoriesT>TBDone</qml:categoriesT>
+										<qml:values href="#LandCover_ClsMix_Cat3"></qml:values>
+									 </qml:RelativeCorrespondenceMatrix> 
+								 </gco:Record>
+							</gmd19157:value>
+						</gmd19157:DQ_QuantitativeResult>
+					</gmd19157:result>
+				</gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+			</gmd19157:report>
+			<gmd19157:report>
+				<gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+					<gmd19157:measure>
+						<gmd19157:DQ_MeasureReference>
+							<gmd19157:measureIdentification> 
+								<updated19115:MD_Identifier> 
+									<gmd:code> 
+										<gco:CharacterString>http://www.qualityml.org/1.0/measure/CategoricalMisclassification</gco:CharacterString> 
+									</gmd:code> 
+								</updated19115:MD_Identifier> 
+							</gmd19157:measureIdentification>
+							<gmd19157:nameOfMeasure>
+								<gco:CharacterString>Categorical misclassification</gco:CharacterString>
+							</gmd19157:nameOfMeasure>
+						</gmd19157:DQ_MeasureReference>
+					</gmd19157:measure>
+					<gmd19157:result>
+						<gmd19157:DQ_QuantitativeResult>
+							<gmd19157:valueType>
+								<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/RelativeCorrespondenceMatrix">
+									Fidelity
+								</gco:RecordType>
+							</gmd19157:valueType>
+							<gmd19157:valueUnit></gmd19157:valueUnit>
+							<gmd19157:value>
+								 <gco:Record>
+									 <qml:RelativeCorrespondenceMatrix max="100">
+										<qml:categoriesS>TBDone</qml:categoriesS>
+										<qml:categoriesT>TBDone</qml:categoriesT>
+										<qml:values href="#F2"></qml:values>
+									 </qml:RelativeCorrespondenceMatrix> 
+								 </gco:Record>
+							</gmd19157:value>
+						</gmd19157:DQ_QuantitativeResult>
+					</gmd19157:result>
+				</gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+			</gmd19157:report>
+			<gmd19157:report>
+				<gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+					<gmd19157:measure>
+						<gmd19157:DQ_MeasureReference>
+							<gmd19157:measureIdentification> 
+								<updated19115:MD_Identifier> 
+									<gmd:code> 
+										<gco:CharacterString>http://www.qualityml.org/1.0/measure/CategoricalMisclassification</gco:CharacterString> 
+									</gmd:code> 
+								</updated19115:MD_Identifier> 
+							</gmd19157:measureIdentification>
+							<gmd19157:nameOfMeasure>
+								<gco:CharacterString>Categorical misclassification</gco:CharacterString>
+							</gmd19157:nameOfMeasure>
+						</gmd19157:DQ_MeasureReference>
+					</gmd19157:measure>
+					<gmd19157:result>
+						<gmd19157:DQ_QuantitativeResult>
+							<gmd19157:valueType>
+								<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/RelativeCorrespondenceMatrix">
+									Representativity
+								</gco:RecordType>
+							</gmd19157:valueType>
+							<gmd19157:valueUnit></gmd19157:valueUnit>
+							<gmd19157:value>
+								 <gco:Record>
+									 <qml:RelativeCorrespondenceMatrix max="100">
+										<qml:categoriesS>TBDone</qml:categoriesS>
+										<qml:categoriesT>TBDone</qml:categoriesT>
+										<qml:values href="#LandCover"></qml:values>
+									 </qml:RelativeCorrespondenceMatrix> 
+								 </gco:Record>
+							</gmd19157:value>
+						</gmd19157:DQ_QuantitativeResult>
+					</gmd19157:result>
+				</gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+			</gmd19157:report>
+			<gmd19157:report>
+				<gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+					<gmd19157:measure>
+						<gmd19157:DQ_MeasureReference>
+							<gmd19157:measureIdentification> 
+								<updated19115:MD_Identifier> 
+									<gmd:code> 
+										<gco:CharacterString>http://www.qualityml.org/1.0/measure/ValueDomain</gco:CharacterString> 
+									</gmd:code> 
+								</updated19115:MD_Identifier> 
+							</gmd19157:measureIdentification>
+							<gmd19157:nameOfMeasure>
+								<gco:CharacterString>Categorical attribute proportions</gco:CharacterString>
+							</gmd19157:nameOfMeasure>
+						</gmd19157:DQ_MeasureReference>
+					</gmd19157:measure>
+					<gmd19157:result>
+						<gmd19157:DQ_QuantitativeResult>
+							<gmd19157:valueType>
+								<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/Purity">
+									Purity
+								</gco:RecordType>
+							</gmd19157:valueType>
+							<gmd19157:valueUnit></gmd19157:valueUnit>
+							<gmd19157:value>
+								 <gco:Record>
+								 <qml:Purity>
+										<qml:values></qml:values>
+									</qml:Purity>
+									 <qml:Items>
+										 <qml:count href="#StabilityTestAreas"></qml:count>
+									 </qml:Items>
+								 </gco:Record>
+							</gmd19157:value>
+						</gmd19157:DQ_QuantitativeResult>
+					</gmd19157:result>
+				</gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+			</gmd19157:report>
+			<gmd19157:report>
+				<gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+					<gmd19157:measure>
+						<gmd19157:DQ_MeasureReference>
+							<gmd19157:measureIdentification> 
+								<updated19115:MD_Identifier> 
+									<gmd:code> 
+										<gco:CharacterString>http://www.qualityml.org/1.0/measure/CategoricalMisclassification</gco:CharacterString> 
+									</gmd:code> 
+								</updated19115:MD_Identifier> 
+							</gmd19157:measureIdentification>
+							<gmd19157:nameOfMeasure>
+								<gco:CharacterString>Categorical misclassification</gco:CharacterString>
+							</gmd19157:nameOfMeasure>
+						</gmd19157:DQ_MeasureReference>
+					</gmd19157:measure>
+					<gmd19157:result>
+						<gmd19157:DQ_QuantitativeResult>
+							<gmd19157:valueType>
+								<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/RelativeCorrespondenceMatrix">
+									Fidelity
+								</gco:RecordType>
+							</gmd19157:valueType>
+							<gmd19157:valueUnit></gmd19157:valueUnit>
+							<gmd19157:value>
+								 <gco:Record>
+									 <qml:RelativeCorrespondenceMatrix max="100">
+										<qml:categoriesS>TBDone</qml:categoriesS>
+										<qml:categoriesT>TBDone</qml:categoriesT>
+										<qml:values href="#LandCover_ClsMix_Cat2"></qml:values>
+									 </qml:RelativeCorrespondenceMatrix> 
+								 </gco:Record>
+							</gmd19157:value>
+						</gmd19157:DQ_QuantitativeResult>
+					</gmd19157:result>
+				</gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+			</gmd19157:report>
+			<!-- end of pixel-level variables -->
+			<!-- variable-level variables quality info -->
+			<gmd19157:report>
+				<gmd19157:DQ_ThematicClassificationCorrectness id="ConfMat_test">
+					<gmd19157:dateTime>
+						<gco:DateTime>2013-02-26T15:41:45</gco:DateTime>
+					</gmd19157:dateTime>
+					<gmd19157:evaluation>
+						<gvq:GVQ_SampleBasedInspection>
+							<gmd19157:evaluationMethodDescription>
+								<gco:CharacterString>Validation of the classification using independent test areas (25% of the buffered-MCSC, MCSC_test_12cat source)</gco:CharacterString>
+							</gmd19157:evaluationMethodDescription>
+							<!-- TBD: When PUBLICATIONS are available: gmd19157:evaluationProcedure xlink:href=""/>
+							<gmd19157:referenceDoc xlink:href=""/ -->
+							<gmd19157:evaluationMethodType>
+								<gmd19157:DQ_EvaluationMethodTypeCode codeList="http://www.geoviqua.org/gmd19157/resources/codeList.xml#DQ_EvaluationMethodTypeCode" codeListValue="directExternal"/>
+							</gmd19157:evaluationMethodType>
+							<gmd19157:samplingScheme>
+								<gco:CharacterString>Random sampling with stratification into three lots (all categories included in each of the three lots) (Stratified_random_sampling process step)</gco:CharacterString>
+							</gmd19157:samplingScheme>
+							<gmd19157:lotDescription>
+								<gco:CharacterString>Split ground truth buffered-MCSC (MCSC_reclass_buffer) into training subsample (50%, MCSC_train_12cat), test (25%, MCSC_test_12cat) and validation (25%, MCSC_test_test_12cat) subsamples using random stratified sampling methods in R software (Stratified_random_sampling process step)</gco:CharacterString>
+							</gmd19157:lotDescription>
+							<gmd19157:samplingRatio>
+								<gco:CharacterString>100% of the test lot (MCSC_test_12cat) is inspected</gco:CharacterString>
+							</gmd19157:samplingRatio>
+							<gvq:referenceDataset xlink:href="MCSC_test_12cat"/>
+						</gvq:GVQ_SampleBasedInspection>
+					</gmd19157:evaluation>
+					<gmd19157:result>
+						<gmd19157:DQ_QuantitativeResult>
+							<gmd19157:resultScope xlink:href="#datasetScope"/>
+							<gmd19157:valueType>
+								<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/OverallAccuracy/">Overall accuracy</gco:RecordType>
+							</gmd19157:valueType>
+							<gmd19157:valueUnit xlink:href="urn:ogc:def:uom:UCUM:%25"/>
+							<gmd19157:value>
+								<gco:Record>
+									<qml:OverallAccuracy>
+										<qml:values>80.80</qml:values>
+									</qml:OverallAccuracy>
+								</gco:Record>
+							</gmd19157:value>
+						</gmd19157:DQ_QuantitativeResult>
+					</gmd19157:result>
+					<gmd19157:result>
+						<gmd19157:DQ_QuantitativeResult>
+							<gmd19157:resultScope xlink:href="#datasetScope"/>
+							<gmd19157:valueType>
+								<gco:RecordType xlink:href="http://www.uncertml.org/statistics/ConfusionMatrix">Confusion matrix recording counts from ground truthing</gco:RecordType>
+							</gmd19157:valueType>
+							<gmd19157:valueUnit gco:nilReason="inapplicable"/>
+							<!-- Lucy/Joan: valueUnit can be substituted by a xlink:href indicating that there are no units. At the moment the "inapplicable" option is the best one -->
+							<gmd19157:value>
+								<gco:Record>
+									<un:ConfusionMatrix xmlns:un="http://www.uncertml.org/2.0">
+										<un:sourceCategories>Coniferous Esclerophyllous Chestnut	Beech OtherDeciduous Shrub Meadows RiceFields Vineyard FruitTreesOrOtherHerbCrops BareOrUrbanSoil Water</un:sourceCategories>
+										<un:targetCategories>NODATA Coniferous Esclerophyllous Chestnut	Beech OtherDeciduous Shrub Meadows RiceFields Vineyard FruitTreesOrOtherHerbCrops BareOrUrbanSoil Water</un:targetCategories>
+										<un:counts>0	625413	55634	123	616	6809	24611	1203	0	13	5809	6527	0
+0	56183	448829	1130	1005	9936	13538	186	0	2	3793	957	0
+0	164	3262	18049	5025	2472	5	1308	0	0	78	0	0
+0	826	829	7458	52337	12223	31	812	0	0	70	12	0
+0	13919	8602	3914	11477	87228	1689	2195	1	23	10534	923	1
+0	54345	16468	61	62	1857	126513	1529	1	275	18052	13867	1
+0	744	211	23	631	1543	3438	39400	0	601	23239	7413	0
+0	3	7	0	0	5	25	0	3962	0	671	87	0
+0	9	1	0	0	7	133	0	0	80401	11592	10978	0
+0	3560	914	5	36	4294	5734	4547	112	6482	764986	33234	0
+0	9427	450	0	5	207	10730	2490	9	7697	49326	397081	34
+0	0	0	0	0	0	0	0	0	0	0	16	1469
+</un:counts>
+									</un:ConfusionMatrix>
+								</gco:Record>
+							</gmd19157:value>
+						</gmd19157:DQ_QuantitativeResult>
+					</gmd19157:result>
+				</gmd19157:DQ_ThematicClassificationCorrectness>
+			</gmd19157:report>
+			<gmd19157:report>
+				<gvq:GVQ_Traceability id="ConfMat_test_trace">
+					<gmd19157:evaluation gco:nilReason="definedElsewhere"/>
+					<gmd19157:result gco:nilReason="definedElsewhere"/>
+					<gmd19157:relatedElement xlink:href="#ConfMat_test"/>
+					<gvq:trace>
+						<gmd19157:LI_Lineage>
+							<gmd19157:source>
+								<gmd19157:LI_Source id="MCSC_test_12cat">
+									<gmd19157:sourceCitation>
+										<gmd:CI_Citation>
+											<gmd:title>
+												<gco:CharacterString>Test areas (25% of the buffered-MCSC)</gco:CharacterString>
+											</gmd:title>
+											<gmd:date>
+												<gmd:CI_Date>
+													<gmd:date>
+														<gco:Date>2012-11-01</gco:Date>
+													</gmd:date>
+													<gmd:dateType>
+														<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+													</gmd:dateType>
+												</gmd:CI_Date>
+											</gmd:date>
+											<gmd:citedResponsibleParty xlink:href="#GM_CREAF"/>
+										</gmd:CI_Citation>
+									</gmd19157:sourceCitation>
+									<gmd19157:sourceStep>
+										<updated19115:LE_ProcessStep id="MCSC_reclassification">
+											<gmd19157:description>
+												<gco:CharacterString>Reclassification of 233 categories (photointerpretation enables a very detailed legend) of the original MCSC into 12 categories. The choice of the classification legend is based on a simplification of MCSC product to a ground truth of 12 categories (using spectral features and biological consistency of the legend categories as main criteria)</gco:CharacterString>
+											</gmd19157:description>
+											<gmd19157:rationale>
+												<gco:CharacterString>It is a challenge adapting the 233 classes original legend to a subjective choice of 12 categories as it is difficult to adapt a legend obtained by photointerpretation of 0.5 m resolution ortophotos to a remote sensing spatial resolution and spectral features of the land cover. This point is crucial in the global accuracy and limitations of the databases we are using in the whole study. The matching of a biologically consistent land cover classes, the spectral features and RS properties of the landsat scenes, and the photointerpreted MCSC is not easy.</gco:CharacterString>
+											</gmd19157:rationale>
+											<gmd19157:source>
+												<gmd19157:LI_Source id="MCSC">
+													<gmd19157:description>
+														<gco:CharacterString>Land Cover Map of Catalonia MCSC (3rd Edition, raster format) (Mapa de Cobertes del sòl de Catalunya. 3ª Edició, model ràster) (2005-2007). Obtained from photointerpretation of 0.5 m spatial resolution ortophotographies. 233 land cover categories legend. 20m pixel size. Centre de Recerca Ecològica i Aplicacions Forestals CREAF (2007)</gco:CharacterString>
+													</gmd19157:description>
+													<gmd19157:sourceCitation>
+														<gmd:CI_Citation>
+															<gmd:title>
+																<gco:CharacterString>Land Cover Map of Catalonia MCSC (3rd Edition, raster format)</gco:CharacterString>
+															</gmd:title>
+															<gmd:date>
+																<gmd:CI_Date>
+																	<gmd:date>
+																		<gco:Date>2007</gco:Date>
+																	</gmd:date>
+																	<gmd:dateType>
+																		<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+																	</gmd:dateType>
+																</gmd:CI_Date>
+															</gmd:date>
+															<gmd:citedResponsibleParty>
+																<gmd:CI_ResponsibleParty>
+																	<gmd:organisationName>
+																		<gco:CharacterString>CREAF</gco:CharacterString>
+																	</gmd:organisationName>
+																	<gmd:contactInfo>
+																		<gmd:CI_Contact>
+																			<gmd:phone>
+																				<gmd:CI_Telephone>
+																					<gmd:voice>
+																						<gco:CharacterString>+34 93 5811312</gco:CharacterString>
+																					</gmd:voice>
+																					<gmd:facsimile>
+																						<gco:CharacterString>+34 93 5814151</gco:CharacterString>
+																					</gmd:facsimile>
+																				</gmd:CI_Telephone>
+																			</gmd:phone>
+																			<gmd:address>
+																				<gmd:CI_Address>
+																					<gmd:deliveryPoint>
+																						<gco:CharacterString>CREAF. Edifici C. Campus de Bellaterra (UAB). 08193 Cerdanyola del Vallès. Barcelona. Espanya</gco:CharacterString>
+																					</gmd:deliveryPoint>
+																					<gmd:administrativeArea>
+																						<gco:CharacterString>Barcelona</gco:CharacterString>
+																					</gmd:administrativeArea>
+																					<gmd:postalCode>
+																						<gco:CharacterString>08193</gco:CharacterString>
+																					</gmd:postalCode>
+																					<gmd:country>
+																						<gco:CharacterString>Spain</gco:CharacterString>
+																					</gmd:country>
+																					<gmd:electronicMailAddress>
+																						<gco:CharacterString>j.angel@creaf.uab.cat</gco:CharacterString>
+																					</gmd:electronicMailAddress>
+																				</gmd:CI_Address>
+																			</gmd:address>
+																			<gmd:onlineResource>
+																				<gmd:CI_OnlineResource>
+																					<gmd:linkage>
+																						<gmd:URL>http://www.creaf.uab.cat/mcsc/</gmd:URL>
+																					</gmd:linkage>
+																				</gmd:CI_OnlineResource>
+																			</gmd:onlineResource>
+																		</gmd:CI_Contact>
+																	</gmd:contactInfo>
+																	<gmd:role>
+																		<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="author"/>
+																	</gmd:role>
+																</gmd:CI_ResponsibleParty>
+															</gmd:citedResponsibleParty>
+															<gmd:presentationForm>
+																<gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_PresentationFormCode" codeListValue="mapDigital"/>
+															</gmd:presentationForm>
+														</gmd:CI_Citation>
+													</gmd19157:sourceCitation>
+													<gmd19157:sourceExtent>
+														<gmd:EX_Extent>
+															<gmd:temporalElement>
+																<gmd:EX_TemporalExtent>
+																	<gmd:extent>
+																		<gml:TimePeriod gml:id="MCSC_TempEx">
+																			<gml:beginPosition>2005</gml:beginPosition>
+																			<gml:endPosition>2007</gml:endPosition>
+																		</gml:TimePeriod>
+																	</gmd:extent>
+																</gmd:EX_TemporalExtent>
+															</gmd:temporalElement>
+														</gmd:EX_Extent>
+													</gmd19157:sourceExtent>
+												</gmd19157:LI_Source>
+											</gmd19157:source>
+											<updated19115:output>
+												<updated19115:LE_Source id="MCSC_reclass">
+													<gmd19157:description>
+														<gco:CharacterString>Original MCSC (raster format) reclassified into 12 categories</gco:CharacterString>
+													</gmd19157:description>
+												</updated19115:LE_Source>
+											</updated19115:output>
+										</updated19115:LE_ProcessStep>
+									</gmd19157:sourceStep>
+									<gmd19157:sourceStep>
+										<updated19115:LE_ProcessStep id="Buffer_MCSC_reclass">
+											<gmd19157:description>
+												<gco:CharacterString>Obtain a MCSC reclassified raster file with NODATA on the border pixels between categories. The aim of this step is to assure homogeneous training areas and avoid introducing the mixtures that characterize the transition between landcover categories.</gco:CharacterString>
+											</gmd19157:description>
+											<gmd19157:source xlink:href="#MCSC_reclass"/>
+											<updated19115:output>
+												<updated19115:LE_Source id="MCSC_reclass_buffer">
+													<gmd19157:description>
+														<gco:CharacterString>MCSC reclassified raster file with NODATA on the border pixels (result of the Buffer_MCSC_reclass process step)</gco:CharacterString>
+													</gmd19157:description>
+												</updated19115:LE_Source>
+											</updated19115:output>
+										</updated19115:LE_ProcessStep>
+									</gmd19157:sourceStep>
+									<gmd19157:sourceStep>
+										<updated19115:LE_ProcessStep id="Vectorize_MCSC_reclass">
+											<gmd19157:description>
+												<gco:CharacterString>Vectorize the MCSC reclassified raster file</gco:CharacterString>
+											</gmd19157:description>
+											<gmd19157:source xlink:href="#MCSC_reclass"/>
+											<updated19115:output>
+												<updated19115:LE_Source id="MCSC_vector">
+													<gmd19157:description>
+														<gco:CharacterString>MSCS vector (result of the Vectorize_MCSC_reclass process step)</gco:CharacterString>
+													</gmd19157:description>
+												</updated19115:LE_Source>
+											</updated19115:output>
+										</updated19115:LE_ProcessStep>
+									</gmd19157:sourceStep>
+									<gmd19157:sourceStep>
+										<updated19115:LE_ProcessStep id="OnekmGrid_MCSC_Vector">
+											<gmd19157:description>
+												<gco:CharacterString>Combination of the vectorized MCSC with a 1km grid. This partition is applied to fragment larger polygons into several smaller polygons, with the aim of selecting a % of its surface for posterior sampling purposes (training areas, test areas, validation areas subsamples). Thus, only the larger polygons are fragmentated. </gco:CharacterString>
+											</gmd19157:description>
+											<gmd19157:source xlink:href="#MCSC_vector"/>
+											<updated19115:output>
+												<updated19115:LE_Source id="MCSC_vector_grid">
+													<gmd19157:description>
+														<gco:CharacterString>Combination of the vectorized MCSC with a 1km grid</gco:CharacterString>
+													</gmd19157:description>
+												</updated19115:LE_Source>
+											</updated19115:output>
+										</updated19115:LE_ProcessStep>
+									</gmd19157:sourceStep>
+									<gmd19157:sourceStep>
+										<updated19115:LE_ProcessStep id="Stratified_random_sampling">
+											<gmd19157:description>
+												<gco:CharacterString>Finally, a stratified subsampling using a R syntax randomly assigns each gridded MCSC polygon (MCSC_vector_grid source) values 1 to 3. Value 1 are training polygons (50% of the area), value 2 are test polygons (25% of the area) and value 3 are validation polygons (25% of the area). Accordingly, this layer is split into three polygon layers. One of each is combined with the MCSC reclassified raster file with NODATA on the border pixels (MCSC_reclass_buffer source) to generate three raster files with (training pixels, test pixels and validation pixels, with sources id's equal to MCSC_train_12cat, MCSC_test_12cat, MCSC_test_test_12cat). Each of these raster subsamples contain all the categories included on the legend (12 categories).</gco:CharacterString>
+											</gmd19157:description>
+											<gmd19157:source xlink:href="#MCSC_vector_grid"/>
+											<gmd19157:source xlink:href="#MCSC_reclass_buffer"/>
+											<updated19115:output>
+												<updated19115:LE_Source id="MCSC_train_12cat">
+													<gmd19157:sourceCitation>
+														<gmd:CI_Citation>
+															<gmd:title>
+																<gco:CharacterString>Training areas (50% of the buffered-MCSC)</gco:CharacterString>
+															</gmd:title>
+															<gmd:date>
+																<gmd:CI_Date>
+																	<gmd:date>
+																		<gco:Date>2012-11-01</gco:Date>
+																	</gmd:date>
+																	<gmd:dateType>
+																		<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+																	</gmd:dateType>
+																</gmd:CI_Date>
+															</gmd:date>
+															<gmd:citedResponsibleParty xlink:href="#GM_CREAF"/>
+														</gmd:CI_Citation>
+													</gmd19157:sourceCitation>
+												</updated19115:LE_Source>
+											</updated19115:output>
+											<updated19115:output xlink:href="#MCSC_test_12cat"/>
+											<updated19115:output>
+												<updated19115:LE_Source id="MCSC_test_test_12cat">
+													<gmd19157:sourceCitation>
+														<gmd:CI_Citation>
+															<gmd:title>
+																<gco:CharacterString>Test test areas (25% of the buffered-MCSC)</gco:CharacterString>
+															</gmd:title>
+															<gmd:date>
+																<gmd:CI_Date>
+																	<gmd:date>
+																		<gco:Date>2012-11-01</gco:Date>
+																	</gmd:date>
+																	<gmd:dateType>
+																		<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+																	</gmd:dateType>
+																</gmd:CI_Date>
+															</gmd:date>
+															<gmd:citedResponsibleParty xlink:href="#GM_CREAF"/>
+															<gmd:otherCitationDetails>
+																<gco:CharacterString>See more details about the generation of this layer in MCSC_test_12cat source description.</gco:CharacterString>
+															</gmd:otherCitationDetails>
+														</gmd:CI_Citation>
+													</gmd19157:sourceCitation>
+												</updated19115:LE_Source>
+											</updated19115:output>
+										</updated19115:LE_ProcessStep>
+									</gmd19157:sourceStep>
+								</gmd19157:LI_Source>
+							</gmd19157:source>
+						</gmd19157:LI_Lineage>
+					</gvq:trace>
+				</gvq:GVQ_Traceability>
+			</gmd19157:report>
+			<gmd19157:report>
+				<gmd19157:DQ_NonQuantitativeAttributeAccuracy id="RegLog">
+					<gmd19157:dateTime>
+						<gco:DateTime>2013-02-26T15:41:45</gco:DateTime>
+					</gmd19157:dateTime>
+					<gmd19157:evaluation>
+						<gvq:GVQ_SampleBasedInspection>
+							<gmd19157:evaluationMethodDescription>
+								<gco:CharacterString>Spatialization of the classification success probability using independent test areas (25% of the buffered-MCSC, MCSC_test_12cat source)</gco:CharacterString>
+							</gmd19157:evaluationMethodDescription>
+							<gmd19157:evaluationMethodType>
+								<gmd19157:DQ_EvaluationMethodTypeCode codeListValue="http://www.geoviqua.org/gmd19157/resources/codeList.xml#DQ_EvaluationMethodTypeCode" codeList="directExternal"/>
+							</gmd19157:evaluationMethodType>
+							<gmd19157:samplingScheme>
+								<gco:CharacterString>Random sampling with stratification into three lots (all categories included in each of the three lots) (Stratified_random_sampling process step)</gco:CharacterString>
+							</gmd19157:samplingScheme>
+							<gmd19157:lotDescription>
+								<gco:CharacterString>Split ground truth buffered-MCSC (MCSC_reclass_buffer) into training subsample (50%, MCSC_train_12cat), test (25%, MCSC_test_12cat) and validation (25%, MCSC_test_test_12cat) subsamples using random stratified sampling methods in R software (Stratified_random_sampling process step). The test lot (MCSC_test_12cat) is used to define the dependent variable in the logistic regression model: success/failure binomial variable setting a 2 values reclassification of the overlaying of the classification product (ClsMix_12cat layer id="LC") and the test ground truth lot (MCSC_test_12cat) i.e., 1=agreement between ClsMix_12cat and MCSCtest, 0=disagreement between ClsMix_12cat and MCSCtest. Note that the overlaying of the classification product (ClsMix_12cat layer) and the test ground truth lot (MCSC_test_12cat) is actually the spatialization of the Confusion Matrix described in the previous quality report.</gco:CharacterString>
+							</gmd19157:lotDescription>
+							<gmd19157:samplingRatio>
+								<gco:CharacterString>100% of the test lot (MCSC_test_12cat) is inspected. However this procedure implies that only 25% of the ground truth area is used in model fitting and then 10% of this 25% is sampled in the statistical model fitting in order to avoid spatial correlation (still 1105303 pixels analysed)</gco:CharacterString>
+							</gmd19157:samplingRatio>
+						</gvq:GVQ_SampleBasedInspection>
+					</gmd19157:evaluation>
+					<gmd19157:result>
+						<gmd19157:DQ_QuantitativeResult>
+							<gmd19157:valueType>
+								<gco:RecordType  xlink:href="http://www.qualityml.org/1.0/metrics/BinaryConfusionMatrixDerivates">Sensitivity and Specificity</gco:RecordType>
+							</gmd19157:valueType>
+							<gmd19157:valueUnit xlink:href="urn:ogc:def:uom:UCUM:%25"/>
+							<gmd19157:value>
+								<gco:Record>
+									<qml:DicreteClassification>
+										<qml:Sensitivity>
+											<qml:values>72.00</qml:values>
+										</qml:Sensitivity>
+										<qml:Specificity>
+											<qml:values>76.00</qml:values>
+										</qml:Specificity>
+										<qml:AreaUnderROCCurve>
+											<qml:values>74.10</qml:values>
+										</qml:AreaUnderROCCurve>
+									</qml:DicreteClassification>
+								</gco:Record>
+							</gmd19157:value>
+						</gmd19157:DQ_QuantitativeResult>
+					</gmd19157:result>
+				</gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+			</gmd19157:report>
+			<gmd19157:report>
+				<gvq:GVQ_Traceability id="RegLog_trace">
+					<gmd19157:evaluation gco:nilReason="definedElsewhere"/>
+					<gmd19157:result gco:nilReason="definedElsewhere"/>
+					<gmd19157:relatedElement xlink:href="#RegLog"/>
+					<gvq:trace>
+						<gmd19157:LI_Lineage>
+							<gmd19157:processStep xlink:href="#IsoMM_process"/>
+							<gmd19157:processStep>
+								<updated19115:LE_ProcessStep id="IsoMM_reclass">
+									<gmd19157:description>
+										<gco:CharacterString>Reclassification of the IsoMM with the statistical class values obtained in the second step (supervised classification: from the IsoMM unsupervised classification + training areas) in the hybrid classification product fidelity F, second fidelity F2, third fidelity F3, representativity R, second representativity R2, third representativity R3 obtained from the hybrid classification report (ClsMix_12cat report), and computation of entropy H, promiscuity P, uncertainty I and majority classes Q. This way pixel level values for all these variables (independent variables in regression model fitting) are obtained</gco:CharacterString>
+									</gmd19157:description>
+									<gmd19157:source xlink:href="IsoMM"/>
+									<!-- TBD_1132: for all the next updated19115:output, that are LE_Source, how to link that THIS source is one of a coverage descriptions (for example, the one with id="F" for LE_Source with id="F_source". In fact they are exactly the same "layer" but in one place it is described as a coverageDescription and in the other as source ("two aspects" of the same thing, we could say?) -->
+									<!-- TBD_1133: if the previous issue is not solved (at the moment we do not find a way to do it), some information coming from the coverageDescription can be added here, for example the description and the formual, if needed. -->
+									<updated19115:output>
+										<updated19115:LE_Source id="F_source"/>
+									</updated19115:output>
+									<updated19115:output>
+										<updated19115:LE_Source id="F2_source"/>
+									</updated19115:output>
+									<updated19115:output>
+										<updated19115:LE_Source id="F3_source"/>
+									</updated19115:output>
+									<updated19115:output>
+										<updated19115:LE_Source id="R_source"/>
+									</updated19115:output>
+									<updated19115:output>
+										<updated19115:LE_Source id="R2_source"/>
+									</updated19115:output>
+									<updated19115:output>
+										<updated19115:LE_Source id="R3_source"/>
+									</updated19115:output>
+									<updated19115:output>
+										<updated19115:LE_Source id="H_source"/>
+									</updated19115:output>
+									<updated19115:output>
+										<updated19115:LE_Source id="P_source"/>
+									</updated19115:output>
+									<updated19115:output>
+										<updated19115:LE_Source id="I_source"/>
+									</updated19115:output>
+									<updated19115:output>
+										<updated19115:LE_Source id="Q_source"/>
+									</updated19115:output>
+								</updated19115:LE_ProcessStep>
+							</gmd19157:processStep>
+							<gmd19157:processStep>
+								<gmd19157:LI_ProcessStep>
+									<gmd19157:description>
+										<gco:CharacterString>MCSC test areas are overlaid to the product of the hybrid classification (ClsMix_12cat ID="LC") to check in which pixels the ground truth (MCSC) categories coincide with the categories assigned in the hybrid classification. This is the spatialization of the confusion matrix described in report 1. The resulting layer is reclassified into a binomial layer in which 1=coincidence in category (correct pixel) or 0=non coincidence in category (incorrectly classified pixel). This layer is actually the dependent variable in the logistic regression model fitting step.</gco:CharacterString>
+									</gmd19157:description>
+									<gmd19157:source>
+										<gmd19157:LI_Source id="Combi_ClsMix_MCSCtest">
+											<gmd19157:description>
+												<gco:CharacterString>MCSC test areas are overlaid to the product of the hybrid classification (ClsMix_12cat ID="LC") to check in which pixels the ground truth (MCSC) categories coincide with the categories assigned in the hybrid classification.</gco:CharacterString>
+											</gmd19157:description>
+										</gmd19157:LI_Source>
+									</gmd19157:source>
+								</gmd19157:LI_ProcessStep>
+							</gmd19157:processStep>
+							<gmd19157:processStep>
+								<gmd19157:LI_ProcessStep>
+									<gmd19157:description>
+										<gco:CharacterString>Logistic regression model fitting using SPSS statistical software (subsample of 10% of the dataset).Selection of model depending on goodness of fit statistics (R2 Negelkerke, Cox adjusted R2) and apply the model formula in the algebra calculator module in MiraMon GIS software.The resulting product is a pixel level probability of success (%) in the classification according to the logistic regression model (this is to say predicted probability; id="LC_Prob" coverageDescription). Note that for validation purposes, a threshold of 50% in this layer values is set to define success in the classification (above 50%) or failure in the classification (below or equal to 50%). Besides, in the SPSS software the ROC test is done (SPSS applies this same success/failure threshold for this test). The result of the ROC test states the percentage of times the model is correct other than chance (if a value above 50% is obtained, this means the correct classification is not a result of a chance success). Other statistics obtained in the ROC test are sensitivity and specificity. In our case, the ROC value is 74%. The ROC value matches the global accuracy obtained in the confusion matrix.</gco:CharacterString>
+									</gmd19157:description>
+								</gmd19157:LI_ProcessStep>
+							</gmd19157:processStep>
+						</gmd19157:LI_Lineage>
+					</gvq:trace>
+				</gvq:GVQ_Traceability>
+			</gmd19157:report>
+			<gmd19157:report>
+				<gmd19157:DQ_NonQuantitativeAttributeAccuracy id="RegLog_Val">
+					<gmd19157:dateTime>
+						<gco:DateTime>2013-02-26T15:41:45</gco:DateTime>
+					</gmd19157:dateTime>
+					<gmd19157:result>
+						<gmd19157:QE_CoverageResult>
+							<gmd19157:resultScope xlink:href="#datasetScope"/>
+							<gmd19157:spatialRepresentationType>
+								<gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
+							</gmd19157:spatialRepresentationType>
+							<gmd19157:resultFile xlink:href="#Categorical_accuracy_study_GeoViQua_MMZ_file"/>
+							<gmd19157:resultSpatialRepresentation xlink:href="#dataset_SR"/>
+							<gmd19157:resultContentDescription>
+								<gmd:MD_CoverageDescription>
+									<gmd:attributeDescription>
+										<gco:RecordType>This layer is the error model validation layer, i.e. a binomial layer representing coincidence between the values predicted by the logistic regression model and the observed values (either correct/incorrect pixels).</gco:RecordType>
+									</gmd:attributeDescription>
+									<gmd:contentType>
+										<gmd:MD_CoverageContentTypeCode codeList="http://schemas.geoviqua.org/GVQ/4.0/resources/Codelist/gvqCodelists.xml#MD_CoverageContentTypeCode" codeListValue="modelResult">modelResult</gmd:MD_CoverageContentTypeCode>
+									</gmd:contentType>
+								</gmd:MD_CoverageDescription>
+							</gmd19157:resultContentDescription>
+							<gmd19157:resultFormat xlink:href="#datasetFormat"/>
+						</gmd19157:QE_CoverageResult>
+					</gmd19157:result>
+				</gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+			</gmd19157:report>
+			<gmd19157:report>
+				<gvq:GVQ_Traceability id="RegLog_Val_trace">
+					<gmd19157:evaluation gco:nilReason="definedElsewhere"/>
+					<gmd19157:result gco:nilReason="definedElsewhere"/>
+					<gmd19157:relatedElement xlink:href="#RegLog_Val"/>
+					<gvq:trace>
+						<gmd19157:LI_Lineage>
+							<gmd19157:processStep>
+								<gmd19157:LI_ProcessStep>
+									<gmd19157:description>
+										<gco:CharacterString>A selection in the LC_prob_source (is the same layer than LC_prob ID coverageDescription) layer applying the success/failure threshold to respectively above or equal 50% values and below 50% values generates a binomial layer of correctly classified/incorrectly classified pixels (this is to say predicted correct/incorrect pixels by the logistic regression model).</gco:CharacterString>
+									</gmd19157:description>
+									<gmd19157:source>
+										<!-- Read TBD_1132 and TBD_1133 -->
+										<gmd19157:LI_Source id="LC_prob_source"/>
+									</gmd19157:source>
+								</gmd19157:LI_ProcessStep>
+							</gmd19157:processStep>
+							<gmd19157:processStep>
+								<gmd19157:LI_ProcessStep>
+									<gmd19157:description>
+										<gco:CharacterString>The hybrid classification product (id="LC_source") is crossed with the third subsample of the ground truth (25% of the MCSC: validation areas, named test-test) in order to derive another layer with coinciding categories between the validation areas (ground truth) and the assigned categories in the classification product (landcover map). A reclassified binomial layers assigns value 1 to pixels in which the category coincides (correctly classified pixels) and 0 to pixels in which the category does not coincide (incorrectly classified pixels). This layer represents observed correct/incorrect pixels.</gco:CharacterString>
+									</gmd19157:description>
+									<gmd19157:source xlink:href="#MCSC_test_test_12cat"/>
+									<gmd19157:source>
+										<!-- Read TBD_1132 and TBD_1133 -->
+										<gmd19157:LI_Source id="LC_source"/>
+									</gmd19157:source>
+								</gmd19157:LI_ProcessStep>
+							</gmd19157:processStep>
+							<gmd19157:processStep>
+								<gmd19157:LI_ProcessStep>
+									<gmd19157:description>
+										<gco:CharacterString>The binomial layer obtained (predicted correct/incorrect pixels according to the logistic regression model) is crossed with the observed correct/incorrect pixels layer. In the resulting layer, the focus is on coincidence between predicted by the logistic regression model and observed either correct/incorrect pixels (this means that both combinations are fine: 1-1 and 0-0 in this overlaying). This layer is the validation layer. (1 999 080 number of pixels 1-1 coincident/424 893 number of pixels 0-0 coincidences, and 0-1/1-0 disagreements!. Taking into account that this validation is carried out in the 25% of the surface of the ground truth area -only where the validation subsample is available i.e. total of 2 848 866 pixels, in the end this implies a 85.08% coincidence -either in correct or incorrect pixels-)</gco:CharacterString>
+									</gmd19157:description>
+								</gmd19157:LI_ProcessStep>
+							</gmd19157:processStep>
+						</gmd19157:LI_Lineage>
+					</gvq:trace>
+				</gvq:GVQ_Traceability>
+			</gmd19157:report>
+			<gmd19157:report>
+				<gmd19157:DQ_QuantitativeAttributeAccuracy id="RegLin">
+					<gmd19157:dateTime>
+						<gco:DateTime>2013-02-26T15:41:45</gco:DateTime>
+					</gmd19157:dateTime>
+					<gmd19157:result>
+						<gmd19157:QE_CoverageResult>
+							<gmd19157:resultScope xlink:href="#datasetScope"/>
+							<gmd19157:spatialRepresentationType>
+								<gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
+							</gmd19157:spatialRepresentationType>
+							<gmd19157:resultFile xlink:href="#Categorical_accuracy_study_GeoViQua_MMZ_file"/>
+							<gmd19157:resultSpatialRepresentation xlink:href="#dataset_SR"/>
+							<gmd19157:resultContentDescription>
+								<gmd:MD_CoverageDescription>
+									<gmd:attributeDescription>
+										<gco:RecordType>Average success probability for the statistical cluster obtained from linear regression model (object level mean average success probability expressed in %)</gco:RecordType>
+									</gmd:attributeDescription>
+									<gmd:contentType>
+										<gmd:MD_CoverageContentTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="MD_CoverageContentTypeCode_modelResult">modelResult</gmd:MD_CoverageContentTypeCode>
+									</gmd:contentType>
+								</gmd:MD_CoverageDescription>
+							</gmd19157:resultContentDescription>
+							<gmd19157:resultFormat xlink:href="#datasetFormat"/>
+						</gmd19157:QE_CoverageResult>
+					</gmd19157:result>
+				</gmd19157:DQ_QuantitativeAttributeAccuracy>
+			</gmd19157:report>
+			<gmd19157:report>
+				<gvq:GVQ_Traceability id="RegLin_trace">
+					<gmd19157:evaluation gco:nilReason="definedElsewhere"/>
+					<gmd19157:result gco:nilReason="definedElsewhere"/>
+					<gmd19157:relatedElement xlink:href="#RegLin"/>
+					<gvq:trace>
+						<gmd19157:LI_Lineage>
+							<gmd19157:processStep>
+								<gmd19157:LI_ProcessStep>
+									<gmd19157:description>
+										<gco:CharacterString>The IsoMM (Isodata product) is the layer from which the polygons are delimited (polygons=statistical cluster). Polygons where grouped using ciclar application of MiraMon software. The variables are obtained from the weighed by area average values of the pixels contained in these polygons. The independent variables layers are F, F2, F3, R, R2, R3, H, I, P, Q and the dependent layer (for the testing areas subsample of the MCSC boundaries of the IsoMM -Isodata product-): this is to say mean of the probability of success % obtained at pixel level based on observed values for the test subsample).</gco:CharacterString>
+									</gmd19157:description>
+									<gmd19157:source xlink:href="#IsoMM"/>
+									<gmd19157:source xlink:href="#F_source"/>
+									<gmd19157:source xlink:href="#F2_source"/>
+									<gmd19157:source xlink:href="#F3_source"/>
+									<gmd19157:source xlink:href="#R_source"/>
+									<gmd19157:source xlink:href="#R2_source"/>
+									<gmd19157:source xlink:href="#R3_source"/>
+									<gmd19157:source xlink:href="#H_source"/>
+									<gmd19157:source xlink:href="#I_source"/>
+									<gmd19157:source xlink:href="#P_source"/>
+									<gmd19157:source xlink:href="#Q_source"/>
+								</gmd19157:LI_ProcessStep>
+							</gmd19157:processStep>
+							<gmd19157:processStep>
+								<gmd19157:LI_ProcessStep>
+									<gmd19157:description>
+										<gco:CharacterString>Linear regression model fitting in SPSS software: selection of the best model based on higher adjusted determination coeficient and parsimony principle. The selected model only uses F as independent variable (Adjusted determination coeficient=0.943)</gco:CharacterString>
+									</gmd19157:description>
+								</gmd19157:LI_ProcessStep>
+							</gmd19157:processStep>
+							<gmd19157:processStep>
+								<gmd19157:LI_ProcessStep>
+									<gmd19157:description>
+										<gco:CharacterString>Validation of the linear regression model by replicating the process using as dependent variable the mean probability of success in the validation subsample (this is to say, the 25% test_test areas: MCSC_test_test_12cat). The obtained goodness of fit statistic Adjusted determination coeficient values is similar (0.931). Application of both models and correlation between predicted mean probability of successes (%) between both models' predictions: very similar models, and very close to 1 correlations.</gco:CharacterString>
+									</gmd19157:description>
+									<gmd19157:source>
+										<gmd19157:LI_Source id="RegLin_source"/>
+									</gmd19157:source>
+								</gmd19157:LI_ProcessStep>
+							</gmd19157:processStep>
+							<gmd19157:processStep>
+								<gmd19157:LI_ProcessStep>
+									<gmd19157:description>
+										<gco:CharacterString>Application of the Linear regression model in the algebra calculator in MiraMon software: generation of the mean probability of success at polygon level.</gco:CharacterString>
+									</gmd19157:description>
+								</gmd19157:LI_ProcessStep>
+							</gmd19157:processStep>
+						</gmd19157:LI_Lineage>
+					</gvq:trace>
+				</gvq:GVQ_Traceability>
+			</gmd19157:report>
+			<gmd19157:lineage>
+				<gmd19157:LI_Lineage>
+					<gmd19157:statement>
+						<!-- Joan/Eva: can we cite a PDF/JPG file including explanations, diagrams, etc? For example as a workflow describing the lineage. We do have a JPG file showing the lineage schema (kind of a figure in a paper). At the moment, and as this information is intended to be used by a person (not a machine) it is not very important that it is “standardized”, so we could solve it using the gmd19157:statement/gco:CharacterString to state an URL. This URL can contain both the desired explanation as well as the link to the desired workflow. -->
+						<gco:CharacterString>The obtention of the hybrid classification product (ID="LC" in coverageDescription) is explained on the next processStep (id="IsoMM_process"). Moreover, see the reports explaing the traces: ConfMat_test_trace, RegLog_trace, RegLin_trace for other coverageDescription's lineage.</gco:CharacterString>
+					</gmd19157:statement>
+					<gmd19157:processStep>
+						<updated19115:LE_ProcessStep id="IsoMM_process">
+							<gmd19157:description>
+								<gco:CharacterString>Unsupervised classification (Isodata algorithm) of 47 standardized bands (6dates x6bands=36 landsat bands, 1 slope map, 6 NDVIs, 4 topoclimatic variables)</gco:CharacterString>
+							</gmd19157:description>
+							<gmd19157:source>
+								<gmd19157:LI_Source id="Landsat_NDVI_corrected_images">
+									<gmd19157:description>
+										<gco:CharacterString>Landsat-5 Thematic Mapper (path 197, row 31) 6 dates multitemporal set (2005-2007), 6 optical bands (30 m spatial resolution). thermal band discarded due to low spatial resolution (120m) after geometric correctected</gco:CharacterString>
+									</gmd19157:description>
+									<gmd19157:sourceCitation>
+										<gmd:CI_Citation>
+											<gmd:title>
+												<gco:CharacterString/>
+											</gmd:title>
+											<gmd:date>
+												<gmd:CI_Date>
+													<gmd:date>
+														<gco:Date>2005-03-09</gco:Date>
+													</gmd:date>
+													<gmd:dateType>
+														<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
+													</gmd:dateType>
+												</gmd:CI_Date>
+											</gmd:date>
+											<gmd:date>
+												<gmd:CI_Date>
+													<gmd:date>
+														<gco:Date>2005-04-26</gco:Date>
+													</gmd:date>
+													<gmd:dateType>
+														<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
+													</gmd:dateType>
+												</gmd:CI_Date>
+											</gmd:date>
+											<gmd:date>
+												<gmd:CI_Date>
+													<gmd:date>
+														<gco:Date>2005-06-29</gco:Date>
+													</gmd:date>
+													<gmd:dateType>
+														<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
+													</gmd:dateType>
+												</gmd:CI_Date>
+											</gmd:date>
+											<gmd:date>
+												<gmd:CI_Date>
+													<gmd:date>
+														<gco:Date>2006-07-02</gco:Date>
+													</gmd:date>
+													<gmd:dateType>
+														<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
+													</gmd:dateType>
+												</gmd:CI_Date>
+											</gmd:date>
+											<gmd:date>
+												<gmd:CI_Date>
+													<gmd:date>
+														<gco:Date>2006-09-04</gco:Date>
+													</gmd:date>
+													<gmd:dateType>
+														<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
+													</gmd:dateType>
+												</gmd:CI_Date>
+											</gmd:date>
+											<gmd:date>
+												<gmd:CI_Date>
+													<gmd:date>
+														<gco:Date>2007-05-18</gco:Date>
+													</gmd:date>
+													<gmd:dateType>
+														<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
+													</gmd:dateType>
+												</gmd:CI_Date>
+											</gmd:date>
+										</gmd:CI_Citation>
+									</gmd19157:sourceCitation>
+									<gmd19157:sourceStep>
+										<gmd19157:LI_ProcessStep>
+											<gmd19157:description>
+												<gco:CharacterString>Geometric (Palà and Pons 1995) and radiometric corrections (Pons and Solé-Sugrañes 1994) using ASTER DEM (ERSDAC 2009), applying clouds, cloud shadows, sea and snow cover masks. Resampling to 20 m spatial resolution.Transformation to calculate NDVI (Spectral vegetation index -Rouse et al. 1973-) for each date. Bands standardization (Spiegel 1991) to avoid difference of measurement units among the bands to be introduced in the classification process.</gco:CharacterString>
+											</gmd19157:description>
+										</gmd19157:LI_ProcessStep>
+									</gmd19157:sourceStep>
+								</gmd19157:LI_Source>
+							</gmd19157:source>
+							<gmd19157:source>
+								<gmd19157:LI_Source id="Slope_map">
+									<gmd19157:description>
+										<gco:CharacterString>Slope map derived from DTM based on PNOA at 5 m spatial resolution using 8 neighbours method and adapted to the 20 m resampled bands (median resolution change). This band is intended to account for the relief in terraces, abrupt or vertical slopes. Standardization of the slope maps to avoid difference of measurement units among the bands to be introduced in the classification process.</gco:CharacterString>
+									</gmd19157:description>
+								</gmd19157:LI_Source>
+							</gmd19157:source>
+							<gmd19157:source>
+								<gmd19157:LI_Source id="Topoclimatic_variables">
+									<gmd19157:description>
+										<gco:CharacterString>Topoclimatic variables calculated from the historical series of the Digital Climatic Atlas of Catalonia (minimum temperature of the average minimum temperature of the three coldest months, maximum temperature of the average maximum temperature of the three hotest months, minimum limiting precipitation of the three months with less precipitation, minimum solar radiation of the three months with less solar radiation). Standardization.</gco:CharacterString>
+									</gmd19157:description>
+								</gmd19157:LI_Source>
+							</gmd19157:source>
+							<updated19115:output>
+								<updated19115:LE_Source id="IsoMM">
+									<gmd19157:description>
+										<gco:CharacterString>IsoMM process result in 957 statistical clusters</gco:CharacterString>
+									</gmd19157:description>
+								</updated19115:LE_Source>
+							</updated19115:output>
+						</updated19115:LE_ProcessStep>
+					</gmd19157:processStep>
+					<gmd19157:processStep>
+						<updated19115:LE_ProcessStep id="ClsMix_process">
+							<gmd19157:description>
+								<gco:CharacterString>Supervised classification introducing the training areas (subsample of the 50% of the MCSC: MCSC_train_12cat). Fidelity and representatitvity parameters set to 0.</gco:CharacterString>
+							</gmd19157:description>
+							<gmd19157:source xlink:href="#IsoMM"/>
+							<gmd19157:source xlink:href="#MCSC_train_12cat"/>
+							<updated19115:output>
+								<!-- Hoe to describe that this "output" is one corresponding to coverageDescription="LC". Read TBD_1132 and TBD_1133 -->
+								<updated19115:LE_Source id="ClsMix_12cat"/>
+							</updated19115:output>
+						</updated19115:LE_ProcessStep>
+					</gmd19157:processStep>
+				</gmd19157:LI_Lineage>
+			</gmd19157:lineage>
+			<gvq:discoveredIssue>
+				<gvq:GVQ_DiscoveredIssue>
+					<gvq:target xlink:href="#MCSC"/>
+					<gvq:knownProblem>
+						<gco:CharacterString>Legend choice is subjective. Some of the original 233 categories have been reclassified as nodata. In the end the % of the MCSC that has been used (with buffering) is 41.38% of the study area. Difficulties in fitting the photointerpretation product legend with a suitable spectral features legend.</gco:CharacterString>
+					</gvq:knownProblem>
+					<gvq:workAround>
+						<gco:CharacterString>Use of the Habitats Maps of Catalonia -available online from the regional government web- to compare the categories between them and reject the most mixed ones when doubtful.</gco:CharacterString>
+					</gvq:workAround>
+				</gvq:GVQ_DiscoveredIssue>
+			</gvq:discoveredIssue>
+			<gvq:discoveredIssue>
+				<gvq:GVQ_DiscoveredIssue>
+					<gvq:target xlink:href="#ClsMix_12cat"/>
+					<gvq:knownProblem>
+						<gco:CharacterString>The classification steps (both unsupervised and supervised classification steps) are affected by the selection of the multitemporal landsat scenes. In order to avoid shadows to minimize radiometric corrections loss of pixels, we have not selected scenes from November to March, and the avoidance of this period is crucial in the correct classification or distinction of broadleaved tree species and other categories. Nonetheless, the main problem in classification in Mediterranean areas is the diversity and presence of mixed forests and landcovers. </gco:CharacterString>
+					</gvq:knownProblem>
+					<gvq:workAround>
+						<gco:CharacterString>Include autumn-winter scenes in the classification to better discriminate coniferous/deciduous species, but the most problematic is to distinguish within deciduous species (other scenes during the spring-summer period should be included, when some species have already grown leaves whether others have not yet).Consider NDVI discrimination criteria between the most problematic categories is not useful in this case because most forest landcovers are mixed forests and eventhough the broadleaved loose their leaves, other holm oaks are underneath and introduce confusion in the hybrid classification process.</gco:CharacterString>
+					</gvq:workAround>
+				</gvq:GVQ_DiscoveredIssue>
+			</gvq:discoveredIssue>
+			<gvq:discoveredIssue>
+				<gvq:GVQ_DiscoveredIssue>
+					<gvq:target xlink:href="#ClsMix_12cat"/>
+					<gvq:knownProblem>
+						<gco:CharacterString>Some methodological constraints can be defined.</gco:CharacterString>
+					</gvq:knownProblem>
+					<gvq:workAround>
+						<gco:CharacterString>First of all be careful with legend categories (legend is always a subjective choice). The legend chosen is suited to the objectives of the present study. However, it might be unsufficient for precise ecological or botanical studies at local scales. Classification methods differ in results at pixel level, both in categories assignment and associated uncertainty. Moreover, be careful with areas with high uncertainty (checking them in the provided probabilistic maps). Spatial and temporal resolution constraint the potential usage of the product).</gco:CharacterString>
+					</gvq:workAround>
+				</gvq:GVQ_DiscoveredIssue>
+			</gvq:discoveredIssue>
+		</gvq:GVQ_DataQuality>
+	</gvq:dataQualityInfo>
+</gvq:GVQ_Metadata>

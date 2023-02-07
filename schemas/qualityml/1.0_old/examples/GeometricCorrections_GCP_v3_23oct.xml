@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="http://schemas.geoviqua.org/GVQ/3.0.0/stylesheets/GeoViQuaComponents-HTMLTable.xsl"?>  -->
+<gvq:GVQ_Metadata xmlns:updated19115="http://www.geoviqua.org/19115_updates" 
+xmlns:gmx="http://www.isotc211.org/2005/gmx" 
+xmlns:xlink="http://www.w3.org/1999/xlink" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:gmd="http://www.isotc211.org/2005/gmd" 
+xmlns:gco="http://www.isotc211.org/2005/gco" 
+xmlns:gvq="http://www.geoviqua.org/QualityInformationModel/4.0" 
+xmlns:gml="http://www.opengis.net/gml/3.2" 
+xmlns:gmd19157="http://www.geoviqua.org/gmd19157" 
+xmlns:un="http://www.uncertml.org/2.0" 
+xmlns:qml="http://www.qualityml.org/1.0"
+xsi:schemaLocation="http://www.isotc211.org/2005/gmx ../../../iso/19139/20070417/gmx/gmx.xsd http://www.geoviqua.org/QualityInformationModel/4.0 ../../../GVQ/4.0/GeoViQua_PQM_UQM.xsd http://www.uncertml.org/2.0 ../../../uncertml/2.0/uncertml.xsd http://www.qualityml.org/1.0 ../qualityml.xsd" id="dataset_MD">
+	<gmd:fileIdentifier>
+		<gco:CharacterString>GeometricCorrections_GCP</gco:CharacterString>
+	</gmd:fileIdentifier>
+	<gmd:language>
+		<gco:CharacterString>eng</gco:CharacterString>
+	</gmd:language>
+	<gmd:characterSet>
+		<gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_CharacterSetCode" codeListValue="8859part1"/>
+	</gmd:characterSet>
+	<gmd:contact>
+		<gmd:CI_ResponsibleParty id="ES_UAB">
+			<gmd:individualName>
+				<gco:CharacterString>Eva Sevillano</gco:CharacterString>
+			</gmd:individualName>
+			<gmd:organisationName>
+				<gco:CharacterString>Geography Department (Universitat Autònoma de Barcelona)</gco:CharacterString>
+			</gmd:organisationName>
+			<gmd:positionName>
+				<gco:CharacterString>Researcher</gco:CharacterString>
+			</gmd:positionName>
+			<gmd:contactInfo>
+				<gmd:CI_Contact>
+					<gmd:address>
+						<gmd:CI_Address>
+							<gmd:electronicMailAddress>
+								<gco:CharacterString>eva.sevillano@uab.cat</gco:CharacterString>
+							</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+					</gmd:address>
+				</gmd:CI_Contact>
+			</gmd:contactInfo>
+			<gmd:role>
+				<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="author"/>
+			</gmd:role>
+		</gmd:CI_ResponsibleParty>
+	</gmd:contact>
+	<gmd:dateStamp>
+		<gco:Date>2013-05-08</gco:Date>
+	</gmd:dateStamp>
+	<gmd:metadataStandardName>
+		<gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+	</gmd:metadataStandardName>
+	<gmd:metadataStandardVersion>
+		<gco:CharacterString>1.0</gco:CharacterString>
+	</gmd:metadataStandardVersion>
+	<gmd:spatialRepresentationInfo>
+		<gmd:MD_VectorSpatialRepresentation>
+			<gmd:topologyLevel>
+				<gmd:MD_TopologyLevelCode codeListValue="fullPlanarGraph" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_TopologyLevelCode"/>
+			</gmd:topologyLevel>
+			<gmd:geometricObjects>
+				<gmd:MD_GeometricObjects>
+					<gmd:geometricObjectType>
+						<gmd:MD_GeometricObjectTypeCode codeListValue="point" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_GeometricObjectTypeCode"/>
+					</gmd:geometricObjectType>
+					<gmd:geometricObjectCount>
+						<gco:Integer>276</gco:Integer>
+					</gmd:geometricObjectCount>
+				</gmd:MD_GeometricObjects>
+			</gmd:geometricObjects>
+		</gmd:MD_VectorSpatialRepresentation>
+	</gmd:spatialRepresentationInfo>
+	<gmd:referenceSystemInfo>
+		<gmd:MD_ReferenceSystem>
+			<gmd:referenceSystemIdentifier>
+				<gmd:RS_Identifier>
+					<gmd:code>
+						<gco:CharacterString>Local reference system of the non geometrically corrected image. The units of this system are pixels of the original image.</gco:CharacterString>
+					</gmd:code>
+				</gmd:RS_Identifier>
+			</gmd:referenceSystemIdentifier>
+		</gmd:MD_ReferenceSystem>
+	</gmd:referenceSystemInfo>
+	<gmd:identificationInfo>
+		<gvq:GVQ_DataIdentification>
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString>Ground control point layer for geometric corrections for Girona-Barcelona (197-031) Landsat 5-TM image (18-05-2007)</gco:CharacterString>
+					</gmd:title>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2013-05-08</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:identifier>
+						<updated19115:MD_Identifier id="ID_197031_18052007_7_N_MOSTRA_EQ_2">
+							<gmd:code>
+								<gco:CharacterString>197031_18052007_7_N_MOSTRA_EQ_2</gco:CharacterString>
+							</gmd:code>
+							<updated19115:codeSpace>
+								<gco:CharacterString>http://www.opengis.uab.cat</gco:CharacterString>
+							</updated19115:codeSpace>
+						</updated19115:MD_Identifier>
+					</gmd:identifier>
+					<gmd:presentationForm>
+						<gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_PresentationFormCode" codeListValue="mapDigital"/>
+					</gmd:presentationForm>
+					<gmd:collectiveTitle>
+						<gco:CharacterString>GCP for Bcn-Girona</gco:CharacterString>
+					</gmd:collectiveTitle>
+				</gmd:CI_Citation>
+			</gmd:citation>
+			<gmd:abstract>
+				<gco:CharacterString>GPC file with X RMS of the point, Y RMS of the point, XY RMS of the point, Global fit/test X RMS, Global fit/test Y RMS, Global fit/test XY RMS, observed and predicted values and X,Y,Z UTM-31N-ED50 coordinates. The point file includes two sets of points, one for fitting and one for testing. The error vector representation allows visualising the magnitude of the errors, their spatial distribution and the eventual existence of patterns in their directions. This layer can be also the basis for other forms of quality visualisation, as continuous layers obtained by interpolation of the error magnitude and direction.</gco:CharacterString>
+			</gmd:abstract>
+			<gmd:purpose>
+				<gco:CharacterString>To take a glance at the spatial representation of the quality of such geometric corrections. This vector poitn can be the basis for creating a spatialized error representation as oriented line vectors (with RMS direction and magnitude).</gco:CharacterString>
+			</gmd:purpose>
+			<gmd:status>
+				<gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ProgressCode" codeListValue="completed"/>
+			</gmd:status>
+			<gmd:pointOfContact xlink:href="#ES_UAB"/>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty id="GM_CREAF">
+					<gmd:individualName>
+						<gco:CharacterString>Gerard Moré</gco:CharacterString>
+					</gmd:individualName>
+					<gmd:organisationName>
+						<gco:CharacterString>CREAF (Universitat Autònoma de Barcelona)</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:positionName>
+						<gco:CharacterString>Researcher</gco:CharacterString>
+					</gmd:positionName>
+					<gmd:role>
+						<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="processor"/>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+			<gmd:resourceMaintenance>
+				<gmd:MD_MaintenanceInformation>
+					<gmd:maintenanceAndUpdateFrequency>
+						<gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded"/>
+					</gmd:maintenanceAndUpdateFrequency>
+					<gmd:updateScope>
+						<gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ScopeCode" codeListValue="dataset"/>
+					</gmd:updateScope>
+				</gmd:MD_MaintenanceInformation>
+			</gmd:resourceMaintenance>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>Error modelling and spatializing</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme"/>
+					</gmd:type>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>Barcelona-Girona</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>WRS-2 path 197, row 31</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="place"/>
+					</gmd:type>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:resourceConstraints>
+				<gmd:MD_Constraints>
+					<gmd:useLimitation>
+						<gco:CharacterString>There is no use or access limitation.</gco:CharacterString>
+					</gmd:useLimitation>
+				</gmd:MD_Constraints>
+			</gmd:resourceConstraints>
+			<gmd:spatialRepresentationType>
+				<gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector"/>
+			</gmd:spatialRepresentationType>
+			<gmd:language>
+				<gco:CharacterString>eng</gco:CharacterString>
+			</gmd:language>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>imageryBaseMapsEarthCover</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:extent>
+				<gmd:EX_Extent id="datasetExtent">
+					<gmd:description>
+						<gco:CharacterString>Landsat path over Barcelona-Girona 2005-2007. The vector point is not geometrically corrected.</gco:CharacterString>
+					</gmd:description>
+				</gmd:EX_Extent>
+			</gmd:extent>
+			<gvq:referenceDoc>
+				<gvq:GVQ_Publication id="ISSDQ2011_GM_XP">
+					<gmd:title>
+						<gco:CharacterString>Preliminary considerations about the assessment and visualisation of the quality on geometric corrections of satellite imagery depending on the number of ground control points</gco:CharacterString>
+					</gmd:title>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2013-04</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:citedResponsibleParty xlink:href="#GM_UAB"/>
+					<gmd:citedResponsibleParty>
+						<gmd:CI_ResponsibleParty id="XP_UAB">
+							<gmd:individualName>
+								<gco:CharacterString>Xavier Pons</gco:CharacterString>
+							</gmd:individualName>
+							<gmd:organisationName>
+								<gco:CharacterString>Dep Geografia. Universitat Autònoma de Barcelona</gco:CharacterString>
+							</gmd:organisationName>
+							<gmd:positionName>
+								<gco:CharacterString>Professor</gco:CharacterString>
+							</gmd:positionName>
+							<gmd:contactInfo>
+								<gmd:CI_Contact>
+									<gmd:address>
+										<gmd:CI_Address>
+											<gmd:electronicMailAddress>
+												<gco:CharacterString>Xavier.Pons@uab.cat</gco:CharacterString>
+											</gmd:electronicMailAddress>
+										</gmd:CI_Address>
+									</gmd:address>
+								</gmd:CI_Contact>
+							</gmd:contactInfo>
+							<gmd:role>
+								<gmd:CI_RoleCode codeListValue="processor" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+							</gmd:role>
+						</gmd:CI_ResponsibleParty>
+					</gmd:citedResponsibleParty>
+					<gmd:ISSN>
+						<gco:CharacterString>
+							<!--empty-->
+						</gco:CharacterString>
+					</gmd:ISSN>
+					<gvq:target xlink:href="#ID_197031_18052007_7_N_MOSTRA_EQ_2"/>
+					<gvq:doi>
+						<gco:CharacterString>
+							<!--"$$"-->
+						</gco:CharacterString>
+					</gvq:doi>
+					<gvq:purpose>
+						<gvq:GVQ_PublicationPurposeCode codeList="http://www.geoviqua.org/QualityInformationModel/3.1/resources/codeList.xml#GVQ_PublicationPurposeCode" codeListValue="describe">describe</gvq:GVQ_PublicationPurposeCode>
+					</gvq:purpose>
+					<gvq:scope xlink:href="#datasetScope"/>
+					<gvq:category>
+						<gvq:GVQ_PublicationCategoryCode codeList="http://www.geoviqua.org/QualityInformationModel/3.1/resources/codeList.xml#GVQ_PublicationCategoryCode" codeListValue="conferenceProceedings">conferenceProceedings</gvq:GVQ_PublicationCategoryCode>
+					</gvq:category>
+					<gvq:onlineResource>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>http://www.mat.uc.pt/issdq2011/More_%20Pons_ISSDQ2011.pdf</gmd:URL>
+							</gmd:linkage>
+						</gmd:CI_OnlineResource>
+					</gvq:onlineResource>
+				</gvq:GVQ_Publication>
+			</gvq:referenceDoc>
+			<gvq:referenceDoc>
+				<gvq:GVQ_Publication id="PERS_1995_Pala_Pons">
+					<gmd:title>
+						<gco:CharacterString>Incorporation of relief in polynomial-based geometric corrections</gco:CharacterString>
+					</gmd:title>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2007-07</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:citedResponsibleParty xlink:href="VP_ICC">
+						<gmd:CI_ResponsibleParty>
+							<gmd:individualName>
+								<gco:CharacterString>Vicenç Palà</gco:CharacterString>
+							</gmd:individualName>
+							<gmd:organisationName>
+								<gco:CharacterString>Institut Cartogràfic de Catalunya</gco:CharacterString>
+							</gmd:organisationName>
+							<gmd:role>
+								<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="author"/>
+							</gmd:role>
+						</gmd:CI_ResponsibleParty>
+					</gmd:citedResponsibleParty>
+					<gmd:citedResponsibleParty xlink:href="#XP_UAB"/>
+					<gmd:series>
+						<gmd:CI_Series>
+							<gmd:name>
+								<gco:CharacterString>Photogrammetric Engineering and Remote Sensing</gco:CharacterString>
+							</gmd:name>
+							<gmd:issueIdentification>
+								<gco:CharacterString>Volume 61</gco:CharacterString>
+							</gmd:issueIdentification>
+							<gmd:page>
+								<gco:CharacterString>935–944</gco:CharacterString>
+							</gmd:page>
+						</gmd:CI_Series>
+					</gmd:series>
+					<gvq:target/>
+					<gvq:purpose>
+						<gvq:GVQ_PublicationPurposeCode codeList="http://www.geoviqua.org/QualityInformationModel/3.1/resources/codeList.xml#GVQ_PublicationPurposeCode" codeListValue="describe">describe</gvq:GVQ_PublicationPurposeCode>
+					</gvq:purpose>
+					<gvq:category>
+						<gvq:GVQ_PublicationCategoryCode codeList="http://www.geoviqua.org/QualityInformationModel/3.1/resources/codeList.xml#GVQ_PublicationCategoryCode" codeListValue="journalArticle">journalArticle</gvq:GVQ_PublicationCategoryCode>
+					</gvq:category>
+				</gvq:GVQ_Publication>
+			</gvq:referenceDoc>
+		</gvq:GVQ_DataIdentification>
+	</gmd:identificationInfo>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope id="datasetScope">
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ScopeCode" codeListValue="dataset"/>
+					</gmd:level>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+			<gmd:report>
+				<gmd:DQ_AbsoluteExternalPositionalAccuracy>
+					<gmd:nameOfMeasure>
+						<gco:CharacterString>
+					   Diffential Position Error X
+					</gco:CharacterString>
+					</gmd:nameOfMeasure>
+					<gmd:measureIdentification>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gco:CharacterString>http://www.qualityml.org/1.0/domain/DifferentialErrorsX</gco:CharacterString>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmd:measureIdentification>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueType>
+								<gco:RecordType xlink:href="http://www.uncertml.org/samples/systematic">Systematic Sample</gco:RecordType>
+							</gmd:valueType>
+							<gmd:valueUnit xlink:href="http://www.opengeospatial.org/se/units/pixels"/>
+							<gmd:value>
+								<gco:Record>
+									<un:SystematicSample>
+										<un:Realisation>
+											<un:values>-0.113306 0.384221 0.328569 -0.276179 -0.085394 -0.17137 0.038943 0.145144 -0.039767 -0.098739 -0.056521 -0.74349 0.099305 -0.475955 0.305267 0.034523 0.100728 0.361209 -0.412244 0.189267 -0.129442 -0.186813 0.0742 0.10171 -0.054997 -0.175452 0.006697 0.221297 0.310614 -0.225787 -0.3103 0.963549 -0.109487</un:values>
+										</un:Realisation>
+									</un:SystematicSample>
+								</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_AbsoluteExternalPositionalAccuracy>
+			</gmd:report>
+			<gmd:report>
+				<gmd:DQ_AbsoluteExternalPositionalAccuracy>
+					<gmd:nameOfMeasure>
+						<gco:CharacterString>
+					   Diffential Position Error Y
+					</gco:CharacterString>
+					</gmd:nameOfMeasure>
+					<gmd:measureIdentification>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gco:CharacterString>
+									http://www.qualityml.org/1.0/domain/DifferentialErrorsY
+								</gco:CharacterString>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmd:measureIdentification>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueType>
+								<gco:RecordType xlink:href="http://www.uncertml.org/samples/systematic">Systematic Sample                        </gco:RecordType>
+							</gmd:valueType>
+							<gmd:valueUnit xlink:href="http://www.opengeospatial.org/se/units/pixel"/>
+							<gmd:value>
+								<gco:Record>
+									<un:SystematicSample>
+										<un:Realisation>
+											<un:values>-0.068511 0.360244 0.146428 -0.227789 0.009425 -0.237388 -0.032683 0.005168 0.130068 -0.105469 -0.090256 -0.495954 -0.223386 0.352054 -0.173914 -0.05789 0.060492 0.044793 -0.172661 0.52377 0.600932 0.123777 1.080789 -0.28975 -0.048206 -0.202393 -0.086661 0.027994 -0.051438 0.341996 -0.364102 -0.48642 -0.39306</un:values>
+										</un:Realisation>
+									</un:SystematicSample>
+								</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_AbsoluteExternalPositionalAccuracy>
+			</gmd:report>
+			<gmd:report>
+				<gmd:DQ_AbsoluteExternalPositionalAccuracy>
+					<gmd:nameOfMeasure>
+						<gco:CharacterString>
+					   Diagonal Diffential Position Error 2D
+					</gco:CharacterString>
+					</gmd:nameOfMeasure>
+					<gmd:measureIdentification>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gco:CharacterString>http://www.qualityml.org/1.0/domain/DiagonalDifferentialErrors</gco:CharacterString>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmd:measureIdentification>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueType>
+								<gco:RecordType xlink:href="http://www.uncertml.org/samples/systematic">SystematicSample							</gco:RecordType>
+							</gmd:valueType>
+							<gmd:valueUnit xlink:href="http://www.opengeospatial.org/se/units/pixel"/>
+							<gmd:value>
+								<gco:Record>
+									<un:SystematicSample>
+										<un:Realisation>
+											<un:values>0.132408 0.52669 0.35972 0.357998 0.085912 0.292781 0.05084 0.145236 0.136012 0.144475 0.106493 0.893727 0.244464 0.59201 0.351332 0.067403 0.117496 0.363976 0.446942 0.556917 0.614715 0.224098 1.083333 0.307083 0.073133 0.267855 0.086919 0.22306 0.314845 0.409806 0.478389 1.079366 0.408024</un:values>
+										</un:Realisation>
+									</un:SystematicSample>
+								</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_AbsoluteExternalPositionalAccuracy>
+			</gmd:report>
+			<gmd:report>
+				<gmd:DQ_AbsoluteExternalPositionalAccuracy>
+					<gmd:nameOfMeasure>
+						<gco:CharacterString>
+						   Root Mean Square Error
+						</gco:CharacterString>
+					</gmd:nameOfMeasure>
+					<gmd:measureIdentification>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gco:CharacterString>http://www.qualityml.org/1.0/measure/RootMeanSquare</gco:CharacterString>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmd:measureIdentification>
+					<gmd:evaluationProcedure>
+						<gmd:CI_Citation>
+							<gmd:title/>
+							<gmd:date/>
+							<gmd:identifier>
+							<gmd:MD_Identifier>
+								<gmd:code><gco:CharacterString>http://www.qualityml.org/1.0/domain/DifferentialErrorsX</gco:CharacterString></gmd:code>
+							</gmd:MD_Identifier>
+							</gmd:identifier>
+						</gmd:CI_Citation>
+					</gmd:evaluationProcedure>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueType>
+								<gco:RecordType xlink:href="http://www.uncertml.org/metrics/RootMeanSquareError">Root Mean Square Error</gco:RecordType>
+							</gmd:valueType>
+							<gmd:valueUnit xlink:href="http://www.opengeospatial.org/se/units/pixel"/>
+							<gmd:value>
+								<gco:Record>
+									<qml:RootMeanSquare>
+										<qml:values>0.300651</qml:values>
+									</qml:RootMeanSquare>
+								</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_AbsoluteExternalPositionalAccuracy>
+			</gmd:report>
+			<gmd:report>
+				<gmd:DQ_AbsoluteExternalPositionalAccuracy>
+					<gmd:nameOfMeasure>
+						<gco:CharacterString>
+						   Root Mean Square Error
+						</gco:CharacterString>
+					</gmd:nameOfMeasure>
+					<gmd:measureIdentification>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gco:CharacterString>http://www.qualityml.org/1.0/measure/RootMeanSquare</gco:CharacterString>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmd:measureIdentification>
+					<gmd:evaluationProcedure>
+						<gmd:CI_Citation>
+							<gmd:title/>
+							<gmd:date/>
+							<gmd:identifier>
+							<gmd:MD_Identifier>
+								<gmd:code><gco:CharacterString>http://www.qualityml.org/1.0/domain/DifferentialErrorsY</gco:CharacterString></gmd:code>
+							</gmd:MD_Identifier>
+							</gmd:identifier>
+						</gmd:CI_Citation>
+					</gmd:evaluationProcedure>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueType>
+								<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/RootMeanSquareError">Root Mean Square Error</gco:RecordType>
+							</gmd:valueType>
+							<gmd:valueUnit xlink:href="http://www.opengeospatial.org/se/units/pixel"/>
+							<gmd:value>
+								<gco:Record>
+									<qml:RootMeanSquare>
+										<qml:values>0.320421</qml:values>
+									</qml:RootMeanSquare>
+								</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_AbsoluteExternalPositionalAccuracy>
+			</gmd:report>
+			<gmd:report>
+				<gmd:DQ_AbsoluteExternalPositionalAccuracy>
+					<gmd:nameOfMeasure>
+						<gco:CharacterString>
+						   Root Mean Square Error
+						</gco:CharacterString>
+					</gmd:nameOfMeasure>
+					<gmd:measureIdentification>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gco:CharacterString>http://www.qualityml.org/1.0/measure/RootMeanSquare</gco:CharacterString>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmd:measureIdentification>
+					<gmd:evaluationProcedure>
+						<gmd:CI_Citation>
+							<gmd:title/>
+							<gmd:date/>
+							<gmd:identifier>
+							<gmd:MD_Identifier>
+								<gmd:code><gco:CharacterString>http://www.qualityml.org/1.0/domain/DifferentialErrors2D</gco:CharacterString></gmd:code>
+							</gmd:MD_Identifier>
+							</gmd:identifier>
+						</gmd:CI_Citation>
+					</gmd:evaluationProcedure>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueType>
+								<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/RootMeanSquareError2D">Root Mean Square Error</gco:RecordType>
+							</gmd:valueType>
+							<gmd:valueUnit xlink:href="http://www.opengeospatial.org/se/units/pixel"/>
+							<gmd:value>
+								<gco:Record>
+									<qml:RootMeanSquare2D>
+										<qml:values>0.439387</qml:values>
+									</qml:RootMeanSquare2D>
+								</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_AbsoluteExternalPositionalAccuracy>
+			</gmd:report>
+			<gmd:report>
+				<gmd:DQ_AbsoluteExternalPositionalAccuracy>
+					<gmd:nameOfMeasure>
+						<gco:CharacterString>
+						   Mean Absolute Error
+						</gco:CharacterString>
+					</gmd:nameOfMeasure>
+					<gmd:measureIdentification>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gco:CharacterString>http://www.qualityml.org/1.0/measure/MeanAbsoluteError</gco:CharacterString>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmd:measureIdentification>
+					<gmd:evaluationProcedure>
+						<gmd:CI_Citation>
+							<gmd:title/>
+							<gmd:date/>
+							<gmd:identifier>
+								<gmd:MD_Identifier>
+									<gmd:code><gco:CharacterString>http://www.qualityml.org/1.0/domain/DifferentialErrors2D</gco:CharacterString></gmd:code>
+								</gmd:MD_Identifier>
+							</gmd:identifier>
+						</gmd:CI_Citation>
+					</gmd:evaluationProcedure>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueType>
+								<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/metrics/MeanAbsolute2D">Mean Absolute Error 2D</gco:RecordType>
+							</gmd:valueType>
+							<gmd:valueUnit xlink:href="http://www.opengeospatial.org/se/units/pixel"/>
+							<gmd:value>
+								<gco:Record>
+									<qml:MeanAbsolute2D>
+										<qml:values>0.349802</qml:values>
+									</qml:MeanAbsolute2D>
+								</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_AbsoluteExternalPositionalAccuracy>
+			</gmd:report>
+			<gmd:report>
+				<gmd:DQ_AbsoluteExternalPositionalAccuracy>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueType>
+								<gco:RecordType>MiraMon correction file report</gco:RecordType>
+							</gmd:valueType>
+							<gmd:valueUnit></gmd:valueUnit>
+							<gmd:value>
+								<gco:Record>
+									<gmd:MD_DigitalTransferOptions>
+										<gmd:onLine>
+											<gmd:CI_OnlineResource>
+												<gmd:linkage>
+													<gmd:URL>http://twiki.geoviqua.org/twiki/pub/GeoViQuaIntranet/PCTestingDatasets/197031_18052007_7_N_MOSTRA_EQ.COR
+													</gmd:URL>
+												</gmd:linkage>
+											</gmd:CI_OnlineResource>
+										</gmd:onLine>
+									</gmd:MD_DigitalTransferOptions>
+								</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_AbsoluteExternalPositionalAccuracy>
+			</gmd:report>
+			<gmd:lineage>
+				<gmd:LI_Lineage>
+					<gmd:statement>
+						<gco:CharacterString>The obtention of this GCP point is done though digitazing over Landsat images non geometrically corrected. The GCP set contains two kind of points, those used to fit the geometric correction and those used to test it. The final GCP point file includes for each point several attributes including X RMS of the point, Y RMS of the point, XY RMS of the point, Global fit/test X RMS, Global fit/test Y RMS, Global fit/test XY RMS, observed and predicted values and X,Y,Z UTM-31N-ED50 coordinates.</gco:CharacterString>
+					</gmd:statement>
+					<gmd:processStep>
+						<gmd:LI_ProcessStep id="GCP_digitizing">
+							<gmd:description>
+								<gco:CharacterString>Digitazing of GCP over Landsat images non geometrically corrected. For each GCP the  X,Y,Z UTM-31N-ED50 coordinates are documented as attributes. Those UTM coordinates of the GCP are obtaind from orthophotomap. The GCP file includes two set of points, those manually identified GCPs that will be used to fit the model (33 points) and those automatically selected to test the equations fitting (243 points).</gco:CharacterString>
+							</gmd:description>
+							<gmd:source>
+								<gmd:LI_Source id="Landsat_image">
+									<gmd:description>
+										<gco:CharacterString>Seven bands of the Landsat-5 Thematic Mapper (path 197, row 31) image from 18-05-2007</gco:CharacterString>
+									</gmd:description>
+									<gmd:sourceCitation>
+										<gmd:CI_Citation>
+											<gmd:title>
+												<gco:CharacterString>Landsat-5 Thematic Mapper (path 197, row 31) image from 18-05-2007</gco:CharacterString>
+											</gmd:title>
+											<gmd:date>
+												<gmd:CI_Date>
+													<gmd:date>
+														<gco:Date>2007-05-18</gco:Date>
+													</gmd:date>
+													<gmd:dateType>
+														<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
+													</gmd:dateType>
+												</gmd:CI_Date>
+											</gmd:date>
+										</gmd:CI_Citation>
+									</gmd:sourceCitation>
+								</gmd:LI_Source>
+							</gmd:source>
+						</gmd:LI_ProcessStep>
+					</gmd:processStep>
+					<gmd:processStep>
+						<gmd:LI_ProcessStep id="Geometric_correction_computation">
+							<gmd:description>
+								<gco:CharacterString>The inverse equations for the geometric corrections are computed using fit points. The obtained equations are: "X = 17655.15839212 + 0.03270074+ + -0.00644597y_ori + 0.13481079z_ori +4.05051151e-08z_ori*x_ori + -3.31578265e-08z_ori*y_ori" and "Y = -151744.91085944 + 0.00645602x_ori + 0.03271088y_ori + -0.00056158z_ori" where X and Y are row-column coordinates on the original (non geometricaly corrected) image and x_ori, y_ori and z_ori are the X,Y,Z UTM-31N-ED50 of each fitting GCP using Palà and Pons 1995 (PERS_1995_Pala_Pons) methods. Obtained RMS for fiting points are: X RMS = 0.300651; Y RMS = 0.320421 and XY RMS = 0.439387. On the other hand, the RMS values computed using test points are: X RMS = 0.592737; Y RMS = 0.482194 and XY RMS = 0.764099.</gco:CharacterString>
+							</gmd:description>
+							<gmd:source>
+								<gmd:LI_Source id="Original_GCP_file">
+									<gmd:description>
+										<gco:CharacterString>GCP file (result of the GCP_digitizing process step)</gco:CharacterString>
+									</gmd:description>
+								</gmd:LI_Source>
+							</gmd:source>
+						</gmd:LI_ProcessStep>
+					</gmd:processStep>
+					<gmd:processStep>
+						<gmd:LI_ProcessStep id="GCP_enrichment">
+							<gmd:description>
+								<gco:CharacterString>Enrichment of the original GCP file (Original_GCP_file) with identifier of the point (fit or test and unique identifier), X RMS of the point, Y RMS of the point, XY RMS of the point, Global fit or test X RMS (depending if the point comes from the fit or the test sets), Global fit or test Y RMS, Global fit or test XY RMS and predicted values obtained in Geometric_correction_computation process step.</gco:CharacterString>
+							</gmd:description>
+						</gmd:LI_ProcessStep>
+					</gmd:processStep>
+				</gmd:LI_Lineage>
+			</gmd:lineage>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+</gvq:GVQ_Metadata>

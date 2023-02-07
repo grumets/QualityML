@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<un:StatisticsCollection xmlns:qml="http://www.qualityml.org/1.0" 
+			xmlns:un="http://www.uncertml.org/2.0" 
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+			xsi:schemaLocation="http://www.qualityml.org/1.0 ../qualityml.xsd">
+			
+	<qml:MeanAbsolute>
+		<qml:values>3.14</qml:values>
+	</qml:MeanAbsolute>
+	
+	<qml:MeanAbsolute2D>
+		<qml:values>2.3</qml:values>
+	</qml:MeanAbsolute2D>
+	
+	<qml:MeanAbsolute3D>
+		<qml:values>3.6653</qml:values>
+	</qml:MeanAbsolute3D>
+	
+	<qml:MeanBias>
+		<qml:values>7.43756</qml:values>
+	</qml:MeanBias>
+	
+	<qml:RootMeanSquare>
+		<qml:values>3.14</qml:values>
+	</qml:RootMeanSquare>
+	
+	<qml:NormalizedRootMeanSquare>
+		<qml:values>0.45</qml:values>
+	</qml:NormalizedRootMeanSquare>
+	
+	<qml:Items>
+		<qml:indicator>true</qml:indicator>
+	</qml:Items>
+	
+	<qml:Items>
+		<qml:count></qml:count>
+	</qml:Items>
+
+	<qml:Items>
+		<qml:count>5</qml:count>
+	</qml:Items>
+	
+	<qml:Items>
+		<qml:rate max="100">66</qml:rate>
+	</qml:Items>
+	
+	<qml:HalfLengthConfidenceInterval level="0.683">
+		<un:values>3.14</un:values>
+	</qml:HalfLengthConfidenceInterval>
+	
+	<qml:LMAS>
+		<qml:values>3.14</qml:values>
+	</qml:LMAS>
+	<qml:ALE>
+		<qml:values>3.14</qml:values>
+	</qml:ALE>
+	<qml:ACE>
+		<qml:values>3.14</qml:values>
+	</qml:ACE>
+	<qml:CMAS>
+		<qml:values>3.14</qml:values>
+	</qml:CMAS>
+	
+	<qml:ConfidenceEllipse confidence="0.683">
+		<qml:a>6.28 6.28</qml:a>
+		<qml:b>3.14 3.14</qml:b>
+		<qml:a_angle>1.57 1.57</qml:a_angle>
+	</qml:ConfidenceEllipse>
+	
+	<un:Correlation>
+		<un:values>0.9</un:values>
+	</un:Correlation>
+
+	<qml:CoefficientOfDetermination>
+		<qml:values>0.81</qml:values>
+	</qml:CoefficientOfDetermination>
+	
+	<qml:ConfusionMatrix max="100">
+		<qml:actualCategories>Red Green Blue</qml:actualCategories> 
+		<qml:predictedCategories>Red Green Blue</qml:predictedCategories>
+		<qml:values>1.57 3.14 6.28 1.57 3.14 6.28 1.57 3.14 6.28</qml:values>
+	</qml:ConfusionMatrix>
+	
+	<qml:RelativeConfusionMatrix max="100">
+		<qml:actualCategories>Red Green Blue</qml:actualCategories>
+		<qml:predictedCategories>Red Green Blue</qml:predictedCategories>
+		<qml:values>1.57 3.14 6.28 1.57 3.14 6.28 1.57 3.14 6.28</qml:values>
+	</qml:RelativeConfusionMatrix>
+	
+	<qml:CorrespondenceMatrix max="100">
+		<qml:categoriesS>1 2 3 4</qml:categoriesS>
+		<qml:categoriesT>Red Green Blue</qml:categoriesT>
+		<qml:values>1.57 3.14 6.28 1.57 3.14 6.28 1.57 3.14 6.28</qml:values>
+	</qml:CorrespondenceMatrix>
+	
+	<qml:RelativeCorrespondenceMatrix max="100">
+		<qml:categoriesS>1 2 3 4</qml:categoriesS>
+		<qml:categoriesT>Red Green Blue</qml:categoriesT> 
+		<qml:values>1.57 3.14 6.28 1.57 3.14 6.28 1.57 3.14 6.28 1.57 3.14 6.28</qml:values>
+	</qml:RelativeCorrespondenceMatrix>
+	
+	<qml:OmissionError>
+		<qml:categories>Red Green Blue</qml:categories> 
+		<qml:values>1.57 3.14 6.28</qml:values>
+	</qml:OmissionError>
+	
+	<qml:CommissionError>
+		<qml:categories>Red Green Blue</qml:categories>
+		<qml:values>1.57 3.14 6.28</qml:values>
+	</qml:CommissionError>
+	
+	<qml:OverallAccuracy>
+		<qml:values>3.14</qml:values>
+	</qml:OverallAccuracy>
+	
+	<qml:KappaCoefficient>
+		<qml:values>0.90</qml:values>
+	</qml:KappaCoefficient>
+	
+	<qml:ConfusionMatrixDerivates>
+		<qml:ConfusionMatrix>
+			<qml:actualCategories>Red Green Blue</qml:actualCategories> 
+			<qml:predictedCategories>Red Green Blue</qml:predictedCategories>
+			<qml:values>1.57 3.14 6.28 1.57 3.14 6.28 1.57 3.14 6.28</qml:values>
+		</qml:ConfusionMatrix>
+		<qml:OmissionError>
+			<qml:categories>Red Green Blue</qml:categories> 
+			<qml:values>1.57 3.14 6.28</qml:values>
+		</qml:OmissionError>
+		<qml:CommissionError>
+			<qml:categories>Red Green Blue</qml:categories>
+			<qml:values>1.57 3.14 6.28</qml:values>
+		</qml:CommissionError>
+		<qml:Reliability>
+			<qml:categories>Red Green Blue</qml:categories>
+			<qml:values max="100">1.57 3.14 6.28</qml:values>
+		</qml:Reliability>
+		<qml:AverageReliability>
+			<qml:values>3.14</qml:values>
+		</qml:AverageReliability>
+		<qml:Accuracy>
+			<qml:categories>Red Green Blue</qml:categories>
+			<qml:values max="100">1.57 3.14 6.28</qml:values>
+		</qml:Accuracy>
+		<qml:AverageAccuracy>
+			<qml:values>3.14</qml:values>
+		</qml:AverageAccuracy>
+		<qml:OverallAccuracy>
+			<qml:values>3.14</qml:values>
+		</qml:OverallAccuracy>
+		<qml:KappaCoefficient>
+			<qml:values>0.90</qml:values>
+		</qml:KappaCoefficient>
+	</qml:ConfusionMatrixDerivates>
+
+	<qml:DiscreteClassification>
+		<qml:DiscreteConfusionMatrix>
+			<qml:actualCategories>true false</qml:actualCategories>
+			<qml:predictedCategories>true false</qml:predictedCategories>
+			<qml:values>50 10 20 80</qml:values>
+		</qml:DiscreteConfusionMatrix>
+		<qml:Sensitivity>
+			<qml:values>0.83</qml:values>
+		</qml:Sensitivity>
+		<qml:Specificity>
+			<qml:values>0.8</qml:values>
+		</qml:Specificity>
+		<qml:AreaUnderROCCurve>
+			<qml:values>0.84</qml:values>
+		</qml:AreaUnderROCCurve>
+	</qml:DiscreteClassification>
+
+	<qml:Purity>
+		<qml:values>0.5</qml:values>
+	</qml:Purity>
+	
+	<qml:NumberMajorCategories>
+		<qml:count>2</qml:count>
+	</qml:NumberMajorCategories>
+	
+</un:StatisticsCollection>

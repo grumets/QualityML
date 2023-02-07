@@ -1,0 +1,772 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>QualityML</title>
+        <link rel="shortcut icon" href="/favicon.ico" />
+	
+</head>
+
+
+
+<h3>Quality class: Completeness</h3>
+
+<div>
+<table>
+  <tr>
+    <td align="center" scope="col">Quality class</td>
+    <td align="center" scope="col">Quality indicator</td>
+    <td align="center" scope="col">gmd:DQ_Element</td>
+    <td align="center" scope="col">Quality measure</td>
+    <td align="center" scope="col">Domain</td>
+    <td align="center" scope="col">Metrics</td>
+    <td align="center" scope="col">Observations</td>
+    <td align="center" scope="col">Origin</td>
+  </tr>
+  <tr>
+    <td align="center">Completeness</td>
+    <td align="center">Commission</td>
+    <td align="center">gmd:DQ_CompletenessCommission</td>
+    <td align="center"><p><b>Excess</b><br>
+    </p>
+    <p><a href="1.0/measure/Excess">measure/Excess</a></p></td>
+    <td align="center"><p><a href="http://www.qualityml.org/1.0/domain/NonConformance">domain/NonConformance</a></p>    </td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/metrics/items">metrics/items</a></td>
+    <td align="center">&nbsp;</td>
+    <td>ISO 19157:<br />
+      Id. 1 (boolean), Id. 2 (count), Id. 3 (rate)</td>
+  </tr>
+  <tr>
+    <td align="center">Completeness</td>
+    <td align="center">Commission</td>
+    <td align="center">gmd:DQ_CompletenessCommission</td>
+    <td align="center"><b>Duplicate</b><br>
+      <p><a href="1.0/measure/Duplicate">measure/Duplicate</a></p></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/domain/NonConformance">domain/NonConformance</a></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/metrics/items">metrics/items</a></td>
+    <td align="center">&nbsp;</td>
+    <td> GVQ: boolean, rate<br />
+      ISO 19157: Id. 4 (count)</td>
+  </tr>
+  <tr>
+    <td align="center">Completeness</td>
+    <td align="center">Commission</td>
+    <td align="center">gmd:DQ_CompletenessCommission</td>
+    <td align="center"><b>Misclassification</b><br>
+    <p><a href="1.0/measure/Misclassification">measure/Misclassification</a><br/></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/domain/predictedValues">domain/predictedValues</a><br />
+      <a href="http://www.qualityml.org/1.0/domain/actualValues">domain/actualValues</a></td>
+    <td align="center">
+      <a href="http://www.qualityml.org/1.0/metrics/CommissionError">metrics/CommissionError</a><br/>
+      <a href="http://www.qualityml.org/1.0/metrics/FalsePositive">metrics/FalsePositive</a><br/>
+      <a href="http://www.qualityml.org/1.0/metrics/FalsePositiveRate">metrics/FalsePositiveRate</a>
+    </td>
+    <td align="center"><p>&nbsp;</p>      </td>
+    <td>A3C</td>
+  </tr>
+  <tr>
+    <td align="center">Completeness</td>
+    <td align="center">Omission</td>
+    <td align="center">gmd:DQ_CompletenessOmission</td>
+    <td align="center"><b>MissingItems</b><br>
+      <p><a href="1.0/measure/MissingItems">measure/MissingItems</a></p></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/domain/NonConformance">domain/NonConformance</a></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/metrics/items">metrics/items</a></td>
+    <td align="center">&nbsp;</td>
+    <td>ISO 19157:<br />
+Id. 5 (boolean), Id. 6 (count), Id. 7 (rate)</td>
+  </tr>
+  <tr>
+    <td align="center">Completeness</td>
+    <td align="center">Omission</td>
+    <td align="center">gmd:DQ_CompletenessOmission</td>
+    <td align="center"><b>MissingClass</b><br>
+      <p><a href="1.0/measure/MissingClass">measure/MissingClass</a></p></td>
+    <td align="center">&nbsp;</td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/metrics/items">metrics/items</a></td>
+    <td align="center">&nbsp;</td>
+    <td>A3C</td>
+  </tr>
+  <tr>
+    <td align="center">Completeness</td>
+    <td align="center">Omission</td>
+    <td align="center">gmd:DQ_CompletenessOmission</td>
+    <td align="center"><strong>Nodata areas</strong><br/>
+    	<a href="http://www.qualityml.org/1.0/measure/NodataAreas">measure/NodataAreas</a></td>
+    <td align="center">&nbsp;</td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/metrics/items">metrics/items</a></td>
+    <td align="center">&nbsp;</td>
+    <td>A3C</td>
+  </tr>
+  <tr>
+    <td align="center">Completeness</td>
+    <td align="center">Omission</td>
+    <td align="center">gmd:DQ_CompletenessOmission</td>
+    <td align="center"><strong>Flag areas</strong><br/>
+    	<a href="http://www.qualityml.org/1.0/measure/FlagAreas">measure/FlagAreas</a><br/>
+          (used to flag elements that are detected as anomalous such as "cloud flag" or "snow flag")</td>
+    <td align="center">&nbsp;</td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/metrics/items">metrics/items</a></td>
+    <td align="center">&nbsp;</td>
+    <td>GVQ</td>
+  </tr>
+  <tr>
+    <td align="center">Completeness</td>
+    <td align="center">Omission</td>
+    <td align="center">gmd:DQ_CompletenessOmission</td>
+    <td align="center"><b>Misclassification</b><br>
+    <p><a href="1.0/measure/Misclassification">measure/Misclassification</a><br/></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/domain/predictedValues">domain/predictedValues</a><br />
+      <a href="http://www.qualityml.org/1.0/domain/actualValues">domain/actualValues</a></td>
+    <td align="center">
+      <a href="http://www.qualityml.org/1.0/metrics/OmissionError">metrics/OmissionError</a><br/>
+      <a href="http://www.qualityml.org/1.0/metrics/FalseNegative">metrics/FalseNegative</a><br/>
+    </td>
+    <td align="center"><p>&nbsp;</p>      </td>
+    <td>A3C</td>
+  </tr>
+</table>
+</div>
+
+<h3>Quality class: Logical consistency</h3>
+
+<div>
+<table>  <tr bgcolor="#CCCCCC">
+    <td width="85" align="center" scope="col">Quality class</td>
+    <td width="83" align="center" scope="col">Quality indicator</td>
+    <td width="283" align="center" scope="col">gmd:DQ_Element</td>
+    <td width="403" align="center" scope="col">Quality measure</td>
+    <td width="211" align="center" scope="col">Domain</td>
+    <td width="323" align="center" scope="col">Metrics</td>
+    <td width="146" align="center" scope="col">Observations</td>
+    <td width="69" align="center" scope="col">Origin</td>
+  </tr>
+  <tr>
+    <td align="center">Logical consistency</td>
+    <td align="center">Conceptual consistency</td>
+    <td align="center">gmd:DQ_ConceptualConsistency</td>
+    <td align="center"><b>Conceptual schema</b>
+          <p><a href="1.0/measure/ConceptualSchema">measure/ConceptualSchema</a></p></td>
+    <td align="center"><p><a href="http://www.qualityml.org/1.0/domain/Conformance">domain/Conformance</a></p>
+    <p><a href="http://www.qualityml.org/1.0/domain/NonConformance">domain/NonConformance</a></p></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/metrics/items">metrics/items</a></td>
+    <td align="center">&nbsp;</td>
+    <td>ISO 19157: Id. 8 + Id. 9 (boolean), Id. 10 + GVQ (count), Id. 12 + Id. 13 (rate)</td>
+  </tr>
+  <tr>
+    <td align="center">Logical consistency</td>
+    <td align="center">Conceptual consistency</td>
+    <td align="center">gmd:DQ_ConceptualConsistency</td>
+    <td align="center"><b>Overlaps of surfaces</b><br>
+              <p><a href="1.0/measure/InvalidOverlapsSurfaces">measure/InvalidOverlapsSurfaces</a></p></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/domain/NonConformance">domain/NonConformance</a></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/metrics/items">metrics/items</a></td>
+    <td align="center">in relation to the overall number of overlap surfaces</td>
+    <td>GVQ (boolean, rate), ISO 19157 Id. 11 (count) </td>
+  </tr>
+  <tr>
+    <td align="center">Logical consistency</td>
+    <td align="center">Domain consistency</td>
+    <td align="center">gmd:DQ_DomainConsistency</td>
+    <td align="center"><p><b>Value domain</b><br/>
+              <p><a href="1.0/measure/ValueDomain">measure/ValueDomain</a></p></td>
+    <td align="center"><p><a href="http://www.qualityml.org/1.0/domain/Conformance">domain/Conformance</a></p>
+    <p><a href="http://www.qualityml.org/1.0/domain/NonConformance">domain/NonConformance</a></p></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/metrics/items">metrics/items</a></td>
+    <td align="center">&nbsp;</td>
+    <td>ISO 19157 Id. 14 + Id. 15 (boolean), Id. 16 + GVQ (count), Id. 17 + Id. 18 (rate)</td>
+  </tr>
+  <tr>
+    <td align="center">Logical consistency</td>
+    <td align="center">Format consistency</td>
+    <td align="center">gmd:DQ_FormatConsistency</td>
+    <td align="center"><b>Physical structure conflicts</b><br>
+                  <p><a href="1.0/measure/PhysicalStructureConflicts">measure/PhysicalStructureConflicts</a></p></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/domain/NonConformance">domain/NonConformance</a></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/metrics/items">metrics/items</a></td>
+    <td align="center">&nbsp;</td>
+    <td>GVQ (boolean), ISO 19157 Id. 119 (boolean), Id. 19 (count), Id. 20 (rate)</td>
+  </tr>
+  <tr>
+    <td align="center">Logical consistency</td>
+    <td align="center">Topological consistency</td>
+    <td align="center">gmd:DQ_TopologicalConsistency</td>
+    <td align="center"><b>Faulty point-curve connections</b><br>
+                      <p><a href="1.0/measure/FaultyPoint-curveConnections">measure/FaultyPoint-curveConnections</a></p></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/domain/NonConformance">domain/NonConformance</a></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/metrics/items">metrics/items</a></td>
+    <td align="center">in relation to the total number of  point-curve connections</td>
+    <td>GVQ (boolean), ISO 19157 Id. 21 (count), Id. 22 (rate)</td>
+  </tr>
+  <tr>
+    <td align="center">Logical consistency</td>
+    <td align="center">Topological consistency</td>
+    <td align="center">gmd:DQ_TopologicalConsistency</td>
+    <td align="center"><b>Missing connections due to undershoots</b><br>
+                          <p><a href="1.0/measure/MissingConnectionsDueUndershoots">measure/MissingConnectionsDueUndershoots</a></p></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/domain/NonConformance">domain/NonConformance</a></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/metrics/items">metrics/items</a></td>
+    <td align="center">in relation to the total number of undershoots</td>
+    <td>GVQ (boolean, rate), ISO 19157 Id. 23 (count)</td>
+  </tr>
+  <tr>
+    <td align="center">Logical consistency</td>
+    <td align="center">Topological consistency</td>
+    <td align="center">gmd:DQ_TopologicalConsistency</td>
+    <td align="center"><b>Missing connections due to overshoots</b><br>
+                              <p><a href="1.0/measure/MissingConnectionsDueOvershoots">measure/MissingConnectionsDueOvershoots</a></p></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/domain/NonConformance">domain/NonConformance</a></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/metrics/items">metrics/items</a></td>
+    <td align="center">in relation to the total number of overshoots</td>
+    <td>GVQ (boolean, rate), ISO 19157 Id. 24 (count)</td>
+  </tr>
+  <tr>
+    <td align="center">Logical consistency</td>
+    <td align="center">Topological consistency</td>
+    <td align="center">gmd:DQ_TopologicalConsistency</td>
+    <td align="center"><b>Slivers</b><br>
+                                  <p><a href="1.0/measure/InvalidSlivers">measure/InvalidSlivers</a></p></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/domain/NonConformance">domain/NonConformance</a></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/metrics/items">metrics/items</a></td>
+    <td align="center">in relation to the total number of slivers</td>
+    <td>GVQ (boolean, rate), ISO 19157 Id. 25 (count)</td>
+  </tr>
+  <tr>
+    <td align="center">Logical consistency</td>
+    <td align="center">Topological consistency</td>
+    <td align="center">gmd:DQ_TopologicalConsistency</td>
+    <td align="center"><b>Self intersects</b><br>
+                                      <p><a href="1.0/measure/InvalidSelfIntersects">measure/InvalidSelfIntersects</a></p></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/domain/NonConformance">domain/NonConformance</a></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/metrics/items">metrics/items</a></td>
+    <td align="center">in relation to the total number of intserctions</td>
+    <td>GVQ (boolean, rate), ISO 19157 Id. 26 (count)</td>
+  </tr>
+  <tr>
+    <td align="center">Logical consistency</td>
+    <td align="center">Topological consistency</td>
+    <td align="center">gmd:DQ_TopologicalConsistency</td>
+    <td align="center"><b>Self overlaps</b><br>
+                                          <p><a href="1.0/measure/InvalidSelfOverlaps">measure/InvalidSelfOverlaps</a></p></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/domain/NonConformance">domain/NonConformance</a></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/metrics/items">metrics/items</a></td>
+    <td align="center">in relation to the total number of overlaps</td>
+    <td>GVQ (boolean, rate), ISO 19157 Id. 27 (count)</td>
+  </tr>
+</table>
+</div>
+
+<h3>Quality class: Positional accuracy</h3>
+
+<div>
+<table>
+  <tr>
+    <td width="85" align="center" scope="col">Quality class</td>
+    <td width="83" align="center" scope="col">Quality indicator</td>
+    <td width="283" align="center" scope="col">gmd:DQ_Element</td>
+    <td width="403" align="center" scope="col">Quality measure</td>
+    <td width="211" align="center" scope="col">Domain</td>
+    <td width="323" align="center" scope="col">Metrics</td>
+    <td width="146" align="center" scope="col">Observations</td>
+    <td width="69" align="center" scope="col">Origin</td>
+  </tr>
+  <tr>
+    <td align="center">Positional accuracy</td>
+    <td align="center">Absolute or external accuracy</td>
+    <td align="center">gmd:DQ_AbsoluteExternalPositionalAccuracy<br/>
+                    gmd:DQ_GriddedDataPositionalAccuracy</td>
+    <td align="center"><p><b>Mean Absolute Error (MAE)</b><br>
+    <p><a href="1.0/measure/MeanAbsoluteError">measure/MeanAbsoluteError</a></p></td>    
+    <td align="center">
+      <a href="http://www.qualityml.org/1.0/domain/DifferentialErrorsX">domain/DifferentialErrorsX</a>, <a href="http://www.qualityml.org/1.0/domain/DifferentialErrorsY">domain/DifferentialErrorsY</a><br />
+      <a href="http://www.qualityml.org/1.0/domain/DifferentialErrors2D">domain/DifferentialErrors2D</a><br />
+      <a href="http://www.qualityml.org/1.0/domain/DifferentialErrors3D">domain/DifferentialErrors3D</a>
+    </td>
+    <td align="center">
+       <a href="http://www.qualityml.org/1.0/metrics/MeanAbsolute">metrics/MeanAbsolute</a><br />
+       <a href="http://www.qualityml.org/1.0/metrics/MeanAbsolute2D">metrics/MeanAbsolute2D</a><br />
+       <a href="http://www.qualityml.org/1.0/metrics/MeanAbsolute3D">metrics/MeanAbsolute3D</a></p>
+    </td>
+    <td align="center">
+      <p>this concept is called &quot;uncertainty&quot; in ISO 19157 </p></td>
+    <td>ISO 19157 Id. 28</td>
+  </tr>
+  <tr>
+    <td align="center">Positional accuracy</td>
+    <td align="center">Absolute or external accuracy</td>
+    <td align="center">gmd:DQ_AbsoluteExternalPositionalAccuracy<br/>
+                    gmd:DQ_GriddedDataPositionalAccuracy</td>
+    <td align="center"><p><b>Mean Absolute Error excluding outliers</b><br>
+    <p><a href="1.0/measure/MeanAbsoluteErrorExcludingOutliers">measure/MeanAbsoluteErrorExcludingOutliers</a></p></td>    
+    <td align="center">
+      <a href="http://www.qualityml.org/1.0/domain/DifferentialErrorsXThreshold">domain/DifferentialErrorsXThreshold</a>, 
+      <a href="http://www.qualityml.org/1.0/domain/DifferentialErrorsYThreshold">domain/DifferentialErrorsYThreshold</a><br />
+      <a href="http://www.qualityml.org/1.0/domain/DifferentialErrors2DThreshold">domain/DifferentialErrors2DThreshold</a><br />
+      <a href="http://www.qualityml.org/1.0/domain/DifferentialErrors2DThreshold">domain/DifferentialErrors3DThreshold</a><br />
+      (level="below")
+    </td>
+    <td align="center">
+       <a href="http://www.qualityml.org/1.0/metrics/MeanAbsolute">metrics/MeanAbsolute</a><br />
+       <a href="http://www.qualityml.org/1.0/metrics/MeanAbsolute2D">metrics/MeanAbsolute2D</a><br />
+       <a href="http://www.qualityml.org/1.0/metrics/MeanAbsolute3D">metrics/MeanAbsolute3D</a></p>
+    </td>
+    <td align="center">&nbsp:</td>
+    <td>ISO 19157 Id. 29</td>
+  </tr>
+  <tr>
+    <td align="center">Positional accuracy</td>
+    <td align="center">Absolute or external accuracy</td>
+    <td align="center">gmd:DQ_AbsoluteExternalPositionalAccuracy<br/>
+                    gmd:DQ_GriddedDataPositionalAccuracy</td>
+    <td align="center"><p><b>Bias of positions</b><br>
+    <p><a href="1.0/measure/BiasOfPositions">measure/BiasOfPositions</a></p></td>    
+    <td align="center">
+      <a href="http://www.qualityml.org/1.0/domain/DifferentialErrorsX">domain/DifferentialErrorsX</a>, <a href="http://www.qualityml.org/1.0/domain/DifferentialErrorsY">domain/DifferentialErrorsY</a><br />
+      <a href="http://www.qualityml.org/1.0/domain/DifferentialErrors2D">domain/DifferentialErrors2D</a><br />
+      <a href="http://www.qualityml.org/1.0/domain/DifferentialErrors3D">domain/DifferentialErrors3D</a>
+    </td>
+    <td align="center">
+    <p><a href="http://www.qualityml.org/1.0/metrics/MeanBias">metrics/MeanBias</a></p>    
+    </td>
+    <td align="center">&nbsp;</td>
+    <td>ISO 19157 Id. 128</td>
+  </tr>
+  <tr>
+    <td align="center">Positional accuracy</td>
+    <td align="center">Absolute or external accuracy</td>
+    <td align="center">gmd:DQ_AbsoluteExternalPositionalAccuracy<br/>
+                    gmd:DQ_GriddedDataPositionalAccuracy</td>
+    <td align="center"><p><b>Uncertainties above a given threshold</b><br>
+                                          <p><a href="1.0/measure/UncertaintiesAboveGivenThreshold">measure/UncertaintiesAboveGivenThreshold</a></p></td>        
+    <td align="center">
+      <a href="http://www.qualityml.org/1.0/domain/DifferentialErrorsXThreshold">domain/DifferentialErrorsXThreshold</a>, 
+      <a href="http://www.qualityml.org/1.0/domain/DifferentialErrorsYThreshold">domain/DifferentialErrorsYThreshold</a><br />
+      <a href="http://www.qualityml.org/1.0/domain/DifferentialErrors2DThreshold">domain/DifferentialErrors2DThreshold</a><br />
+      <a href="http://www.qualityml.org/1.0/domain/DifferentialErrors2DThreshold">domain/DifferentialErrors3DThreshold</a><br />
+      (level="above")
+    </td>
+    <td align="center"><p><a href="http://www.qualityml.org/1.0/metrics/items">metrics/items</a></p></td>
+    <td align="center"><p>this concept is called &quot;uncertainty&quot; in ISO 19157</p></td>
+    <td>ISO 19157 Id. 30, Id. 31</td>
+  </tr>
+  <tr>
+    <td align="center">Positional accuracy</td>
+    <td align="center">Absolute or external accuracy</td>
+    <td align="center">gmd:DQ_AbsoluteExternalPositionalAccuracy<br/>
+                    gmd:DQ_GriddedDataPositionalAccuracy</td>
+    <td align="center"><p><b>Mean Bias Error (MBE)</b><br>
+          <p><a href="1.0/measure/MeanBiasError">measure/MeanBiasError</a>
+    <td align="center">
+      <p><a href="http://www.qualityml.org/1.0/domain/DifferentialErrorsX">domain/DifferentialErrorsX</a></p>
+    <p><a href="http://www.qualityml.org/1.0/domain/DifferentialErrorsY">domain/DifferentialErrorsY</a></p></td>
+    <td align="center">
+      <p><a href="http://www.qualityml.org/1.0/metrics/NormalizedMeanBias">metrics/NormalizedMeanBias</a></p>    </td>
+    <td align="center">
+      <p></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">Positional accuracy</td>
+    <td align="center">Absolute or external accuracy</td>
+    <td align="center">gmd:DQ_AbsoluteExternalPositionalAccuracy<br/>
+                    gmd:DQ_GriddedDataPositionalAccuracy</td>
+    <td align="center"><b>Covariance Matrix</b><br>
+              <p><a href="1.0/measure/CovarianceMatrix">measure/CovarianceMatrix</a>
+    <td align="center"><a href="http://www.qualityml.org/1.0/domain/predictedValues">domain/predictedValues</a><br />
+      <a href="http://www.qualityml.org/1.0/domain/actualValues">domain/actualValues</a><br/>
+(when applied to 2D, 3D, etc, the vector-value random variables are formed by a list starting for the coordinate components of the first coordinate, the coordinate components of the second coordinate and so on)</td>
+    <td align="center"><a href="http://www.uncertml.org/statistics/covariance-matrix">http://www.uncertml.org/statistics/covariance-matrix</a></td>
+    <td align="center">&nbsp;</td>
+    <td>ISO 19157 Id. 32</td>
+  </tr>
+  <tr>
+    <td align="center">Positional accuracy</td>
+    <td align="center">Absolute or external accuracy</td>
+    <td align="center">gmd:DQ_AbsoluteExternalPositionalAccuracy<br/>
+                    gmd:DQ_GriddedDataPositionalAccuracy</td>
+    <td align="center"><b>Confidence ellipse</b><br/>
+      <p><a href="1.0/measure/ConfidenceEllipse">measure/ConfidenceEllipse</a><br>
+      </td>
+    <td align="center"><p><a href="http://www.qualityml.org/1.0/domain/predictedValues">domain/predictedValues</a><br />
+        <a href="http://www.qualityml.org/1.0/domain/actualValues">domain/actualValue</a><br>
+      (applied to 2D)
+    
+    </td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/metrics/ConfidenceEllipse">metrics/ConfidenceEllipse</a></td>
+    <td align="center"><p>confidence: uncertainty ellipse (68.3% --&gt; 1), confidence at 95%--&gt; 5.99,  confidence at 99%--&gt; 9.21)</p>      </td>
+    <td>ISO 19157 Id. 50, Id. 51</td>
+  </tr>
+  <tr>
+    <td align="center">Positional accuracy</td>
+    <td align="center">Absolute or external accuracy</td>
+    <td align="center">gmd:DQ_AbsoluteExternalPositionalAccuracy<br/>
+                    gmd:DQ_GriddedDataPositionalAccuracy</td>
+    <td align="center"><p><b>Linear Map Accuracy</b><br>
+          <p><a href="1.0/measure/LinearMapAccuracy">measure/LinearMapAccuracy</a>
+    <td align="center">
+      <p><a href="http://www.qualityml.org/1.0/domain/DifferentialErrorsX">domain/DifferentialErrorsX</a></p>
+    <p><a href="http://www.qualityml.org/1.0/domain/DifferentialErrorsY">domain/DifferentialErrorsY</a></p></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/metrics/Half-lengthConfidenceInterval">metrics/Half-lengthConfidenceInterval</a></td>
+    <td align="center">Common confidence intervals: 50%, 68.3%, 90%, 95%, 99%, 99.8%</td>
+    <td>ISO 19157 Id. 33, Id. 34, Id. 35, Id. 36, Id. 37, Id. 38</td>
+  </tr>
+  <tr>
+    <td align="center">Positional accuracy</td>
+    <td align="center">Absolute or external accuracy</td>
+    <td align="center">gmd:DQ_AbsoluteExternalPositionalAccuracy<br/>
+                    gmd:DQ_GriddedDataPositionalAccuracy</td>
+    <td align="center"><p><b>Root mean square</b>    
+          <p><a href="1.0/measure/RootMeanSquare">measure/RootMeanSquare</a>
+    <td align="center">
+      <p><a href="http://www.qualityml.org/1.0/domain/DifferentialErrorsX">domain/DifferentialErrorsX</a></p>
+    <p><a href="http://www.qualityml.org/1.0/domain/DifferentialErrorsY">domain/DifferentialErrorsY</a></p></td>
+    <td align="center"><p><a href="http://www.qualityml.org/1.0/metrics/RootMeanSquareError">metrics/RootMeanSquareError</a></p>
+    <p><a href="http://www.qualityml.org/1.0/metrics/NormalizedRootMeanSquareError">metrics/NormalizedRootMeanSquareError</a></p>
+    <p><a href="http://www.qualityml.org/1.0/metrics/CoefficientOfVariationRootMeanSquareError">metrics/CoefficientOfVariationRootMeanSquareError</a></p></td>
+    <td align="center"></td>
+    <td>ISO 19157 Id. 39</td>
+  </tr>
+  <tr>
+    <td align="center">Positional accuracy</td>
+    <td align="center">Absolute or external accuracy</td>
+    <td align="center">gmd:DQ_AbsoluteExternalPositionalAccuracy<br/>
+                    gmd:DQ_GriddedDataPositionalAccuracy</td>
+    <td align="center"><p><b>Root mean square</b></p>
+      <p><a href="1.0/measure/RootMeanSquare">measure/RootMeanSquare</a><br/>     
+        <a href="http://www.qualityml.org/1.0/domain/DifferentialErrors2D"></a></p></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/domain/DifferentialErrors2D">domain/DifferentialErrors2D</a></td>
+    <td align="center"><p><a href="http://www.qualityml.org/1.0/metrics/RootMeanSquareError2D">metrics/RootMeanSquareError2D</a></p>    </td>
+    <td align="center"></td>
+    <td>ISO 19157 Id. 47</td>
+  </tr>
+  <tr>
+    <td align="center">Positional accuracy</td>
+    <td align="center">Absolute or external accuracy</td>
+    <td align="center">gmd:DQ_AbsoluteExternalPositionalAccuracy<br/>
+                    gmd:DQ_GriddedDataPositionalAccuracy</td>
+    <td align="center"><p><b>Root mean square</b></p>
+      <p><a href="1.0/measure/RootMeanSquare">measure/RootMeanSquare</a><br/>      
+        <a href="http://www.qualityml.org/1.0/domain/DifferentialErrors3D"></a></p></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/domain/DifferentialErrors3D">domain/DifferentialErrors3D</a></td>
+    <td align="center"><p><a href="http://www.qualityml.org/1.0/metrics/RootMeanSquareError3D">metrics/RootMeanSquareError3D</a></p>    </td>
+    <td align="center">&nbsp;</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td align="center">Positional accuracy</td>
+    <td align="center">Absolute or external accuracy</td>
+    <td align="center">gmd:DQ_AbsoluteExternalPositionalAccuracy<br/>
+                    gmd:DQ_GriddedDataPositionalAccuracy</td>
+    <td align="center"><p><b>Absolute linear error at 90% significance level. Alternative1</b><br/>
+      <p><a href="1.0/measure/AbsoluteLinearError90_SignificanceLevel_Alternative1">measure/AbsoluteLinearError90_SignificanceLevel_Alternative1</a><br/></td>      
+    <td align="center"><p><a href="http://www.qualityml.org/1.0/domain/DifferentialErrorsX">domain/DifferentialErrorsX</a></p>
+      <p><a href="http://www.qualityml.org/1.0/domain/DifferentialErrorsY">domain/DifferentialErrorsY</a></p></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/metrics/LMAS">metrics/LMAS</a></td>
+    <td align="center">&nbsp;</td>
+    <td>ISO 19157 Id. 40</td>
+  </tr>
+  <tr>
+    <td align="center">Positional accuracy</td>
+    <td align="center">Absolute or external accuracy</td>
+    <td align="center">gmd:DQ_AbsoluteExternalPositionalAccuracy<br/>
+                    gmd:DQ_GriddedDataPositionalAccuracy</td>
+    <td align="center"><p><b>Absolute linear error at 90% significance level. Alternative2</b><br/>
+      <p><a href="1.0/measure/AbsoluteLinearError90_SignificanceLevel_Alternative2">measure/AbsoluteLinearError90_SignificanceLevel_Alternative2</a><br/></td>     
+    <td align="center"><p><a href="http://www.qualityml.org/1.0/domain/DifferentialErrorsX">domain/DifferentialErrorsX</a></p>
+      <p><a href="http://www.qualityml.org/1.0/domain/DifferentialErrorsY">domain/DifferentialErrorsY</a></p></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/metrics/ALE">metrics/ALE</a></td>
+    <td align="center">&nbsp;</td>
+    <td><p>ISO 19157 Id. 41</p>      </td>
+  </tr>
+  <tr>
+    <td align="center">Positional accuracy</td>
+    <td align="center">Absolute or external accuracy</td>
+    <td align="center">gmd:DQ_AbsoluteExternalPositionalAccuracy<br/>
+                    gmd:DQ_GriddedDataPositionalAccuracy</td>
+    <td align="center"><p><b>Circular Map Accuracy</b><br/>
+      <p><a href="1.0/measure/CircularMapAccuracy">measure/CircularMapAccuracy</a><br/></td>     
+    <td align="center"><a href="http://www.qualityml.org/1.0/domain/DifferentialErrors2D">domain/DifferentialErrors2D</a></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/metrics/CircularError">metrics/CircularError</a></td>
+    <td align="center">Common confidence intervals: 39.4%, 50%, 90%, 95%, 99.8%</td>
+    <td>ISO 19157 Id. 42 (39.4%), Id. 43 (50%), Id. 44 (90%), Id. 45 (95%), Id. 46 (99.8%)</td>
+  </tr>
+  <tr>
+    <td align="center">Positional accuracy</td>
+    <td align="center">Absolute or external accuracy</td>
+    <td align="center">gmd:DQ_AbsoluteExternalPositionalAccuracy<br/>
+                    gmd:DQ_GriddedDataPositionalAccuracy</td>
+    <td align="center"><p><b>Absolute circular error at 90% significance level. Alternative1</b><br/>
+      <p><a href="1.0/measure/AbsoluteCircularError90_SignificanceLevel_Alternative1">measure/AbsoluteCircularError90_SignificanceLevel_Alternative1</a><br/></td>    
+    <td align="center"><a href="http://www.qualityml.org/1.0/domain/DifferentialErrors2D">domain/DifferentialErrors2D</a></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/metrics/ACE">metrics/ACE</a><a href="http://www.qualityml.org/1.0/metrics/CMAS"></a></td>
+    <td align="center">&nbsp;</td>
+    <td>ISO 19157  Id. 48</td>
+  </tr>
+  <tr>
+    <td align="center">Positional accuracy</td>
+    <td align="center">Absolute or external accuracy</td>
+    <td align="center">gmd:DQ_AbsoluteExternalPositionalAccuracy<br/>
+                    gmd:DQ_GriddedDataPositionalAccuracy</td>
+    <td align="center"><p><b>Absolute circular error at 90% significance level. Alternative2</b><br/>
+      <p><a href="1.0/measure/AbsoluteCircularError90_SignificanceLevel_Alternative2">measure/AbsoluteCircularError90_SignificanceLevel_Alternative2</a><br/></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/domain/DifferentialErrors2D">domain/DifferentialErrors2D</a></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/metrics/CMAS">metrics/CMAS</a><a href="http://www.qualityml.org/1.0/metrics/ACE"></a></td>
+    <td align="center">&nbsp;</td>
+    <td>ISO 19157  Id. 49</td>
+  </tr>
+  <tr>
+    <td align="center">Positional accuracy</td>
+    <td align="center">Relative or internal accuracy</td>
+    <td align="center">gmd:DQ_RelativeInternalPositionalAccuracy</td>
+    <td align="center"><p><b>Relative Error</b><br/>
+      <p><a href="1.0/measure/RelativeError">measure/RelativeError</a><br/></td>    
+    <td align="center">
+      <p><a href="http://www.qualityml.org/1.0/domain/DifferentialErrorsX">domain/DifferentialErrorsX</a></p>
+      <p><a href="http://www.qualityml.org/1.0/domain/DifferentialErrorsY">domain/DifferentialErrorsY</a></p></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/metrics/RelativeError">metrics/RelativeError</a></td>
+    <td align="center">confidence 68.3% --&gt; 1, 90%--&gt;1.645</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">Positional accuracy</td>
+    <td align="center">Relative or internal accuracy</td>
+    <td align="center">gmd:DQ_RelativeInternalPositionalAccuracy</td>
+    <td align="center"><p><b>Relative Error</b></p>
+      <p><a href="1.0/measure/RelativeError">measure/RelativeError</a><br/></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/domain/DifferentialErrors2D">domain/DifferentialErrors2D</a></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/metrics/RelativeError2D">metrics/RelativeError2D</a></td>
+    <td align="center">confidence 68.3% --&gt; 1, 90%--&gt;2.146</td>
+    <td>ISO 19157  Id. 53</td>
+  </tr>
+</table>
+</div>
+Please note that ISO 19157  Id. 52 has not been included in this table yet since is defined "vertical".
+
+<h3>Quality class: Temporal quality</h3>
+
+<div>
+<table>
+  <tr>
+    <td width="85" align="center" scope="col">Quality class</td>
+    <td width="83" align="center" scope="col">Quality indicator</td>
+    <td width="283" align="center" scope="col">gmd:DQ_Element</td>
+    <td width="403" align="center" scope="col">Quality measure</td>
+    <td width="211" align="center" scope="col">Domain</td>
+    <td width="323" align="center" scope="col">Metrics</td>
+    <td width="146" align="center" scope="col">Observations</td>
+    <td width="69" align="center" scope="col">Origin</td>
+  </tr>
+  <tr>
+    <td align="center">Temporal quality</td>
+    <td align="center">Accuracy of a time measurement</td>
+    <td align="center">gmd:DQ_AccuracyOfATimeMeasurement</td>
+    <td align="center"><b>Time accuracy</b><br/>
+      <p><a href="1.0/measure/TimeAccuracy">measure/TimeAccuracy</a><br/></td>
+    <td align="center"><p><a href="http://www.qualityml.org/1.0/domain/DifferentialErrors1D">domain/DifferentialErrors1D</a></p></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/metrics/Half-lengthConfidenceInterval">metrics/Half-lengthConfidenceInterval</a></td>
+    <td align="center">Common confidence intervals: 50%, 68.3%, 90%, 95%, 99%, 99.8%</td>
+    <td>ISO 19157 Id. 54, Id. 55, Id. 56, Id. 57, Id. 58, Id. 59</td>
+  </tr>
+  <tr>
+    <td align="center">Temporal quality</td>
+    <td align="center">Temporal validity</td>
+    <td align="center">gmd:DQ_TemporalValidity</td>
+    <td align="center"><p><b>Value domain</b><br/>
+    <p><a href="1.0/measure/ValueDomain">measure/ValueDomain</a><br/></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/domain/Conformance">domain/Conformance</a><br />
+      <a href="http://www.qualityml.org/1.0/domain/NonConformance">domain/NonConformance</a></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/metrics/items">metrics/items</a></td>
+    <td align="center">&nbsp;</td>
+    <td>ISO 19157 Id. 14 + Id.15 (boolean), Id.16 + GVQ (count), Id.17 + Id.18 (rate)</td>
+  </tr>
+  <tr>
+    <td align="center">Temporal quality</td>
+    <td align="center">Temporal consistency</td>
+    <td align="center">gmd:DQ_TemporalConsistency</td>
+    <td align="center"><p><strong>Chronological Error</strong><br>
+    	<a href="http://www.qualityml.org/1.0/measure/ChronologicalError">measure/ChronologicalError</a></p></td>
+    </td>    
+    <td align="center">TBD</td>
+    <td align="center">TBD</td>
+    <td align="center">&nbsp;</td>
+    <td>ISO 19157 Id. 159</td>
+  </tr>
+</table>
+</div>
+
+<h3>Quality class: Thematic accuracy</h3>
+<div>
+<table>
+  <tr>
+    <td width="85" align="center" scope="col">Quality class</td>
+    <td width="83" align="center" scope="col">Quality indicator</td>
+    <td width="283" align="center" scope="col">gmd:DQ_Element</td>
+    <td width="403" align="center" scope="col">Quality measure</td>
+    <td width="211" align="center" scope="col">Domain</td>
+    <td width="323" align="center" scope="col">Metrics</td>
+    <td width="146" align="center" scope="col">Observations</td>
+    <td width="69" align="center" scope="col">Origin</td>
+  </tr>
+  <tr>
+    <td align="center">Thematic accuracy</td>
+    <td align="center">Classification correctness</td>
+    <td align="center">gmd:DQ_ThematicClassificationCorrectness</td>
+    <td align="center"><b>Misclassification</b><br>
+    <p><a href="1.0/measure/Misclassification">measure/Misclassification</a><br/></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/domain/predictedValues">domain/predictedValues</a><br />
+      <a href="http://www.qualityml.org/1.0/domain/actualValues">domain/actualValues</a></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/metrics/items">metrics/items</a><br/>
+      <a href="http://www.uncertml.org/statistics/confusion-matrix">http://www.uncertml.org/statistics/confusion-matrix</a><br/>
+
+      <a href="http://www.qualityml.org/1.0/metricsAggregation\ConfusionMatrixDerivates">metricsAggregation\ConfusionMatrixDerivates</a><br/>
+      <a href="http://www.qualityml.org/1.0/metrics/ConfusionMatrix">metrics/ConfusionMatrix</a><br/>
+      <a href="http://www.qualityml.org/1.0/metrics/RelativeConfusionMatrix">metrics/RelativeConfusionMatrix</a><br/>
+      <a href="http://www.qualityml.org/1.0/metrics/KappaCoefficient">metrics/KappaCoefficient</a><br/>
+      <a href="http://www.qualityml.org/1.0/metrics/OmissionError">metrics/OmissionError</a><br/>
+      <a href="http://www.qualityml.org/1.0/metrics/Reliability">metrics/Reliability</a><br/>
+      <a href="http://www.qualityml.org/1.0/metrics/AverageReliability">metrics/AverageReliability</a><br/>
+      <a href="http://www.qualityml.org/1.0/metrics/CommissionError">metrics/CommissionError</a><br/>
+      <a href="http://www.qualityml.org/1.0/metrics/Accuracy">metrics/Accuracy</a><br/>
+      <a href="http://www.qualityml.org/1.0/metrics/AverageAccuracy">metrics/AverageAccuracy</a><br/>
+      <a href="http://www.qualityml.org/1.0/metrics/OverallAccuracy">metrics/OverallAccuracy</a><br/><br/>
+
+      <a href="http://www.qualityml.org/1.0/metricsAggregation\DiscreteClassification">metricsAggregation\DiscreteClassification</a><br/>
+      <a href="http://www.qualityml.org/1.0/metrics/DiscreteConfusionMatrix">metrics/DiscreteConfusionMatrix</a><br/>
+      <a href="http://www.qualityml.org/1.0/metrics/Sensitivity">metrics/Sensitivity</a><br/>
+      <a href="http://www.qualityml.org/1.0/metrics/Specificity">metrics/Specificity</a><br/>
+      <a href="http://www.qualityml.org/1.0/metrics/TruePositive">metrics/TruePositive</a><br/>
+      <a href="http://www.qualityml.org/1.0/metrics/TrueNegative">metrics/TrueNegative</a><br/>
+      <a href="http://www.qualityml.org/1.0/metrics/FalsePositive">metrics/FalsePositive</a><br/>
+      <a href="http://www.qualityml.org/1.0/metrics/FalseNegative">metrics/FalseNegative</a><br/>
+      <a href="http://www.qualityml.org/1.0/metrics/FalsePositiveRate">metrics/FalsePositiveRate</a><br/>
+      <a href="http://www.qualityml.org/1.0/metrics/PositivePredictiveValue">metrics/PositivePredictiveValue</a><br/>
+      <a href="http://www.qualityml.org/1.0/metrics/NegativePredictiveValue">metrics/FalseDiscoveryRate</a><br/>
+    <a href="http://www.qualityml.org/1.0/metrics/MatthewsCorrelationCoefficient">metrics/MatthewsCorrelationCoefficient</a><br/>
+      <a href="http://www.qualityml.org/1.0/metrics/AreaUnderROCCurve">metrics/AreaUnderROCCurve</a><br/></td>
+    <td align="center"><p>&nbsp;</p>      </td>
+    <td>GVQ (boolean), ISO 19157 Id. 60 (count), Id. 61 (rate), Id. 62 (confusion matrix, count), Id. 63 (confusion matrix, rate), Id. 64 (Kappa coefficient)</td>
+  </tr>
+  <tr>
+    <td align="center">Thematic accuracy</td>
+    <td align="center">Non-quantitative attribute correctness</td>
+    <td align="center">gmd:DQ_NonQuantitativeAttributeAccuracy</td>
+    <td align="center"><p><b>Categorical attributes</b></p>
+      <p><a href="1.0/measure/ValueDomain">measure/ValueDomain</a><br/>
+      </p></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/domain/Conformance">domain/Conformance</a><br />
+      <a href="http://www.qualityml.org/1.0/domain/NonConformance">domain/NonConformance</a></td>
+    <td align="center"><p><a href="http://www.qualityml.org/1.0/metrics/items">metrics/items</a></p>	</td>
+    <td align="center"><p>&nbsp;</p>      </td>
+    <td><p>GVQ (boolean), ISO 19157 Id. 65 (count), Id. 67 + Id. 66 (rate)</p>      </td>
+  </tr>
+  <tr>
+    <td align="center">Thematic accuracy</td>
+    <td align="center">Non-quantitative attribute correctness</td>
+    <td align="center">gmd:DQ_NonQuantitativeAttributeAccuracy</td>
+    <td align="center"><p><b>Categorical attribute proportions</b></p>
+      <p><a href="1.0/measure/ValueDomain">measure/ValueDomain</a><br/>
+    List of attributes assigned to a geometric object (e.g. polygon)</p></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/domain/predictedValues">domain/predictedValues</a></td>
+    <td align="center"><p><a href="http://www.qualityml.org/1.0/metrics/items">metrics/items</a></p>
+      <p><a href="http://www.qualityml.org/1.0/metrics/Purity">metrics/Purity</a></p>    </td>
+    <td align="center"><p>&nbsp;</p>      </td>
+    <td><p>GVQ</p></td>
+  </tr>
+  <tr>
+    <td align="center">Thematic accuracy</td>
+    <td align="center">Non-quantitative attribute correctness</td>
+    <td align="center">gmd:DQ_NonQuantitativeAttributeAccuracy</td>
+    <td align="center"><p><b>Categorical misclassification</b><br/>
+    <p><a href="1.0/measure/CategoricalCorrespondence">measure/CategoricalCorrespondence</a><br/></td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/domain/predictedValues">domain/predictedValues</a><br />
+      <a href="http://www.qualityml.org/1.0/domain/actualValues">domain/actualValues</a></td>
+    <td align="center"><p><a href="http://www.qualityml.org/1.0/metrics/CorrespondenceMatrix">metrics/CorrespondenceMatrix</a></p>
+    <p><a href="http://www.qualityml.org/1.0/metrics/RelativeCorrespondenceMatrix">metrics/RelativeCorrespondenceMatrix</a></p>
+      <p><a href="http://www.qualityml.org/1.0/metrics/NumberMajorCategories">metrics/NumberMajorCategories</a></p>
+      <p><a href="http://www.qualityml.org/1.0/metrics/Promiscuity">metrics/Promiscuity</a></p>    </td>
+    <td align="center">A Remote sensing hybrid classification method uses the Fidelity matrix to assigns a spectral class to the thematic class which the highest fidelity. A fidelity and representative thresholds may be defined; therefore items in spectral classes in which all fidelities are is below a threshold will not be assigned to any thematic class and therefore resulting in non-classified items (NODATA pixels) and thematic classes in which all representatibities are is below a threshold are discarded.</td>
+    <td><p>GVQ</p></td>
+  </tr>
+  <tr>
+    <td align="center">Thematic accuracy</td>
+    <td align="center">Quantitative attribute correctness</td>
+    <td align="center">gmd:DQ_QuantitativeAttributeAccuracy </td>
+    <td align="center"><p><b>Root mean square</b>    
+          <p><a href="1.0/measure/RootMeanSquare">measure/RootMeanSquare</a>
+    <td align="center">
+      <p><a href="http://www.qualityml.org/1.0/domain/DifferentialErrors1D">domain/DifferentialErrors1D</a></p>
+    </td>
+    <td align="center"><p><a href="http://www.qualityml.org/1.0/metrics/RootMeanSquareError">metrics/RootMeanSquareError</a></p>
+    <p><a href="http://www.qualityml.org/1.0/metrics/NormalizedRootMeanSquareError">metrics/NormalizedRootMeanSquareError</a></p>
+    <p><a href="http://www.qualityml.org/1.0/metrics/CoefficientOfVariationRootMeanSquareError">metrics/CoefficientOfVariationRootMeanSquareError</a></p></td>
+    <td align="center">&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">Thematic accuracy</td>
+    <td align="center">Quantitative attribute correctness</td>
+    <td align="center">gmd:DQ_QuantitativeAttributeAccuracy </td>
+    <td align="center"><p><b>Mean Absolute Error (MAE)</b>    
+      <p><a href="1.0/measure/MeanAbsoluteError">measure/MeanAbsoluteError</a><br>
+      </td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/domain/DifferentialErrors1D">domain/DifferentialErrors1D</a></td>
+    <td align="center"><p><a href="http://www.qualityml.org/1.0/metrics/MeanAbsolute">metrics/MeanAbsolute</a></p></td>
+    <td align="center">&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">Thematic accuracy</td>
+    <td align="center">Quantitative attribute correctness</td>
+    <td align="center">gmd:DQ_QuantitativeAttributeAccuracy </td>
+    <td align="center"><p><b>Mean Bias Error (MBE)</b><br>
+          <p><a href="1.0/measure/MeanBiasError">measure/MeanBiasError</a>
+    <td align="center">
+      <p><a href="http://www.qualityml.org/1.0/domain/DifferentialErrors1D">domain/DifferentialErrors1D</a></p></td>
+    <td align="center">
+      <p><a href="http://www.qualityml.org/1.0/metrics/NormalizedMeanBias">metrics/NormalizedMeanBias</a></p>    </td>
+    <td align="center">&nbsp;
+      </td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">Thematic accuracy</td>
+    <td align="center">Quantitative attribute correctness</td>
+    <td align="center">gmd:DQ_QuantitativeAttributeAccuracy </td>
+    <td align="center"><b>Quantitative attribute correctness</b>
+        <p><a href="1.0/measure/QuantitativeAttributeCorrectness">measure/QuantitativeAttributeCorrectness</a><br/>
+      </p></td>
+    <td align="center"><p><a href="http://www.qualityml.org/1.0/domain/DifferentialErrors1D">domain/DifferentialErrors1D</a></p></td>
+    <td align="center"><p><a href="http://www.qualityml.org/1.0/metrics/Half-lengthConfidenceInterval">metrics/Half-lengthConfidenceInterval</a><br />
+            <a href="http://www.uncertml.org/statistics/correlation">http://www.uncertml.org/statistics/correlation</a> (also known as Pearson Coefficient <i>r</i>)<br />
+            <a href="http://www.qualityml.org/1.0/metrics/CoefficientOfDetermination">metrics/CoefficientOfDetermination</a><br /></p></td>
+    <td align="center">For the Half-lengthConfidenceInterval the common confidence intervals are: 50%, 68.3%, 90%, 95%, 99%, 99.8%</td>
+    <td>ISO 19157 Id. 68, Id. 69, Id. 70, Id. 71, Id. 72, Id. 73</td>
+  </tr>
+  <tr>
+    <td align="center">Thematic accuracy</td>
+    <td align="center">Quantitative attribute correctness</td>
+    <td align="center">gmd:DQ_QuantitativeAttributeAccuracy </td>
+    <td align="center"><b>SubSetting sampling stability</b>
+        <p><a href="1.0/measure/SubSettingSamplingStability">measure/SubSettingSamplingStability</a><br/>
+      </p></td>
+    <td align="center"><p><a href="http://www.uncertml.org/samples/random">http://www.uncertml.org/samples/random</a></p></td>
+    <td align="center"><p><a href="http://www.uncertml.org/statistics/variance">http://www.uncertml.org/statistics/variance</a></td>
+    <td align="center"></td>
+    <td>Climatic Atlas Of the Iberian Peninsula</td>
+  </tr>
+  <tr>
+    <td align="center">Thematic accuracy</td>
+    <td align="center">Quantitative attribute correctness</td>
+    <td align="center">gmd:DQ_QuantitativeAttributeAccuracy </td>
+    <td align="center"><strong>Extrapolated Areas</strong><br/>
+	<a href="http://www.qualityml.org/1.0/measure/ExtrapolatedAreas">measure/ExtrapolatedAreas</a><br/>
+    </td>
+    <td align="center">&nbsp;</td>
+    <td align="center"><a href="http://www.qualityml.org/1.0/metrics/items">metrics/items</a></td>
+    <td align="center">&nbsp;</td>
+    <td>GVQ</td>
+  </tr>
+</table>
+</div>
+

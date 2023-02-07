@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="/qualityml.css" />
+    <script type="text/javascript" src="/qualityml.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="/css4/bootstrap.min.css" rel="stylesheet"/>	
+
+    <!-- Custom styles for this template--> 
+	
+     <!-- Estils del projecte -->
+    <link href="/css4/miramon.css" rel="stylesheet"/>	
+	<script type="text/javascript" src="/qualityml.js"></script>
+</head>
+
+<body onLoad="CarregaQualityMLjson();">
+<div class="container">
+<div class="text-justify">	
+<a href="/"><img src="/qualityml.png" border="0"/></a>
+<hr />
+
+
+<h3 class="prettyprint">Missing Quality Measure example</h3>
+<h3 class="prettyprint"><em>Indicator</em><br />
+</h3>
+<pre class="prettyprint">
+&lt;gmd19157:report&gt;<br />	&lt;gmd19157:DQ_CompletenessOmission&gt;<br />		&lt;measureName&gt;Missing&lt;/measureName&gt;<br />		&lt;gmd:result&gt;<br />			&lt;gmd:DQ_QuantitativeResult&gt;<br />				&lt;gmd:valueType&gt;<br />					&lt;gco:RecordType xlink:href=&quot;://qthesaurus.geoviqua.org/statistics/items&quot;&gt;Indicatot  of missing items&lt;/gco:RecordType&gt;<br />				&lt;/gmd:valueType&gt;<br />				&lt;gmd:valueUnit xlink:href=&quot;urn:ogc:def:uom:OGC:1.0:meter&quot;/&gt;<br />				&lt;gmd:value&gt;<br />					&lt;gco:Record&gt;<br />						&lt;qth:Items level=&quot;error&quot; xmlns:qth=&quot;http://qthesaurus.geoviqua.org/1.0&quot;&gt;<br />							&lt;qth:indicator&gt;true&lt;/qth:indicator&gt;<br />						&lt;/qth:Items&gt;<br />					&lt;/gco:Record&gt;<br />				&lt;/gmd:value&gt;<br />			&lt;/gmd:DQ_QuantitativeResult&gt;<br />		&lt;/gmd:result&gt;<br />	&lt;/gmd19157:DQ_CompletenessOmission&gt;<br />&lt;/gmd19157:report&gt;
+</pre>
+<h3 class="prettyprint"> <em>Count</em><br />
+</h3>
+<pre class="prettyprint">
+&lt;gmd19157:report&gt;<br />	&lt;gmd19157:DQ_CompletenessOmission&gt;<br />		&lt;measureName&gt;Missing&lt;/measureName&gt;<br />		&lt;gmd:result&gt;<br />			&lt;gmd:DQ_QuantitativeResult&gt;<br />				&lt;gmd:valueType&gt;<br />					&lt;gco:RecordType xlink:href=&quot;http://qthesaurus.geoviqua.org/statistics/items&quot;&gt;Number of missing items&lt;/gco:RecordType&gt;<br />				&lt;/gmd:valueType&gt;<br />				&lt;gmd:valueUnit xlink:href=&quot;urn:ogc:def:uom:OGC:1.0:metre&quot;/&gt;<br />				&lt;gmd:value&gt;<br />					&lt;gco:Record&gt;<br />						&lt;qth:Items level=&quot;error&quot; xmlns:qth=&quot;http://qthesaurus.geoviqua.org/1.0&quot;&gt;<br />							&lt;qth:count&gt;60&lt;/qth:count&gt;<br />						&lt;/qth:Items&gt;<br />					&lt;/gco:Record&gt;<br />				&lt;/gmd:value&gt;<br />			&lt;/gmd:DQ_QuantitativeResult&gt;<br />		&lt;/gmd:result&gt;<br />	&lt;/gmd19157:DQ_CompletenessOmission&gt;<br />&lt;/gmd19157:report&gt;
+</pre>
+<h3 class="prettyprint"> <em>Rate</em><br />
+</h3>
+<pre class="prettyprint">
+&lt;gmd19157:report&gt;<br />	&lt;gmd19157:DQ_CompletenessOmission&gt;<br />		&lt;measureName&gt;Missing&lt;/measureName&gt;<br />		&lt;gmd:result&gt;<br />			&lt;gmd:DQ_QuantitativeResult&gt;<br />				&lt;gmd:valueType&gt;<br />					&lt;gco:RecordType xlink:href=&quot;://qthesaurus.geoviqua.org/statistics/items&quot;&gt;Rate of missing items&lt;/gco:RecordType&gt;<br />				&lt;/gmd:valueType&gt;<br />				&lt;gmd:valueUnit xlink:href=&quot;urn:ogc:def:uom:OGC:1.0:metre&quot;/&gt;<br />				&lt;gmd:value&gt;<br />					&lt;gco:Record&gt;<br />						&lt;qth:Items level=&quot;error&quot; xmlns:qth=&quot;http://qthesaurus.geoviqua.org/1.0&quot;&gt;<br />							&lt;qth:rate max=&quot;1&quot;&gt;0.333&lt;/qth:rate&gt;<br />						&lt;/qth:Items&gt;<br />					&lt;/gco:Record&gt;<br />				&lt;/gmd:value&gt;<br />			&lt;/gmd:DQ_QuantitativeResult&gt;<br />		&lt;/gmd:result&gt;<br />	&lt;/gmd19157:DQ_CompletenessOmission&gt;<br />&lt;/gmd19157:report&gt;</pre>
+</div>
+</div>
+</body>
+</html>

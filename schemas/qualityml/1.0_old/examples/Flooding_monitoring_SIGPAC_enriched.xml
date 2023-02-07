@@ -1,0 +1,1494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gvq:GVQ_Metadata xmlns:updated19115="http://www.geoviqua.org/19115_updates" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gvq="http://www.geoviqua.org/QualityInformationModel/4.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmd19157="http://www.geoviqua.org/gmd19157" xmlns:un="http://www.uncertml.org/2.0" xmlns:qml="http://www.qualityml.org/1.0" 
+xsi:schemaLocation="http://www.geoviqua.org/QualityInformationModel/4.0 http://schemas.geoviqua.org/GVQ/4.0/GeoViQua_PQM_UQM.xsd http://www.uncertml.org/2.0 http://www.qualityml.org/schemas/uncertml/2.0/uncertml.xsd http://www.qualityml.org/1.0 http://www.qualityml.org/schemas/qualityml/1.0/qualityml.xsd" id="dataset_MD">
+<!--For local addreces:
+xsi:schemaLocation="http://www.isotc211.org/2005/gmx ../../../iso/19139/20070417/gmx/gmx.xsd http://www.geoviqua.org/QualityInformationModel/4.0 ../../../GVQ/4.0/GeoViQua_PQM_UQM.xsd http://www.uncertml.org/2.0 ../../../uncertml/2.0/uncertml.xsd http://www.qualityml.org/1.0 ../qualityml.xsd" id="dataset_MD"-->
+	<gmd:fileIdentifier>
+		<gco:CharacterString>Flooding0607</gco:CharacterString>
+	</gmd:fileIdentifier>
+	<gmd:language>
+		<gco:CharacterString>eng</gco:CharacterString>
+	</gmd:language>
+	<gmd:characterSet>
+		<gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_CharacterSetCode" codeListValue="utf8"/>
+	</gmd:characterSet>
+	<gmd:hierarchyLevel>
+		<gmd:MD_ScopeCode codeListValue="dataset" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ScopeCode"/>
+	</gmd:hierarchyLevel>
+	<gmd:contact>
+		<gmd:CI_ResponsibleParty id="PS_UAB">
+			<gmd:individualName>
+				<gco:CharacterString>Pere Serra</gco:CharacterString>
+			</gmd:individualName>
+			<gmd:organisationName>
+				<gco:CharacterString>Geography Department (Universitat Autònoma de Barcelona)</gco:CharacterString>
+			</gmd:organisationName>
+			<gmd:positionName>
+				<gco:CharacterString>Lecturer</gco:CharacterString>
+			</gmd:positionName>
+			<gmd:contactInfo>
+				<gmd:CI_Contact>
+					<gmd:address>
+						<gmd:CI_Address>
+							<gmd:electronicMailAddress>
+								<gco:CharacterString>pere.serra@uab.cat</gco:CharacterString>
+							</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+					</gmd:address>
+				</gmd:CI_Contact>
+			</gmd:contactInfo>
+			<gmd:role>
+				<gmd:CI_RoleCode codeListValue="processor" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+			</gmd:role>
+		</gmd:CI_ResponsibleParty>
+	</gmd:contact>
+	<gmd:contact>
+		<gmd:CI_ResponsibleParty id="AZ_UAB">
+			<gmd:individualName>
+				<gco:CharacterString>Alaitz Zabala</gco:CharacterString>
+			</gmd:individualName>
+			<gmd:organisationName>
+				<gco:CharacterString>Geography Department (Universitat Autònoma de Barcelona)</gco:CharacterString>
+			</gmd:organisationName>
+			<gmd:positionName>
+				<gco:CharacterString>Lecturer</gco:CharacterString>
+			</gmd:positionName>
+			<gmd:contactInfo>
+				<gmd:CI_Contact>
+					<gmd:address>
+						<gmd:CI_Address>
+							<gmd:electronicMailAddress>
+								<gco:CharacterString>alaitz.zabala@uab.cat</gco:CharacterString>
+							</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+					</gmd:address>
+				</gmd:CI_Contact>
+			</gmd:contactInfo>
+			<gmd:role>
+				<gmd:CI_RoleCode codeListValue="processor" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+			</gmd:role>
+		</gmd:CI_ResponsibleParty>
+	</gmd:contact>
+	<gmd:dateStamp>
+		<gco:DateTime>2009-05-25T11:54:19.26</gco:DateTime>
+	</gmd:dateStamp>
+	<gmd:metadataStandardName>
+		<gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+	</gmd:metadataStandardName>
+	<gmd:metadataStandardVersion>
+		<gco:CharacterString>1.0</gco:CharacterString>
+	</gmd:metadataStandardVersion>
+	<gmd:spatialRepresentationInfo>
+		<gmd:MD_VectorSpatialRepresentation>
+			<gmd:topologyLevel>
+				<gmd:MD_TopologyLevelCode codeListValue="fullPlanarGraph" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_TopologyLevelCode"/>
+			</gmd:topologyLevel>
+			<gmd:geometricObjects>
+				<gmd:MD_GeometricObjects>
+					<gmd:geometricObjectType>
+						<gmd:MD_GeometricObjectTypeCode codeListValue="surface" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_GeometricObjectTypeCode"/>
+					</gmd:geometricObjectType>
+					<gmd:geometricObjectCount>
+						<gco:Integer>9525</gco:Integer>
+					</gmd:geometricObjectCount>
+				</gmd:MD_GeometricObjects>
+			</gmd:geometricObjects>
+		</gmd:MD_VectorSpatialRepresentation>
+	</gmd:spatialRepresentationInfo>
+	<gmd:referenceSystemInfo>
+		<gmd:MD_ReferenceSystem>
+			<gmd:referenceSystemIdentifier>
+				<gmd:RS_Identifier>
+					<gmd:code>
+						<gco:CharacterString>EPSG:23031</gco:CharacterString>
+					</gmd:code>
+				</gmd:RS_Identifier>
+			</gmd:referenceSystemIdentifier>
+		</gmd:MD_ReferenceSystem>
+	</gmd:referenceSystemInfo>
+	<gmd:identificationInfo>
+		<gvq:GVQ_DataIdentification>
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString>Rice-field SIGPAC cadastre boundaries with flooding degree during 2006-2007 winter season [Delta de l'Ebre]</gco:CharacterString>
+					</gmd:title>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2007-05-15</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:identifier>
+						<updated19115:MD_Identifier id="RiceFlooding2006-10-29to2007-03-22">
+							<gmd:code>
+								<gco:CharacterString>RiceFlooding2006-10-29to2007-03-22</gco:CharacterString>
+							</gmd:code>
+							<updated19115:codeSpace>
+								<gco:CharacterString>http://www.opengis.uab.cat</gco:CharacterString>
+							</updated19115:codeSpace>
+						</updated19115:MD_Identifier>
+					</gmd:identifier>
+					<gmd:presentationForm>
+						<gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_PresentationFormCode" codeListValue="mapDigital"/>
+					</gmd:presentationForm>
+				</gmd:CI_Citation>
+			</gmd:citation>
+			<gmd:abstract>
+				<gco:CharacterString>Rice-fields cadastre agricultural cartography (SIGPAC) was enriched using flooding maps obtained from remote sensing images, providing a parcel flooding summary during 2006-2007 autumn-winter season (from October to January). The legend consists on eight classes: deep water, shallow water, mudflat with water and mudflat without water, ploughed soil with water, cropland, unproductive land and dry soil.</gco:CharacterString>
+			</gmd:abstract>
+			<gmd:purpose>
+				<gco:CharacterString>Agri-environmental measures of the European Union (Council Regulation EC No. 1257/1999 of 17th May 1999) to promote agricultural practices that favour the conservation of ecosystems. These measures consist of subsidies that farmers receive to practice proposed agricultural activities. One of the most important measures for the Ebro Delta is to keep the surface of the rice fields flooded for at least 4 months during the autumn winter period (when fields remain undisturbed) to encourage aquatic fauna and also to prevent spontaneous vegetation from mixing with soil and water using mechanical techniques to minimize contamination by pesticides.</gco:CharacterString>
+			</gmd:purpose>
+			<gmd:status>
+				<gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ProgressCode" codeListValue="completed"/>
+			</gmd:status>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty id="GM_CREAF">
+					<gmd:individualName>
+						<gco:CharacterString>Gerard Moré</gco:CharacterString>
+					</gmd:individualName>
+					<gmd:organisationName>
+						<gco:CharacterString>CREAF. Universitat Autònoma de Barcelona</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:positionName>
+						<gco:CharacterString>Researcher</gco:CharacterString>
+					</gmd:positionName>
+					<gmd:contactInfo>
+						<gmd:CI_Contact>
+							<gmd:address>
+								<gmd:CI_Address>
+									<gmd:electronicMailAddress>
+										<gco:CharacterString>g.more@creaf.uab.cat</gco:CharacterString>
+									</gmd:electronicMailAddress>
+								</gmd:CI_Address>
+							</gmd:address>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+					<gmd:role>
+						<gmd:CI_RoleCode codeListValue="processor" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+			<gmd:pointOfContact xlink:href="#PS_UAB"/>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty id="XP_UAB">
+					<gmd:individualName>
+						<gco:CharacterString>Xavier Pons</gco:CharacterString>
+					</gmd:individualName>
+					<gmd:organisationName>
+						<gco:CharacterString>Dep Geografia. Universitat Autònoma de Barcelona</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:positionName>
+						<gco:CharacterString>Professor</gco:CharacterString>
+					</gmd:positionName>
+					<gmd:contactInfo>
+						<gmd:CI_Contact>
+							<gmd:address>
+								<gmd:CI_Address>
+									<gmd:electronicMailAddress>
+										<gco:CharacterString>Xavier.Pons@uab.cat</gco:CharacterString>
+									</gmd:electronicMailAddress>
+								</gmd:CI_Address>
+							</gmd:address>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+					<gmd:role>
+						<gmd:CI_RoleCode codeListValue="processor" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty id="L_DARP">
+					<gmd:individualName>
+						<gco:CharacterString>Llorenç $$</gco:CharacterString>
+					</gmd:individualName>
+					<gmd:organisationName>
+						<gco:CharacterString>Ministry of Agriculture, Food and Rural Action of the Catalan Government</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:role>
+						<gmd:CI_RoleCode codeListValue="resourceProvider" codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode"/>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>Delta de l'Ebre</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="place"/>
+					</gmd:type>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gco:CharacterString>IDEC (MiraMon) Thesaurus</gco:CharacterString>
+							</gmd:title>
+							<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:Date>2011-07-22</gco:Date>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="revision"/>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+							<gmd:citedResponsibleParty>
+								<gmd:CI_ResponsibleParty>
+									<gmd:organisationName>
+										<gco:CharacterString>MiraMon</gco:CharacterString>
+									</gmd:organisationName>
+									<gmd:contactInfo>
+										<gmd:CI_Contact>
+											<gmd:onlineResource>
+												<gmd:CI_OnlineResource>
+													<gmd:linkage>
+														<gmd:URL>http://www.creaf.uab.cat/miramon/</gmd:URL>
+													</gmd:linkage>
+													<gmd:function>
+														<gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+													</gmd:function>
+												</gmd:CI_OnlineResource>
+											</gmd:onlineResource>
+										</gmd:CI_Contact>
+									</gmd:contactInfo>
+									<gmd:role>
+										<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="originator"/>
+									</gmd:role>
+								</gmd:CI_ResponsibleParty>
+							</gmd:citedResponsibleParty>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>bird habitat conservation</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">Tema</gmd:MD_KeywordTypeCode>
+					</gmd:type>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>rice</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>flood control</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>environmental policy instrument</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme">Tema</gmd:MD_KeywordTypeCode>
+					</gmd:type>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gco:CharacterString>GEMET Thesaurus version 1.0</gco:CharacterString>
+							</gmd:title>
+							<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:Date>2008-06-10</gco:Date>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="revision">Revision</gmd:CI_DateTypeCode>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+							<gmd:citedResponsibleParty>
+								<gmd:CI_ResponsibleParty>
+									<gmd:organisationName>
+										<gco:CharacterString>European Environment Information and Observation Network (Eionet)</gco:CharacterString>
+									</gmd:organisationName>
+									<gmd:contactInfo>
+										<gmd:CI_Contact>
+											<gmd:onlineResource>
+												<gmd:CI_OnlineResource>
+													<gmd:linkage>
+														<gmd:URL>htpp://www.eionet.europa.eu/gemet</gmd:URL>
+													</gmd:linkage>
+													<gmd:function>
+														<gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_OnLineFunctionCode" codeListValue=""/>
+													</gmd:function>
+												</gmd:CI_OnlineResource>
+											</gmd:onlineResource>
+										</gmd:CI_Contact>
+									</gmd:contactInfo>
+									<gmd:role>
+										<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="originator">Originator</gmd:CI_RoleCode>
+									</gmd:role>
+								</gmd:CI_ResponsibleParty>
+							</gmd:citedResponsibleParty>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:resourceConstraints>
+				<gmd:MD_LegalConstraints>
+					<gmd:useLimitation>
+						<gco:CharacterString>This dataset is produced by Universitat Autònoma de Barcelona and CREAF and it is intented to be used only by the funding institution: Ministry of Agriculture, Food and Rural Action of the Catalan Government. Due to the legal and economic implications (regarding direct subsidies) of this expert decision-making system it was decided that the information access is limited and not open to the farmers or nor to the general public. Farmers do not have access to this dataset but they receive a report summarizing the information for their properties. In case of litigation a revision of the case is done and a new and detailed report is produced, including intermediate source used to produce this dataset (scenes extracts, cadaster layer, etc). The Ministry reserves the right to use all the intermediate and final datasets as well as the detailed report as proofs in the trial, if needed.</gco:CharacterString>
+					</gmd:useLimitation>
+					<gmd:accessConstraints>
+						<gmd:MD_RestrictionCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="restricted">Disclosure restricted</gmd:MD_RestrictionCode>
+					</gmd:accessConstraints>
+					<gmd:useConstraints>
+						<gmd:MD_RestrictionCode codeList="http://idec.icc.cat/schema/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="restricted">Disclosure restricted</gmd:MD_RestrictionCode>
+					</gmd:useConstraints>
+				</gmd:MD_LegalConstraints>
+			</gmd:resourceConstraints>
+			<gmd:spatialRepresentationType>
+				<gmd:MD_SpatialRepresentationTypeCode codeListValue="vector" codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_SpatialRepresentationTypeCode"/>
+			</gmd:spatialRepresentationType>
+			<gmd:spatialResolution>
+				<gmd:MD_Resolution>
+					<gmd:equivalentScale>
+						<gmd:MD_RepresentativeFraction>
+							<gmd:denominator>
+								<gco:Integer>5000</gco:Integer>
+							</gmd:denominator>
+						</gmd:MD_RepresentativeFraction>
+					</gmd:equivalentScale>
+				</gmd:MD_Resolution>
+			</gmd:spatialResolution>
+			<gmd:language>
+				<gco:CharacterString>eng</gco:CharacterString>
+			</gmd:language>
+			<gmd:characterSet>
+				<gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_CharacterSetCode" codeListValue="utf8"/>
+			</gmd:characterSet>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>farming</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>biota</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>inlandWaters</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>planningCadastre</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:description>
+						<gco:CharacterString>Ebro Delta</gco:CharacterString>
+					</gmd:description>
+					<gmd:geographicElement>
+						<gmd:EX_GeographicBoundingBox id="DatasetGeographicExtent">
+							<gmd:extentTypeCode>
+								<gco:Boolean>true</gco:Boolean>
+							</gmd:extentTypeCode>
+							<gmd:westBoundLongitude>
+								<gco:Decimal>0.490954273867202</gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal>0.874100948280739</gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal>40.6207410601261</gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal>40.8141746350212</gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+					<gmd:geographicElement>
+						<gmd:EX_BoundingPolygon>
+							<gmd:polygon>
+								<gml:Polygon gml:id="DatasetUTMExtent">
+									<gml:exterior>
+										<gml:Ring>
+											<!-- Lucy/Joan: This in not the actual area covered but the "envelope" or BoundingBox. How can I express this "envelope" or "boundingBox" in coordinates of the reference system (UTM-31-N in this case)??? -->
+											<gml:curveMember>
+												<gml:LineString gml:id="Dataset_UTM_BoundingBox" srsName="urn:ogc:def:crs:EPSG:23030">
+													<gml:pos>288350.160134110 4499744.723136870</gml:pos>
+													<gml:pos>288350.160134110 4499744.723136870</gml:pos>
+													<gml:pos>320193.440879412 4520394.417887670</gml:pos>
+													<gml:pos>320193.440879412 4520394.417887670</gml:pos>
+													<gml:pos>288350.160134110 4499744.723136870</gml:pos>
+												</gml:LineString>
+											</gml:curveMember>
+										</gml:Ring>
+									</gml:exterior>
+								</gml:Polygon>
+							</gmd:polygon>
+						</gmd:EX_BoundingPolygon>
+					</gmd:geographicElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimePeriod gml:id="DatasetTemporalExtent">
+									<gml:beginPosition>2006-10-29</gml:beginPosition>
+									<gml:endPosition>2007-03-22</gml:endPosition>
+								</gml:TimePeriod>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+			<gvq:referenceDoc>
+				<gvq:GVQ_Publication>
+					<gmd:title>
+						<gco:CharacterString>Multitemporal flooding dynamics of rice fields by means of discriminant analysis of radiometrically corrected remote sensing imagery.</gco:CharacterString>
+					</gmd:title>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2011-04-10</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication"/>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:ISSN>
+						<gco:CharacterString>0143-1161</gco:CharacterString>
+					</gmd:ISSN>
+					<gvq:target xlink:href="#Flooding0607"/>
+					<gvq:doi>
+						<gco:CharacterString>http://dx.doi.org/10.1080/01431161003645816</gco:CharacterString>
+					</gvq:doi>
+					<gvq:volume>
+						<gco:Integer>32</gco:Integer>
+					</gvq:volume>
+					<gvq:issue>
+						<gco:CharacterString>7</gco:CharacterString>
+					</gvq:issue>
+					<gvq:pages>
+						<gco:CharacterString>1983–2011</gco:CharacterString>
+					</gvq:pages>
+					<gvq:purpose>
+						<gvq:GVQ_PublicationPurposeCode codeList="http://www.geoviqua.org/QualityInformationModel/3.1/resources/codeList.xml#GVQ_PublicationPurposeCode" codeListValue="describe">describe</gvq:GVQ_PublicationPurposeCode>
+					</gvq:purpose>
+					<gvq:scope xlink:href="#datasetScope"/>
+					<gvq:category>
+						<gvq:GVQ_PublicationCategoryCode codeList="http://www.geoviqua.org/QualityInformationModel/3.1/resources/codeList.xml#GVQ_PublicationCategoryCode" codeListValue="journalArticle">journalArticle</gvq:GVQ_PublicationCategoryCode>
+					</gvq:category>
+					<gvq:onlineResource>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>http://www.tandfonline.com/doi/full/10.1080/01431161003645816</gmd:URL>
+							</gmd:linkage>
+						</gmd:CI_OnlineResource>
+					</gvq:onlineResource>
+				</gvq:GVQ_Publication>
+			</gvq:referenceDoc>
+		</gvq:GVQ_DataIdentification>
+	</gmd:identificationInfo>
+	<gmd:distributionInfo>
+		<gmd:MD_Distribution>
+			<gmd:distributionFormat xlink:href="#dataset_Format"/>
+			<gmd:distributor>
+				<gmd:MD_Distributor>
+					<gmd:distributorContact>
+						<gmd:CI_ResponsibleParty id="dataset_Distributor_contact">
+							<gmd:individualName>
+								<gco:CharacterString>Eduard Luque</gco:CharacterString>
+							</gmd:individualName>
+							<gmd:organisationName>
+								<gco:CharacterString>CREAF (Universitat Autònoma de Barcelona)</gco:CharacterString>
+							</gmd:organisationName>
+							<gmd:positionName>
+								<gco:CharacterString>Researcher</gco:CharacterString>
+							</gmd:positionName>
+							<gmd:contactInfo>
+								<gmd:CI_Contact>
+									<gmd:address>
+										<gmd:CI_Address>
+											<gmd:electronicMailAddress>
+												<gco:CharacterString>e.luque@creaf.uab.cat</gco:CharacterString>
+											</gmd:electronicMailAddress>
+										</gmd:CI_Address>
+									</gmd:address>
+								</gmd:CI_Contact>
+							</gmd:contactInfo>
+							<gmd:role>
+								<gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor">processor</gmd:CI_RoleCode>
+							</gmd:role>
+						</gmd:CI_ResponsibleParty>
+					</gmd:distributorContact>
+					<gmd:distributionOrderProcess>
+						<gmd:MD_StandardOrderProcess>
+							<gmd:orderingInstructions>
+								<gco:CharacterString>If an offLine distribution (DVD) is required or if any problem with the Web Coverage Service (download capabilities) is found please contact Eduard Luque.</gco:CharacterString>
+							</gmd:orderingInstructions>
+						</gmd:MD_StandardOrderProcess>
+					</gmd:distributionOrderProcess>
+					<gmd:distributorFormat xlink:href="#dataset_Format"/>
+					<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions id="Mode_20061029">
+							<gmd:onLine>
+								<!-- WMS 1.3.0:Mode_20061029 -->
+								<updated19115:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.ogc.uab.cat/cgi-bin/GeoViQUA/WMSQ/MiraMon.cgi?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:23031&amp;BBOX=281269.3803369179,4494515.051648835,332319.3803369179,4523765.051648835&amp;WIDTH=1021&amp;HEIGHT=585&amp;LAYERS=Mode_20061029&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;STYLES=</gmd:URL>
+									</gmd:linkage>
+									<gmd:protocol>
+										<gco:CharacterString>urn:ogc:serviceType:WebMapService:1.3.0:HTTP-GET</gco:CharacterString>
+									</gmd:protocol>
+									<gmd:name>
+										<gco:CharacterString>Mode_20061029</gco:CharacterString>
+									</gmd:name>
+									<gmd:description>
+										<gco:CharacterString>Mode 20061029 at the flooding rice area of Ebro river Delta, Catalonia</gco:CharacterString>
+									</gmd:description>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="http://schemas.geoviqua.org/ISO/19139/20130610_INSPIRE/resources/codelist/gmxINSPIRECodelists.xml#CI_OnLineFunctionCode" codeListValue="mapDigital">mapDigital</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</updated19115:CI_OnlineResource>
+							</gmd:onLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
+					<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions id="Mode_20061114">
+							<gmd:onLine>
+								<!-- WMS 1.3.0:Mode_20061114 -->
+								<updated19115:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.ogc.uab.cat/cgi-bin/GeoViQUA/WMSQ/MiraMon.cgi?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:23031&amp;BBOX=281269.3803369179,4494515.051648835,332319.3803369179,4523765.051648835&amp;WIDTH=1021&amp;HEIGHT=585&amp;LAYERS=Mode_20061114&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;STYLES=</gmd:URL>
+									</gmd:linkage>
+									<gmd:protocol>
+										<gco:CharacterString>urn:ogc:serviceType:WebMapService:1.3.0:HTTP-GET</gco:CharacterString>
+									</gmd:protocol>
+									<gmd:name>
+										<gco:CharacterString>Mode_20061114</gco:CharacterString>
+									</gmd:name>
+									<gmd:description>
+										<gco:CharacterString>Mode 20061114 at the flooding rice area of Ebro river Delta, Catalonia</gco:CharacterString>
+									</gmd:description>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="http://schemas.geoviqua.org/ISO/19139/20130610_INSPIRE/resources/codelist/gmxINSPIRECodelists.xml#CI_OnLineFunctionCode" codeListValue="mapDigital">mapDigital</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</updated19115:CI_OnlineResource>
+							</gmd:onLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
+					<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions id="Mode_20061130">
+							<gmd:onLine>
+								<!-- WMS 1.3.0:Mode_20061130 -->
+								<updated19115:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.ogc.uab.cat/cgi-bin/GeoViQUA/WMSQ/MiraMon.cgi?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:23031&amp;BBOX=281269.3803369179,4494515.051648835,332319.3803369179,4523765.051648835&amp;WIDTH=1021&amp;HEIGHT=585&amp;LAYERS=Mode_20061130&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;STYLES=</gmd:URL>
+									</gmd:linkage>
+									<gmd:protocol>
+										<gco:CharacterString>urn:ogc:serviceType:WebMapService:1.3.0:HTTP-GET</gco:CharacterString>
+									</gmd:protocol>
+									<gmd:name>
+										<gco:CharacterString>Mode_20061130</gco:CharacterString>
+									</gmd:name>
+									<gmd:description>
+										<gco:CharacterString>Mode 20061130 at the flooding rice area of Ebro river Delta, Catalonia</gco:CharacterString>
+									</gmd:description>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="http://schemas.geoviqua.org/ISO/19139/20130610_INSPIRE/resources/codelist/gmxINSPIRECodelists.xml#CI_OnLineFunctionCode" codeListValue="mapDigital">mapDigital</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</updated19115:CI_OnlineResource>
+							</gmd:onLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
+					<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions id="Mode_20061216">
+							<gmd:onLine>
+								<!-- WMS 1.3.0:Mode_20061216 -->
+								<updated19115:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.ogc.uab.cat/cgi-bin/GeoViQUA/WMSQ/MiraMon.cgi?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:23031&amp;BBOX=281269.3803369179,4494515.051648835,332319.3803369179,4523765.051648835&amp;WIDTH=1021&amp;HEIGHT=585&amp;LAYERS=Mode_20061216&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;STYLES=</gmd:URL>
+									</gmd:linkage>
+									<gmd:protocol>
+										<gco:CharacterString>urn:ogc:serviceType:WebMapService:1.3.0:HTTP-GET</gco:CharacterString>
+									</gmd:protocol>
+									<gmd:name>
+										<gco:CharacterString>Mode_20061216</gco:CharacterString>
+									</gmd:name>
+									<gmd:description>
+										<gco:CharacterString>Mode 20061216 at the flooding rice area of Ebro river Delta, Catalonia</gco:CharacterString>
+									</gmd:description>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="http://schemas.geoviqua.org/ISO/19139/20130610_INSPIRE/resources/codelist/gmxINSPIRECodelists.xml#CI_OnLineFunctionCode" codeListValue="mapDigital">mapDigital</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</updated19115:CI_OnlineResource>
+							</gmd:onLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
+					<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions id="Mode_20070117">
+							<gmd:onLine>
+								<!-- WMS 1.3.0:Mode_20070117 -->
+								<updated19115:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.ogc.uab.cat/cgi-bin/GeoViQUA/WMSQ/MiraMon.cgi?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:23031&amp;BBOX=281269.3803369179,4494515.051648835,332319.3803369179,4523765.051648835&amp;WIDTH=1021&amp;HEIGHT=585&amp;LAYERS=Mode_20070117&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;STYLES=</gmd:URL>
+									</gmd:linkage>
+									<gmd:protocol>
+										<gco:CharacterString>urn:ogc:serviceType:WebMapService:1.3.0:HTTP-GET</gco:CharacterString>
+									</gmd:protocol>
+									<gmd:name>
+										<gco:CharacterString>Mode_20070117</gco:CharacterString>
+									</gmd:name>
+									<gmd:description>
+										<gco:CharacterString>Mode 20070117 at the flooding rice area of Ebro river Delta, Catalonia</gco:CharacterString>
+									</gmd:description>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="http://schemas.geoviqua.org/ISO/19139/20130610_INSPIRE/resources/codelist/gmxINSPIRECodelists.xml#CI_OnLineFunctionCode" codeListValue="mapDigital">mapDigital</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</updated19115:CI_OnlineResource>
+							</gmd:onLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
+					<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions id="Mode_20070322">
+							<gmd:onLine>
+								<!-- WMS 1.3.0:Mode_20070322 -->
+								<updated19115:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.ogc.uab.cat/cgi-bin/GeoViQUA/WMSQ/MiraMon.cgi?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:23031&amp;BBOX=281269.3803369179,4494515.051648835,332319.3803369179,4523765.051648835&amp;WIDTH=1021&amp;HEIGHT=585&amp;LAYERS=Mode_20070322&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;STYLES=</gmd:URL>
+									</gmd:linkage>
+									<gmd:protocol>
+										<gco:CharacterString>urn:ogc:serviceType:WebMapService:1.3.0:HTTP-GET</gco:CharacterString>
+									</gmd:protocol>
+									<gmd:name>
+										<gco:CharacterString>Mode_20070322</gco:CharacterString>
+									</gmd:name>
+									<gmd:description>
+										<gco:CharacterString>Mode 20070322 at the flooding rice area of Ebro river Delta, Catalonia</gco:CharacterString>
+									</gmd:description>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="http://schemas.geoviqua.org/ISO/19139/20130610_INSPIRE/resources/codelist/gmxINSPIRECodelists.xml#CI_OnLineFunctionCode" codeListValue="mapDigital">mapDigital</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</updated19115:CI_OnlineResource>
+							</gmd:onLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
+					<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions id="Binary_Classification_summary">
+							<gmd:onLine>
+								<!-- WMS 1.3.0:Mode_Summary -->
+								<updated19115:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.ogc.uab.cat/cgi-bin/GeoViQUA/WMSQ/MiraMon.cgi?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:23031&amp;BBOX=281269.3803369179,4494515.051648835,332319.3803369179,4523765.051648835&amp;WIDTH=1021&amp;HEIGHT=585&amp;LAYERS=Binary_Classification_summary&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;STYLES=</gmd:URL>
+									</gmd:linkage>
+									<gmd:protocol>
+										<gco:CharacterString>urn:ogc:serviceType:WebMapService:1.3.0:HTTP-GET</gco:CharacterString>
+									</gmd:protocol>
+									<gmd:name>
+										<gco:CharacterString>Binary_Classification_summary</gco:CharacterString>
+									</gmd:name>
+									<gmd:description>
+										<gco:CharacterString>Parcels under a certain threshold of days flooded at the flooding rice area of Ebro river Delta, Catalonia</gco:CharacterString>
+									</gmd:description>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="http://schemas.geoviqua.org/ISO/19139/20130610_INSPIRE/resources/codelist/gmxINSPIRECodelists.xml#CI_OnLineFunctionCode" codeListValue="mapDigital">mapDigital</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</updated19115:CI_OnlineResource>
+							</gmd:onLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
+					<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions id="Purity_20061029">
+							<gmd:onLine>
+								<!-- WMS 1.3.0:Purity_20061029 -->
+								<updated19115:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.ogc.uab.cat/cgi-bin/GeoViQUA/WMSQ/MiraMon.cgi?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:23031&amp;BBOX=281269.3803369179,4494515.051648835,332319.3803369179,4523765.051648835&amp;WIDTH=1021&amp;HEIGHT=585&amp;LAYERS=Purity_20061029&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;STYLES=</gmd:URL>
+									</gmd:linkage>
+									<gmd:protocol>
+										<gco:CharacterString>urn:ogc:serviceType:WebMapService:1.3.0:HTTP-GET</gco:CharacterString>
+									</gmd:protocol>
+									<gmd:name>
+										<gco:CharacterString>Purity_20061029</gco:CharacterString>
+									</gmd:name>
+									<gmd:description>
+										<gco:CharacterString>Purity 20061029 at the flooding rice area of Ebro river Delta, Catalonia</gco:CharacterString>
+									</gmd:description>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="http://schemas.geoviqua.org/ISO/19139/20130610_INSPIRE/resources/codelist/gmxINSPIRECodelists.xml#CI_OnLineFunctionCode" codeListValue="mapDigital">mapDigital</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</updated19115:CI_OnlineResource>
+							</gmd:onLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
+					<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions id="Purity_20061114">
+							<gmd:onLine>
+								<!-- WMS 1.3.0:Purity_20061114 -->
+								<updated19115:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.ogc.uab.cat/cgi-bin/GeoViQUA/WMSQ/MiraMon.cgi?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:23031&amp;BBOX=281269.3803369179,4494515.051648835,332319.3803369179,4523765.051648835&amp;WIDTH=1021&amp;HEIGHT=585&amp;LAYERS=Purity_20061114&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;STYLES=</gmd:URL>
+									</gmd:linkage>
+									<gmd:protocol>
+										<gco:CharacterString>urn:ogc:serviceType:WebMapService:1.3.0:HTTP-GET</gco:CharacterString>
+									</gmd:protocol>
+									<gmd:name>
+										<gco:CharacterString>Purity_20061114</gco:CharacterString>
+									</gmd:name>
+									<gmd:description>
+										<gco:CharacterString>Purity 20061114 at the flooding rice area of Ebro river Delta, Catalonia</gco:CharacterString>
+									</gmd:description>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="http://schemas.geoviqua.org/ISO/19139/20130610_INSPIRE/resources/codelist/gmxINSPIRECodelists.xml#CI_OnLineFunctionCode" codeListValue="mapDigital">mapDigital</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</updated19115:CI_OnlineResource>
+							</gmd:onLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
+					<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions id="Purity_20061130">
+							<gmd:onLine>
+								<!-- WMS 1.3.0:Purity_20061130 -->
+								<updated19115:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.ogc.uab.cat/cgi-bin/GeoViQUA/WMSQ/MiraMon.cgi?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:23031&amp;BBOX=281269.3803369179,4494515.051648835,332319.3803369179,4523765.051648835&amp;WIDTH=1021&amp;HEIGHT=585&amp;LAYERS=Purity_20061130&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;STYLES=</gmd:URL>
+									</gmd:linkage>
+									<gmd:protocol>
+										<gco:CharacterString>urn:ogc:serviceType:WebMapService:1.3.0:HTTP-GET</gco:CharacterString>
+									</gmd:protocol>
+									<gmd:name>
+										<gco:CharacterString>Purity_20061130</gco:CharacterString>
+									</gmd:name>
+									<gmd:description>
+										<gco:CharacterString>Purity 20061130 at the flooding rice area of Ebro river Delta, Catalonia</gco:CharacterString>
+									</gmd:description>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="http://schemas.geoviqua.org/ISO/19139/20130610_INSPIRE/resources/codelist/gmxINSPIRECodelists.xml#CI_OnLineFunctionCode" codeListValue="mapDigital">mapDigital</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</updated19115:CI_OnlineResource>
+							</gmd:onLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
+					<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions id="Purity_20061216">
+							<gmd:onLine>
+								<!-- WMS 1.3.0:Purity_20061216 -->
+								<updated19115:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.ogc.uab.cat/cgi-bin/GeoViQUA/WMSQ/MiraMon.cgi?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:23031&amp;BBOX=281269.3803369179,4494515.051648835,332319.3803369179,4523765.051648835&amp;WIDTH=1021&amp;HEIGHT=585&amp;LAYERS=Purity_20061216&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;STYLES=</gmd:URL>
+									</gmd:linkage>
+									<gmd:protocol>
+										<gco:CharacterString>urn:ogc:serviceType:WebMapService:1.3.0:HTTP-GET</gco:CharacterString>
+									</gmd:protocol>
+									<gmd:name>
+										<gco:CharacterString>Purity_20061216</gco:CharacterString>
+									</gmd:name>
+									<gmd:description>
+										<gco:CharacterString>Purity 20061216 at the flooding rice area of Ebro river Delta, Catalonia</gco:CharacterString>
+									</gmd:description>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="http://schemas.geoviqua.org/ISO/19139/20130610_INSPIRE/resources/codelist/gmxINSPIRECodelists.xml#CI_OnLineFunctionCode" codeListValue="mapDigital">mapDigital</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</updated19115:CI_OnlineResource>
+							</gmd:onLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
+					<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions id="Purity_20070117">
+							<gmd:onLine>
+								<!-- WMS 1.3.0:Purity_20070117 -->
+								<updated19115:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.ogc.uab.cat/cgi-bin/GeoViQUA/WMSQ/MiraMon.cgi?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:23031&amp;BBOX=281269.3803369179,4494515.051648835,332319.3803369179,4523765.051648835&amp;WIDTH=1021&amp;HEIGHT=585&amp;LAYERS=Purity_20070117&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;STYLES=</gmd:URL>
+									</gmd:linkage>
+									<gmd:protocol>
+										<gco:CharacterString>urn:ogc:serviceType:WebMapService:1.3.0:HTTP-GET</gco:CharacterString>
+									</gmd:protocol>
+									<gmd:name>
+										<gco:CharacterString>Purity_20070117</gco:CharacterString>
+									</gmd:name>
+									<gmd:description>
+										<gco:CharacterString>Purity 20070117 at the flooding rice area of Ebro river Delta, Catalonia</gco:CharacterString>
+									</gmd:description>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="http://schemas.geoviqua.org/ISO/19139/20130610_INSPIRE/resources/codelist/gmxINSPIRECodelists.xml#CI_OnLineFunctionCode" codeListValue="mapDigital">mapDigital</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</updated19115:CI_OnlineResource>
+							</gmd:onLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
+					<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions id="Purity_20070322">
+							<gmd:onLine>
+								<!-- WMS 1.3.0:Purity_20070322 -->
+								<updated19115:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.ogc.uab.cat/cgi-bin/GeoViQUA/WMSQ/MiraMon.cgi?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:23031&amp;BBOX=281269.3803369179,4494515.051648835,332319.3803369179,4523765.051648835&amp;WIDTH=1021&amp;HEIGHT=585&amp;LAYERS=Purity_20070322&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;STYLES=</gmd:URL>
+									</gmd:linkage>
+									<gmd:protocol>
+										<gco:CharacterString>urn:ogc:serviceType:WebMapService:1.3.0:HTTP-GET</gco:CharacterString>
+									</gmd:protocol>
+									<gmd:name>
+										<gco:CharacterString>Purity_20070322</gco:CharacterString>
+									</gmd:name>
+									<gmd:description>
+										<gco:CharacterString>Purity 20070322 at the flooding rice area of Ebro river Delta, Catalonia</gco:CharacterString>
+									</gmd:description>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="http://schemas.geoviqua.org/ISO/19139/20130610_INSPIRE/resources/codelist/gmxINSPIRECodelists.xml#CI_OnLineFunctionCode" codeListValue="mapDigital">mapDigital</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</updated19115:CI_OnlineResource>
+							</gmd:onLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
+					<gmd:distributorTransferOptions>
+						<gmd:MD_DigitalTransferOptions id="Classification_summary">
+							<gmd:onLine>
+								<!-- WMS 1.3.0:Classification_summary -->
+								<updated19115:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>http://www.ogc.uab.cat/cgi-bin/GeoViQUA/WMSQ/MiraMon.cgi?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetMap&amp;CRS=EPSG:23031&amp;BBOX=281269.3803369179,4494515.051648835,332319.3803369179,4523765.051648835&amp;WIDTH=1021&amp;HEIGHT=585&amp;LAYERS=Purity_Summary&amp;FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;STYLES=</gmd:URL>
+									</gmd:linkage>
+									<gmd:protocol>
+										<gco:CharacterString>urn:ogc:serviceType:WebMapService:1.3.0:HTTP-GET</gco:CharacterString>
+									</gmd:protocol>
+									<gmd:name>
+										<gco:CharacterString>Classification_summary</gco:CharacterString>
+									</gmd:name>
+									<gmd:description>
+										<gco:CharacterString>Number of days flooded for each parcel at the flooding rice area of Ebro river Delta, Catalonia</gco:CharacterString>
+									</gmd:description>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="http://schemas.geoviqua.org/ISO/19139/20130610_INSPIRE/resources/codelist/gmxINSPIRECodelists.xml#CI_OnLineFunctionCode" codeListValue="mapDigital">mapDigital</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</updated19115:CI_OnlineResource>
+							</gmd:onLine>
+							<gmd:offLine>
+								<gmd:MD_Medium>
+									<gmd:name>
+										<gmd:MD_MediumNameCode codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MediumName" codeList="dvd">dvd</gmd:MD_MediumNameCode>
+									</gmd:name>
+									<gmd:volumes>
+										<gco:Integer>1</gco:Integer>
+									</gmd:volumes>
+								</gmd:MD_Medium>
+							</gmd:offLine>
+						</gmd:MD_DigitalTransferOptions>
+					</gmd:distributorTransferOptions>
+				</gmd:MD_Distributor>
+			</gmd:distributor>
+		</gmd:MD_Distribution>
+	</gmd:distributionInfo>
+	<gvq:dataQualityInfo>
+		<gvq:GVQ_DataQuality>
+			<gmd19157:scope>
+				<gmd19157:DQ_Scope id="datasetScope">
+					<gmd19157:level>
+						<gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#MD_ScopeCode" codeListValue="dataset"/>
+					</gmd19157:level>
+					<gmd19157:extent xlink:href="#DatasetGeographicExtent"/>
+				</gmd19157:DQ_Scope>
+			</gmd19157:scope>
+			<!-- Pixel-level quality -->
+			<gmd19157:report>
+				<gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+					<gmd19157:measure>
+						<gmd19157:DQ_MeasureReference>
+							<gmd19157:measureIdentification>
+								<updated19115:MD_Identifier>
+									<gmd:code>
+										<gco:CharacterString>http://www.qualityml.org/1.0/measure/ValueDomain</gco:CharacterString>
+									</gmd:code>
+								</updated19115:MD_Identifier>
+							</gmd19157:measureIdentification>
+							<gmd19157:nameOfMeasure>
+								<gco:CharacterString>Categorical attribute proportions</gco:CharacterString>
+							</gmd19157:nameOfMeasure>
+						</gmd19157:DQ_MeasureReference>
+					</gmd19157:measure>
+					<gmd19157:result>
+						<gmd19157:DQ_QuantitativeResult>
+							<gmd19157:valueType>
+								<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/Purity">
+									Purity
+								</gco:RecordType>
+							</gmd19157:valueType>
+							<gmd19157:valueUnit/>
+							<gmd19157:value>
+								<gco:Record>
+									<qml:Purity>
+										<qml:values href="#Purity_20061130"/>
+									</qml:Purity>
+								</gco:Record>
+							</gmd19157:value>
+						</gmd19157:DQ_QuantitativeResult>
+					</gmd19157:result>
+				</gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+			</gmd19157:report>
+			<gmd19157:report>
+				<gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+					<gmd19157:measure>
+						<gmd19157:DQ_MeasureReference>
+							<gmd19157:measureIdentification>
+								<updated19115:MD_Identifier>
+									<gmd:code>
+										<gco:CharacterString>http://www.qualityml.org/1.0/measure/ValueDomain</gco:CharacterString>
+									</gmd:code>
+								</updated19115:MD_Identifier>
+							</gmd19157:measureIdentification>
+							<gmd19157:nameOfMeasure>
+								<gco:CharacterString>Categorical attribute proportions</gco:CharacterString>
+							</gmd19157:nameOfMeasure>
+						</gmd19157:DQ_MeasureReference>
+					</gmd19157:measure>
+					<gmd19157:result>
+						<gmd19157:DQ_QuantitativeResult>
+							<gmd19157:valueType>
+								<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/Purity">
+									Purity
+								</gco:RecordType>
+							</gmd19157:valueType>
+							<gmd19157:valueUnit/>
+							<gmd19157:value>
+								<gco:Record>
+									<qml:Purity>
+										<qml:values/>
+									</qml:Purity>
+									<qml:Items>
+										<qml:count href="#Purity_20061216"/>
+									</qml:Items>
+								</gco:Record>
+							</gmd19157:value>
+						</gmd19157:DQ_QuantitativeResult>
+					</gmd19157:result>
+				</gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+			</gmd19157:report>
+			<gmd19157:report>
+				<gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+					<gmd19157:measure>
+						<gmd19157:DQ_MeasureReference>
+							<gmd19157:measureIdentification>
+								<updated19115:MD_Identifier>
+									<gmd:code>
+										<gco:CharacterString>http://www.qualityml.org/1.0/measure/ValueDomain</gco:CharacterString>
+									</gmd:code>
+								</updated19115:MD_Identifier>
+							</gmd19157:measureIdentification>
+							<gmd19157:nameOfMeasure>
+								<gco:CharacterString>Categorical attribute proportions</gco:CharacterString>
+							</gmd19157:nameOfMeasure>
+						</gmd19157:DQ_MeasureReference>
+					</gmd19157:measure>
+					<gmd19157:result>
+						<gmd19157:DQ_QuantitativeResult>
+							<gmd19157:valueType>
+								<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/Purity">
+									Purity
+								</gco:RecordType>
+							</gmd19157:valueType>
+							<gmd19157:valueUnit/>
+							<gmd19157:value>
+								<gco:Record>
+									<qml:Purity>
+										<qml:values/>
+									</qml:Purity>
+									<qml:Items>
+										<qml:count href="#Purity_20061114"/>
+									</qml:Items>
+								</gco:Record>
+							</gmd19157:value>
+						</gmd19157:DQ_QuantitativeResult>
+					</gmd19157:result>
+				</gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+			</gmd19157:report>
+			<gmd19157:report>
+				<gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+					<gmd19157:measure>
+						<gmd19157:DQ_MeasureReference>
+							<gmd19157:measureIdentification>
+								<updated19115:MD_Identifier>
+									<gmd:code>
+										<gco:CharacterString>http://www.qualityml.org/1.0/measure/ValueDomain</gco:CharacterString>
+									</gmd:code>
+								</updated19115:MD_Identifier>
+							</gmd19157:measureIdentification>
+							<gmd19157:nameOfMeasure>
+								<gco:CharacterString>Categorical attribute proportions</gco:CharacterString>
+							</gmd19157:nameOfMeasure>
+						</gmd19157:DQ_MeasureReference>
+					</gmd19157:measure>
+					<gmd19157:result>
+						<gmd19157:DQ_QuantitativeResult>
+							<gmd19157:valueType>
+								<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/Purity">
+									Purity
+								</gco:RecordType>
+							</gmd19157:valueType>
+							<gmd19157:valueUnit/>
+							<gmd19157:value>
+								<gco:Record>
+									<qml:Purity>
+										<qml:values/>
+									</qml:Purity>
+									<qml:Items>
+										<qml:count href="#Purity_20070322"/>
+									</qml:Items>
+								</gco:Record>
+							</gmd19157:value>
+						</gmd19157:DQ_QuantitativeResult>
+					</gmd19157:result>
+				</gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+			</gmd19157:report>
+			<gmd19157:report>
+				<gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+					<gmd19157:measure>
+						<gmd19157:DQ_MeasureReference>
+							<gmd19157:measureIdentification>
+								<updated19115:MD_Identifier>
+									<gmd:code>
+										<gco:CharacterString>http://www.qualityml.org/1.0/measure/ValueDomain</gco:CharacterString>
+									</gmd:code>
+								</updated19115:MD_Identifier>
+							</gmd19157:measureIdentification>
+							<gmd19157:nameOfMeasure>
+								<gco:CharacterString>Categorical attribute proportions</gco:CharacterString>
+							</gmd19157:nameOfMeasure>
+						</gmd19157:DQ_MeasureReference>
+					</gmd19157:measure>
+					<gmd19157:result>
+						<gmd19157:DQ_QuantitativeResult>
+							<gmd19157:valueType>
+								<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/Purity">
+									Purity
+								</gco:RecordType>
+							</gmd19157:valueType>
+							<gmd19157:valueUnit/>
+							<gmd19157:value>
+								<gco:Record>
+									<qml:Purity>
+										<qml:values/>
+									</qml:Purity>
+									<qml:Items>
+										<qml:count href="#Purity_20070117"/>
+									</qml:Items>
+								</gco:Record>
+							</gmd19157:value>
+						</gmd19157:DQ_QuantitativeResult>
+					</gmd19157:result>
+				</gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+			</gmd19157:report>
+			<gmd19157:report>
+				<gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+					<gmd19157:measure>
+						<gmd19157:DQ_MeasureReference>
+							<gmd19157:measureIdentification>
+								<updated19115:MD_Identifier>
+									<gmd:code>
+										<gco:CharacterString>http://www.qualityml.org/1.0/measure/ValueDomain</gco:CharacterString>
+									</gmd:code>
+								</updated19115:MD_Identifier>
+							</gmd19157:measureIdentification>
+							<gmd19157:nameOfMeasure>
+								<gco:CharacterString>Purity of the modal value for the Mode_summary layer</gco:CharacterString>
+							</gmd19157:nameOfMeasure>
+						</gmd19157:DQ_MeasureReference>
+					</gmd19157:measure>
+					<gmd19157:result>
+						<gmd19157:DQ_QuantitativeResult>
+							<gmd19157:valueType>
+								<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/Purity">
+									Purity
+								</gco:RecordType>
+							</gmd19157:valueType>
+							<gmd19157:valueUnit/>
+							<gmd19157:value>
+								<gco:Record>
+									<qml:Purity>
+										<qml:values/>
+									</qml:Purity>
+									<qml:Items>
+										<qml:count href="#Purity_summary"/>
+									</qml:Items>
+								</gco:Record>
+							</gmd19157:value>
+						</gmd19157:DQ_QuantitativeResult>
+					</gmd19157:result>
+				</gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+			</gmd19157:report>
+			<gmd19157:report>
+				<gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+					<gmd19157:measure>
+						<gmd19157:DQ_MeasureReference>
+							<gmd19157:measureIdentification>
+								<updated19115:MD_Identifier>
+									<gmd:code>
+										<gco:CharacterString>http://www.qualityml.org/1.0/measure/ValueDomain</gco:CharacterString>
+									</gmd:code>
+								</updated19115:MD_Identifier>
+							</gmd19157:measureIdentification>
+							<gmd19157:nameOfMeasure>
+								<gco:CharacterString>Categorical attribute proportions</gco:CharacterString>
+							</gmd19157:nameOfMeasure>
+						</gmd19157:DQ_MeasureReference>
+					</gmd19157:measure>
+					<gmd19157:result>
+						<gmd19157:DQ_QuantitativeResult>
+							<gmd19157:valueType>
+								<gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/Purity">
+									Purity
+								</gco:RecordType>
+							</gmd19157:valueType>
+							<gmd19157:valueUnit/>
+							<gmd19157:value>
+								<gco:Record>
+									<qml:Purity>
+										<qml:values/>
+									</qml:Purity>
+									<qml:Items>
+										<qml:count href="#Purity_20061029"/>
+									</qml:Items>
+								</gco:Record>
+							</gmd19157:value>
+						</gmd19157:DQ_QuantitativeResult>
+					</gmd19157:result>
+				</gmd19157:DQ_NonQuantitativeAttributeAccuracy>
+			</gmd19157:report>
+			<gmd19157:lineage>
+				<!-- GVQ lineage em permet donar publicacions? fer el canvi 
+				publicació palai pons 1995 per corr geom i altres lligades als diferents passos , p ex serra et al 2006 per enrichment-->
+				<gmd19157:LI_Lineage>
+					<gmd19157:statement>
+						<gco:CharacterString>Landsat-5 multispectral bands (geometrically and radiometrically corrected) are submitted to an automathic classifier that the flooding type of each pixel through a discriminant analysis. The classifier was trained once with images captured during the 2006-2007 season. This information is used to enrich the SIGPAC vector parcel to include for each parcel the flooding types for each date of the season as well as a summary to indicate wheter the field has beef flooded at least on three of the six dates of the season.</gco:CharacterString>
+					</gmd19157:statement>
+					<gmd19157:processStep>
+						<gmd19157:LI_ProcessStep id="Geometric_correction">
+							<!-- $$ I did not find how to describe the result of a processStep (and how to give it an ID). The way I found to link processSteps and sources is describing on the next procesStep the result of the previous one. To link those information I describe the source as "result of **" where ** is the name of the first processStep and, moreover, I do xlink the first processSteps as sourceStep. Is it ok? There is another (better?) option? In fact i would prefer to be able to define a processResult (Ll_Source type) because sometimes a process gives two results and only one is used on the next step (but I would like to described both) -->
+							<!-- ··$$·· $$ escampar-ho a tot arreu així1!! -->
+							<!-- $$$ how to cite publications related to this processStep -->
+							<!-- $$$ how to define quality measures for each of the sources of each process Step for example de RMS of each geometic corr; the overall accuracy of each (date) classification -->
+							<gmd19157:description>
+								<gco:CharacterString>Geometric correction of Landsat images is carried over images, using ground control points (selected from 1:25000 ortophotomaps). The corrections is based in a first-order polynomial function that takes into account a Digital Elevation Model.</gco:CharacterString>
+							</gmd19157:description>
+							<gmd19157:processor xlink:href="PS_UAB"/>
+							<gmd19157:source>
+								<gmd19157:LI_Source id="Landsat_images">
+									<gmd19157:description>
+										<gco:CharacterString>One Landsat-5 image is used for each of the 6 studied dates: 29-10-2006, 14-11-2006, 30-11-2006, 16-12-2006, 17-01-2007 and 22-03-2007. Those dates are selected within the 4 months during the autumn winter period in which the field should be flooded (see "Purpose" metadata element).</gco:CharacterString>
+									</gmd19157:description>
+									<gmd19157:sourceCitation>
+										<gmd:CI_Citation>
+											<gmd:title>
+												<gco:CharacterString>$$</gco:CharacterString>
+											</gmd:title>
+											<gmd:date>
+												<gmd:CI_Date>
+													<gmd:date>
+														<gco:Date>2006-10-29</gco:Date>
+													</gmd:date>
+													<gmd:dateType>
+														<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+													</gmd:dateType>
+												</gmd:CI_Date>
+											</gmd:date>
+											<gmd:date>
+												<gmd:CI_Date>
+													<gmd:date>
+														<gco:Date>2006-11-14</gco:Date>
+													</gmd:date>
+													<gmd:dateType>
+														<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+													</gmd:dateType>
+												</gmd:CI_Date>
+											</gmd:date>
+											<gmd:date>
+												<gmd:CI_Date>
+													<gmd:date>
+														<gco:Date>2006-11-30</gco:Date>
+													</gmd:date>
+													<gmd:dateType>
+														<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+													</gmd:dateType>
+												</gmd:CI_Date>
+											</gmd:date>
+											<gmd:date>
+												<gmd:CI_Date>
+													<gmd:date>
+														<gco:Date>2006-12-16</gco:Date>
+													</gmd:date>
+													<gmd:dateType>
+														<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+													</gmd:dateType>
+												</gmd:CI_Date>
+											</gmd:date>
+											<gmd:date>
+												<gmd:CI_Date>
+													<gmd:date>
+														<gco:Date>2007-01-17</gco:Date>
+													</gmd:date>
+													<gmd:dateType>
+														<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+													</gmd:dateType>
+												</gmd:CI_Date>
+											</gmd:date>
+											<gmd:date>
+												<gmd:CI_Date>
+													<gmd:date>
+														<gco:Date>2007-03-22</gco:Date>
+													</gmd:date>
+													<gmd:dateType>
+														<gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="creation"/>
+													</gmd:dateType>
+												</gmd:CI_Date>
+											</gmd:date>
+										</gmd:CI_Citation>
+									</gmd19157:sourceCitation>
+									<!-- ··$$·· how RMS of positional accuracy corrected images is documented here (i.e és resultat del procés) ?? -->
+								</gmd19157:LI_Source>
+							</gmd19157:source>
+							<gmd19157:source>
+								<gmd19157:LI_Source>
+									<gmd19157:description>
+										<gco:CharacterString>DEM 10m</gco:CharacterString>
+									</gmd19157:description>
+									<gmd19157:sourceCitation>
+										<gmd:CI_Citation>
+											<gmd:title>
+												<gco:CharacterString>$$$$ </gco:CharacterString>
+											</gmd:title>
+											<gmd:date/>
+											<gmd:citedResponsibleParty>
+												<gmd:CI_ResponsibleParty>
+													<!-- acabar bé $$$ -->
+													<gmd:organisationName>
+														<gco:CharacterString>ICC $$$$</gco:CharacterString>
+													</gmd:organisationName>
+													<gmd:role/>
+												</gmd:CI_ResponsibleParty>
+											</gmd:citedResponsibleParty>
+										</gmd:CI_Citation>
+									</gmd19157:sourceCitation>
+								</gmd19157:LI_Source>
+							</gmd19157:source>
+						</gmd19157:LI_ProcessStep>
+					</gmd19157:processStep>
+					<gmd19157:processStep>
+						<gmd19157:LI_ProcessStep>
+							<gmd19157:description>
+								<gco:CharacterString>Radiometric correction of Landsat images is based on sensor calibration parameters (extracted from original metadata of the images) and other factors such as atmospheric effects and solar incident angles, taking into account relief. Through this process, digital numbers were converted to reflectance values.</gco:CharacterString>
+							</gmd19157:description>
+							<gmd19157:processor>
+								<!-- $$$ igual que adalt -->
+							</gmd19157:processor>
+							<gmd19157:source xlink:href="">
+								<gmd19157:LI_Source id="Georeferenced_Landsat_images">
+									<!-- $$$ it is possuble to directly xlink to the result of the previous processStep, that is this source?? -->
+									<gmd19157:description>
+										<gco:CharacterString>Each of the 5 previous Landsat-5 images after geometric correction.</gco:CharacterString>
+									</gmd19157:description>
+									<gmd19157:sourceReferenceSystem>
+										<gmd:MD_ReferenceSystem>
+											<!-- UTM $$··· -->
+										</gmd:MD_ReferenceSystem>
+									</gmd19157:sourceReferenceSystem>
+									<gmd19157:sourceCitation>
+										<!-- cita a les georef iamges -->
+									</gmd19157:sourceCitation>
+								</gmd19157:LI_Source>
+							</gmd19157:source>
+						</gmd19157:LI_ProcessStep>
+					</gmd19157:processStep>
+					<gmd19157:processStep>
+						<gmd19157:LI_ProcessStep>
+							<gmd19157:description>
+								<gco:CharacterString>To focus the study on those rice fields where farmers were applying agrienvironmental measures, as well as to avoid possible spectral confusions with non-desirable classes (e.g. urban areas, roads, forest land), a mask was used.</gco:CharacterString>
+							</gmd19157:description>
+							<gmd19157:processor>
+								<!-- $$$ igual que adalt -->
+							</gmd19157:processor>
+							<gmd19157:source>
+								<gmd19157:LI_Source id="RadiometricCorrected_Georeferenced_Landsat_images">
+									<gmd19157:description>
+										<gco:CharacterString>Each of the 5 previous Landsat-5 images after geometric and radiometric correction.</gco:CharacterString>
+									</gmd19157:description>
+									<gmd19157:sourceReferenceSystem>
+										<gmd:MD_ReferenceSystem>
+											<!-- UTM $$··· -->
+										</gmd:MD_ReferenceSystem>
+									</gmd19157:sourceReferenceSystem>
+									<gmd19157:sourceCitation>
+										<!-- cita a les georef iamges -->
+									</gmd19157:sourceCitation>
+									<gmd19157:sourceStep xlink:href="#Geometric_correction"/>
+								</gmd19157:LI_Source>
+							</gmd19157:source>
+							<gmd19157:source>
+								<gmd19157:LI_Source id="SIGPAC_parcels">
+									<gmd19157:description>
+										<gco:CharacterString>The mask source was obtained from the vector layer corresponding to the SIGPAC (Agrarian Data Geographic Information Management System) extracting only the agricultural parcels from the original SIGPAC layer containing all land-uses</gco:CharacterString>
+									</gmd19157:description>
+									<gmd19157:sourceCitation>
+										<gmd:CI_Citation>
+											<gmd:title>
+												<gco:CharacterString>Sistema de Información Geográfica de Parcelas Agrícolas (SIGPAC)</gco:CharacterString>
+											</gmd:title>
+											<gmd:date>
+												<gmd:CI_Date>
+													<gmd:date>
+														<gco:Date>2007</gco:Date>
+													</gmd:date>
+													<gmd:dateType/>
+												</gmd:CI_Date>
+											</gmd:date>
+											<gmd:citedResponsibleParty>
+												<gmd:CI_ResponsibleParty>
+													<gmd:organisationName>
+														<gco:CharacterString>Ministerio de Agricultura, Pesca y Alimentación</gco:CharacterString>
+													</gmd:organisationName>
+													<gmd:role/>
+												</gmd:CI_ResponsibleParty>
+											</gmd:citedResponsibleParty>
+											<gmd:otherCitationDetails>
+												<gco:CharacterString>Available online at: http://www.magrama.gob.es/es/agricultura/temas/sistema-de-informacion-geografica-de-parcelas-agricolas-sigpac-/default.aspx</gco:CharacterString>
+											</gmd:otherCitationDetails>
+										</gmd:CI_Citation>
+									</gmd19157:sourceCitation>
+								</gmd19157:LI_Source>
+							</gmd19157:source>
+						</gmd19157:LI_ProcessStep>
+					</gmd19157:processStep>
+					<gmd19157:processStep>
+						<gmd19157:LI_ProcessStep>
+							<gmd19157:description>
+								<gco:CharacterString>Discriminant Analysis (DA) involves a linear combination of the original variables to produce a new set of variables that maximize the statistical difference between the predefined groups. DA acts as a standard classifier (applied to each date) because it enables an unknown pixel to be assigned to one of the predefined classes using discriminant functions obtained from a set of training areas. Training areas were obtained from fieldwork carried out in the Ebro Delta on 29 October 2006 and 17 January 2007. Fieldwork was done on two different dates because the class ‘mudflat without water’ does not appear until winter (when the fields begin to dry out). The surface of the training areas collected during fieldwork was 79.7 ha and 40% of them were reserved for an independent test of the results (random sampling).</gco:CharacterString>
+							</gmd19157:description>
+							<gmd19157:source>
+								<gmd19157:LI_Source id="training_areas">
+									<gmd19157:description>
+										<gco:CharacterString>Training areas collection (47.8 ha): Several sites representative of each class were visited and georeferenced with the aid of a Global Positioning System (Garmin etreX VistaC, Garmin International, Olathe, KS, USA), the cadastre cartography and the most recently available Landsat image.</gco:CharacterString>
+									</gmd19157:description>
+									<gmd19157:sourceReferenceSystem>
+										<!-- $$ -->
+									</gmd19157:sourceReferenceSystem>
+								</gmd19157:LI_Source>
+							</gmd19157:source>
+							<gmd19157:source>
+								<!-- $$$ this "source" is not used on this processStep but it is natural to explain it here as it is a a split of the same information. it is better to move this to another location?? -->
+								<gmd19157:LI_Source id="test_areas">
+									<gmd19157:description>
+										<gco:CharacterString>Test areas collection (31.9 ha): Several sites representative of each class were visited and georeferenced with the aid of a Global Positioning System (Garmin etreX VistaC, Garmin International, Olathe, KS, USA), the cadastre cartography and the most recently available Landsat image.</gco:CharacterString>
+									</gmd19157:description>
+									<gmd19157:sourceReferenceSystem>
+										<!-- $$ -->
+									</gmd19157:sourceReferenceSystem>
+								</gmd19157:LI_Source>
+							</gmd19157:source>
+							<gmd19157:source>
+								<gmd19157:LI_Source id="SIGPACMasked_RadiometricCorrected_Georeferenced_Landsat_images">
+									<!-- $$$ revisar ids -->
+									<gmd19157:description>
+										<gco:CharacterString>Each of the 5 previous Landsat-5 images after geometric and radiometric correction and SIGPAC masking</gco:CharacterString>
+									</gmd19157:description>
+									<gmd19157:sourceReferenceSystem>
+										<gmd:MD_ReferenceSystem>
+											<!-- UTM $$··· -->
+										</gmd:MD_ReferenceSystem>
+									</gmd19157:sourceReferenceSystem>
+									<gmd19157:sourceCitation>
+										<!-- cita a les georef iamges -->
+									</gmd19157:sourceCitation>
+								</gmd19157:LI_Source>
+							</gmd19157:source>
+						</gmd19157:LI_ProcessStep>
+					</gmd19157:processStep>
+					<gmd19157:processStep>
+						<gmd19157:LI_ProcessStep>
+							<gmd19157:description>
+								<gco:CharacterString>The rustic cadastre vector map (SIGPAC) was enriched with the classification results for each available date. Vector enrichment is a procedure that consists of calculating statistics from a raster image (in our case, a classification image) in the polygon zone of a vector map (in our case, the rustic cadastre cartography). The output of the enrichment is a vector map that is geometrically identical to the input vector map, but contains more alphanumerical information; for example, the majority class in the polygon and the relative surface area occupied by this modal class in the polygon according to the remote sensing raster map. After the rustic cadastre vector cartography is enriched, it can serve as a useful tool for the administrative management of the farmers’ agri-environmental subsidies.</gco:CharacterString>
+							</gmd19157:description>
+							<gmd19157:processor>
+								<gmd:CI_ResponsibleParty>
+									<gmd:role/>
+								</gmd:CI_ResponsibleParty>
+							</gmd19157:processor>
+							<gmd19157:source xlink:href="#SIGPAC_parcels"/>
+							<gmd19157:source>
+								<gmd19157:LI_Source id="Classifications">
+									<!-- $$$ revisar ids -->
+									<gmd19157:description>
+										<gco:CharacterString>Each of the 5 classifications obtained through the discriminant analysis applied to each of the five Landsat-5 images (after geometric and radiometric correction and SIGPAC masking).</gco:CharacterString>
+									</gmd19157:description>
+									<gmd19157:sourceReferenceSystem>
+										<gmd:MD_ReferenceSystem>
+											<!-- UTM $$··· -->
+										</gmd:MD_ReferenceSystem>
+									</gmd19157:sourceReferenceSystem>
+									<gmd19157:sourceCitation>
+										<!-- cita a les georef iamges -->
+									</gmd19157:sourceCitation>
+								</gmd19157:LI_Source>
+							</gmd19157:source>
+						</gmd19157:LI_ProcessStep>
+					</gmd19157:processStep>
+					<gmd19157:processStep>
+						<gmd19157:LI_ProcessStep>
+							<gmd19157:description>
+								<gco:CharacterString>Obtention of the Classification summary: a raster file is obtained from the combination of the five classifications (one for each date) indicating the number of dates when the pixel is flooded (i.e. is labelled as category: deep water, shallow water, ploughed soil with water or mudflat with water). The classification summary raster file values ranging from 0 to 5.</gco:CharacterString>
+							</gmd19157:description>
+							<gmd19157:processor>
+								<!-- $$$ posar-ho aqui i a tots els procesStep -->
+							</gmd19157:processor>
+							<gmd19157:source xlink:href="#Classifications"/>
+						</gmd19157:LI_ProcessStep>
+					</gmd19157:processStep>
+					<gmd19157:processStep>
+						<gmd19157:LI_ProcessStep>
+							<gmd19157:description>
+								<gco:CharacterString>A reclassified map is obtained by classifying each pixel with value 1 when the classification summary value is &gt;=3 and 0 otherwise. The criterium is to consider that if three out of the five dates during the seasin the pixel is flooded, the pixel is considered as compliant with the regulation purposes (i.e. flooded).</gco:CharacterString>
+							</gmd19157:description>
+							<gmd19157:source>
+								<gmd19157:LI_Source id="li_Classification_summary">
+									<gmd19157:description>
+										<gco:CharacterString>Raster classification summary indicating the number of dates when the pixel is flooded.</gco:CharacterString>
+									</gmd19157:description>
+								</gmd19157:LI_Source>
+							</gmd19157:source>
+						</gmd19157:LI_ProcessStep>
+					</gmd19157:processStep>
+					<gmd19157:processStep>
+						<gmd19157:LI_ProcessStep>
+							<gmd19157:description>
+								<gco:CharacterString>The final map is obtained by overlaying the binary classification summary to the enriched SIGPAC Parcels. Vector enrichment is a procedure that consists of calculating statistics from a raster image (in this case the binary classification summary: Binary_Classification_summary) in the polygon zone of a vector map (in our case, the enriched SIGPAC parcels: Enriched_SIGPAC_parcels). The output of the enrichment is the vector map that is geometrically identical to the input vector map, that adds to the previous alphanumerical information two new informations for each parcel: 1/ A Yes/No answer to whether the parcel complies with the regulation purposes (i.e. flooded at least three dates), 2/ Purity: relative surface area (percentage) occupied by "Yes" pixels</gco:CharacterString>
+							</gmd19157:description>
+							<gmd19157:processor>
+								<!-- $$·· -->
+							</gmd19157:processor>
+							<gmd19157:source>
+								<gmd19157:LI_Source id="li_Binary_Classification_summary">
+									<gmd19157:description>
+										<gco:CharacterString>Binary raster classification summary indicating value 1 when the number of dates when the pixel is flooded is three or more.</gco:CharacterString>
+									</gmd19157:description>
+								</gmd19157:LI_Source>
+							</gmd19157:source>
+							<gmd19157:source>
+								<gmd19157:LI_Source id="Enriched_SIGPAC_parcels">
+									<gmd19157:description>
+										<gco:CharacterString>Enriched cadastre vector map (SIGPAC) including information of modal class and purity (percentage of parcel surface with the modal class) for each date.</gco:CharacterString>
+									</gmd19157:description>
+								</gmd19157:LI_Source>
+							</gmd19157:source>
+						</gmd19157:LI_ProcessStep>
+					</gmd19157:processStep>
+				</gmd19157:LI_Lineage>
+			</gmd19157:lineage>
+			<gvq:discoveredIssue>
+				<gvq:GVQ_DiscoveredIssue>
+					<gvq:target xlink:href="RiceFlooding2006-10-29to2007-03-22"/>
+					<gvq:knownProblem><gco:CharacterString>Time uncertainty depends on the periodicity of the satellite images on the temporal evolution of the flooding category. It seems that with a decision rule of the expected evolution by category it would be possible to infer a layer that could be expressed as a "Accuracy of a time measurement" of temporal accuracy pixel level indicator</gco:CharacterString></gvq:knownProblem>
+				</gvq:GVQ_DiscoveredIssue>
+			</gvq:discoveredIssue>
+		</gvq:GVQ_DataQuality>
+	</gvq:dataQualityInfo>
+</gvq:GVQ_Metadata>

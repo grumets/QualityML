@@ -1,0 +1,198 @@
+/*
+The MIT License
+
+Copyright Error: on line 6, column 29 in Templates/Licenses/license-mit.txt
+The string doesn't match the expected date/time format. The string to parse was: "23/02/2015". The expected format was: "dd-MMM-yyyy". d.diaz.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+*/
+/* 
+    Created on : 23/02/2015, 17:48:22
+    Author     : d.diaz
+*/
+
+/* In order to ensure the content do not get hidden by the navbar */
+body {
+	padding-top: 10px;
+}
+
+.logo-miramon {
+	/*background-image: url("../IMG/Logo_MM_email_900.png"), none;*/
+	background-image: url("../IMG/logo_mm_25_hor_cat.png"), none;
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	background-size: auto 50px;
+	direction: ltr;
+	display: block;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-indent: -9999em;
+	position: relative;
+	height: 50px;
+	width: 140px;
+}
+
+.logo-miramon_usa {
+	/*background-image: url("../IMG/Logo_MM_email_900.png"), none;*/
+	background-image: url("../IMG/logo_mm_25_hor_ang.png"), none;
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	background-size: auto 50px;
+	direction: ltr;
+	display: block;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-indent: -9999em;
+	position: relative;
+	height: 50px;
+	width: 140px;
+}
+
+.logo-miramon_esp {
+	/*background-image: url("../IMG/Logo_MM_email_900.png"), none;*/
+	background-image: url("../IMG/logo_mm_25_hor_esp.png"), none;
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	background-size: auto 50px;
+	direction: ltr;
+	display: block;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-indent: -9999em;
+	position: relative;
+	height: 50px;
+	width: 140px;
+}
+
+.masthead-brand.imatge {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float:left
+}
+
+.peufoto {
+	font-size:small;
+	font-style:italic;
+}
+.logo-grumets {
+	background-image: url("../IMG/LogoGrumets.png"), none;
+	background-size: auto 20px;
+	background-repeat: no-repeat;	
+	margin: 0px 0px 0px 0px;
+	height: 45px;
+	width: 66px;
+}
+.logo-twitter {
+	background-image: url("../img/Twitter.png"), none;
+	background-size: auto 25px;
+	background-position: auto 200px;	
+	background-repeat: no-repeat;
+	margin: 10px 0px 0px 0px;
+	height: 25px;
+	width: 50px;
+}
+
+.logo-subscribe {
+	display: none; /* Erase this for now... */
+	background-image: url("../img/subscribe_button.gif"), none;
+	background-size: auto 25px;
+	background-repeat: no-repeat;
+	margin: 0px 0px 0px 0px;
+	height: 20px;
+	width: 230px;
+}
+
+
+.marketing .col-lg-3, .col-lg-4, .col-lg-6  {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.cooperation {
+color:#666;
+}
+.blog a {
+color:#337ab7;
+}
+.blog a:hover {
+color:#337ab7;
+}
+
+a.badge {
+	text-decoration: underline;
+}
+a.badge:hover {
+	text-decoration: none;
+}
+
+.navbar-brand {
+  position: relative;	
+  float: left;
+  padding: 15px 50px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.panel-footer {
+  position: relative;
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+} 
+
+.logo-GENERALITAT {
+	/*background-image: url("../IMG/Logo_MM_email_900.png"), none;*/
+	background-image: url("../MCSC/pics/LOGO_GENERALITAT.png"), none;
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	background-size: auto 50px;
+	direction: ltr;
+	display: block;
+	float: left;
+	margin: 10px 10px 10px 10px;
+	padding: 0px 0px 0px 0px;
+	text-indent: -9999em;
+	position: relative;
+	height: 50px;
+	width: 180px;
+}
+
+.logo-CREAF {
+	/*background-image: url("../IMG/Logo_MM_email_900.png"), none;*/
+	background-image: url("../MCSC/pics/logo_CREAF.png"), none;
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	background-size: auto 50px;
+	direction: ltr;
+	display: block;
+	float: left;
+	margin: 10px 10px 10px 10px;
+	padding: 0px 0px 0px 0px;
+	text-indent: -9999em;
+	position: relative;
+	height: 50px;
+	width: 140px;
+}
+
+

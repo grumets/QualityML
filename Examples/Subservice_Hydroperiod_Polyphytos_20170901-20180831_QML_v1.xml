@@ -1,0 +1,1202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://schemas.opengis.net/iso/19139/20060504/gmd/gmd.xsd http://www.isotc211.org/2005/gmx http://schemas.opengis.net/iso/19139/20060504/gmx/gmx.xsd">
+	<gmd:fileIdentifier>
+		<gco:CharacterString>b30f2229-7a47-44a6-babd-77f33479cd6d</gco:CharacterString>
+	</gmd:fileIdentifier>
+	<gmd:language>
+		<gmd:LanguageCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+	</gmd:language>
+	<gmd:characterSet>
+		<gmd:MD_CharacterSetCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="UTF-8"/>
+	</gmd:characterSet>
+	<gmd:hierarchyLevel>
+		<gmd:MD_ScopeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">Layer</gmd:MD_ScopeCode>
+	</gmd:hierarchyLevel>
+	<gmd:hierarchyLevelName>
+		<gco:CharacterString>Layer-sheet</gco:CharacterString>
+	</gmd:hierarchyLevelName>
+	<gmd:contact>
+		<gmd:CI_ResponsibleParty>
+			<gmd:role>
+				<gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor">Processor</gmd:CI_RoleCode>
+			</gmd:role>
+		</gmd:CI_ResponsibleParty>
+	</gmd:contact>
+	<gmd:dateStamp>
+		<gco:DateTime>2022-06-28T08:47:11.009Z</gco:DateTime>
+	</gmd:dateStamp>
+	<gmd:metadataStandardName>
+		<gco:CharacterString>ISO 19115 Geographic Information - Metadata</gco:CharacterString>
+	</gmd:metadataStandardName>
+	<gmd:metadataStandardVersion>
+		<gco:CharacterString>2003/Cor.1:2006</gco:CharacterString>
+	</gmd:metadataStandardVersion>
+	<gmd:dataSetURI>
+		<gco:CharacterString>C:\Projectes\2021_WQeMS\WP2\_MetadataTemplates\T3_3_LandWaterTransition\lwtzcd_hydroperiod\landwatertransitionzone-hydroperiod_polyphytos_20170901_20180822_SENT2_m10.tif</gco:CharacterString>
+	</gmd:dataSetURI>
+	<gmd:spatialRepresentationInfo>
+		<gmd:MD_Georectified>
+			<gmd:numberOfDimensions>
+				<gco:Integer>2</gco:Integer>
+			</gmd:numberOfDimensions>
+			<gmd:axisDimensionProperties>
+				<gmd:MD_Dimension>
+					<gmd:dimensionName>
+						<gmd:MD_DimensionNameTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="row">Row</gmd:MD_DimensionNameTypeCode>
+					</gmd:dimensionName>
+					<gmd:dimensionSize>
+						<gco:Integer>2184</gco:Integer>
+					</gmd:dimensionSize>
+					<gmd:resolution>
+						<gco:Length uom="m">10</gco:Length>
+					</gmd:resolution>
+				</gmd:MD_Dimension>
+			</gmd:axisDimensionProperties>
+			<gmd:axisDimensionProperties>
+				<gmd:MD_Dimension>
+					<gmd:dimensionName>
+						<gmd:MD_DimensionNameTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_DimensionNameTypeCode" codeListValue="column">Column</gmd:MD_DimensionNameTypeCode>
+					</gmd:dimensionName>
+					<gmd:dimensionSize>
+						<gco:Integer>2392</gco:Integer>
+					</gmd:dimensionSize>
+					<gmd:resolution>
+						<gco:Length uom="m">10</gco:Length>
+					</gmd:resolution>
+				</gmd:MD_Dimension>
+			</gmd:axisDimensionProperties>
+			<gmd:cellGeometry>
+				<gmd:MD_CellGeometryCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CellGeometryCode" codeListValue="area">Area</gmd:MD_CellGeometryCode>
+			</gmd:cellGeometry>
+			<gmd:transformationParameterAvailability>
+				<gco:Boolean>true</gco:Boolean>
+			</gmd:transformationParameterAvailability>
+			<gmd:checkPointAvailability>
+				<gco:Boolean>false</gco:Boolean>
+			</gmd:checkPointAvailability>
+			<gmd:cornerPoints>
+				<gml:Point gml:id="NW_corner">
+					<gml:pos>569830.668182 4461848.38643</gml:pos>
+				</gml:Point>
+			</gmd:cornerPoints>
+			<gmd:cornerPoints>
+				<gml:Point gml:id="SE_corner">
+					<gml:pos>593740.668182 4440018.38643</gml:pos>
+				</gml:Point>
+			</gmd:cornerPoints>
+			<gmd:pointInPixel>
+				<gmd:MD_PixelOrientationCode>center</gmd:MD_PixelOrientationCode>
+			</gmd:pointInPixel>
+		</gmd:MD_Georectified>
+	</gmd:spatialRepresentationInfo>
+	<gmd:referenceSystemInfo>
+		<gmd:MD_ReferenceSystem>
+			<gmd:referenceSystemIdentifier>
+				<gmd:RS_Identifier>
+					<gmd:code>
+						<gmx:Anchor xlink:href="http://www.opengis.net/def/crs/EPSG/0/25834">UTM-34N-ETRS89</gmx:Anchor>
+					</gmd:code>
+				</gmd:RS_Identifier>
+			</gmd:referenceSystemIdentifier>
+		</gmd:MD_ReferenceSystem>
+	</gmd:referenceSystemInfo>
+	<gmd:identificationInfo>
+		<gmd:MD_DataIdentification>
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString>Subservice: Hydroperiod. WaterBody: Polyphytos. Period: 20170901-20180822</gco:CharacterString>
+					</gmd:title>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2022-06-14</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">Creation</gmd:CI_DateTypeCode>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+					<gmd:editionDate>
+						<gco:Date>2022-06-14</gco:Date>
+					</gmd:editionDate>
+					<gmd:identifier>
+						<gmd:RS_Identifier>
+							<gmd:code>
+								<gco:CharacterString>C:/Projectes/2021_WQeMS/WP2/_MetadataTemplates/T3_3_LandWaterTransition/CERTH_Hydroperiod_QualityML_2</gco:CharacterString>
+							</gmd:code>
+							<gmd:codeSpace>
+								<gco:CharacterString>https://wqems.eu</gco:CharacterString>
+							</gmd:codeSpace>
+						</gmd:RS_Identifier>
+					</gmd:identifier>
+				</gmd:CI_Citation>
+			</gmd:citation>
+			<gmd:abstract>
+				<gco:CharacterString>Land-water transition zone change detection</gco:CharacterString>
+			</gmd:abstract>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty>
+					<gmd:organisationName>
+						<gco:CharacterString>WQeMS</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:contactInfo>
+						<gmd:CI_Contact>
+							<gmd:onlineResource>
+								<gmd:CI_OnlineResource>
+									<gmd:linkage>
+										<gmd:URL>https://wqems.eu/</gmd:URL>
+									</gmd:linkage>
+									<gmd:function>
+										<gmd:CI_OnLineFunctionCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">Information</gmd:CI_OnLineFunctionCode>
+									</gmd:function>
+								</gmd:CI_OnlineResource>
+							</gmd:onlineResource>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+					<gmd:role>
+						<gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">Distributor</gmd:CI_RoleCode>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty>
+					<gmd:organisationName>
+						<gco:CharacterString>CERTH</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:role>
+						<gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">Point of contact</gmd:CI_RoleCode>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>I6.6.1. Change in the extent of water-related ecosystems over time</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>SDG 6 - Clean Water and Sanitation</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>I6.4.2. Level of water stress: freshwater withdrawal as a proportion of available freshwater resources</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gco:CharacterString>UN</gco:CharacterString>
+							</gmd:title>
+							<gmd:alternateTitle>
+								<gco:CharacterString>UN</gco:CharacterString>
+								<!-- revisar títol alternatiu -->
+							</gmd:alternateTitle>
+							<gmd:date xsi:type="gmd:CI_Date_PropertyType">
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:Date>2008-06-10</gco:Date>
+										<!--revisar data-->
+									</gmd:date>
+									<gmd:dateType xsi:type="gmd:CI_DateTypeCode_PropertyType"/>
+								</gmd:CI_Date>
+							</gmd:date>
+							<gmd:citedResponsibleParty>
+								<gmd:CI_ResponsibleParty>
+									<gmd:organisationName>
+										<gco:CharacterString>United Nations</gco:CharacterString>
+									</gmd:organisationName>
+									<gmd:contactInfo>
+										<gmd:CI_Contact>
+											<gmd:onlineResource>
+												<gmd:CI_OnlineResource>
+													<gmd:linkage>
+														<gmd:URL>https://www.un.org/sustainabledevelopment</gmd:URL>
+													</gmd:linkage>
+													<gmd:function>
+														<gmd:CI_OnLineFunctionCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">Information</gmd:CI_OnLineFunctionCode>
+													</gmd:function>
+												</gmd:CI_OnlineResource>
+											</gmd:onlineResource>
+										</gmd:CI_Contact>
+									</gmd:contactInfo>
+									<gmd:role>
+										<gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">Originator</gmd:CI_RoleCode>
+									</gmd:role>
+								</gmd:CI_ResponsibleParty>
+							</gmd:citedResponsibleParty>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>Essential Water Variable</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gco:CharacterString>GEO</gco:CharacterString>
+							</gmd:title>
+							<gmd:alternateTitle>
+								<gco:CharacterString>GEO</gco:CharacterString>
+							</gmd:alternateTitle>
+							<!-- revisar títol alternatiu-->
+							<gmd:date xsi:type="gmd:CI_Date_PropertyType">
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:Date>2008-06-10</gco:Date>
+										<!--revisar data-->
+									</gmd:date>
+									<gmd:dateType xsi:type="gmd:CI_DateTypeCode_PropertyType"/>
+								</gmd:CI_Date>
+							</gmd:date>
+							<gmd:citedResponsibleParty>
+								<gmd:CI_ResponsibleParty>
+									<gmd:organisationName>
+										<gco:CharacterString>Group on Earth Observations</gco:CharacterString>
+									</gmd:organisationName>
+									<gmd:contactInfo>
+										<gmd:CI_Contact>
+											<gmd:onlineResource>
+												<gmd:CI_OnlineResource>
+													<gmd:linkage>
+														<gmd:URL>https://earthobservations.org</gmd:URL>
+													</gmd:linkage>
+													<gmd:function>
+														<gmd:CI_OnLineFunctionCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">Information</gmd:CI_OnLineFunctionCode>
+													</gmd:function>
+												</gmd:CI_OnlineResource>
+											</gmd:onlineResource>
+										</gmd:CI_Contact>
+									</gmd:contactInfo>
+									<gmd:role>
+										<gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">Originator</gmd:CI_RoleCode>
+									</gmd:role>
+								</gmd:CI_ResponsibleParty>
+							</gmd:citedResponsibleParty>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>water reservoir</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>water quality</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">Theme</gmd:MD_KeywordTypeCode>
+					</gmd:type>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gco:CharacterString>GEMET Thesaurus version 1.0</gco:CharacterString>
+							</gmd:title>
+							<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:Date>2008-06-10</gco:Date>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">Publication</gmd:CI_DateTypeCode>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+							<gmd:citedResponsibleParty>
+								<gmd:CI_ResponsibleParty>
+									<gmd:organisationName>
+										<gco:CharacterString>European Environment Information and Observation Network (Eionet)</gco:CharacterString>
+									</gmd:organisationName>
+									<gmd:contactInfo>
+										<gmd:CI_Contact>
+											<gmd:onlineResource>
+												<gmd:CI_OnlineResource>
+													<gmd:linkage>
+														<gmd:URL>https://www.eionet.europa.eu/gemet</gmd:URL>
+													</gmd:linkage>
+													<gmd:function>
+														<gmd:CI_OnLineFunctionCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">Information</gmd:CI_OnLineFunctionCode>
+													</gmd:function>
+												</gmd:CI_OnlineResource>
+											</gmd:onlineResource>
+										</gmd:CI_Contact>
+									</gmd:contactInfo>
+									<gmd:role>
+										<gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">Originator</gmd:CI_RoleCode>
+									</gmd:role>
+								</gmd:CI_ResponsibleParty>
+							</gmd:citedResponsibleParty>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>Rainfall</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:type>
+						<gmd:MD_KeywordTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">Theme</gmd:MD_KeywordTypeCode>
+					</gmd:type>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gco:CharacterString>IDEC (MiraMon) Thesaurus</gco:CharacterString>
+							</gmd:title>
+							<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:DateTime>2022-04-21T20:20:55.070</gco:DateTime>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">Publication</gmd:CI_DateTypeCode>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+							<gmd:citedResponsibleParty>
+								<gmd:CI_ResponsibleParty>
+									<gmd:organisationName>
+										<gco:CharacterString>MiraMon</gco:CharacterString>
+									</gmd:organisationName>
+									<gmd:contactInfo>
+										<gmd:CI_Contact>
+											<gmd:onlineResource>
+												<gmd:CI_OnlineResource>
+													<gmd:linkage>
+														<gmd:URL>https://www.creaf.uab.cat/miramon</gmd:URL>
+													</gmd:linkage>
+													<gmd:function>
+														<gmd:CI_OnLineFunctionCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">Information</gmd:CI_OnLineFunctionCode>
+													</gmd:function>
+												</gmd:CI_OnlineResource>
+											</gmd:onlineResource>
+										</gmd:CI_Contact>
+									</gmd:contactInfo>
+									<gmd:role>
+										<gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">Originator</gmd:CI_RoleCode>
+									</gmd:role>
+								</gmd:CI_ResponsibleParty>
+							</gmd:citedResponsibleParty>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gco:CharacterString>WaterBodyNameText: Polyphytos</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>Service: Land Water Transition Zone</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>SubService: landwatertransitionzone-hydroperiod</gco:CharacterString>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gco:CharacterString>WaterBodyLocalId: polyphytos</gco:CharacterString>
+					</gmd:keyword>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<gmd:aggregationInfo>
+				<gmd:MD_AggregateInformation>
+					<gmd:aggregateDataSetIdentifier>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gco:CharacterString>Service_landwatertransitionzone-hydroperiod_Polyphytos.xml</gco:CharacterString>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmd:aggregateDataSetIdentifier>
+					<gmd:associationType>
+						<gmd:DS_AssociationTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="lagerWorkCitation">Larger work citation</gmd:DS_AssociationTypeCode>
+					</gmd:associationType>
+					<gmd:initiativeType>
+						<gmd:DS_InitiativeTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode" codeListValue="process">Process</gmd:DS_InitiativeTypeCode>
+					</gmd:initiativeType>
+				</gmd:MD_AggregateInformation>
+			</gmd:aggregationInfo>
+			<gmd:spatialRepresentationType>
+				<gmd:MD_SpatialRepresentationTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">Grid</gmd:MD_SpatialRepresentationTypeCode>
+			</gmd:spatialRepresentationType>
+			<gmd:spatialResolution>
+				<gmd:MD_Resolution>
+					<gmd:distance>
+						<gco:Distance uom="m">10</gco:Distance>
+					</gmd:distance>
+				</gmd:MD_Resolution>
+			</gmd:spatialResolution>
+			<gmd:language>
+				<gmd:LanguageCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#LanguageCode" codeListValue="eng">eng</gmd:LanguageCode>
+			</gmd:language>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>boundaries</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:topicCategory>
+				<gmd:MD_TopicCategoryCode>inlandWaters</gmd:MD_TopicCategoryCode>
+			</gmd:topicCategory>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:description>
+						<gco:CharacterString>WaterBodyLocalId:polyphytos</gco:CharacterString>
+					</gmd:description>
+					<gmd:geographicElement>
+						<gmd:EX_GeographicBoundingBox>
+							<gmd:extentTypeCode>
+								<gco:Boolean>true</gco:Boolean>
+							</gmd:extentTypeCode>
+							<gmd:westBoundLongitude>
+								<gco:Decimal>21.8192985435833</gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal>22.1031053633232</gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal>40.1052016926003</gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal>40.304273683025</gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+					<gmd:geographicElement>
+						<gmd:EX_GeographicDescription>
+							<gmd:geographicIdentifier>
+								<gmd:MD_Identifier>
+									<gmd:code>
+										<gco:CharacterString>Polyphytos</gco:CharacterString>
+									</gmd:code>
+								</gmd:MD_Identifier>
+							</gmd:geographicIdentifier>
+						</gmd:EX_GeographicDescription>
+					</gmd:geographicElement>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimeInstant gml:id="ID_tempExt000001">
+									<gml:timePosition>2017-09-01T00:00:00</gml:timePosition>
+								</gml:TimeInstant>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimeInstant gml:id="ID_tempExt000002">
+									<gml:timePosition>2017-09-06T00:00:00</gml:timePosition>
+								</gml:TimeInstant>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimeInstant gml:id="ID_tempExt000003">
+									<gml:timePosition>2017-09-16T00:00:00</gml:timePosition>
+								</gml:TimeInstant>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimeInstant gml:id="ID_tempExt000004">
+									<gml:timePosition>2017-10-06T00:00:00</gml:timePosition>
+								</gml:TimeInstant>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimeInstant gml:id="ID_tempExt000005">
+									<gml:timePosition>2017-10-21T00:00:00</gml:timePosition>
+								</gml:TimeInstant>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimeInstant gml:id="ID_tempExt000006">
+									<gml:timePosition>2017-12-05T00:00:00</gml:timePosition>
+								</gml:TimeInstant>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimeInstant gml:id="ID_tempExt000007">
+									<gml:timePosition>2017-12-20T00:00:00</gml:timePosition>
+								</gml:TimeInstant>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimeInstant gml:id="ID_tempExt000008">
+									<gml:timePosition>2017-12-25T00:00:00</gml:timePosition>
+								</gml:TimeInstant>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimeInstant gml:id="ID_tempExt000009">
+									<gml:timePosition>2018-01-19T00:00:00</gml:timePosition>
+								</gml:TimeInstant>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimeInstant gml:id="ID_tempExt000010">
+									<gml:timePosition>2018-01-29T00:00:00</gml:timePosition>
+								</gml:TimeInstant>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimeInstant gml:id="ID_tempExt000011">
+									<gml:timePosition>2018-03-10T00:00:00</gml:timePosition>
+								</gml:TimeInstant>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimeInstant gml:id="ID_tempExt000012">
+									<gml:timePosition>2018-03-30T00:00:00</gml:timePosition>
+								</gml:TimeInstant>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimeInstant gml:id="ID_tempExt000013">
+									<gml:timePosition>2018-04-04T00:00:00</gml:timePosition>
+								</gml:TimeInstant>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimeInstant gml:id="ID_tempExt000014">
+									<gml:timePosition>2018-04-09T00:00:00</gml:timePosition>
+								</gml:TimeInstant>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimeInstant gml:id="ID_tempExt000015">
+									<gml:timePosition>2018-04-24T00:00:00</gml:timePosition>
+								</gml:TimeInstant>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimeInstant gml:id="ID_tempExt000016">
+									<gml:timePosition>2018-05-14T00:00:00</gml:timePosition>
+								</gml:TimeInstant>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimeInstant gml:id="ID_tempExt000017">
+									<gml:timePosition>2018-06-08T00:00:00</gml:timePosition>
+								</gml:TimeInstant>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimeInstant gml:id="ID_tempExt000018">
+									<gml:timePosition>2018-07-03T00:00:00</gml:timePosition>
+								</gml:TimeInstant>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimeInstant gml:id="ID_tempExt000019">
+									<gml:timePosition>2018-07-23T00:00:00</gml:timePosition>
+								</gml:TimeInstant>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimeInstant gml:id="ID_tempExt000020">
+									<gml:timePosition>2018-07-28T00:00:00</gml:timePosition>
+								</gml:TimeInstant>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimeInstant gml:id="ID_tempExt000021">
+									<gml:timePosition>2018-08-17T00:00:00</gml:timePosition>
+								</gml:TimeInstant>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimeInstant gml:id="ID_tempExt000022">
+									<gml:timePosition>2018-08-22T00:00:00</gml:timePosition>
+								</gml:TimeInstant>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+			<gmd:supplementalInformation>
+				<gco:CharacterString>REL4 AS SUPPLEMENTAL INFORMATION (DO NOT EDIT)&lt;![CDATA[[VERSIO]
+VersMetaDades=5
+SubVersMetaDades=0
+Vers=4
+SubVers=3
+
+[EXTENT]
+toler_env=0
+MinX=569825.668182
+MaxX=593745.668182
+MinY=4440013.38643
+MaxY=4461853.38643
+GeographicIdentifierCode=Polyphytos
+description=WaterBodyLocalId:polyphytos
+
+[OVERVIEW:ASPECTES_TECNICS:PLAT_INSTR_INFO]
+MissionName=STB#
+PlatformFullName=Sentinel
+PlatformShortName=Sentinel
+InstrumentFullName=Multispectral Imager
+InstrumentShortName=S2A, S2B
+
+[ATTRIBUTE_DATA]
+DescritaAlREL=1
+NomFitxer=..\lwtzcd_hydroperiod\landwatertransitionzone-hydroperiod_polyphytos_20170901_20180822_SENT2_m10.tif
+TipusCompressio=uinteger-TIFF
+unitats=Number of days with inundation
+IndexsNomsCamps=1
+NomCamp_1=1
+TipusRelacio=RELACIO_1_1_DICC
+
+[ATTRIBUTE_DATA:1]
+min=1
+max=365
+
+[ATTRIBUTE_DATA:1:TEMPORAL]
+ContentDate=20170901;20170906;20170916;20171006;20171021;20171205;20171220;20171225;20180119;20180129;20180310;20180330;20180404;20180409;20180424;20180514;20180608;20180703;20180723;20180728;20180817;20180822
+]]&gt;</gco:CharacterString>
+			</gmd:supplementalInformation>
+		</gmd:MD_DataIdentification>
+	</gmd:identificationInfo>
+	<gmd:contentInfo>
+		<gmd:MD_ImageDescription>
+			<gmd:attributeDescription>
+				<gco:RecordType>1: Hydroperiod (uinteger-TIFF)</gco:RecordType>
+			</gmd:attributeDescription>
+			<gmd:contentType>
+				<gmd:MD_CoverageContentTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CoverageContentTypeCode" codeListValue="thematicClassification">Categorical thematic classification (e.g., land cover map)</gmd:MD_CoverageContentTypeCode>
+			</gmd:contentType>
+			<gmd:dimension>
+				<gmd:MD_RangeDimension>
+					<gmd:sequenceIdentifier>
+						<gco:MemberName id="ID_1">
+							<gco:aName>
+								<gco:CharacterString>1</gco:CharacterString>
+							</gco:aName>
+							<gco:attributeType>
+								<gco:TypeName>
+									<gco:aName>
+										<gco:CharacterString>CampGeneric</gco:CharacterString>
+									</gco:aName>
+								</gco:TypeName>
+							</gco:attributeType>
+						</gco:MemberName>
+					</gmd:sequenceIdentifier>
+					<gmd:descriptor>
+						<gco:CharacterString>Hydroperiod</gco:CharacterString>
+					</gmd:descriptor>
+				</gmd:MD_RangeDimension>
+			</gmd:dimension>
+		</gmd:MD_ImageDescription>
+	</gmd:contentInfo>
+	<gmd:distributionInfo>
+		<gmd:MD_Distribution>
+			<gmd:distributor>
+				<gmd:MD_Distributor>
+					<gmd:distributorContact>
+						<gmd:CI_ResponsibleParty>
+							<gmd:individualName>
+								<gco:CharacterString>CERTH</gco:CharacterString>
+							</gmd:individualName>
+							<gmd:organisationName>
+								<gco:CharacterString>WQeMS</gco:CharacterString>
+							</gmd:organisationName>
+							<gmd:contactInfo>
+								<gmd:CI_Contact>
+									<gmd:onlineResource>
+										<gmd:CI_OnlineResource>
+											<gmd:linkage>
+												<gmd:URL>https://wqems.eu/</gmd:URL>
+											</gmd:linkage>
+											<gmd:function>
+												<gmd:CI_OnLineFunctionCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">Information</gmd:CI_OnLineFunctionCode>
+											</gmd:function>
+										</gmd:CI_OnlineResource>
+									</gmd:onlineResource>
+								</gmd:CI_Contact>
+							</gmd:contactInfo>
+							<gmd:role>
+								<gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">Distributor</gmd:CI_RoleCode>
+							</gmd:role>
+						</gmd:CI_ResponsibleParty>
+					</gmd:distributorContact>
+				</gmd:MD_Distributor>
+			</gmd:distributor>
+		</gmd:MD_Distribution>
+	</gmd:distributionInfo>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset"/>
+					</gmd:level>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+			<gmd:lineage>
+				<gmd:LI_Lineage>
+					<gmd:statement>
+						<gco:CharacterString>ONDA DIAS platform is used to access the satellite (Sentinel-2, Sentinel-1) images and execute the service components. The produced map indicates the frequency in days that a pixel remains inundated throughout the declared season.</gco:CharacterString>
+					</gmd:statement>
+					<gmd:processStep>
+						<gmd:LI_ProcessStep>
+							<gmd:description>
+								<gco:CharacterString>Land Water Transition Zone Service</gco:CharacterString>
+							</gmd:description>
+							<gmd:rationale>
+								<gco:CharacterString>WQeMS hydroperiod calculation</gco:CharacterString>
+							</gmd:rationale>
+							<gmd:processor>
+								<gmd:CI_ResponsibleParty>
+									<gmd:individualName>
+										<gco:CharacterString>CERTH</gco:CharacterString>
+									</gmd:individualName>
+									<gmd:organisationName>
+										<gco:CharacterString>WQeMS</gco:CharacterString>
+									</gmd:organisationName>
+									<gmd:role>
+										<gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor">Processor</gmd:CI_RoleCode>
+									</gmd:role>
+								</gmd:CI_ResponsibleParty>
+							</gmd:processor>
+							<gmd:source>
+								<gmd:LI_Source>
+									<gmd:description>
+										<gco:CharacterString>Hydroperiod Subservice</gco:CharacterString>
+									</gmd:description>
+									<gmd:sourceCitation>
+										<gmd:CI_Citation>
+											<gmd:title>
+												<gco:CharacterString>Automatic Inundation Mapping Using Sentinel-2 Data Applicable to Both Camargue and Donana Biosphere Reserves</gco:CharacterString>
+											</gmd:title>
+											<gmd:date>
+												<gmd:CI_Date>
+													<gmd:date>
+														<gco:Date>2019</gco:Date>
+													</gmd:date>
+													<gmd:dateType>
+														<gmd:CI_DateTypeCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">Publication</gmd:CI_DateTypeCode>
+													</gmd:dateType>
+												</gmd:CI_Date>
+											</gmd:date>
+											<gmd:edition>
+												<gco:CharacterString>Remote Sensing, 11, 2251</gco:CharacterString>
+											</gmd:edition>
+											<gmd:otherCitationDetails>
+												<gco:CharacterString>Kordelas, G.A.; Manakos, I.; Lefebvre, G.; Poulin, B.</gco:CharacterString>
+											</gmd:otherCitationDetails>
+											<gmd:ISBN>
+												<gco:CharacterString>https://doi.org/10.3</gco:CharacterString>
+											</gmd:ISBN>
+										</gmd:CI_Citation>
+									</gmd:sourceCitation>
+									<gmd:sourceStep>
+										<gmd:LI_ProcessStep>
+											<gmd:description>
+												<gco:CharacterString>S2 ONDA DIAS "Uncertainty of each one of the products used": {         "2017-09-01": 0.8,          "2017-09-06": 0.87,          "2017-09-16": 1.02,          "2017-10-06": 28.02,          "2017-10-21": 2.54,          "2017-12-05": 11.43,          "2017-12-20": 16.07,          "2017-12-25": 14.87,          "2018-01-19": 14.71,          "2018-01-29": 8.9,          "2018-03-10": 1.92,          "2018-03-30": 1.2,          "2018-04-04": 0.88,          "2018-04-09": 0.75,          "2018-04-24": 6.82,          "2018-05-14": 0.64,          "2018-06-08": 9.47,          "2018-07-03": 2.32,          "2018-07-23": 2.55,          "2018-07-28": 4.91,          "2018-08-17": 16.81,          "2018-08-22": 2.85     },</gco:CharacterString>
+											</gmd:description>
+											<gmd:rationale>
+												<gco:CharacterString>access in an automated way Copernicus data from the ONDA DIAS, using Elastic Node Server (ENS) or Open Data Protocol interface (OData API)</gco:CharacterString>
+											</gmd:rationale>
+											<gmd:dateTime>
+												<gco:DateTime>2022-06-14T00:00:00Z</gco:DateTime>
+												<!--revisar la hora-->
+											</gmd:dateTime>
+											<gmd:processor>
+												<gmd:CI_ResponsibleParty>
+													<gmd:organisationName>
+														<gco:CharacterString>CERTH</gco:CharacterString>
+													</gmd:organisationName>
+													<gmd:role>
+														<gmd:CI_RoleCode codeList="https://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="processor">Processor</gmd:CI_RoleCode>
+													</gmd:role>
+												</gmd:CI_ResponsibleParty>
+											</gmd:processor>
+										</gmd:LI_ProcessStep>
+									</gmd:sourceStep>
+								</gmd:LI_Source>
+							</gmd:source>
+						</gmd:LI_ProcessStep>
+					</gmd:processStep>
+				</gmd:LI_Lineage>
+			</gmd:lineage>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset"/>
+					</gmd:level>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+			<gmd:report>
+				<gmd:DQ_TemporalValidity>
+					<gmd:nameOfMeasure>
+						<gco:CharacterString>Temporal density</gco:CharacterString>
+					</gmd:nameOfMeasure>
+					<gmd:measureIdentification>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/measure/TemporalDensity?domain=Dates">TemporalDensity,Dates</gmx:Anchor>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmd:measureIdentification>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueType>
+								<gco:RecordType>Integer (max=366)</gco:RecordType>
+							</gmd:valueType>
+							<gmd:valueUnit>
+								<gml:ConventionalUnit gml:id="ConventionalUnit1">
+									<gml:identifier codeSpace="urn:ogc:def:uom:UCUM">d</gml:identifier>
+									<gml:conversionToPreferredUnit uom="s">
+										<gml:factor>86400</gml:factor>
+									</gml:conversionToPreferredUnit>
+								</gml:ConventionalUnit>
+							</gmd:valueUnit>
+							<gmd:errorStatistic>
+								<gco:CharacterString>https://www.qualityml.org/1.0/metrics/items</gco:CharacterString>
+							</gmd:errorStatistic>
+							<gmd:value>
+								<gco:Record>22</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_TemporalValidity>
+			</gmd:report>
+			<gmd:report>
+				<gmd:DQ_TemporalValidity>
+					<gmd:nameOfMeasure>
+						<gco:CharacterString>Temporal distance distribution - mean</gco:CharacterString>
+					</gmd:nameOfMeasure>
+					<gmd:measureIdentification>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/measure/TemporalDistanceDistribution?domain=TemporalDistance">TemporalDistanceDistribution,TemporalDistance</gmx:Anchor>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmd:measureIdentification>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueUnit>
+								<gml:ConventionalUnit gml:id="ConventionalUnit2">
+									<gml:identifier codeSpace="urn:ogc:def:uom:UCUM">d</gml:identifier>
+									<gml:conversionToPreferredUnit uom="s">
+										<gml:factor>86400</gml:factor>
+									</gml:conversionToPreferredUnit>
+								</gml:ConventionalUnit>
+							</gmd:valueUnit>
+							<gmd:errorStatistic>
+								<gco:CharacterString>https://www.qualityml.org/1.0/metrics/MeanAbsolute</gco:CharacterString>
+							</gmd:errorStatistic>
+							<gmd:value>
+								<gco:Record>18.3</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_TemporalValidity>
+			</gmd:report>
+			<gmd:report>
+				<gmd:DQ_TemporalValidity>
+					<gmd:nameOfMeasure>
+						<gco:CharacterString>Temporal distance distribution - std</gco:CharacterString>
+					</gmd:nameOfMeasure>
+					<gmd:measureIdentification>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/measure/TemporalDistanceDistribution?domain=TemporalDistance">TemporalDistanceDistribution,TemporalDistance</gmx:Anchor>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmd:measureIdentification>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueUnit>
+								<gml:ConventionalUnit gml:id="ConventionalUnit3">
+									<gml:identifier codeSpace="urn:ogc:def:uom:UCUM">d</gml:identifier>
+									<gml:conversionToPreferredUnit uom="s">
+										<gml:factor>86400</gml:factor>
+									</gml:conversionToPreferredUnit>
+								</gml:ConventionalUnit>
+							</gmd:valueUnit>
+							<gmd:errorStatistic>
+								<gco:CharacterString>https://www.qualityml.org/1.0/metrics/StandardDeviation</gco:CharacterString>
+							</gmd:errorStatistic>
+							<gmd:value>
+								<gco:Record>6.24</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_TemporalValidity>
+			</gmd:report>
+			<gmd:lineage>
+				<gmd:LI_Lineage>
+					<gmd:statement>
+						<gco:CharacterString>ONDA DIAS platform is used to access the satellite (Sentinel-2, Sentinel-1) images and execute the service components. The produced map indicates the frequency in days that a pixel remains inundated throughout the declared season.</gco:CharacterString>
+					</gmd:statement>
+					<gmd:processStep>
+						<gmd:LI_ProcessStep>
+							<gmd:description>
+								<gco:CharacterString>Land Water Transition Zone Service</gco:CharacterString>
+							</gmd:description>
+							<gmd:rationale>
+								<gco:CharacterString>WQeMS hydroperiod calculation</gco:CharacterString>
+							</gmd:rationale>
+							<gmd:processor>
+								<gmd:CI_ResponsibleParty>
+									<gmd:individualName>
+										<gco:CharacterString>CERTH</gco:CharacterString>
+									</gmd:individualName>
+									<gmd:organisationName>
+										<gco:CharacterString>WQeMS</gco:CharacterString>
+									</gmd:organisationName>
+									<gmd:role>
+										<gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="processor"/>
+									</gmd:role>
+								</gmd:CI_ResponsibleParty>
+							</gmd:processor>
+							<gmd:source>
+								<gmd:LI_Source>
+									<gmd:description>
+										<gco:CharacterString>Hydroperiod Subservice</gco:CharacterString>
+									</gmd:description>
+									<gmd:sourceCitation>
+										<gmd:CI_Citation>
+											<gmd:title>
+												<gco:CharacterString>Automatic Inundation Mapping Using Sentinel-2 Data Applicable to Both Camargue and Donana Biosphere Reserves</gco:CharacterString>
+											</gmd:title>
+											<gmd:date>
+												<gmd:CI_Date>
+													<gmd:date>
+														<gco:Date>2019</gco:Date>
+													</gmd:date>
+													<gmd:dateType>
+														<gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
+													</gmd:dateType>
+												</gmd:CI_Date>
+											</gmd:date>
+											<gmd:edition>
+												<gco:CharacterString>Remote Sensing, 11, 2251</gco:CharacterString>
+											</gmd:edition>
+											<gmd:otherCitationDetails>
+												<gco:CharacterString>Kordelas, G.A.; Manakos, I.; Lefebvre, G.; Poulin, B.</gco:CharacterString>
+											</gmd:otherCitationDetails>
+											<gmd:ISBN>
+												<gco:CharacterString>https://doi.org/10.3</gco:CharacterString>
+											</gmd:ISBN>
+										</gmd:CI_Citation>
+									</gmd:sourceCitation>
+									<gmd:sourceStep>
+										<gmd:LI_ProcessStep>
+											<gmd:description>
+												<gco:CharacterString>S2 ONDA DIAS "Uncertainty of each one of the products used": {         "2017-09-01": 0.8,          "2017-09-06": 0.87,          "2017-09-16": 1.02,          "2017-10-06": 28.02,          "2017-10-21": 2.54,          "2017-12-05": 11.43,          "2017-12-20": 16.07,          "2017-12-25": 14.87,          "2018-01-19": 14.71,          "2018-01-29": 8.9,          "2018-03-10": 1.92,          "2018-03-30": 1.2,          "2018-04-04": 0.88,          "2018-04-09": 0.75,          "2018-04-24": 6.82,          "2018-05-14": 0.64,          "2018-06-08": 9.47,          "2018-07-03": 2.32,          "2018-07-23": 2.55,          "2018-07-28": 4.91,          "2018-08-17": 16.81,          "2018-08-22": 2.85     },</gco:CharacterString>
+											</gmd:description>
+											<gmd:rationale>
+												<gco:CharacterString>access in an automated way Copernicus data from the ONDA DIAS, using Elastic Node Server (ENS) or Open Data Protocol interface (OData API)</gco:CharacterString>
+											</gmd:rationale>
+											<gmd:dateTime>
+												<gco:DateTime>2022-06-14T00:00:00</gco:DateTime>
+											</gmd:dateTime>
+											<gmd:processor>
+												<gmd:CI_ResponsibleParty>
+													<gmd:organisationName>
+														<gco:CharacterString>CERTH</gco:CharacterString>
+													</gmd:organisationName>
+													<gmd:role>
+														<gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="processor"/>
+													</gmd:role>
+												</gmd:CI_ResponsibleParty>
+											</gmd:processor>
+										</gmd:LI_ProcessStep>
+									</gmd:sourceStep>
+								</gmd:LI_Source>
+							</gmd:source>
+						</gmd:LI_ProcessStep>
+					</gmd:processStep>
+				</gmd:LI_Lineage>
+			</gmd:lineage>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ScopeCode" codeListValue="attributeType"/>
+					</gmd:level>
+					<gmd:levelDescription>
+						<gmd:MD_ScopeDescription>
+							<gmd:attributes xlink:href="1"/>
+						</gmd:MD_ScopeDescription>
+					</gmd:levelDescription>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+			<gmd:report>
+				<gmd:DQ_ThematicClassificationCorrectness>
+					<gmd:nameOfMeasure>
+						<gco:CharacterString>Overall accuracy</gco:CharacterString>
+					</gmd:nameOfMeasure>
+					<gmd:measureIdentification>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/measure/Misclassification?domain=PredictedValues,ActualValues">Misclassification,PredictedValues/ActualValues</gmx:Anchor>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmd:measureIdentification>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueType>
+								<gco:RecordType>Double precision real (max=100)</gco:RecordType>
+							</gmd:valueType>
+							<gmd:valueUnit/>
+							<gmd:errorStatistic>
+								<gco:CharacterString>https://www.qualityml.org/1.0/metrics/OverallAccuracy</gco:CharacterString>
+							</gmd:errorStatistic>
+							<gmd:value>
+								<gco:Record>0.98</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_ThematicClassificationCorrectness>
+			</gmd:report>
+			<gmd:report>
+				<gmd:DQ_ThematicClassificationCorrectness>
+					<gmd:nameOfMeasure>
+						<gco:CharacterString>Kappa Coefficient</gco:CharacterString>
+					</gmd:nameOfMeasure>
+					<gmd:measureIdentification>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/measure/Misclassification?domain=PredictedValues,ActualValues">Misclassification,PredictedValues/ActualValues</gmx:Anchor>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmd:measureIdentification>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueType>
+								<gco:RecordType>Double precision real (max=100)</gco:RecordType>
+							</gmd:valueType>
+							<gmd:valueUnit/>
+							<gmd:errorStatistic>
+								<gco:CharacterString>https://www.qualityml.org/1.0/metrics/KappaCoefficient</gco:CharacterString>
+							</gmd:errorStatistic>
+							<gmd:value>
+								<gco:Record>0.97</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_ThematicClassificationCorrectness>
+			</gmd:report>
+			<gmd:report>
+				<gmd:DQ_ThematicClassificationCorrectness>
+					<gmd:nameOfMeasure>
+						<gco:CharacterString>Omission Error</gco:CharacterString>
+					</gmd:nameOfMeasure>
+					<gmd:measureIdentification>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/measure/Misclassification?domain=PredictedValues,ActualValues">Misclassification,PredictedValues/ActualValues</gmx:Anchor>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmd:measureIdentification>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueType>
+								<gco:RecordType>Double precision real (max=100)</gco:RecordType>
+							</gmd:valueType>
+							<gmd:valueUnit/>
+							<gmd:errorStatistic>
+								<gco:CharacterString>https://www.qualityml.org/1.0/metrics/OmissionError</gco:CharacterString>
+							</gmd:errorStatistic>
+							<gmd:value>
+								<gco:Record>2.47</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_ThematicClassificationCorrectness>
+			</gmd:report>
+			<gmd:report>
+				<gmd:DQ_ThematicClassificationCorrectness>
+					<gmd:nameOfMeasure>
+						<gco:CharacterString>Commission Error</gco:CharacterString>
+					</gmd:nameOfMeasure>
+					<gmd:measureIdentification>
+						<gmd:MD_Identifier>
+							<gmd:code>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/measure/Misclassification?domain=PredictedValues,ActualValues">Misclassification,PredictedValues/ActualValues</gmx:Anchor>
+							</gmd:code>
+						</gmd:MD_Identifier>
+					</gmd:measureIdentification>
+					<gmd:result>
+						<gmd:DQ_QuantitativeResult>
+							<gmd:valueType>
+								<gco:RecordType>Double precision real (max=100)</gco:RecordType>
+							</gmd:valueType>
+							<gmd:valueUnit/>
+							<gmd:errorStatistic>
+								<gco:CharacterString>https://www.qualityml.org/1.0/metrics/CommissionError</gco:CharacterString>
+							</gmd:errorStatistic>
+							<gmd:value>
+								<gco:Record>1</gco:Record>
+							</gmd:value>
+						</gmd:DQ_QuantitativeResult>
+					</gmd:result>
+				</gmd:DQ_ThematicClassificationCorrectness>
+			</gmd:report>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+</gmd:MD_Metadata>

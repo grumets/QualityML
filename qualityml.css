@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+}
+
+table {
+    border-collapse: collapse;
+	width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+	overflow: 0;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td {
+    border-width: 1px;
+    border-style: solid;
+}
+
+th {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: #888888;
+    color: white;
+    text-align: center;
+}
+
+.indent{ padding-left: 1.8em; }
+.indent2{ padding-left: 3.6em; }
+.indent3{ padding-left: 5.4em; }
+.indent4{ padding-left: 7.2em; }
+.indent5{ padding-left: 9em; }
+.indent6{ padding-left: 10.8em; }
+.indent7{ padding-left: 12.6em; }
+.indent8{ padding-left: 14.4em; }
+

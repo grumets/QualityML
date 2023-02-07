@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns:qmld="http://www.qualityml.org/1.0/domain" xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.qualityml.org/1.0/domain" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<!--==== Basic Types ====-->
+	<simpleType name="level">
+		<restriction base="string">
+			<enumeration value="above"/>
+			<enumeration value="below"/>
+		</restriction>
+	</simpleType>
+	<!--==== More complex Types ====-->
+	<complexType name="DoubleOrDate">
+		<choice>
+			<element name="double" type="double"/>
+			<element name="date" type="date"/>
+			<element name="dateTime" type="dateTime"/>
+		</choice>
+	</complexType>
+	<complexType name="threshold">
+		<sequence>
+			<element name="value" type="qmld:DoubleOrDate"/>
+			<element name="level" type="qmld:level"/>
+		</sequence>
+	</complexType>
+	<complexType name="range">
+		<sequence>
+			<element name="min" type="qmld:DoubleOrDate" minOccurs="0"/>
+			<element name="max" type="qmld:DoubleOrDate" minOccurs="0"/>
+		</sequence>
+	</complexType>
+	<complexType name="rule">
+		<sequence>
+			<element name="range" type="qmld:range" minOccurs="0"/>
+			<element name="rule" type="string" minOccurs="0"/>
+		</sequence>
+	</complexType>
+	<!--==== qualityml GeoViQua - Quality Domain description including parameters ====-->
+	<element name="predictedValues" type="qmld:threshold"/>
+	<element name="actualValues" type="qmld:threshold"/>
+	<element name="DifferentialErrorsXAboveThreshold" type="qmld:threshold"/>
+	<element name="DifferentialErrorsYAboveThreshold" type="qmld:threshold"/>
+	<element name="DifferentialErrors2DAboveThreshold" type="qmld:threshold"/>
+	<element name="DifferentialErrors3DAboveThreshold" type="qmld:threshold"/>
+	<element name="Conformance" type="qmld:rule"/>
+	<element name="NonConformance" type="qmld:rule"/>
+</schema>
