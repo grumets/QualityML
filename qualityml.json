@@ -15,9 +15,9 @@
 			},
 			"desc":
 			{
-				"eng": "Presence and absence of features, their attributes and their relationships",
-				"cat": "Presència i absència dels objectes i dels seus atributs i relacions",
-				"spa": "Presencia y ausencia de los objetos y sus atributos y sus relaciones"
+				"eng": "Presence and absence of features, their attributes and their relationships.",
+				"cat": "Presència i absència dels objectes i dels seus atributs i relacions.",
+				"spa": "Presencia y ausencia de los objetos y sus atributos y sus relaciones."
 			}
 		},
 		{
@@ -30,9 +30,9 @@
 			},
 			"desc":
 			{
-				"eng": "Degree of adherence to logical rules of data structure, attribution and relationships (data structure can be conceptual, logical or physical)",
-				"cat": "Grau d'adhesió a les regles lògiques de l'estructura de dades, atributs i relacions (l'estructura de dades pot ser conceptual, lògica o física)",
-				"spa": "Grado de adherencia a las reglas lógicas de la estructura de datos, atributos y relaciones (la estructura de datos puede ser conceptual, lógica o física)"
+				"eng": "Degree of adherence to logical rules of data structure, attribution and relationships (data structure can be conceptual, logical or physical).",
+				"cat": "Grau d'adherència a les regles lògiques de l'estructura de dades, atributs i relacions (l'estructura de dades pot ser conceptual, lògica o física).",
+				"spa": "Grado de adherencia a las reglas lógicas de la estructura de datos, atributos y relaciones (la estructura de datos puede ser conceptual, lógica o física)."
 			}
 		},
 		{
@@ -45,9 +45,9 @@
 			},
 			"desc":
 			{
-				"eng": "Accuracy of the position of features within a spatial reference system",
-				"cat": "Exactitud de la posició dels objectes dins un sistema de referència espacial",
-				"spa": "Exactitud de la posición de los objetos en un sistema de referencia espacial"
+				"eng": "Accuracy of the position of features within a spatial reference system.",
+				"cat": "Exactitud de la posició dels objectes dins un sistema de referència espacial.",
+				"spa": "Exactitud de la posición de los objetos en un sistema de referencia espacial."
 			}
 		},
 		{
@@ -60,9 +60,9 @@
 			},
 			"desc":
 			{
-				"eng": "Accuracy of the temporal attributes and temporal relationships of features",
-				"cat": "Exactitud dels atributs temporals i de les relacions temporals dels objectes",
-				"spa": "Exactitud de los atributos temporales y de las relaciones temporales de los objetos"
+				"eng": "Accuracy of the temporal attributes and temporal relationships of features.",
+				"cat": "Exactitud dels atributs i relacions temporals dels objectes.",
+				"spa": "Exactitud de los atributos y relaciones temporales de los objetos."
 			}
 		},
 		{
@@ -75,9 +75,9 @@
 			},
 			"desc":
 			{
-				"eng": "Accuracy of quantitative attributes and the correctness of non-quantitative attributes and of the classifications of features and their relationships",
-				"cat": "Exactitud dels atributs quantitatius i correctesa dels atributs no quantitatius i de la classificació dels objectes i les seves relacions",
-				"spa": "Exactitud de los atributos cuantitativos y corrección de los atributos no cuantitativos y de las clasificaciones de los objetos y sus relaciones"
+				"eng": "Accuracy of quantitative attributes and the correctness of non-quantitative attributes and of the classifications of features and their relationships.",
+				"cat": "Exactitud dels atributs quantitatius i correctesa dels atributs no quantitatius i de la classificació dels objectes i les seves relacions.",
+				"spa": "Exactitud de los atributos cuantitativos y corrección de los atributos no cuantitativos y de las clasificaciones de los objetos y sus relaciones."
 			}
 		},
 		{
@@ -90,9 +90,9 @@
 			},
 			"desc":
 			{
-				"eng": "Degree of adherence of a dataset to a specific set of requirements. Usability is based on user requirements. All quality elements may be used to evaluate usability",
-				"cat": "Grau d'adhesió d'un conjunt de dades a un conjunt específic de requeriments. La usabilitat es basa en els requisits dels usuaris.  Tots els elements de qualitat es poden utilitzar per avaluar la usabilitat",
-				"spa": "Grado de adherencia de un conjunto de datos a un conjunto específico de requisitos. La usabilidad se basa en los requisitos del usuario. Todos los elementos de calidad se pueden usar para evaluar la usabilidad"
+				"eng": "Degree of adherence of a dataset to a specific set of requirements. Usability is based on user requirements. All quality elements may be used to evaluate usability.",
+				"cat": "Grau d'adherència d'un conjunt de dades a un conjunt específic de requeriments. La usabilitat es basa en els requisits dels usuaris.  Tots els elements de qualitat es poden utilitzar per avaluar la usabilitat.",
+				"spa": "Grado de adherencia de un conjunto de datos a un conjunto específico de requisitos. La usabilidad se basa en los requisitos del usuario. Todos los elementos de calidad se pueden usar para evaluar la usabilidad."
 			}
 		},
 		{
@@ -105,9 +105,9 @@
 			},
 			"desc":
 			{
-				"eng": "Metaquality elements are a set of quantitative and qualitative statements about a quality evaluation and its result",
-				"cat": "Els elements de la metaqualitat són un conjunt de declaracions quantitatives i qualitatives sobre una avaluació de la qualitat i el seu resultat",
-				"spa": "Los elementos de metacalidad son un conjunto de declaraciones cuantitativas y cualitativas sobre un evaluación de calidad y su resultado"
+				"eng": "Metaquality elements are a set of quantitative and qualitative statements about a quality evaluation and its result.",
+				"cat": "Els elements de la metaqualitat són un conjunt de declaracions quantitatives i qualitatives sobre una avaluació de la qualitat i el seu resultat.",
+				"spa": "Los elementos de metacalidad son un conjunto de declaraciones cuantitativas y cualitativas sobre un evaluación de calidad y su resultado."
 			}
 		},
 		{
@@ -120,9 +120,9 @@
 			},
 			"desc":
 			{
-				"eng": "Information certainty elements are a set of qualitative statements to communicate the degree of confidence/likelihood of the findings of a simulation, prediction or indicator",
-				"cat": "Els elements de certesa de la informació són un conjunt de declaracions qualitatives per comunicar el grau de confiança/probabilitat de les conclusions d'una simulació, predicció o indicador",
-				"spa": "Los elementos de certeza de la información son un conjunto de declaraciones cualitativas para comunicar el grado de confianza/probabilidad de los resultados de una simulación, predicción o indicador"
+				"eng": "Information certainty elements are a set of qualitative statements to communicate the degree of confidence/likelihood of the findings of a simulation, prediction or indicator.",
+				"cat": "Els elements de certesa de la informació són un conjunt de declaracions qualitatives per comunicar el grau de confiança/probabilitat de les conclusions d'una simulació, predicció o indicador.",
+				"spa": "Los elementos de certeza de la información son un conjunto de declaraciones cualitativas para comunicar el grado de confianza/probabilidad de los resultados de una simulación, predicción o indicador."
 			}
 		}
 	],
@@ -139,9 +139,9 @@
 			},
 			"desc":
 			{
-				"cat": "Excés de dades presents en el conjunt de les dades, en funció del seu abast o àmbit",
-				"eng": "Excess data present in the dataset, as described by the scope",
-				"spa": "Exceso de datos presentes en el conjunto de los datos,  en función de su alcance"
+				"eng": "Excess data present in the dataset, as described by the scope.",
+				"cat": "Excés de dades presents en el conjunt de les dades, en funció del seu abast.",
+				"spa": "Exceso de datos presentes en el conjunto de los datos, en función de su alcance."
 			}
 		},
 		{
@@ -155,8 +155,9 @@
 			},
 			"desc":
 			{
-				"cat": "Dades absents del conjunt de les dades, en funció del seu abast o àmbit",
-				"eng": "Data absent from the dataset, as described by the scope"
+				"eng": "Data absent from the dataset, as described by the scope.",
+				"cat": "Dades absents del conjunt de les dades, en funció del seu abast.",
+				"spa": "Datos ausentes del conjunto de los datos, en función de su alcance."
 			}
 		},
 		{
@@ -170,8 +171,9 @@
 			},
 			"desc":
 			{
-				"cat": "Adherència a les regles de l'esquema conceptual",
-				"eng": "Adherence to rules of the conceptual schema"
+				"eng": "Adherence to rules of the conceptual schema.",
+				"cat": "Adherència a les regles de l'esquema conceptual.",
+				"spa": "Adherencia a las reglas del esquema conceptual."
 			}
 		},
 		{
@@ -185,8 +187,9 @@
 			},
 			"desc":
 			{
-				"cat":"Adherència dels valors del domini de valors",
-				"eng": "Adherence of values to the value domains"
+				"eng": "Adherence of values to the value domains.",
+				"cat": "Adherència dels valors del domini de valors.",
+				"spa": "Adherencia de los valores del dominio de valores."
 			}
 		},
 		{
@@ -200,8 +203,9 @@
 			},
 			"desc":
 			{
-				"cat": "Grau a què s'emmagatzemen les dades d'acord amb l'estructura física del conjunt de dades, tal com es descriu per l'àmbit d'aplicació",
-				"eng": "Degree to which data is stored in accordance with the physical structure of the dataset, as described by the scope"
+				"eng": "Degree to which data is stored in accordance with the physical structure of the dataset, as described by the scope.",
+				"cat": "Grau en què s'emmagatzemen les dades d'acord amb l'estructura física del conjunt de dades, en funció del seu abast.",
+				"spa": "Grado en el que se almacenan los datos de acuerdo con la estructura física del conjunto de datos, en función de su alcance."
 			}
 		},
 		{
@@ -215,7 +219,9 @@
 			},
 			"desc":
 			{
-				"eng": "Correctness of the explicitly encoded topological characteristics of the dataset as described by the scope"
+				"eng": "Correctness of the explicitly encoded topological characteristics of the dataset, as described by the scope.",
+				"cat": "Correcció de les característiques topològiques explícitament codificades del conjunt de dades, en funció del seu abast.",
+				"spa": "Corrección de las características topológicas explícitamente codificadas del conjunto de datos, en función de su alcance."
 			}
 		},
 		{
@@ -229,7 +235,9 @@
 			},
 			"desc":
 			{
-				"eng": "Closeness of reported coordinate values to values accepted as or being true"
+				"eng": "Closeness of reported coordinate values to values accepted as or being true.",
+				"cat": "Proximitat dels valors de coordenades informats als valors acceptats com a veritables o que són certs.",
+				"spa": "Cercanía de los valores de coordenadas informados a los valores aceptados como verdaderos o que son ciertos."
 			}
 		},
 		{
@@ -243,7 +251,9 @@
 			},
 			"desc":
 			{
-				"eng": "Closeness of gridded data position values to values accepted as or being true"
+				"eng": "Closeness of gridded data position values to values accepted as or being true.",
+				"cat": "Proximitat dels valors de la posició de les cel·les del ràster als valors acceptats com a veritables o que són certs.",
+				"spa": "Proximidad de los valores de la posición de las celdas del ráster a los valores aceptados como verdaderos o que son ciertos."
 			}
 		},
 		{
@@ -257,7 +267,9 @@
 			},
 			"desc":
 			{
-				"eng": "Closeness of the relative positions of features in the scope to their respective relative positions accepted as or being true"
+				"eng": "Closeness of the relative positions of features in the scope to their respective relative positions accepted as or being true.",
+				"cat": "Proximitat de les posicions relatives dels objectes en l'àmbit o abast a les seves respectives posicions relatives acceptades com a veritables o que són certes.",
+				"spa": "Proximidad de las posiciones relativas de los objetos en el ámbito o alcance a sus respectivas posiciones relativas aceptadas como verdaderas o que son ciertas."
 			}
 		},
 		{
@@ -271,7 +283,9 @@
 			},
 			"desc":
 			{
-				"eng": "Correctness of the temporal references of an item (reporting of error in time measurement)"
+				"eng": "Correctness of the temporal references of an item (reporting of error in time measurement).",
+				"cat": "Exactitud de les referències temporals d'un ítem (informe d'error en la mesura del temps).",
+				"spa": "Exactitud de las referencias temporales de un ítem (informe de error en la medida del tiempo)."
 			}
 		},
 		{
@@ -285,7 +299,9 @@
 			},
 			"desc":
 			{
-				"eng": "Correctness of ordered events or sequences, if reported"
+				"eng": "Correctness of ordered events or sequences, if reported.",
+				"cat": "Exactitud dels esdeveniments o seqüències ordenats, si s'han informat.",
+				"spa": "Exactitud de los eventos o secuencias ordenados, si se han informado."
 			}
 		},
 		{
@@ -299,7 +315,9 @@
 			},
 			"desc":
 			{
-				"eng": "Validity of data specified by the scope with respect to time"
+				"eng": "Validity of data specified by the scope with respect to time.",
+				"cat": "Validesa de les dades especificades per l'abast respecte al temps.",
+				"spa": "Validez de los datos especificados por el alcance respecto al tiempo."
 			}
 		},
 		{
@@ -313,7 +331,9 @@
 			},
 			"desc":
 			{
-				"eng": "Comparison of the classes assigned to features or their attributes to a universe of discourse"
+				"eng": "Comparison of the classes assigned to features or their attributes to a universe of discourse.",
+				"cat": "Comparació de les classes assignades als objectes o als seus atributs a un univers de discurs.",
+				"spa": "Comparación de las clases asignadas a los objetos o a sus atributos a un universo de discurso."
 			}
 		},
 		{
@@ -327,7 +347,9 @@
 			},
 			"desc":
 			{
-				"eng": "Accuracy of non-quantitative attributes"
+				"eng": "Accuracy of non-quantitative attributes.",
+				"cat": "Exactitud dels atributs no quantitatius.",
+				"spa": "Exactitud de los atributos no cuantitativos."
 			}
 		},
 		{
@@ -341,7 +363,9 @@
 			},
 			"desc":
 			{
-				"eng": "Accuracy of quantitative attributes"
+				"eng": "Accuracy of quantitative attributes.",
+				"cat": "Exactitud dels atributs quantitatius.",
+				"spa": "Exactitud de los atributos cuantitativos."
 			}
 		},
 		{
@@ -355,7 +379,9 @@
 			},
 			"desc":
 			{
-				"eng": "Degree of adherence of a dataset to a specific set of requirements"
+				"eng": "Degree of adherence of a dataset to a specific set of requirements.",
+				"cat": "Grau d'adherència d'un conjunt de dades a un conjunt específic de requeriments.",
+				"spa": "Grado de adherencia de un conjunto de datos a un conjunto específico de requerimientos."
 			}
 		},
 		{
@@ -369,7 +395,9 @@
 			},
 			"desc":
 			{
-				"eng": "Trustworthiness of a data quality result"
+				"eng": "Trustworthiness of a data quality result.",
+				"cat": "Fiabilitat d'un resultat de qualitat de dades.",
+				"spa": "Fiabilidad de un resultado de calidad de datos."
 			}
 		},
 		{
@@ -383,7 +411,9 @@
 			},
 			"desc":
 			{
-				"eng": "Degree to which the sample used has produced a result which is representative of the data within the data quality scope"
+				"eng": "Degree to which the sample used has produced a result which is representative of the data within the data quality scope.",
+				"cat": "Grau en què la mostra utilitzada ha produït un resultat representatiu de les dades dins de l'àmbit de la qualitat de les dades.",
+				"spa": "Grado en el que la muestra utilizada ha producido un resultado representativo de los datos dentro del ámbito de la calidad de los datos."
 			}
 		},
 		{
@@ -397,7 +427,9 @@
 			},
 			"desc":
 			{
-				"eng": "Expected or tested uniformity of the results obtained for a data quality evaluation"
+				"eng": "Expected or tested uniformity of the results obtained for a data quality evaluation.",
+				"cat": "Uniformitat esperada o provada dels resultats obtinguts per a una avaluació de la qualitat de les dades.",
+				"spa": "Uniformidad esperada o probada de los resultados obtenidos para una evaluación de la calidad de los datos."
 			}
 		},
 		{
@@ -411,7 +443,9 @@
 			},
 			"desc":
 			{
-				"eng": "Trustworthiness of the findings of a simulation, prediction or indicator"
+				"eng": "Trustworthiness of the findings of a simulation, prediction or indicator.",
+				"cat": "Fiabilitat de les conclusions d'una simulació, predicció o indicador.",
+				"spa": "Fiabilidad de las conclusiones de una simulación, predicción o indicador."
 			}
 		},
 		{
@@ -425,7 +459,9 @@
 			},
 			"desc":
 			{
-				"eng": "Quantified measure of uncertainty in a finding of a simulation, prediction or indicator, expressed probabilistically (based on statistical analysis or expert judgement)"
+				"eng": "Quantified measure of uncertainty in a finding of a simulation, prediction or indicator, expressed probabilistically (based on statistical analysis or expert judgement).",
+				"cat": "Mesura quantificada de la incertesa en una troballa d'una simulació, predicció o indicador, expressada de manera probabilística (basada en anàlisi estadística o judici d'experts).",
+				"spa": "Medida cuantificada de la incertidumbre en un hallazgo de una simulación, predicción o indicador, expresada de forma probabilística (basada en análisis estadístico o juicio de expertos)."
 			}
 		}
 	],
@@ -435,12 +471,16 @@
 			"id": "Excess",
 			"name":
 			{
-				"eng": "Excess"
+				"eng": "Excess",
+				"cat": "Excés",
+				"spa": "Exceso"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Elements that have not been in the dataset</p>"
+				"eng": "Elements that have not been in the dataset.",
+				"cat": "Elements que no han estat al conjunt de dades.",
+				"spa": "Elementos que no han estado en el conjunto de datos."
 			},
 			"parameter": null,
 			"source": "ISO 19157: Id. 1 (boolean), Id. 2 (count), Id. 3 (rate)",
@@ -454,18 +494,23 @@
 			"id": "Duplicate",
 			"name":
 			{
-				"eng": "Duplicate"
+				"eng": "Duplicate",
+				"cat": "Duplicat",
+				"spa": "Duplicado"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Elements that are duplicated in the dataset</p>"
+				"eng": "Elements that are duplicated in the dataset.",
+				"cat": "Elements duplicats al conjunt de dades.",
+				"spa": "Elementos duplicados en el conjunto de datos."
 			},
 			"parameter": null,
 			"source": "GVQ: boolean, rate. ISO 19157: Id. 4 (count)",
 			"classes":
 			[
-				"Completeness"
+				"Completeness",
+				"Completesa"
 			],
 			"furtherInformation": null
 		},
@@ -473,12 +518,16 @@
 			"id": "Misclassification",
 			"name":
 			{
-				"eng": "Misclassification"
+				"eng": "Misclassification",
+				"cat": "Classificació errònia",
+				"spa": "Clasificación errónea"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Incorrectly classified features</p>"
+				"eng": "Incorrectly classified features.",
+				"cat": "Objectes classificats incorrectament.",
+				"spa": "Objetos clasificados incorrectamente."
 			},
 			"parameter": null,
 			"source": "GVQ (boolean )ISO 19157 Id.60 (count), Id.61 (rate), Id.62 (confusion matrix, count), Id.63 (confusion matrix, rate), Id.64 (Kappa coefficient)",
@@ -493,17 +542,23 @@
 			"id": "MissingItems",
 			"name":
 			{
-				"eng": "Missing items"
+				"eng": "Missing items",
+				"cat": "Ítems mancants",
+				"spa": "Ítems perdido"
 			},
 			"alternativeName":
 			[
 				{
-					"eng": "Missing"
+					"eng": "Missing",
+					"cat": "Absent",
+					"spa": "Ausente"
 				}
 			],
 			"desc":
 			{
-				"eng": "<p>Elements that are knowns to be in the ground truth and has not been recorded in the dataset and are missing</p>"
+				"eng": "Elements that are knowns to be in the ground truth and has not been recorded in the dataset and are missing.",
+				"cat": "Elements que se sap que són veritat terreny i que no s'han registrat al conjunt de dades i falten.",
+				"spa": "Elementos que se sabe que son verdad terreno y que no se han registrado en el conjunto de datos y faltan."
 			},
 			"parameter": null,
 			"source": "ISO 19157: Tables D.5 (boolean), D.6 (count), D.7 (rate)",
@@ -513,24 +568,32 @@
 			],
 			"furtherInformation":
 			{
-				"eng": "It is focuses on feature data where a feature has been ignored, such as a landmark like a church or a bridge that was overlooked and is not in the data"
+				"eng": "It is focuses on feature data where a feature has been ignored, such as a landmark like a church or a bridge that was overlooked and is not in the data.",
+				"cat": "Es centra en les dades dels objectes on s'ha ignorat un objecte, com ara una fita com una església o un pont que es va passar per alt i que no es troba a les dades.",
+				"spa": "Se centra en los datos de los objetos en los que se ha ignorado un objeto, como un hito como una iglesia o un puente que se pasó por alto y que no se encuentra en los datos."
 			}
 		},
 		{
 			"id": "MissingClass",
 			"name":
 			{
-				"eng": "Missing class"
+				"eng": "Missing class",
+				"cat": "Classe mancant",
+				"spa": "Clase perdida"
 			},
 			"alternativeName":
 			[
 				{
-					"eng": "Missing category"
+					"eng": "Missing category",
+					"cat": "Categoria mancant",
+					"spa": "Categoría perdida"
 				}
 			],
 			"desc":
 			{
-				"eng": "<p>Indicator showing that a specific class is missing in the data</p>"
+				"eng": "Indicator showing that a specific class is missing in the data.",
+				"cat": "Indicador que mostra que falta una classe específica a les dades.",
+				"spa": "Indicador que muestra que falta una clase específica en los datos."
 			},
 			"parameter":
 			[
@@ -546,19 +609,25 @@
 			],
 			"furtherInformation":
 			{
-				"eng": "It is focuses on a value class (from the legend class collection in a classified imagery product) that is not present in the data. It is still possible that this is not a error and the is not really present in this scene and needs to be validated with ground truth to be considered an error"
+				"eng": "It is focuses on a value class (from the legend class collection in a classified imagery product) that is not present in the data. It is still possible that this is not a error and the is not really present in this scene and needs to be validated with ground truth to be considered an error.",
+				"cat": "Es centra en una classe de valor (de la col·lecció de classes de llegenda en un producte d'imatge classificat) que no està present a les dades. Encara és possible que això no sigui un error i que no estigui realment present en aquesta escena i cal que ser validat amb la veritat bàsica per ser considerat un error.",
+				"spa": "Se centra en una clase de valor (de la colección de clases de leyenda en un producto de imagen clasificado) que no está presente en los datos. Todavía es posible que esto no sea un error y que no esté realmente presente en esta escena y debe ser validado con la verdad básica para ser considerado un error"
 			}
 		},
 		{
 			"id": "NodataAreas",
 			"name":
 			{
-				"eng": "Nodata areas"
+				"eng": "Nodata areas",
+				"cat": "Àrees sense dades",
+				"spa": "Áreas sin datos"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>This quality measure indicates if there is absence of data for some reason that made impossible to get data in this area. In the case that the measure is provided as a pixel level quality, the resulting parameters are presented in the form of a data mask</p>"
+				"eng": "This quality measure indicates if there is absence of data for some reason that made impossible to get data in this area. In the case that the measure is provided as a pixel level quality, the resulting parameters are presented in the form of a data mask.",
+				"cat": "Aquesta mesura de qualitat indica si hi ha absència de dades per alguna raó que ha fet impossible obtenir dades en aquesta àrea. En el cas que la mesura es proporcioni com a qualitat de nivell de píxel, els paràmetres resultants es presenten en forma de màscara de dades.",
+				"spa": "Esta medida de calidad indica si existe ausencia de datos por alguna razón que ha hecho imposible obtener datos en esta área. En caso de que la medida se proporcione como calidad de nivel de píxel, los parámetros resultantes se presentan en forma de máscara de datos."
 			},
 			"parameter":
 			[
@@ -566,7 +635,9 @@
 					"id": "Reason",
 					"desc":
 					{
-						"eng": "The 'reason' provides the reason the value is marked as nodata. Possible values are 'anomalous', 'not acquired', 'unknown value', etc"
+						"eng": "The 'reason' provides the reason the value is marked as nodata. Possible values are 'anomalous', 'not acquired', 'unknown value', etc.",
+						"cat": "La raó ('reason') proporciona el motiu pel qual el valor es marca com a 'sensedades'. Els valors possibles són 'anòmal', 'no adquirit', 'valor desconegut', etc.",
+						"spa": "La razón ('reason') proporciona el motivo por el que el valor se marca como 'sindatos'. Los valores posibles son 'anómalo', 'no adquirido', 'valor desconocido', etc."
 					}
 				}
 			],
@@ -577,19 +648,26 @@
 			],
 			"furtherInformation":
 			{
-				"eng": "Typically used in imagery to mark pixels that has a value that does not represent a correct measurement. Can be reported as a boolean per pixel or a percentage of 'nodata' pixels in an scene"
+				"eng": "Typically used in imagery to mark pixels that has a value that does not represent a correct measurement. Can be reported as a boolean per pixel or a percentage of 'nodata' pixels in an scene.",
+				"cat": "S'utilitza habitualment en imatges per marcar píxels que tenen un valor que no representa una mesura correcta. Es pot informar com a booleà per píxel o com a percentatge de píxels 'sensedades' en una escena.",
+				"spa": "Se utiliza habitualmente en imágenes para marcar píxeles que tienen un valor que no representa una medida correcta. Se puede informar como booleano por píxel o como porcentaje de píxeles 'sindatos' en una escena."
 			}
 		},
 		{
+			
 			"id": "FlagAreas",
 			"name":
 			{
-				"eng": "Flag areas"
+				"eng": "Flag areas",
+				"cat": "Àrees marcades",
+				"spa": "Áreas marcadas"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>This quality measure indicates if a data has the presence of some detected as anomalous such as snow or cloud. In the case that the measure is provided as a pixel level quality, the resulting parameters are presented in the form of a data mask</p>"
+				"eng": "This quality measure indicates if a data has the presence of some detected as anomalous such as snow or cloud. In the case that the measure is provided as a pixel level quality, the resulting parameters are presented in the form of a data mask.",
+				"cat": "Aquesta mesura de qualitat indica si les dades presenten alguna anòmalia com ara neu o núvols. En el cas que la mesura es proporcioni com a qualitat a nivell de píxel, els paràmetres resultants es presenten en forma de màscara de dades.",
+				"spa": "Esta medida de calidad indica si los datos presentan alguna anomalía como nieve o nubes. En caso de que la medida se proporcione como calidad a nivel de píxel, los parámetros resultantes se presentan en forma de máscara de datos."
 			},
 			"parameter":
 			[
@@ -597,7 +675,9 @@
 					"id": "Reason",
 					"desc":
 					{
-						"eng": "The 'reason' provides the reason the value is marked as flag. Possible values are 'snow', 'cloud', 'shadow', etc"
+						"eng": "The 'reason' provides the reason the value is marked as flag. Possible values are 'snow', 'cloud', 'shadow', etc",
+						"cat": "La raó ('reason') proporciona el motiu pel qual el valor està marcat com a bandera. Els valors possibles són 'neu', 'núvol', 'ombra', etc.",
+						"spa": "La razón ('reason') proporciona el motivo por el que el valor se marca como 'sindatos'. Los valores posibles son 'anómalo', 'no adquirido', 'valor desconocido', etc."
 					}
 				}
 			],
@@ -608,24 +688,32 @@
 			],
 			"furtherInformation":
 			{
-				"eng": "Typically used in imagery to mark pixels that show 'snow' instead of 'land' behind, covered by clouds, are in the shadow of a cloud, etc. It c an be reported as a boolean per pixel or a percentage of 'flagged' pixels in an scene. This metrics is particularly relevant when building big mosaics of several scenes where, despite the efforts of the producer, some parts of the mosaic area are covered by any of the scenes and result in nodata values. This metrics is particularly relevant when building big mosaics of several scenes where, despite the efforts of the producer, some parts of the mosaic area cannot be covered with better scenes and still contain snow, cloud, shodows or other artefacts"
+				"eng": "Typically used in imagery to mark pixels that show 'snow' instead of 'land' behind, covered by clouds, are in the shadow of a cloud, etc. It can be reported as a boolean per pixel or a percentage of 'flagged' pixels in an scene. This metrics is particularly relevant when building big mosaics of several scenes where, despite the efforts of the producer, some parts of the mosaic area are covered by any of the scenes and result in nodata values. This metrics is particularly relevant when building big mosaics of several scenes where, despite the efforts of the producer, some parts of the mosaic area cannot be covered with better scenes and still contain snow, cloud, shodows or other artefacts.",
+				"cat": "S'utilitza normalment en imatges per marcar píxels que mostren 'neu' en comptes de 'terra', coberts per núvols, es troben a l'ombra d'un núvol, etc. Es pot informar com a booleà per píxel o un percentatge de 'marcat'. ' píxels d'una escena. Aquesta mètrica és especialment rellevant quan es construeixen grans mosaics de diverses escenes on, malgrat els esforços del productor, algunes parts de l'àrea del mosaic estan cobertes per qualsevol de les escenes i donen lloc a valors de no dades. Aquesta mètrica és especialment rellevant a l'hora de construir grans mosaics de diverses escenes on, malgrat els esforços del productor, algunes parts de la zona del mosaic no es poden cobrir amb millors escenes i encara contenen neu, núvols, shodows o altres artefactes.",
+				"spa": "Se utiliza normalmente en imágenes para marcar píxeles que muestran 'nieve' en vez de 'tierra', cubiertos por nubes, se encuentran a la sombra de una nube, etc. Se puede informar como booleano por píxel o un porcentaje de 'marcado'.' píxeles de una escena. Esta métrica es especialmente relevante cuando se construyen grandes mosaicos de varias escenas donde, a pesar de los esfuerzos del productor, algunas partes del área del mosaico están cubiertas por cualquiera de las escenas y dan lugar a valores de no datos Esta métrica es especialmente relevante a la hora de construir grandes mosaicos de varias escenas donde, a pesar de los esfuerzos del productor, algunas partes de la zona del mosaico no se pueden cubrir con mejores escenas y todavía contienen nieve, nubes, shodows u otros artefactos."
 			}
 		},
 		{
 			"id": "ConceptualSchema",
 			"name":
 			{
-				"eng": "Conceptual schema"
+				"eng": "Conceptual schema",
+				"cat": "Esquema conceptual",
+				"spa": "Esquema conceptual"
 			},
 			"alternativeName":
 			[
 				{
-					"eng": "Conceptual schema conformance"
+					"eng": "Conceptual schema conformance",
+					"cat": "Conformitat de l'esquema conceptual",
+					"spa": "Conformidad del esquema conceptual"
 				}
 			],
 			"desc":
 			{
-				"eng": "<p>Elements compliant or non-compliant with the rules of the relevant conceptuals schema</p>"
+				"eng": "Elements compliant or non-compliant with the rules of the relevant conceptuals schemas.",
+				"cat": "Elements que compleixen o no les regles dels l'esquemes conceptuals rellevants.",
+				"spa": "Elementos que cumplen o no las reglas de los esquemas conceptuales relevantes."
 			},
 			"parameter": null,
 			"source": "ISO 19157: Id.8 + Id.9 (boolean), Id.10 + GVQ (count), Id.12 + Id.13 (rate)",
@@ -639,12 +727,14 @@
 			"id": "InvalidOverlapsSurfaces",
 			"name":
 			{
-				"eng": "Invalid overlaps of surfaces"
+				"eng": "Invalid overlaps of surfaces",
+				"cat": "Superposicions no vàlides de superfícies",
+				"spa": "Solapamiento no válido de superficies"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Elements that overlap in an invalid way</p>"
+				"eng": "Elements that overlap in an invalid way."
 			},
 			"parameter": null,
 			"source": "GVQ (boolean, rate), ISO 19157 Id.11 (count)",
@@ -658,20 +748,28 @@
 			"id": "ValueDomain",
 			"name":
 			{
-				"eng": "Value domain"
+				"eng": "Value domain",
+				"cat": "Domini del valor",
+				"spa": "Dominio del valor"
 			},
 			"alternativeName":
 			[
 				{
-					"eng": "Categorical attributes"
+					"eng": "Categorical attributes",
+					"cat": "Atributs categòrics",
+					"spa": "Atributos categóricos"
 				},
 				{
-					"eng": "Categorical attribute proportions"
+					"eng": "Categorical attribute proportions",
+					"cat": "Proporcions d'atributs categòrics",
+					"spa": "Proporciones de atributos categóricos"
 				}
 			],
 			"desc":
 			{
-				"eng": "Indication of if an item is conformance or not with a rule"
+				"eng": "Indication of if an item is conformance or not with a rule.",
+				"cat": "Indicació de si un article és conforme o no amb una regla.",
+				"spa": "Indicación de si un artículo es conforme o no con una regla."
 			},
 			"example": "List of attributes assigned to a geometric object (e.g. polygon)",
 			"parameter": null,
@@ -684,16 +782,20 @@
 			],
 			"furtherInformation": null
 		},
-		{
+	{
 			"id": "PhysicalStructureConflicts",
 			"name":
 			{
-				"eng": "Physical structure conflicts"
+				"eng": "Physical structure conflicts",
+				"cat": "Conflictes en l'estructura física",
+				"spa": "Conflictos en la estructura física"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Elements in conflict with the physical structure</p>"
+				"eng": "Elements in conflict with the physical structure.",
+				"cat": "Elements en conflicte amb l'estructura física.",
+				"spa": "Elementos en conflicto con la estructura física."
 			},
 			"parameter": null,
 			"source": "GVQ (boolean), ISO 19157 Id.19 (count), Id.20 (rate)",
@@ -707,12 +809,16 @@
 			"id": "FaultyPoint-curveConnections",
 			"name":
 			{
-				"eng": "<p>Faulty point-curve connections</p>"
+				"eng": "Faulty point-curve connections",
+				"cat": "Connexions punt-corba defectuoses",
+				"spa": "Conexiones punto-curva defectuosas"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "Elements with faulty point-curve connection"
+				"eng": "Elements with faulty point-curve connection.",
+				"cat": "Elements amb connexió punt-corba defectuosa.",
+				"spa": "Elementos con conexión punto-curva defectuosa."
 			},
 			"parameter": null,
 			"source": "GVQ (boolean), ISO 19157 Id.21 (count), Id.22 (rate)",
@@ -726,12 +832,16 @@
 			"id": "MissingConnectionsDueUndershoots",
 			"name":
 			{
-				"eng": "Missing connections due to undershoots"
+				"eng": "Missing connections due to undershoots",
+				"cat": "Connexions mancants degudes a extrems inferiors",
+				"spa": "Conexiones ausentes debidas a extremos inferiores"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Elements undershooting</p>"
+				"eng": "Elements undershooting.",
+				"cat": "Elements per sota.",
+				"spa": "Elementos por debajo."
 			},
 			"parameter": null,
 			"source": "GVQ (boolean, rate), ISO 19157 Id.23 (count)",
@@ -745,12 +855,16 @@
 			"id": "MissingConnectionsDueOvershoots",
 			"name":
 			{
-				"eng": "<p>Missing connections due to overshoots</p>"
+				"eng": "Missing connections due to overshoots",
+				"cat": "Connexions mancants degudes a extrems superiors",
+				"spa": "Conexiones ausentes debidas a extremos superiores"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "Elements overshooting"
+				"eng": "Elements overshooting.",
+				"cat": "Elements per sobre.",
+				"spa": "Elementos por encima."
 			},
 			"parameter": null,
 			"source": "GVQ (boolean, rate), ISO 19157 Id.24 (count)",
@@ -764,12 +878,16 @@
 			"id": "InvalidSlivers",
 			"name":
 			{
-				"eng": "Invalid slivers"
+				"eng": "Invalid slivers",
+				"cat": "Franges invàlides",
+				"spa": "Franjas inválidas"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Elements that are slivers</p>"
+				"eng": "Elements that are slivers.",
+				"cat": "Elements que són franges.",
+				"spa": "Elementos que son franjas."
 			},
 			"parameter": null,
 			"source": "GVQ (boolean, rate), ISO 19157 Id.25 (count)",
@@ -783,12 +901,16 @@
 			"id": "InvalidSelfIntersects",
 			"name":
 			{
-				"eng": "Invalid self intersects"
+				"eng": "Invalid self intersects",
+				"cat": "Auto-interseccions no vàlides",
+				"spa": "Auto-intersecciones no válidas"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Elements that self intersect in an invalid way</p>"
+				"eng": "Elements that self intersect in an invalid way.",
+				"cat": "Elements que s'entrecreuen de manera invàlida.",
+				"spa": "Elementos que se entrecruzan de manera inválida."
 			},
 			"parameter": null,
 			"source": "GVQ (boolean, rate), ISO 19157 Id.26 (count)",
@@ -802,12 +924,16 @@
 			"id": "InvalidSelfOverlaps",
 			"name":
 			{
-				"eng": "Invalid self overlaps"
+				"eng": "Invalid self overlaps",
+				"cat": "Auto-superposicions no vàlides",
+				"spa": "Auto-superposiciones no válidas"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Elements that are overlapping with themselves</p>"
+				"eng": "Elements that are overlapping with themselves.",
+				"cat": "Elements que se superposen amb ells mateixos.",
+				"spa": "Elementos que se superponen consigo mismos."
 			},
 			"parameter": null,
 			"source": "GVQ (boolean, rate), ISO 19157 Id.27 (count)",
@@ -821,7 +947,9 @@
 			"id": "MeanAbsoluteError",
 			"name":
 			{
-				"eng": "Mean absolute error"
+				"eng": "Mean absolute error",
+				"cat": "Error absolut mitjà",
+				"spa": "Error absoluto medio"
 			},
 			"alternativeName":
 			[
@@ -831,7 +959,9 @@
 			],
 			"desc":
 			{
-				"eng": "<p>Mean value of the positional uncertainties for a set of positions where the positional uncertainties are defined as the distance between a measured position and what is considered as the corresponding true position</p>"
+				"eng": "Mean value of the positional uncertainties for a set of positions where the positional uncertainties are defined as the distance between a measured position and what is considered as the corresponding true position.",
+				"cat": "Valor mitjà de les incerteses posicionals per a un conjunt de posicions on les incerteses posicionals es defineixen com la distància entre una posició mesurada i el que es considera la corresponent posició real.",
+				"spa": "Valor medio de las incertidumbres posicionales para un conjunto de posiciones donde las incertidumbres posicionales se definen como la distancia entre una posición medida y lo que se considera la correspondiente posición real."
 			},
 			"parameter": null,
 			"source": "ISO 19157 Id.28, Id.29",
@@ -846,12 +976,16 @@
 			"id": "MeanAbsoluteErrorExcludingOutliers",
 			"name":
 			{
-				"eng": "Mean absolute error excluding outliers"
+				"eng": "Mean absolute error excluding outliers",
+				"cat": "Error mitjà absolut excloent els valors atípics",
+				"spa": "Error medio absoluto excluyendo los valores atípicos"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>For a set of points where the distance does not exceed a defined threshold, the arithmetical average of distances between their measured positions and what is considered as the corresponding true positions</p>"
+				"eng": "For a set of points where the distance does not exceed a defined threshold, the arithmetical average of distances between their measured positions and what is considered as the corresponding true positions.",
+				"cat": "Per a un conjunt de punts on la distància no supera un llindar definit, la mitjana aritmètica de les distàncies entre les seves posicions mesurades i el que es considera com les corresponents posicions reals.",
+				"spa": "Para un conjunto de puntos en los que la distancia no supera un umbral definido, la media aritmética de las distancias entre sus posiciones medidas y lo que se considera como las correspondientes posiciones reales."
 			},
 			"parameter":
 			[
@@ -862,7 +996,9 @@
 					"id": "level",
 					"desc":
 					{
-						"eng": "Shall be 'below'"
+						"eng": "Shall be 'below'",
+						"cat": "Hauria de ser 'a sota'",
+						"spa": "Debe ser 'abajo'"
 					}
 				}
 			],
@@ -877,12 +1013,16 @@
 			"id": "BiasOfPositions",
 			"name":
 			{
-				"eng": "Bias of positions"
+				"eng": "Bias of positions",
+				"cat": "Biaix de les posicions",
+				"spa": "Sesgo de las posiciones"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Bias of the positions for a set of positions where the positional uncertainties are defined as the deviation between a measured position and what is considered as the corresponding true position<p>"
+				"eng": "Bias of the positions for a set of positions where the positional uncertainties are defined as the deviation between a measured position and what is considered as the corresponding true position.",
+				"cat": "Biaix de les posicions per a un conjunt de posicions on les incerteses posicionals es defineixen com la desviació entre una posició mesurada i el que es considera la corresponent posició real.",
+				"spa": "Sesgo de las posiciones para un conjunto de posiciones donde las incertidumbres posicionales se definen como la desviación entre una posición medida y lo que se considera la correspondiente posición real."
 			},
 			"parameter": null,
 			"source": "ISO 19157 Id. 128",
@@ -896,12 +1036,16 @@
 			"id": "UncertaintiesAboveGivenThreshold",
 			"name":
 			{
-				"eng": "Uncertainties above a given threshold"
+				"eng": "Uncertainties above a given threshold",
+				"cat": "Incerteses per sobre d'un determinat llindar",
+				"spa": "Incertidumbres por encima de un determinado umbral"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Number of positional uncertainties above a given threshold for a set of positions. The errors are defined as the distance between a measured position and what is considered as the corresponding true position</p>"
+				"eng": "Number of positional uncertainties above a given threshold for a set of positions. The errors are defined as the distance between a measured position and what is considered as the corresponding true position.",
+				"cat": "Nombre d'incerteses posicionals per sobre d'un llindar determinat per a un conjunt de posicions. Els errors es defineixen com la distància entre una posició mesurada i el que es considera la correspondent posició real.",
+				"spa": "Número de incertidumbres posicionales por encima de un umbral determinado para un conjunto de posiciones. Los errores se definen como la distancia entre una posición medida y lo que se considera la correspondiente posición real."
 			},
 			"parameter":
 			[
@@ -923,7 +1067,9 @@
 			"id": "MeanBiasError",
 			"name":
 			{
-				"eng": "Mean bias error"
+				"eng": "Mean bias error",
+				"cat": "Error mitjà de biaix",
+				"spa": "Error medio de sesgo"
 			},
 			"alternativeName":
 			[
@@ -945,12 +1091,16 @@
 			"id": "CovarianceMatrix",
 			"name":
 			{
-				"eng": "Covariance matrix"
+				"eng": "Covariance matrix",
+				"cat": "Matriu de covariància",
+				"spa": "Matriz de covarianza"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Symmetrical square matrix with variances of point coordinates on the main diagonal and covariances between these coordinates as off-diagonal elements</p>"
+				"eng": "Symmetrical square matrix with variances of point coordinates on the main diagonal and covariances between these coordinates as off-diagonal elements.",
+				"cat": "Matriu quadrada simètrica amb variacions de coordenades puntuals a la diagonal principal i covariances entre aquestes coordenades com a elements fora de la diagonal.",
+				"spa": "Matriz cuadrada simétrica con variaciones de coordenadas puntuales en la diagonal principal y covarianzas entre estas coordenadas como elementos fuera de la diagonal."
 			},
 			"parameter": null,
 			"source": "ISO 19157 Id.32",
@@ -964,12 +1114,16 @@
 			"id": "ConfidenceEllipse",
 			"name":
 			{
-				"eng": "Confidence ellipse"
+				"eng": "Confidence ellipse",
+				"cat": "El·lipse de confiança",
+				"spa": "Elipse de confianza"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>2D ellipse with the two main axes indicating the direction and magnitude of the highest and the lowest uncertainty of a 2D point</p>"
+				"eng": "2D ellipse with the two main axes indicating the direction and magnitude of the highest and the lowest uncertainty of a 2D point.",
+				"cat": "El·lipse 2D amb els dos eixos principals que indiquen la direcció i la magnitud de la incertesa més alta i més baixa d'un punt 2D.",
+				"spa": "Elipse 2D con los dos ejes principales que indican la dirección y magnitud de la incertidumbre más alta y más baja de un punto 2D."
 			},
 			"parameter":
 			[
@@ -983,7 +1137,9 @@
 					"id": "angle",
 					"desc":
 					{
-						"eng": "in multiple values"
+						"eng": "in multiple values",
+						"cat": "en múltiples valors",
+						"spa": "en múltiples valores"
 					}
 				},
 				{
@@ -1001,12 +1157,16 @@
 			"id": "LinearMapAccuracy",
 			"name":
 			{
-				"eng": "Linear map accuracy"
+				"eng": "Linear map accuracy",
+				"cat": "Precisió del mapa lineal",
+				"spa": "Precisión del mapa lineal"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Half lenght of the interval defined by an upper and a lower limit, in which the true value lies with a certain probability</p>"
+				"eng": "Half lenght of the interval defined by an upper and a lower limit, in which the true value lies with a certain probability.",
+				"cat": "Mitja longitud de l'interval definit per un límit superior i un límit inferior, en el què el valor real s'hi troba amb una certa probabilitat.",
+				"spa": "Media longitud del intervalo definido por un límite superior y un límite inferior, en el que el valor real se encuentra con cierta probabilidad."
 			},
 			"parameter": null,
 			"source": "ISO 19157 Id.33, Id.34, Id.35, Id.36, Id.37, Id.38",
@@ -1020,7 +1180,9 @@
 			"id": "RootMeanSquare",
 			"name":
 			{
-				"eng": "Root mean square"
+				"eng": "Root mean square",
+				"cat": "Arrel quadrada mitjana",
+				"spa": "Raíz cuadrática media"
 			},
 			"alternativeName":
 			[
@@ -1033,7 +1195,9 @@
 			],
 			"desc":
 			{
-				"eng": "<p>Standard deviation, where the true value is not estimated from the observations but known a priori</p>"
+				"eng": "Standard deviation, where the true value is not estimated from the observations but known a priori.",
+				"cat": "Desviació estàndard, on el valor real no s'estima a partir de les observacions sinó que es coneix a priori.",
+				"spa": "Desviación estándar, donde el valor real no se estima a partir de las observaciones, sino que se conoce a priori."
 			},
 			"parameter": null,
 			"source": "ISO 19157 Id.39",
@@ -1048,7 +1212,9 @@
 			"id": "AbsoluteLinearError90_SignificanceLevel_Alternative1",
 			"name":
 			{
-				"eng": "Absolute linear error at 90% significance level. Alternative 1"
+				"eng": "Absolute linear error at 90% significance level. Alternative 1",
+				"cat": "Error lineal absolut al nivell de significació del 90%. Alternativa 1",
+				"spa": "Error lineal absoluto en el nivel de significación del 90%. Alternativa 1"
 			},
 			"alternativeName":
 			[
@@ -1058,7 +1224,9 @@
 			],
 			"desc":
 			{
-				"eng": "<p>Absolute vertical accuracy of the data's coordinates, expressed in terms of linear error at 90% probability given that a bias is present</p>"
+				"eng": "Absolute vertical accuracy of the data's coordinates, expressed in terms of linear error at 90% probability given that a bias is present.",
+				"cat": "Precisió vertical absoluta de les coordenades de les dades, expressada en termes d'error lineal amb un 90% de probabilitat atès que hi ha un biaix.",
+				"spa": "Precisión vertical absoluta de las coordenadas de los datos, expresada en términos de error lineal con un 90% de probabilidad dado que existe un sesgo."
 			},
 			"parameter": null,
 			"source": "ISO 19157 Id.40",
@@ -1072,7 +1240,9 @@
 			"id": "AbsoluteLinearError90_SignificanceLevel_Alternative2",
 			"name":
 			{
-				"eng": "Absolute linear error at 90% significance level. Alternative 2"
+				"eng": "Absolute linear error at 90% significance level. Alternative 2",
+				"cat": "Error lineal absolut al nivell de significació del 90%. Alternativa 2",
+				"spa": "Error lineal absoluto en el nivel de significación del 90%. Alternativa 2"
 			},
 			"alternativeName":
 			[
@@ -1082,7 +1252,9 @@
 			],
 			"desc":
 			{
-				"eng": "<p>Absolute vertical accuracy of the data's coordinates, expressed in terms of linear error at 90% probability given that a bias is present</p>"
+				"eng": "Absolute vertical accuracy of the data's coordinates, expressed in terms of linear error at 90% probability given that a bias is present.",
+				"cat": "Precisió vertical absoluta de les coordenades de les dades, expressada en termes d'error lineal amb un 90% de probabilitat atès que hi ha un biaix.",
+				"spa": "Precisión vertical absoluta de las coordenadas de los datos, expresada en términos de error lineal con un 90% de probabilidad dado que existe un sesgo."
 			},
 			"parameter": null,
 			"source": "ISO 19157 Id.41",
@@ -1096,12 +1268,16 @@
 			"id": "CircularMapAccuracy",
 			"name":
 			{
-				"eng": "Circular map accuracy"
+				"eng": "Circular map accuracy",
+				"cat": "Precisió del mapa circular",
+				"spa": "Precisión del mapa circular"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Radius describing a circle, in which the true point location lies with a certain probability</p>"
+				"eng": "Radius describing a circle, in which the true point location lies with a certain probability.",
+				"cat": "Radi que descriu un cercle, en el qual la ubicació del punt real s'hi troba amb una certa probabilitat.",
+				"spa": "Radio que describe un círculo, en el que la ubicación del punto real se encuentra con cierta probabilidad."
 			},
 			"parameter": null,
 			"source": "ISO 19157 D.44, D.45, D.46, D.47, D.48",
@@ -1115,7 +1291,9 @@
 			"id": "AbsoluteCircularError90_SignificanceLevel_Alternative1",
 			"name":
 			{
-				"eng": "Absolute circular error at 90% significance level. Alternative 1"
+				"eng": "Absolute circular error at 90% significance level. Alternative 1",
+				"cat": "Error circular absolut al nivell de significació del 90%. Alternativa 1",
+				"spa": "Error circular absoluto en el nivel de significación del 90%. Alternativa 1"
 			},
 			"alternativeName":
 			[
@@ -1125,7 +1303,9 @@
 			],
 			"desc":
 			{
-				"eng": "<p>Absolute horizontal accuracy of the data's coordinates, expressed in terms of circular error at 90% probability given that a bias is present</p>"
+				"eng": "Absolute horizontal accuracy of the data's coordinates, expressed in terms of circular error at 90% probability given that a bias is present.",
+				"cat": "Precisió horitzontal absoluta de les coordenades de les dades, expressada en termes d'error circular amb un 90% de probabilitat atès que hi ha un biaix.",
+				"spa": "Precisión horizontal absoluta de las coordenadas de los datos, expresada en términos de error circular con un 90% de probabilidad dado que existe un sesgo."
 			},
 			"parameter": null,
 			"source": "ISO 19157 Id.48",
@@ -1139,7 +1319,9 @@
 			"id": "AbsoluteCircularError90_SignificanceLevel_Alternative2",
 			"name":
 			{
-				"eng": "Absolute circular error at 90% significance level. Alternative 2"
+				"eng": "Absolute circular error at 90% significance level. Alternative 2",
+				"cat": "Error circular absolut al nivell de significació del 90%. Alternativa 2",
+				"spa": "Error circular absoluto en el nivel de significación del 90%. Alternativa 2"
 			},
 			"alternativeName":
 			[
@@ -1149,7 +1331,9 @@
 			],
 			"desc":
 			{
-				"eng": "<p>Absolute horizontal accuracy of the data's coordinates, expressed in terms of circular error at 90% probability given that a bias is present</p>"
+				"eng": "Absolute horizontal accuracy of the data's coordinates, expressed in terms of circular error at 90% probability given that a bias is present",
+				"cat": "Precisió horitzontal absoluta de les coordenades de les dades, expressada en termes d'error circular amb un 90% de probabilitat atès que hi ha un biaix.",
+				"spa": "Precisión horizontal absoluta de las coordenadas de los datos, expresada en términos de error circular con un 90% de probabilidad dado que existe un sesgo."
 			},
 			"parameter": null,
 			"source": "ISO 19157 Id.49",
@@ -1163,12 +1347,16 @@
 			"id": "RelativeError",
 			"name":
 			{
-				"eng": "Relative error"
+				"eng": "Relative error",
+				"cat": "Error relatiu",
+				"spa": "Error relativo"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Evaluation of the random errors of one relief feature to another in the same dataset or on the same map/chart. It is a function of the random errors in the two elevations with respect to a common vertical datum</p>"
+				"eng": "Evaluation of the random errors of one relief feature to another in the same dataset or on the same map/chart. It is a function of the random errors in the two elevations with respect to a common vertical datum.",
+				"cat": "Avaluació dels errors aleatoris d'un objecte de relleu cap a un altra en el mateix conjunt de dades o en el mateix mapa/gràfic. És una funció dels errors aleatoris en les dues elevacions respecte a un dàtum vertical comú.",
+				"spa": "Evaluación de los errores aleatorios de un objeto de relieve hacia otro en el mismo conjunto de datos o en el mismo mapa/gráfico. Es una función de los errores aleatorios en ambas elevaciones respecto a un datum vertical común."
 			},
 			"parameter": null,
 			"source": "ISO 19157 Id.52, Id.53",
@@ -1182,12 +1370,16 @@
 			"id": "TimeAccuracy",
 			"name":
 			{
-				"eng": "Time accuracy"
+				"eng": "Time accuracy",
+				"cat": "Precisió temporal",
+				"spa": "Precisión temporal"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Half lenght of the interval defined by an upper and a lower limit, in which the true value for the time instance lies with a certain probability</p>"
+				"eng": "Half lenght of the interval defined by an upper and a lower limit, in which the true value for the time instance lies with a certain probability.",
+				"cat": "Mitja longitud de l'interval definit per un límit superior i un límit inferior, en què el valor real de la instància de temps s'hi troba amb una certa probabilitat.",
+				"spa": "Media longitud del intervalo definido por un límite superior y un límite inferior, en el que el valor real de la instancia de tiempo se encuentra con cierta probabilidad."
 			},
 			"parameter": null,
 			"source": "ISO 19157 Id.54, Id.55, Id.56, Id.57, Id.58, Id.59",
@@ -1201,12 +1393,16 @@
 			"id": "TemporalDistanceDistribution",
 			"name":
 			{
-				"eng": "Temporal distance distribution"
+				"eng": "Temporal distance distribution",
+				"cat": "Distribució de la distància temporal", 
+				"spa": "Distribución de la distancia temporal"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>It measures the distance between the wanted date to the closest available date.</p>"
+				"eng": "It measures the distance between the wanted date to the closest available date.",
+				"cat": "Mesura la distància entre la data desitjada i la data disponible més propera.",
+				"spa": "Mide la distancia entre la fecha deseada y la fecha disponible más cercana."
 			},
 			"parameter": null,
 			"source": "WQeMS",
@@ -1220,12 +1416,16 @@
 			"id": "TemporalDensity",
 			"name":
 			{
-				"eng": "Temporal density"
+				"eng": "Temporal density",
+				"cat": "Densitat temporal",
+				"spa": "Densidad temporal"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>It counts the number of measures in a time interval versus teh optimum number. E.g. 3 images in 366 days.</p>"
+				"eng": "It counts the number of measures in a time interval versus teh optimum number. E.g. 3 images in 366 days.",
+				"cat": "Compta el nombre de mesures en un interval de temps en funció del nombre òptim. Per exemple. 3 imatges en 366 dies.",
+				"spa": "Cuenta el número de medidas en un rango de tiempo en función del número óptimo. Por ejemplo. 3 imágenes en 366 días."
 			},
 			"parameter": null,
 			"source": "WQeMS",
@@ -1239,7 +1439,9 @@
 			"id": "ChronologicalError",
 			"name":
 			{
-				"eng": "Chronological error"
+				"eng": "Chronological error",
+				"cat": "Error cronològic",
+				"spa": "Error cronológico"
 			},
 			"alternativeName": null,
 			"desc": null,
@@ -1255,17 +1457,23 @@
 			"id": "CategoricalCorrespondence",
 			"name":
 			{
-				"eng": "Categorical misclassification"
+				"eng": "Categorical misclassification",
+				"cat": "Classificació categòrica errònia",
+				"spa": "Clasificación categórica errónea"
 			},
 			"alternativeName":
 			[
 				{
-					"eng": "Categorical Correspondence"
+					"eng": "Categorical Correspondence",
+					"cat": "Correspondència categòrica",
+					"spa": "Correspondencia categórica"
 				}
 			],
 			"desc":
 			{
-				"eng": "<p>A list of items that can be classified by 2 criteria (e.g. in a Remote Sensing Hybrid classification training pixels are already classified in T themantic categories (by the use of training areas) but are also assigned to S spectral classes. In this case The RCMt is called Fidelity matrix and the RCMs is calles Representativity matrix)</p>"
+				"eng": "A list of items that can be classified by 2 criteria (e.g. in a Remote Sensing Hybrid classification training pixels are already classified in T themantic categories (by the use of training areas) but are also assigned to S spectral classes. In this case The RCMt is called Fidelity matrix and the RCMs is calles Representativity matrix).",
+				"cat": "Una llista d'elements que es poden classificar segons 2 criteris (per exemple, en una classificació híbrida de teledetecció, els píxels d'entrenament ja estan classificats en categories temàntiques T (mitjançant l'ús d'àrees d'entrenament) però també s'assignen a classes espectrals S. En aquest cas, el RCMt s'anomena matriu de fidelitat i el RCM s'anomena matriu de representativitat).",
+				"spa": "Una lista de elementos que pueden clasificarse según 2 criterios (por ejemplo, en una clasificación híbrida de teledetección, los píxeles de entrenamiento ya están clasificados en categorías temánticas T (mediante el uso de áreas de entrenamiento) pero también se asignan a clases espectrales S. En este caso, el RCMt se llama matriz de fidelidad y el RCM se llama matriz de representatividad)."
 			},
 			"parameter": null,
 			"source": null,
@@ -1279,12 +1487,16 @@
 			"id": "QuantitativeAttributeCorrectness",
 			"name":
 			{
-				"eng": "Quantitative attribute correctness"
+				"eng": "Quantitative attribute correctness",
+				"cat": "Rectitud dels atributs quantitatius",
+				"spa": "Rectitud de los atributos cuantitativos"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Half length of the interval defined by an upper and a lower limit, in which the true value for the quantitative attribute lies with a certain probability</p>"
+				"eng": "Half length of the interval defined by an upper and a lower limit, in which the true value for the quantitative attribute lies with a certain probability.",
+				"cat": "Mitja longitud de l'interval definit per un límit superior i un límit inferior, en què el valor real de l'atribut quantitatiu s'hi troba amb una certa probabilitat.",
+				"spa": "Media longitud del intervalo definido por un límite superior y un límite inferior, en el que el valor real del atributo cuantitativo se encuentra con cierta probabilidad."
 			},
 			"parameter": null,
 			"source": "ISO 19157 Id.68, Id.69, Id.70, Id.71, Id.72, Id.73",
@@ -1298,7 +1510,9 @@
 			"id": "SubSettingSamplingStability",
 			"name":
 			{
-				"eng": "SubSetting sampling stability"
+				"eng": "SubSetting sampling stability",
+				"cat": "Estabilitat d'un subconjunt de les mostres",
+				"spa": "Estabilidad de un subconjunto de las muestras"
 			},
 			"alternativeName": null,
 			"desc": null,
@@ -1314,7 +1528,9 @@
 			"id": "TotalQualityIndex",
 			"name":
 			{
-				"eng": "Total Quality Index"
+				"eng": "Total Quality Index",
+				"cat": "Índex de qualitat total",
+				"spa": "Índice de calidad total"
 			},
 			"alternativeName": 
 			[
@@ -1324,7 +1540,9 @@
 			],
 			"desc":
 			{
-				"eng": "<p>Commonly used for satellite derived products. The values range from 0 (worst) to 100 (best) quality. These numbers are quantitative, but unitless. Different factors such as sunglint, sun angle, viewing angle, aerosol content, etc. influence the total quality index. It is prodived as an image with per pixel quality<p>"
+				"eng": "Commonly used for satellite derived products. The values range from 0 (worst) to 100 (best) quality. These numbers are quantitative, but unitless. Different factors such as sunglint, sun angle, viewing angle, aerosol content, etc. influence the total quality index. It is prodived as an image with per pixel quality.",
+				"cat": "S'utilitza habitualment per a productes derivats de satèl·lit. Els valors van des de 0 (pitjor) fins a 100 (millor) qualitat. Aquests números són quantitatius, però sense unitats. Diferents factors com ara la llum solar, l'angle del sol, l'angle de visió, el contingut d'aerosols, etc. influeixen en l'índex de qualitat total. Es presenta com una imatge amb una qualitat per píxel.",
+				"spa": "Se utiliza habitualmente para productos derivados de satélite. Los valores van desde 0 (peor) hasta 100 (mejor) calidad. Estos números son cuantitativos, pero sin unidades. Diferentes factores como la luz solar, el ángulo del sol, el ángulo de visión, el contenido de aerosoles, etc. influyen en el índice de calidad total. Se presenta como una imagen con una calidad por píxel."
 			},
 			"parameter": null,
 			"source": "WQeMS",
@@ -1338,12 +1556,16 @@
 			"id": "ExtrapolatedAreas",
 			"name":
 			{
-				"eng": "Extrapolated areas"
+				"eng": "Extrapolated areas",
+				"cat": "Àrees extrapolades",
+				"spa": "Áreas extrapoladas"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>This quality measure indicates if a data produced by interpolation of other measures (e.g. interpolation of punctual measures) is out of range of the interpolated regions so it is in fact extrapolated. In the case that the measure is provided as a pixel level quality, the resulting parameters are presented in the form of a data mask<p>"
+				"eng": "This quality measure indicates if a data produced by interpolation of other measures (e.g. interpolation of punctual measures) is out of range of the interpolated regions so it is in fact extrapolated. In the case that the measure is provided as a pixel level quality, the resulting parameters are presented in the form of a data mask.",
+				"cat": "Aquesta mesura de qualitat indica si una dada produïda per la interpolació d'altres mesures (per exemple, la interpolació de mesures puntuals) està fora del rang de les regions interpolades, de manera que de fet s'extrapola. En el cas que la mesura es proporcioni com a qualitat de nivell de píxel, els paràmetres resultants es presenten en forma de màscara de dades.",
+				"spa": "Esta medida de calidad indica si un dato producido por la interpolación de otras medidas (por ejemplo, la interpolación de medidas puntuales) está fuera del rango de las regiones interpoladas, por lo que de hecho se extrapola. En caso de que la medida se proporcione como calidad de nivel de píxel, los parámetros resultantes se presentan en forma de máscara de datos."
 			},
 			"parameter": null,
 			"source": null,
@@ -1357,12 +1579,16 @@
 			"id": "LevelOfConfidence",
 			"name":
 			{
-				"eng": "Level of confidence"
+				"eng": "Level of confidence",
+				"cat": "Nivell de confiança",
+				"spa": "Nivel de confianza"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>This quality measure indicates the level of confidence expressed selecting one of the five categories<p>"
+				"eng": "This quality measure indicates the level of confidence expressed selecting one of the five categories.",
+				"cat": "Aquesta mesura de qualitat indica el nivell de confiança expressat seleccionant una de les cinc categories.",
+				"spa": "Esta medida de calidad indica el nivel de confianza expresado seleccionando una de las cinco categorías."
 			},
 			"parameter": null,
 			"source": null,
@@ -1377,12 +1603,16 @@
 			"id": "LevelOfLikelihood",
 			"name":
 			{
-				"eng": "Level of likelihood"
+				"eng": "Level of likelihood",
+				"cat": "Nivell de probabilitat",
+				"spa": "Nivel de probabilidad"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>This quality measure indicates the level of likelihood expressed selecting one of the seven categories<p>"
+				"eng": "This quality measure indicates the level of likelihood expressed selecting one of the seven categories.",
+				"cat": "Aquesta mesura de qualitat indica el nivell de probabilitat expressat en seleccionar una de les set categories.",
+				"spa": "Esta medida de calidad indica el nivel de probabilidad expresado al seleccionar una de las siete categorías."
 			},
 			"parameter": null,
 			"source": null,
@@ -1400,12 +1630,14 @@
 			"id": "PredictedValues",
 			"name":
 			{
-				"eng": "Predicted or observed values"
+				"eng": "Predicted or observed values",
+				"cat": "Valors predits o observats",
+				"spa": "Valores predichos u observados"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>It represents a list of measured or predicted values, sometimes represented as <i>x<sub>mi</sub></i>.</p>"
+				"eng": "It represents a list of measured or predicted values, sometimes represented as <i>x<sub>mi</sub></i>."
 			},
 			"parameter":
 			[
@@ -1426,12 +1658,14 @@
 			"id": "ActualValues",
 			"name":
 			{
-				"eng": "Actual Values in the ground truth"
+				"eng": "Actual values in the ground truth",
+				"cat": "Valors reals a la veritat del terreny",
+				"spa": "Valores reales en la verdad del terreno"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>It represents a list of values considered to represent the truth, sometimes represented as <i>x<sub>ti</sub></i>.</p>"
+				"eng": "It represents a list of values considered to represent the truth, sometimes represented as <i>x<sub>ti</sub></i>."
 			},
 			"parameter":
 			[
@@ -1452,12 +1686,14 @@
 			"id": "PredictedArea",
 			"name":
 			{
-				"eng": "Predicted or observed area"
+				"eng": "Predicted or observed area",
+				"cat": "Àrea predita o observada",
+				"spa": "Área predicida u observada"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>It represents the area measured or predicted commonly by a Artificial Inteligence algorithm.</p>"
+				"eng": "It represents the area measured or predicted commonly by a Artificial Inteligence algorithm."
 			},
 			"parameter": null,
 			"source": "WQeMS"
@@ -1466,12 +1702,14 @@
 			"id": "ActualArea",
 			"name":
 			{
-				"eng": "Actual area in the ground truth"
+				"eng": "Actual area in the ground truth",
+				"cat": "Àrea real a la veritat del terreny",
+				"spa": "Área real a la verdad del terreno"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>It represents the area measured or predicted commonly by a Artificial Inteligence algorithm.</p>"
+				"eng": "It represents the area measured or predicted commonly by a Artificial Inteligence algorithm."
 			},
 			"parameter": null,
 			"source": "WQeMS"
@@ -1480,12 +1718,14 @@
 			"id": "DifferentialErrorsX",
 			"name":
 			{
-				"eng": "1D differential error measure X"
+				"eng": "1D differential error measure X",
+				"cat": "Mesura de l'error diferencial 1D en X",
+				"spa": "Medida del error diferencial 1D en X"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Given a measured <i>x<sub>mi</sub></i> coordinate and a <i>x<sub>ti</sub></i> considered to represent the truth, the arthimetic error for one dimensional positional values is calculated as:</p><p><img src='X_DifferentialErrorMeasures.jpg' alt='Differential Error Measures X' width='110' height='28' /></p>"
+				"eng": "Given a measured <i>x<sub>mi</sub></i> coordinate and a <i>x<sub>ti</sub></i> considered to represent the truth, the arthimetic error for one dimensional positional values is calculated as:<br/><br/><img src='X_DifferentialErrorMeasures.jpg' alt='Differential Error Measures X' width='110' height='28' />"
 			},
 			"source": "ISO 19157"
 		},
@@ -1493,12 +1733,14 @@
 			"id": "DifferentialErrorsY",
 			"name":
 			{
-				"eng": "1D differential error measure Y"
+				"eng": "1D differential error measure Y",
+				"cat": "Mesura de l'error diferencial 1D en Y",
+				"spa": "Medida del error diferencial 1D en Y"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Given a measured <i>y<sub>mi</sub></i> coordinate and a <i>y<sub>ti</sub></i> considered to represent the truth, the arthimetic error for one dimensional positional values is calculated as:</p><p><img src='Y_DifferentialErrorMeasures.jpg' alt='Differential Error Measures Y' width='107' height='29' /></p>"
+				"eng": "Given a measured <i>y<sub>mi</sub></i> coordinate and a <i>y<sub>ti</sub></i> considered to represent the truth, the arthimetic error for one dimensional positional values is calculated as:<br/><br/><img src='Y_DifferentialErrorMeasures.jpg' alt='Differential Error Measures Y' width='107' height='29' />"
 			},
 			"source": "ISO 19157"
 		},
@@ -1506,12 +1748,14 @@
 			"id": "DifferentialErrors1D",
 			"name":
 			{
-				"eng": "1D differential error measure"
+				"eng": "1D differential error measure",
+				"cat": "Mesura de l'error diferencial 1D",
+				"spa": "Medida del error diferencial 1D"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Given a measured <i>h<sub>mi</sub></i> coordinate and a <i>h<sub>ti</sub></i> considered to represent the truth, the arthimetic error for one dimensional positional values is calculated as:</p><p><img src='1D_DifferentialErrorMeasures.jpg' alt='1D_DifferentialErrorMeasures.jpg' width='93' height='21' /></p><p>where &quot;h&quot; repensents  a generic variable that is compared with a reference.</p>"
+				"eng": "Given a measured <i>h<sub>mi</sub></i> coordinate and a <i>h<sub>ti</sub></i> considered to represent the truth, the arthimetic error for one dimensional positional values is calculated as:<br/><br/><img src='1D_DifferentialErrorMeasures.jpg' alt='1D_DifferentialErrorMeasures.jpg' width='93' height='21' /><br/><br/>where &quot;h&quot; repensents a generic variable that is compared with a reference."
 			},
 			"source": "ISO 19157"
 		},
@@ -1519,12 +1763,14 @@
 			"id": "DifferentialErrors2D",
 			"name":
 			{
-				"eng": "2D differential error measure"
+				"eng": "2D differential error measure",
+				"cat": "Mesura de l'error diferencial 2D",
+				"spa": "Medida del error diferencial 2D"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Given a measured <i>x<sub>mi</sub></i> and <i>y<sub>mi</sub></i> coordinate and a <i>x<sub>ti</sub></i> and <i>y<sub>ti</sub></i>, considered to represent the truth, the arthimetic errors for two dimensional positional values are calculated as:</p><p><img src='2D_DifferentialErrorMeasures.jpg' alt='2D Differential Error Population' width='110' height='56' /></p>"
+				"eng": "Given a measured <i>x<sub>mi</sub></i> and <i>y<sub>mi</sub></i> coordinate and a <i>x<sub>ti</sub></i> and <i>y<sub>ti</sub></i>, considered to represent the truth, the arthimetic errors for two dimensional positional values are calculated as:<br/><br/><img src='2D_DifferentialErrorMeasures.jpg' alt='2D Differential Error Population' width='110' height='56' />"
 			},
 			"source": "ISO 19157"
 		},
@@ -1532,12 +1778,14 @@
 			"id": "DifferentialErrors3D",
 			"name":
 			{
-				"eng": "3D differential error measure"
+				"eng": "3D differential error measure",
+				"cat": "Mesura de l'error diferencial 3D",
+				"spa": "Medida del error diferencial 3D"
 			},
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Given a measured <i>x<sub>mi</sub></i>, <i>y<sub>mi</sub></i> and <i>z<sub>mi</sub></i> coordinate and a <i>x<sub>ti</sub></i>, <i>y<sub>ti</sub></i> and <i>z<sub>ti</sub></i>, considered to represent the truth, the arthimetic errors for three dimensional positional values are calculated as:</p><p><img src='3D_DifferentialErrorMeasures.jpg' alt='3D Differential Error' width='110' height='81'/></p>"
+				"eng": "Given a measured <i>x<sub>mi</sub></i>, <i>y<sub>mi</sub></i> and <i>z<sub>mi</sub></i> coordinate and a <i>x<sub>ti</sub></i>, <i>y<sub>ti</sub></i> and <i>z<sub>ti</sub></i>, considered to represent the truth, the arthimetic errors for three dimensional positional values are calculated as:<br/><br/><img src='3D_DifferentialErrorMeasures.jpg' alt='3D Differential Error' width='110' height='81'/>"
 			},
 			"source": "ISO 19157"
 		},
@@ -1550,7 +1798,7 @@
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Given a measured <i>x<sub>mi</sub></i> coordinate and a <i>x<sub>ti</sub></i> considered to represent the truth, the differential error for one dimensional positional values with a threshold is calculated as:</p><p><img src='X_DifferentialErrorMeasures.jpg' alt='X_DifferentialErrorMeasures.jpg' width='110' height='28'/></p><p> selecting values:<br/>if level='above': <i>|e<sub>xi</sub>|&gt;e<sub>max</sub></i><br/>if level='below': <i>|e<sub>xi</sub>|&lt;e<sub>max</sub></i></p>"
+				"eng": "Given a measured <i>x<sub>mi</sub></i> coordinate and a <i>x<sub>ti</sub></i> considered to represent the truth, the differential error for one dimensional positional values with a threshold is calculated as:<br/><br/><img src='X_DifferentialErrorMeasures.jpg' alt='X_DifferentialErrorMeasures.jpg' width='110' height='28'/><br/><br/>selecting values:<br/>if level='above': <i>|e<sub>xi</sub>|&gt;e<sub>max</sub></i><br/>if level='below': <i>|e<sub>xi</sub>|&lt;e<sub>max</sub></i>"
 			},
 			"parameter":
 			[
@@ -1576,7 +1824,7 @@
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Given a measured <i>y<sub>mi</sub></i> coordinate and a <i>y<sub>ti</sub></i> considered to represent the truth, the differential error for one dimensional positional values with a threshold is calculated as:</p><p><img src='Y_DifferentialErrorMeasures.jpg' alt='Y_DifferentialErrorMeasures.jpg' width='107' height='29'/></p><p> selecting values:<br/>if level=above': <i>|e<sub>xi</sub>|&gt;e<sub>max</sub></i><br/>if level='below': <i>|e<sub>xi</sub>|&lt;e<sub>max</sub></i></p>"
+				"eng": "Given a measured <i>y<sub>mi</sub></i> coordinate and a <i>y<sub>ti</sub></i> considered to represent the truth, the differential error for one dimensional positional values with a threshold is calculated as:<br/><br/><img src='Y_DifferentialErrorMeasures.jpg' alt='Y_DifferentialErrorMeasures.jpg' width='107' height='29'/><br/><br/>selecting values:<br/>if level=above': <i>|e<sub>xi</sub>|&gt;e<sub>max</sub></i><br/>if level='below': <i>|e<sub>xi</sub>|&lt;e<sub>max</sub></i>"
 			},
 			"parameter":
 			[
@@ -1602,7 +1850,7 @@
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Given a measured <i>h<sub>mi</sub></i> coordinate and a <i>h<sub>ti</sub></i> considered to represent the truth, the arthimetic error for one dimensional positional values is calculated as:</p><p><img src='1D_DifferentialErrorMeasures.jpg' alt='1D_DifferentialErrorMeasures.jpg' width='93' height='21' /></p><p>selecting the values:<br/>if level='above': <i>SQRT(e<sub>hi</sub><sup>2</sup>+e<sub>hi</sub><sup>2</sup>)&gt;e<sub>max</sub></i><br/>if level='below': <i>SQRT(e<sub>hi</sub><sup>2</sup>+e<sub>hi</sub><sup>2</sup>)&lt;e<sub>max</sub></i></p><p>where &quot;h&quot; repensents  a generic variable that is compared with a reference.</p>"
+				"eng": "Given a measured <i>h<sub>mi</sub></i> coordinate and a <i>h<sub>ti</sub></i> considered to represent the truth, the arthimetic error for one dimensional positional values is calculated as:<br/><br/><img src='1D_DifferentialErrorMeasures.jpg' alt='1D_DifferentialErrorMeasures.jpg' width='93' height='21' /><br/><br/>selecting the values:<br/>if level='above': <i>SQRT(e<sub>hi</sub><sup>2</sup>+e<sub>hi</sub><sup>2</sup>)&gt;e<sub>max</sub></i><br/>if level='below': <i>SQRT(e<sub>hi</sub><sup>2</sup>+e<sub>hi</sub><sup>2</sup>)&lt;e<sub>max</sub></i><br/><br/>where &quot;h&quot; repensents a generic variable that is compared with a reference."
 			},
 			"parameter":
 			[
@@ -1628,7 +1876,7 @@
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Given a measured <i>x<sub>mi</sub></i> and <i>y<sub>mi</sub></i> coordinate and a <i>x<sub>ti</sub></i> and <i>y<sub>ti</sub></i>, considered to represent the truth, the arthimetic errors for two dimensional positional values are calculated as:</p><p><img src='2D_DifferentialErrorMeasures.jpg' alt='2D Differential Error Population' width='110' height='56'/></p><p>selecting the values:<br/>if level='above': <i>SQRT(e<sub>xi</sub><sup>2</sup>+e<sub>yi</sub><sup>2</sup>)&gt;e<sub>max</sub></i><br/>if level='below': <i>SQRT(e<sub>xi</sub><sup>2</sup>+e<sub>yi</sub><sup>2</sup>)&lt;e<sub>max</sub></i></p>"
+				"eng": "Given a measured <i>x<sub>mi</sub></i> and <i>y<sub>mi</sub></i> coordinate and a <i>x<sub>ti</sub></i> and <i>y<sub>ti</sub></i>, considered to represent the truth, the arthimetic errors for two dimensional positional values are calculated as:<br/><br/><img src='2D_DifferentialErrorMeasures.jpg' alt='2D Differential Error Population' width='110' height='56'/><br/><br/>selecting the values:<br/>if level='above': <i>SQRT(e<sub>xi</sub><sup>2</sup>+e<sub>yi</sub><sup>2</sup>)&gt;e<sub>max</sub></i><br/>if level='below': <i>SQRT(e<sub>xi</sub><sup>2</sup>+e<sub>yi</sub><sup>2</sup>)&lt;e<sub>max</sub></i>"
 			},
 			"parameter":
 			[
@@ -1654,7 +1902,7 @@
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Given a measured <i>x<sub>mi</sub></i>, <i>y<sub>mi</sub></i> and <i>z<sub>mi</sub></i> coordinate and a <i>x<sub>ti</sub></i>, <i>y<sub>ti</sub></i> and <i>z<sub>ti</sub></i>, considered to represent the truth, the arthimetic errors for three dimensional positional values are calculated as:</p><p><img src='3DArithmeticErrorMeasures.jpg' alt='3D Arithmetic Error' width='110' height='81' /></p><p>selecting the values:<br/>if level='above': <i>SQRT(e<sub>xi</sub><sup>2</sup>+e<sub>yi</sub><sup>2</sup>+e<sub>zi</sub><sup>2</sup>)&gt;e<sub>max</sub></i><br/>if level='below': <i>SQRT(e<sub>xi</sub><sup>2</sup>+e<sub>yi</sub><sup>2</sup>+e<sub>zi</sub><sup>2</sup>)&lt;e<sub>max</sub></i></p>"
+				"eng": "Given a measured <i>x<sub>mi</sub></i>, <i>y<sub>mi</sub></i> and <i>z<sub>mi</sub></i> coordinate and a <i>x<sub>ti</sub></i>, <i>y<sub>ti</sub></i> and <i>z<sub>ti</sub></i>, considered to represent the truth, the arthimetic errors for three dimensional positional values are calculated as:<br/><br/><img src='3DArithmeticErrorMeasures.jpg' alt='3D Arithmetic Error' width='110' height='81' /><br/><br/>selecting the values:<br/>if level='above': <i>SQRT(e<sub>xi</sub><sup>2</sup>+e<sub>yi</sub><sup>2</sup>+e<sub>zi</sub><sup>2</sup>)&gt;e<sub>max</sub></i><br/>if level='below': <i>SQRT(e<sub>xi</sub><sup>2</sup>+e<sub>yi</sub><sup>2</sup>+e<sub>zi</sub><sup>2</sup>)&lt;e<sub>max</sub></i>"
 			},
 			"parameter":
 			[
@@ -1680,7 +1928,7 @@
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Given a measured <i>x<sub>mi</sub></i> and <i>y<sub>mi</sub></i> coordinate and a <i>x<sub>ti</sub></i> and <i>y<sub>ti</sub></i>, considered to represent the truth, the diagonal error for two dimensional positional values are calculated as:</p><p><img src='DiagonalErrorMeasures.jpg' alt='Diagonal Error Measures' width='168' height='34'/></p>"
+				"eng": "Given a measured <i>x<sub>mi</sub></i> and <i>y<sub>mi</sub></i> coordinate and a <i>x<sub>ti</sub></i> and <i>y<sub>ti</sub></i>, considered to represent the truth, the diagonal error for two dimensional positional values are calculated as:<br/><br/><img src='DiagonalErrorMeasures.jpg' alt='Diagonal Error Measures' width='168' height='34'/>"
 			},
 			"parameter": null,
 			"source": "ISO 19157"
@@ -1777,7 +2025,7 @@
 			"alternativeName":
 			[
 				{
-					"eng": "<p>Distance between dates (indicator). Maximun distance (rate). Threshold distance</p>"
+					"eng": "Distance between dates (indicator). Maximun distance (rate). Threshold distance"
 				}
 			],
 			"desc": null,
@@ -1816,7 +2064,7 @@
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>It represents a list of dates</p>"
+				"eng": "It represents a list of dates"
 			},
 			"parameter":
 			[
@@ -1845,7 +2093,7 @@
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Existance of items (indicator), number of items (count) or rate of items (rate)</p>"
+				"eng": "Existance of items (indicator), number of items (count) or rate of items (rate)"
 			},
 			"parameter":
 			[
@@ -1901,7 +2149,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>In a confusion matrix, off-diagonal <em>column</em> elements represent ground truth items of other classes that were included in a certain classification class. Such errors are also known as <em>errors of commission </em>or inclusion. </p>     <p><img src='CommissionError.jpg' width='126' height='87' /></p>"
+				"eng": "In a confusion matrix, off-diagonal <em>column</em> elements represent ground truth items of other classes that were included in a certain classification class. Such errors are also known as <em>errors of commission </em>or inclusion.<br/><br/><img src='CommissionError.jpg' width='126' height='87' />"
 			},
 			"parameter":
 			[
@@ -1941,7 +2189,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p><em>FPR = FP/N = FP/(FP+TN)</em></p><p>where FP = false positive, TN = true negative </p>"
+				"eng": "<em>FPR = FP/N = FP/(FP+TN)</em><br/><br/>where FP = false positive, TN = true negative "
 			},
 			"parameter":
 			[
@@ -1978,7 +2226,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>In a confusion matrix, off-diagonal <em>row</em> elements represent ground truth items of a certain class which were excluded from that class during classification. Such errors are also known as <em>errors of omission</em> or exclusion.</p><p><img src='OmissionError.jpg' width='126' height='87' />"
+				"eng": "In a confusion matrix, off-diagonal <em>row</em> elements represent ground truth items of a certain class which were excluded from that class during classification. Such errors are also known as <em>errors of omission</em> or exclusion.<br/><br/><img src='OmissionError.jpg' width='126' height='87' />"
 			},
 			"parameter":
 			[
@@ -2015,7 +2263,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>Mean value of the uncertainties <i>e<sub>i</sub></i> normalized by the actual value <i>x<sub>i</sub></i> of a number of measures (<i>N</i>) is calculated as:</p><p><img src='MAPE.png' width='317' height='90' /></p>"
+				"eng": "Mean value of the uncertainties <i>e<sub>i</sub></i> normalized by the actual value <i>x<sub>i</sub></i> of a number of measures (<i>N</i>) is calculated as:<br/><br/><img src='MAPE.png' width='317' height='90' />"
 			},
 			"parameter": null,
 			"source": "GVQ",
@@ -2042,7 +2290,7 @@
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Mean value of the uncertainties <i>e<sub>xi</sub></i> of a number of measures (<i>N</i>) is calculated as:</p><p><img src='MeanPositionalAccuracy.jpg' width='105' height='62' /></p>"
+				"eng": "Mean value of the uncertainties <i>e<sub>xi</sub></i> of a number of measures (<i>N</i>) is calculated as:<br/><br/><img src='MeanPositionalAccuracy.jpg' width='105' height='62' />"
 			},
 			"parameter": null,
 			"source": "ISO 19157",
@@ -2068,7 +2316,7 @@
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Mean value of the uncertainties <i>e<sub>xi</sub></i> and <i>e<sub>yi</sub></i> of a number of measures (<i>N</i>) is calculated as:</p><p><img src='MeanPositionalAccuracy2D.jpg' width='206' height='65' /></p>"
+				"eng": "Mean value of the uncertainties <i>e<sub>xi</sub></i> and <i>e<sub>yi</sub></i> of a number of measures (<i>N</i>) is calculated as:<br/><br/><img src='MeanPositionalAccuracy2D.jpg' width='206' height='65' />"
 			},
 			"parameter": null,
 			"source": "ISO 19157",
@@ -2092,7 +2340,7 @@
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Mean value of the uncertainties <i>e<sub>xi</sub></i>, <i>e<sub>yi</sub></i> and <i>e<sub>zi</sub></i> of a number of measures (<i>N</i>) is calculated as:</p><p><img src='MeanPositionalAccuracy3D.jpg' width='255' height='65' /></p>"
+				"eng": "Mean value of the uncertainties <i>e<sub>xi</sub></i>, <i>e<sub>yi</sub></i> and <i>e<sub>zi</sub></i> of a number of measures (<i>N</i>) is calculated as:<br/><br/><img src='MeanPositionalAccuracy3D.jpg' width='255' height='65' />"
 			},
 			"parameter": null,
 			"source": "ISO 19157",
@@ -2116,7 +2364,7 @@
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Mean value of the individual errors. For a number of measured positions that depends on the dimension in which the position of the point is measured(<i>N</i>). It is calculated as:</p><p><img src='MeanBias.png'/></p>"
+				"eng": "Mean value of the individual errors. For a number of measured positions that depends on the dimension in which the position of the point is measured(<i>N</i>). It is calculated as:<br/><br/><img src='MeanBias.png'/>"
 			},
 			"parameter": null,
 			"source": "ISO 19157",
@@ -2140,7 +2388,7 @@
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Mean value of the uncertainties <i>e<sub>xi</sub></i> normalized by the true values <i>x<sub>ti</sub></i> of a number of measures (<i>N</i>) is calculated as:</p><p><img src='NormalizedMeanBias.jpg' width='105' height='62' /></p>"
+				"eng": "Mean value of the uncertainties <i>e<sub>xi</sub></i> normalized by the true values <i>x<sub>ti</sub></i> of a number of measures (<i>N</i>) is calculated as:<br/><br/><img src='NormalizedMeanBias.jpg' width='105' height='62' />"
 			},
 			"parameter": null,
 			"source": "ISO 19157",
@@ -2174,7 +2422,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>Given <em>d</em> univariate random variables <em>(x<sub>1</sub>,...,x<sub>d</sub>)</em>, the covariance matrix of <em>(x<sub>1</sub>,...,x<sub>d</sub>)</em> is the <em>d X d</em> matrix <em>C</em> whose elements <em>C<sub>ij</sub></em> are the covariance between <em>x<sub>i</sub></em> and <em>x<sub>j</sub></em>. That is, <em>C<sub>ij</sub>=E[(x<sub>i</sub>-E[x<sub>i</sub>])(x<sub>j</sub>-E[x<sub>j</sub>])]</em>. In particular, the diagonal elements <em>C<sub>ii</sub></em> are the variances of the <em>x<sub>i</sub></em>. The matrix is stored in row major format in QualityML/UncertML. It is possible that future versions of them will have specialised types for simpler covariance matrices, such as sparse, outer product, block and n-diagonal matrix types.</p>"
+				"eng": "Given <em>d</em> univariate random variables <em>(x<sub>1</sub>,...,x<sub>d</sub>)</em>, the covariance matrix of <em>(x<sub>1</sub>,...,x<sub>d</sub>)</em> is the <em>d X d</em> matrix <em>C</em> whose elements <em>C<sub>ij</sub></em> are the covariance between <em>x<sub>i</sub></em> and <em>x<sub>j</sub></em>. That is, <em>C<sub>ij</sub>=E[(x<sub>i</sub>-E[x<sub>i</sub>])(x<sub>j</sub>-E[x<sub>j</sub>])]</em>. In particular, the diagonal elements <em>C<sub>ii</sub></em> are the variances of the <em>x<sub>i</sub></em>. The matrix is stored in row major format in QualityML/UncertML. It is possible that future versions of them will have specialised types for simpler covariance matrices, such as sparse, outer product, block and n-diagonal matrix types."
 			},
 			"parameter":
 			[
@@ -2215,7 +2463,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>2D ellipse with the two main axes indicating the direction and magnitude of the highest and the lowest uncertainty of a 2D point</p><p>The process of calculating this statistic starts defining a <a href='http://www.uncertml.org/metrics/covariance-matrix'>covariance matrix</a>.</p><p><img src='ConfidenceEllipse.jpg' alt='Confidence ellipse' width='496' height='554'/></p>"
+				"eng": "2D ellipse with the two main axes indicating the direction and magnitude of the highest and the lowest uncertainty of a 2D point<br/><br/>The process of calculating this statistic starts defining a <a href='http://www.uncertml.org/metrics/covariance-matrix'>covariance matrix</a>.<br/><br/><img src='ConfidenceEllipse.jpg' alt='Confidence ellipse' width='496' height='554'/>"
 			},
 			"parameter":
 			[
@@ -2254,7 +2502,7 @@
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>The probability of a measurement to lie inside a confidence interval expressed in the half-length distance</p>"
+				"eng": "The probability of a measurement to lie inside a confidence interval expressed in the half-length distance"
 			},
 			"parameter":
 			[
@@ -2304,7 +2552,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>Measure of the differences between values predicted by a model or an estimator and the values actually observed</p><p><img src='RMSE.jpg' alt='RMSE' width='118' height='58'/></p>"
+				"eng": "Measure of the differences between values predicted by a model or an estimator and the values actually observed<br/><br/><img src='RMSE.jpg' alt='RMSE' width='118' height='58'/>"
 			},
 			"parameter": null,
 			"source": "ISO 19157",
@@ -2337,7 +2585,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>Measure of the differences between values predicted by a model or an estimator and the values actually observed</p><p><img src='MSE.jpg' alt='MSE' width='108' height='52'/></p>"
+				"eng": "Measure of the differences between values predicted by a model or an estimator and the values actually observed<br/><br/><img src='MSE.jpg' alt='MSE' width='108' height='52'/>"
 			},
 			"parameter": null,
 			"source": "GVQ",
@@ -2370,7 +2618,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>Measure of the differences between 2D values predicted by a model or an estimator and the values actually observed</p><p><img src='RMSEP.jpg' alt='RMSEP' width='194' height='55' />"
+				"eng": "Measure of the differences between 2D values predicted by a model or an estimator and the values actually observed<br/><br/><img src='RMSEP.jpg' alt='RMSEP' width='194' height='55' />"
 			},
 			"parameter": null,
 			"source": "ISO 19157",
@@ -2402,7 +2650,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>Measure of the differences between values predicted by a model or an estimator and the values actually observed</p><p><img src='RMSEP3D.jpg' alt='RMSEP3D' width='118' height='58'/></p>"
+				"eng": "Measure of the differences between values predicted by a model or an estimator and the values actually observed<br/><br/><img src='RMSEP3D.jpg' alt='RMSEP3D' width='118' height='58'/>"
 			},
 			"parameter": null,
 			"source": "ISO 19157",
@@ -2437,7 +2685,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>Measure of the differences between values predicted by a model or an estimator and the values actually observed.</p><p><i>NRMSE = RMSE / (x<sub>max</sub> - x<sub>min</sub>)</i></p><p>where <i>x<sub>max</sub></i> = maximum observed value; <i>x<sub>min</sub></i>  = minimum observed value</p>"
+				"eng": "Measure of the differences between values predicted by a model or an estimator and the values actually observed.<br/><br/><i>NRMSE = RMSE / (x<sub>max</sub> - x<sub>min</sub>)</i><br/><br/>where <i>x<sub>max</sub></i> = maximum observed value; <i>x<sub>min</sub></i>  = minimum observed value"
 			},
 			"parameter": null,
 			"source": "ISO 19157",
@@ -2472,7 +2720,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>Measure of the differences between values predicted by a model or an estimator and the mean of the values actually observed.</p><p><i>CV(RMSE) = RMSE / MEAN</i></p><p>where <i>MEAN</i> =  the mean of the observed values</p>"
+				"eng": "Measure of the differences between values predicted by a model or an estimator and the mean of the values actually observed.<br/><br/><i>CV(RMSE) = RMSE / MEAN</i><br/><br/>where <i>MEAN</i> =  the mean of the observed values"
 			},
 			"parameter": null,
 			"source": "ISO 19157",
@@ -2504,7 +2752,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>The absolute vertical accuracy of the data’s coordinates, expressed in terms of linear error at 90% probability given that a bias is present.</p><p><img src='LMAS.jpg' alt='LMAS' width='495' height='745' /></p>"
+				"eng": "The absolute vertical accuracy of the data’s coordinates, expressed in terms of linear error at 90% probability given that a bias is present.<br/><br/><img src='LMAS.jpg' alt='LMAS' width='495' height='745' />"
 			},
 			"parameter": null,
 			"source": "ISO 19157",
@@ -2533,7 +2781,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>The absolute vertical accuracy of the data’s coordinates, expressed in<br/>terms of linear error at 90% probability given that a bias is present.</p><p><img src='ALE.jpg' alt='ALE' width='496' height='705' /></p>"
+				"eng": "The absolute vertical accuracy of the data’s coordinates, expressed in<br/>terms of linear error at 90% probability given that a bias is present.<br/><br/><img src='ALE.jpg' alt='ALE' width='496' height='705' />"
 			},
 			"parameter": null,
 			"source": "ISO 19157",
@@ -2562,7 +2810,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>Radius describing a circle, in which the true point location lies with a certain probability</p>"
+				"eng": "Radius describing a circle, in which the true point location lies with a certain probability"
 			},
 			"parameter":
 			[
@@ -2600,7 +2848,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>The absolute horizontal accuracy of the data’s coordinates, expressed in terms of circular error at 90% probability given that a bias is present.</p><p><img src='ACE.jpg' alt='ACE' width='496' height='690' /></p>"
+				"eng": "The absolute horizontal accuracy of the data’s coordinates, expressed in terms of circular error at 90% probability given that a bias is present.<br/><br/><img src='ACE.jpg' alt='ACE' width='496' height='690' />"
 			},
 			"parameter": null,
 			"source": "ISO 19157",
@@ -2629,7 +2877,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>The absolute horizontal accuracy of the data’s coordinates,  expressed in terms of circular error at 90% probability given that a bias is present.</p><p><img src='CMAS.jpg' alt='CMAS' width='496' height='653' /></p>"
+				"eng": "The absolute horizontal accuracy of the data’s coordinates,  expressed in terms of circular error at 90% probability given that a bias is present.<br/><br/><img src='CMAS.jpg' alt='CMAS' width='496' height='653' />"
 			},
 			"parameter": null,
 			"source": "ISO 19157",
@@ -2658,7 +2906,7 @@
 			],
 			"desc":
 			{
-				"eng": "<span class='style4'>Evaluation of the random errors of one relief feature to another in the same dataset or on the same map/chart. It is a function of the random errors in the two elevations with respect to a common vertical datum. </span><p><img src='1DRelativeError.jpg' alt='1D Relative Error' width='492' height='374' /></p>"
+				"eng": "<span class='style4'>Evaluation of the random errors of one relief feature to another in the same dataset or on the same map/chart. It is a function of the random errors in the two elevations with respect to a common vertical datum.</span><br/><img src='1DRelativeError.jpg' alt='1D Relative Error' width='492' height='374' />"
 			},
 			"parameter":
 			[
@@ -2693,7 +2941,7 @@
 			],
 			"desc":
 			{
-				"eng": "Evaluation of the random errors in the horizontal position of one feature to another in the same dataset or on the same map/chart.<p><img src='2DRelativeError.jpg' alt='2D Relative Error' width='496' height='620' /></p>"
+				"eng": "Evaluation of the random errors in the horizontal position of one feature to another in the same dataset or on the same map/chart.<br/><img src='2DRelativeError.jpg' alt='2D Relative Error' width='496' height='620' />"
 			},
 			"parameter":
 			[
@@ -2727,7 +2975,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>Matrix that indicates the number of items of class (i; the truth) classified as class (j; predicted).</p><p>The confusion matrix is a NxN matrix with N columns and N rows. N denotes the number of classes under consideration.<br/> MCM (i,j) = ( # items of class (i) classified as class (j) )<br/>The diagonal elements of the confusion matrix contain the correctly classified items, and the off diagonal elements contain the number of misclassification errors.</p><p>Extends <a href='http://www.uncertml.org/metrics/confusion-matrix'>http://www.uncertml.org/metrics/confusion-matrix</a><a href='http://www.uncertml.org/metrics/confidence-interval'></a> adding a max value</p>"
+				"eng": "Matrix that indicates the number of items of class (i; the truth) classified as class (j; predicted).<br/><br/>The confusion matrix is a NxN matrix with N columns and N rows. N denotes the number of classes under consideration.<br/> MCM (i,j) = ( # items of class (i) classified as class (j) )<br/>The diagonal elements of the confusion matrix contain the correctly classified items, and the off diagonal elements contain the number of misclassification errors.<br/><br/>Extends <a href='http://www.uncertml.org/metrics/confusion-matrix'>http://www.uncertml.org/metrics/confusion-matrix</a><a href='http://www.uncertml.org/metrics/confidence-interval'></a> adding a max value"
 			},
 			"parameter":
 			[
@@ -2767,7 +3015,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>Matrix that indicates the number of items of class (i) classified as class (j) divided by the number of items of class (i). The confusion matrix is a NxN matrix with N columns and N rows. N denotes the number of classes under consideration.</p><p><br/>RMCM (i,j) = [ # items of class (i) classified as class (j)] / (# items of class (i)] x 100% </p>"
+				"eng": "Matrix that indicates the number of items of class (i) classified as class (j) divided by the number of items of class (i). The confusion matrix is a NxN matrix with N columns and N rows. N denotes the number of classes under consideration.<br/><br/><br/>RMCM (i,j) = [ # items of class (i) classified as class (j)] / (# items of class (i)] x 100% "
 			},
 			"parameter":
 			[
@@ -2799,7 +3047,7 @@
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Coefficient to quantify the proportion of agreement of assignments to classes by removing misclassifications</p><p><img src='KappaCoefficient.jpg' alt='Kappa coefficient' width='496' height='213' /></p>"
+				"eng": "Coefficient to quantify the proportion of agreement of assignments to classes by removing misclassifications<br/><br/><img src='KappaCoefficient.jpg' alt='Kappa coefficient' width='496' height='213' />"
 			},
 			"parameter": null,
 			"source": "ISO 19157",
@@ -2831,7 +3079,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>Is the fraction of correctly classified items with regard to all items of the ground truth class (rows). For each class of ground truth items, the number of correctly classified items is divided by the total number of ground truth or test items of that class.</p><p><img src='Accuracy.jpg' width='135' height='59' /></p>"
+				"eng": "Is the fraction of correctly classified items with regard to all items of the ground truth class (rows). For each class of ground truth items, the number of correctly classified items is divided by the total number of ground truth or test items of that class.<br/><br/><img src='Accuracy.jpg' width='135' height='59' />"
 			},
 			"parameter":
 			[
@@ -2871,7 +3119,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>Is the fraction of correctly classified items with regard to all items classified as this class in the classified image. For each class in the classified image (column), the number of correctly classified items is divided by the total number of items which were classified as this class.</p><p><img src='Reliability.jpg' width='128' height='66' /></p>"
+				"eng": "Is the fraction of correctly classified items with regard to all items classified as this class in the classified image. For each class in the classified image (column), the number of correctly classified items is divided by the total number of items which were classified as this class.<br/><br/><img src='Reliability.jpg' width='128' height='66' />"
 			},
 			"parameter":
 			[
@@ -2903,7 +3151,7 @@
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>The average reliability is calculated as  the sum of the reliability values divided by the number  of classes in the test set.</p>"
+				"eng": "The average reliability is calculated as  the sum of the reliability values divided by the number  of classes in the test set."
 			},
 			"parameter":
 			[
@@ -2935,7 +3183,7 @@
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>The average accuracy is calculated as the sum of the accuracy values divided by the number of classes  in the test set.</p>"
+				"eng": "The average accuracy is calculated as the sum of the accuracy values divided by the number of classes  in the test set."
 			},
 			"parameter":
 			[
@@ -2967,7 +3215,7 @@
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Is calculated as the total number of correctly classified items (diagonal elements) divided by the total number of test items.</p>"
+				"eng": "Is calculated as the total number of correctly classified items (diagonal elements) divided by the total number of test items."
 			},
 			"parameter":
 			[
@@ -3004,7 +3252,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>In statistics the Absolute frequency of an event <i>i</i> is the number <i>n<sub>i</sub></i> of times the event occurred in an experiment or study. These frequencies are often graphically represented in histograms.</p>"
+				"eng": "In statistics the Absolute frequency of an event <i>i</i> is the number <i>n<sub>i</sub></i> of times the event occurred in an experiment or study. These frequencies are often graphically represented in histograms."
 			},
 			"parameter": null,
 			"source": "ISO 19157",
@@ -3033,7 +3281,7 @@
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>A <strong>receiver operating characteristic</strong> (<strong>ROC</strong>), or simply <strong>ROC curve</strong>, is a <a href='http://en.wikipedia.org/wiki/Graph_of_a_function' title='Graph of a function'>graphical</a> plot which illustrates the performance of a <a href='http://en.wikipedia.org/wiki/Binary_classifier' title='Binary classifier'>binary classifier</a> system as its discrimination threshold is varied. It is created by plotting the fraction of <a href='http://en.wikipedia.org/wiki/True_positive' title='True positive'>true positives</a> out of the total actual positives (TPR = true positive rate) vs. the fraction of <a href='http://en.wikipedia.org/wiki/False_positive' title='False positive'>false positives</a> out of the total actual negatives (FPR = false positive rate), at various threshold settings.</p><p>The ROC is also known as a relative operating characteristic curve, because it is a comparison of two operating characteristics (TPR and FPR) as the criterion changes.</p>"
+				"eng": "A <strong>receiver operating characteristic</strong> (<strong>ROC</strong>), or simply <strong>ROC curve</strong>, is a <a href='http://en.wikipedia.org/wiki/Graph_of_a_function' title='Graph of a function'>graphical</a> plot which illustrates the performance of a <a href='http://en.wikipedia.org/wiki/Binary_classifier' title='Binary classifier'>binary classifier</a> system as its discrimination threshold is varied. It is created by plotting the fraction of <a href='http://en.wikipedia.org/wiki/True_positive' title='True positive'>true positives</a> out of the total actual positives (TPR = true positive rate) vs. the fraction of <a href='http://en.wikipedia.org/wiki/False_positive' title='False positive'>false positives</a> out of the total actual negatives (FPR = false positive rate), at various threshold settings.<br/><br/>The ROC is also known as a relative operating characteristic curve, because it is a comparison of two operating characteristics (TPR and FPR) as the criterion changes."
 			},
 			"parameter": null,
 			"source": "ISO 19157",
@@ -3043,7 +3291,7 @@
 			],
 			"furtherInformation":
 			{
-				"eng": "<p><a href='http://metaoptimize.com/qa/questions/988/simple-explanation-of-area-under-the-roc-curve'>http://metaoptimize.com/qa/questions/988/simple-explanation-of-area-under-the-roc-curve</a><br><a href='http://en.wikipedia.org/wiki/Receiver_operating_characteristic'>http://en.wikipedia.org/wiki/Receiver_operating_characteristic</a></p><p>Fawcett T (2006) An introduction to ROC analysis: <a href='https://cours.etsmtl.ca/sys828/REFS/A1/Fawcett_PRL2006.pdf'>https://cours.etsmtl.ca/sys828/REFS/A1/Fawcett_PRL2006.pdf</a></p>"
+				"eng": "<a href='http://metaoptimize.com/qa/questions/988/simple-explanation-of-area-under-the-roc-curve'>http://metaoptimize.com/qa/questions/988/simple-explanation-of-area-under-the-roc-curve</a><br><a href='http://en.wikipedia.org/wiki/Receiver_operating_characteristic'>http://en.wikipedia.org/wiki/Receiver_operating_characteristic</a><br/><br/>Fawcett T (2006) An introduction to ROC analysis: <a href='https://cours.etsmtl.ca/sys828/REFS/A1/Fawcett_PRL2006.pdf'>https://cours.etsmtl.ca/sys828/REFS/A1/Fawcett_PRL2006.pdf</a>"
 			},
 			"XMLSchema": "<pre class='prettyprint style2'>&lt;schema xmlns:qml=&quot;http://www.qualityml.org/1.0&quot; <br/>xmlns:un=&quot;http://www.uncertml.org/2.0&quot; <br/>xmlns=&quot;http://www.w3.org/2001/XMLSchema&quot; targetNamespace=&quot;http://www.qualityml.org/1.0&quot; <br/>elementFormDefault=&quot;qualified&quot; attributeFormDefault=&quot;unqualified&quot;&gt;<br/>&lt;import namespace=&quot;http://www.uncertml.org/2.0&quot; schemaLocation=&quot;../../uncertml/2.0/uncertml.xsd&quot;/&gt;<br/><span class='indent'>&lt;element name=&quot;AreaUnderROCCurve&quot; type=&quot;qml:ContinuousValuesSummaryStatisticType&quot;</span></pre>",
 			"XMLExample": "<pre class='prettyprint'>&lt;un:StatisticsCollection xmlns:qml=&quot;http://www.qualityml.org/1.0&quot; <br/>xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; <br/>xsi:schemaLocation=&quot;http://www.qualitymlorg/schemas/qualityml/1.0/qualityml.xsd&quot;&gt;<br/><span class='indent'>&lt;qml:AreaUnderROCCurve&gt;</span><br/><span class='indent2'>&lt;qml:values&gt;0.84&lt;/qml:values&gt;</span><br/><span class='indent'>&lt;/qml:AreaUnderROCCurve&gt;y&gt;</span></pre>",
@@ -3060,7 +3308,7 @@
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>The coefficient of correlation is commonly represented by the letter r<sup>2</sup> and may be referred to as the square of the sample correlation coefficient or the square of the sample Pearson correlation coefficient. We can obtain a formula for r<sup>2</sup> by substituting estimates of the covariances and  variances based on a sample into the formula. The expression for r<sup>2</sup> is:</p><p><img src='CoefficentCorrelation.PNG' width='354' height='71' /></p>"
+				"eng": "The coefficient of correlation is commonly represented by the letter r<sup>2</sup> and may be referred to as the square of the sample correlation coefficient or the square of the sample Pearson correlation coefficient. We can obtain a formula for r<sup>2</sup> by substituting estimates of the covariances and  variances based on a sample into the formula. The expression for r<sup>2</sup> is:<br/><br/><img src='CoefficentCorrelation.PNG' width='354' height='71' />"
 			},
 			"parameter": null,
 			"source": "GVQ",
@@ -3094,7 +3342,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>The coefficient of determination is commonly represented by the letter R<sup>2</sup>. A data set has n observed values marked <i>y<sub>1</sub>,...,y<sub>n</sub></i>, each associated with a fitted (or modeled, or predicted) value <i>f<sub>1</sub>,...,f<sub>n</sub></i>. The difference between <i>y<sub>i</sub>−f<sub>i</sub></i> is sometimes refered as residuals (<i>e<sub>i</sub></i>).The mean of the observed values is:<p><img src='CoefficentDeterminationMean.PNG' width='128' height='69' /></p><p>The expression for R<sup>2</sup> is:</p><p><img src='CoefficentDetermination.PNG' width='298' height='86' /></p> <p>In the situation of a perfect fit (or model, or predict) with an estimation error variance equal to zero, the resulting R<sup>2</sup> equals 1 (NSE = 1). Conversely, a fit (or model, or predict) that produces an estimation error variance equal to the variance of the observed values results in a R<sup>2</sup>of 0 (NSE = 0). In reality, R<sup>2</sup> = 0 indicates that the fit (or model, or predict) has the same predictive skill as the mean of the observed values in terms of the sum of the squared error. In the case of a fitted (or modeled, or predicted) values with an estimation error variance that is significantly larger than the variance of the observations, the R<sup>2</sup> becomes negative. R<sup>2</sup> < 0 occurs when the observed mean is a better predictor than the fit (or model, or predict). Values of the R<sup>2</sup> nearer to 1, suggest a fit (or model, or predict) with more predictive skill.</p>"
+				"eng": "The coefficient of determination is commonly represented by the letter R<sup>2</sup>. A data set has n observed values marked <i>y<sub>1</sub>,...,y<sub>n</sub></i>, each associated with a fitted (or modeled, or predicted) value <i>f<sub>1</sub>,...,f<sub>n</sub></i>. The difference between <i>y<sub>i</sub>−f<sub>i</sub></i> is sometimes refered as residuals (<i>e<sub>i</sub></i>).The mean of the observed values is:<br/><img src='CoefficentDeterminationMean.PNG' width='128' height='69' /><br/><br/>The expression for R<sup>2</sup> is:<br/><br/><img src='CoefficentDetermination.PNG' width='298' height='86' /><br/><br/>In the situation of a perfect fit (or model, or predict) with an estimation error variance equal to zero, the resulting R<sup>2</sup> equals 1 (NSE = 1). Conversely, a fit (or model, or predict) that produces an estimation error variance equal to the variance of the observed values results in a R<sup>2</sup>of 0 (NSE = 0). In reality, R<sup>2</sup> = 0 indicates that the fit (or model, or predict) has the same predictive skill as the mean of the observed values in terms of the sum of the squared error. In the case of a fitted (or modeled, or predicted) values with an estimation error variance that is significantly larger than the variance of the observations, the R<sup>2</sup> becomes negative. R<sup>2</sup> < 0 occurs when the observed mean is a better predictor than the fit (or model, or predict). Values of the R<sup>2</sup> nearer to 1, suggest a fit (or model, or predict) with more predictive skill."
 			},
 			"parameter": null,
 			"source": "GVQ",
@@ -3129,7 +3377,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>The correlation between two random sampled variables <em>x</em> and <em>y</em> is the extent to which these variable vary together in a linear fashion. It is characterised by the coefficient<br/> <img src=correlation1.png> also equivalent to <img src=correlation2.png>.<br/> Note this is strictly not a description of uncertainty, but it can be useful to represent the correlation between two variables. Generally a covariance specification would be preferred since this describes the uncertainty.</p>"
+				"eng": "The correlation between two random sampled variables <em>x</em> and <em>y</em> is the extent to which these variable vary together in a linear fashion. It is characterised by the coefficient<br/> <img src=correlation1.png> also equivalent to <img src=correlation2.png>.<br/> Note this is strictly not a description of uncertainty, but it can be useful to represent the correlation between two variables. Generally a covariance specification would be preferred since this describes the uncertainty."
 			},
 			"parameter": null,
 			"source": "UncertML",
@@ -3156,7 +3404,7 @@
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>Consider two classification models which assigns eath item to one category out of T and one category out of S, for instance a model which assigns images of a handwritten character to one of the 26 alphabetical characters ('a', 'b', 'c'...) and one of the S Greek alphabetical (alfa, beta, gamma...). The correspondence matrix is an T <font face='Arial'>x</font> S matrix which matches the first model categories (rows) against the second model categories (columns).</p>CM(t,s) = ( # items classified as class (t) in the first model classified and class (s) in the second model )<p>"
+				"eng": "Consider two classification models which assigns eath item to one category out of T and one category out of S, for instance a model which assigns images of a handwritten character to one of the 26 alphabetical characters ('a', 'b', 'c'...) and one of the S Greek alphabetical (alfa, beta, gamma...). The correspondence matrix is an T <font face='Arial'>x</font> S matrix which matches the first model categories (rows) against the second model categories (columns).<br/>CM(t,s) = ( # items classified as class (t) in the first model classified and class (s) in the second model )"
 			},
 			"parameter":
 			[
@@ -3216,7 +3464,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p><strong>False discovery rate</strong> (<strong>FDR</strong>) control is a statistical method used in multiple hypothesis testing to correct for multiple comparisons. In a list of findings (i.e. studies where the null-hypotheses are rejected), FDR procedures are designed to control the expected proportion of incorrectly rejected null hypotheses (&quot;false discoveries&quot;). FDR controlling procedures exert a less stringent control over false discovery compared to familywise error rate (FWER) procedures (such as the Bonferroni correction), which seek to reduce the probability of <em>even one</em> false discovery, as opposed to the expected proportion of false discoveries. Thus FDR procedures have greater power at the cost of increased rates of type I errors, i.e., rejecting the null hypothesis of no effect when it should be accepted.</p><p><em>FDR = FP/(FP+TP)</em></p><p>where FP = false positive, TP = true positive </p>"
+				"eng": "<strong>False discovery rate</strong> (<strong>FDR</strong>) control is a statistical method used in multiple hypothesis testing to correct for multiple comparisons. In a list of findings (i.e. studies where the null-hypotheses are rejected), FDR procedures are designed to control the expected proportion of incorrectly rejected null hypotheses (&quot;false discoveries&quot;). FDR controlling procedures exert a less stringent control over false discovery compared to familywise error rate (FWER) procedures (such as the Bonferroni correction), which seek to reduce the probability of <em>even one</em> false discovery, as opposed to the expected proportion of false discoveries. Thus FDR procedures have greater power at the cost of increased rates of type I errors, i.e., rejecting the null hypothesis of no effect when it should be accepted.<br/><br/><em>FDR = FP/(FP+TP)</em><br/><br/>where FP = false positive, TP = true positive "
 			},
 			"parameter":
 			[
@@ -3253,7 +3501,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>The Gini coefficient is a single number aimed at measuring how far a country’s wealth distribution deviates from totally equal distribution of productivity. It's usually defined mathematically based on the Lorenz curve, which plots the proportion of the total income of the population (y axis) that is cumulatively earned by the bottom x of the population. If all people have non-negative income, the Gini coefficient can theoretically range from 0 (complete equality) to 1 (complete inequality); it is sometimes expressed as a percentage ranging between 0 and 100.</p><p><img src='Gini1.png' /></p><p>where <i>x<sub>i</sub></i> is the wealth or income of person <i>i</i>, and there are <i>n</i> persons.</p>"
+				"eng": "The Gini coefficient is a single number aimed at measuring how far a country’s wealth distribution deviates from totally equal distribution of productivity. It's usually defined mathematically based on the Lorenz curve, which plots the proportion of the total income of the population (y axis) that is cumulatively earned by the bottom x of the population. If all people have non-negative income, the Gini coefficient can theoretically range from 0 (complete equality) to 1 (complete inequality); it is sometimes expressed as a percentage ranging between 0 and 100.<br/><br/><img src='Gini1.png' /><br/><br/>where <i>x<sub>i</sub></i> is the wealth or income of person <i>i</i>, and there are <i>n</i> persons."
 			},
 			"parameter": null,
 			"source": "GeoViQua",
@@ -3285,7 +3533,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>Introduced concept in the study, related to fidelity and promiscuity. It states the number of cathegories with a fidelity higher than a determined threshold for each statistical class in a hybrid classification consisting on two steps: unsupervised classification/introduction of training areas</p>"
+				"eng": "Introduced concept in the study, related to fidelity and promiscuity. It states the number of cathegories with a fidelity higher than a determined threshold for each statistical class in a hybrid classification consisting on two steps: unsupervised classification/introduction of training areas"
 			},
 			"parameter": null,
 			"source": null,
@@ -3317,7 +3565,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>The <strong>F1 Score</strong> is the harmonic mean of positive predictive value (PPV) (<i>precision</i>) and true positive rate (TPR) (<i>sensitivity</i>):</p><p>2(PPV·TPR)/(PPV+TPR)=2TP/(2TP+FP+FN)</p>"
+				"eng": "The <strong>F1 Score</strong> is the harmonic mean of positive predictive value (PPV) (<i>precision</i>) and true positive rate (TPR) (<i>sensitivity</i>):<br/><br/>2(PPV·TPR)/(PPV+TPR)=2TP/(2TP+FP+FN)"
 			},
 			"parameter":
 			[
@@ -3354,7 +3602,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>The <strong>F&beta; Score</strong> represents the harmonic mean of positive predictive value (PPV) (<i>precision</i>) and true positive rate (TPR) (<i>sensitivity</i>) but  uses a positive real factor &beta;, where &beta; is chosen such that <i>recall</i> is considered &beta; times as important as <i>precision</i>:</p><p>(1+&beta;<sup>2</sup>)(PPV·TPR)/(&beta;<sup>2</sup>·PPV+TPR)=(1+&beta;<sup>2</sup>)TP/((1+&beta;<sup>2</sup>)·TP+&beta;<sup>2</sup>FP+FN)</p>"
+				"eng": "The <strong>F&beta; Score</strong> represents the harmonic mean of positive predictive value (PPV) (<i>precision</i>) and true positive rate (TPR) (<i>sensitivity</i>) but  uses a positive real factor &beta;, where &beta; is chosen such that <i>recall</i> is considered &beta; times as important as <i>precision</i>:<br/><br/>(1+&beta;<sup>2</sup>)(PPV·TPR)/(&beta;<sup>2</sup>·PPV+TPR)=(1+&beta;<sup>2</sup>)TP/((1+&beta;<sup>2</sup>)·TP+&beta;<sup>2</sup>FP+FN)"
 			},
 			"parameter":
 			[
@@ -3391,7 +3639,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>The <strong>Matthews correlation coefficient</strong> is used in machine learning as a measure of the quality of binary (two-class) classifications. It takes into account true and false positives and negatives and is generally regarded as a balanced measure which can be used even if the classes are of very different sizes. The MCC is in essence a correlation coefficient between the observed and predicted binary classifications; it returns a value between −1 and +1. A coefficient of +1 represents a perfect prediction, 0 no better than random prediction and −1 indicates total disagreement between prediction and observation. The statistic is also known as the phi coefficient.</p><p><img src='MatthewsCorrelationCoefficient.png' width='526' height='57' /></p>"
+				"eng": "The <strong>Matthews correlation coefficient</strong> is used in machine learning as a measure of the quality of binary (two-class) classifications. It takes into account true and false positives and negatives and is generally regarded as a balanced measure which can be used even if the classes are of very different sizes. The MCC is in essence a correlation coefficient between the observed and predicted binary classifications; it returns a value between −1 and +1. A coefficient of +1 represents a perfect prediction, 0 no better than random prediction and −1 indicates total disagreement between prediction and observation. The statistic is also known as the phi coefficient.<br/><br/><img src='MatthewsCorrelationCoefficient.png' width='526' height='57' />"
 			},
 			"parameter":
 			[
@@ -3428,7 +3676,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>The <strong>Intersection over Union</strong> is a term used to describe the extent of overlap of two bounding boxes. IoU is mainly used in applications related to object detection, where we train a model to output a box that fits perfectly around an object. The greater the region of overlap, the greater the IoU. The aim of this model would be to keep improving its prediction, until the prediction and the actual bounding box perfectly overlaps, i.e the IoU between the two bounding boxes becomes equal to 1. To calculate the IoU, the area of the spatial intersection betweeen the predicted area and the actual area is is needed as well as the union area (that can be calculated as the area of the prediction area plus the actual area minus the intersection area). Then the IoU is the ratio between the area of intersaction and the area of the union.</p>"
+				"eng": "The <strong>Intersection over Union</strong> is a term used to describe the extent of overlap of two bounding boxes. IoU is mainly used in applications related to object detection, where we train a model to output a box that fits perfectly around an object. The greater the region of overlap, the greater the IoU. The aim of this model would be to keep improving its prediction, until the prediction and the actual bounding box perfectly overlaps, i.e the IoU between the two bounding boxes becomes equal to 1. To calculate the IoU, the area of the spatial intersection betweeen the predicted area and the actual area is is needed as well as the union area (that can be calculated as the area of the prediction area plus the actual area minus the intersection area). Then the IoU is the ratio between the area of intersaction and the area of the union."
 			},
 			"parameter": null,
 			"source": "WQeMS",
@@ -3460,7 +3708,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>In a correspondence matrix, is the number of  values in a class (s, a row) conformance with a certain threshold..</p>"
+				"eng": "In a correspondence matrix, is the number of  values in a class (s, a row) conformance with a certain threshold.."
 			},
 			"parameter": null,
 			"source": "GeoViQua",
@@ -3489,7 +3737,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>In statistics and diagnostic testing, the <strong>positive predictive value</strong>, or <strong>precision rate</strong> is the proportion of positive test results that are true positives (such as correct diagnoses). It is a critical measure of the performance of a diagnostic method, as it reflects the probability that a positive test reflects the underlying condition being tested for. Its value does however depend on the prevalence of the outcome of interest, which may be unknown for a particular target population. The PPV can be derived using Bayes' theorem.</p><p><em>PPV = TP/(TP+FP)</em></p><p>where FP = false positive, TP = true positive </p>"
+				"eng": "In statistics and diagnostic testing, the <strong>positive predictive value</strong>, or <strong>precision rate</strong> is the proportion of positive test results that are true positives (such as correct diagnoses). It is a critical measure of the performance of a diagnostic method, as it reflects the probability that a positive test reflects the underlying condition being tested for. Its value does however depend on the prevalence of the outcome of interest, which may be unknown for a particular target population. The PPV can be derived using Bayes' theorem.<br/><br/><em>PPV = TP/(TP+FP)</em><br/><br/>where FP = false positive, TP = true positive "
 			},
 			"parameter":
 			[
@@ -3526,7 +3774,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>In a correspondence matrix, is the number of non-zero values in a class (s, a row).</p>"
+				"eng": "In a correspondence matrix, is the number of non-zero values in a class (s, a row)."
 			},
 			"parameter": null,
 			"source": null,
@@ -3550,7 +3798,7 @@
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>The ratio between the number of items in the <a href='http://www.uncertml.org/metrics/mode'>modal</a> category and the total number of items.</p>"
+				"eng": "The ratio between the number of items in the <a href='http://www.uncertml.org/metrics/mode'>modal</a> category and the total number of items."
 			},
 			"parameter": null,
 			"source": "GeoViQua",
@@ -3585,7 +3833,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>Given set of items classified by two different criteria, the relative correspondence matrix is an S <font face='Arial'>x</font> T matrix which matches the first classification (rows) against the second classification (columns) but relative to the total of items in a class of the first or the second classification.</p><p>RCMs(s,t) = (# items classified as class (s) in the first classification and as class (t) in the second classification) / # items classified as class (s) in the first classification</p><p><img src='RCMs.jpg' alt='RCMs(t,s)' width='124' height='72' /><br /> <!--Sumatori per totes les t's. Canvi de nom RCMs i (s,t)--></p><p>RCMt(s,t) = (# items classified as class (s) in the first classification and as class (t) in the second classification) / # items classified as class (t) in the second classification</p><p><img src='RCMt.jpg' alt='RCMt(t,s)' width='124' height='75' /></p>"
+				"eng": "Given set of items classified by two different criteria, the relative correspondence matrix is an S <font face='Arial'>x</font> T matrix which matches the first classification (rows) against the second classification (columns) but relative to the total of items in a class of the first or the second classification.<br/><br/>RCMs(s,t) = (# items classified as class (s) in the first classification and as class (t) in the second classification) / # items classified as class (s) in the first classification<br/><br/><img src='RCMs.jpg' alt='RCMs(t,s)' width='124' height='72' /><br /> <!--Sumatori per totes les t's. Canvi de nom RCMs i (s,t)--><br/><br/>RCMt(s,t) = (# items classified as class (s) in the first classification and as class (t) in the second classification) / # items classified as class (t) in the second classification<br/><br/><img src='RCMt.jpg' alt='RCMt(t,s)' width='124' height='75' />"
 			},
 			"parameter":
 			[
@@ -3626,7 +3874,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>The relative frequency of an event is the absolute frequency normalized by the total number of events:</p><p><img src='RelativeFrequency1.PNG' width='138' height='54' /></p><p>The values of <i>f<sub>i</sub></i> for all events <i>i</i> can be plotted to produce a <a href='https://en.wikipedia.org/wiki/Frequency_distribution' title='Frequency distribution'>frequency distribution</a>.</p><p> In the case when <i>n<sub>i</sub></i>=0 for certain <i>i</i>, <a href='https://en.wikipedia.org/wiki/Pseudocount' title='Pseudocount'>pseudocounts</a> can be added.</p>"
+				"eng": "The relative frequency of an event is the absolute frequency normalized by the total number of events:<br/><br/><img src='RelativeFrequency1.PNG' width='138' height='54' /><br/><br/>The values of <i>f<sub>i</sub></i> for all events <i>i</i> can be plotted to produce a <a href='https://en.wikipedia.org/wiki/Frequency_distribution' title='Frequency distribution'>frequency distribution</a>.<br/><br/> In the case when <i>n<sub>i</sub></i>=0 for certain <i>i</i>, <a href='https://en.wikipedia.org/wiki/Pseudocount' title='Pseudocount'>pseudocounts</a> can be added."
 			},
 			"parameter": null,
 			"source": "ISO 19157",
@@ -3666,7 +3914,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>Sensitivity relates to the test's ability to identify positive results. The sensitivity of a test is the proportion of people that are known to have the disease who test positive for it. This can also be written as: <em>TPR = TP/P = TP/(TP+FN)</em></p><p>where FP = false positive, TN = true negative </p>"
+				"eng": "Sensitivity relates to the test's ability to identify positive results. The sensitivity of a test is the proportion of people that are known to have the disease who test positive for it. This can also be written as: <em>TPR = TP/P = TP/(TP+FN)</em><br/><br/>where FP = false positive, TN = true negative "
 			},
 			"parameter":
 			[
@@ -3681,7 +3929,7 @@
 			],
 			"furtherInformation":
 			{
-				"eng": "<p><a href='http://en.wikipedia.org/wiki/Sensitivity_and_specificity'>http://en.wikipedia.org/wiki/Sensitivity_and_specificity</a></p><p>Fawcett T (2006) An introduction to ROC analysis: <a href='https://cours.etsmtl.ca/sys828/REFS/A1/Fawcett_PRL2006.pdf'>https://cours.etsmtl.ca/sys828/REFS/A1/Fawcett_PRL2006.pdf</a></p>"
+				"eng": "<a href='http://en.wikipedia.org/wiki/Sensitivity_and_specificity'>http://en.wikipedia.org/wiki/Sensitivity_and_specificity</a><br/><br/>Fawcett T (2006) An introduction to ROC analysis: <a href='https://cours.etsmtl.ca/sys828/REFS/A1/Fawcett_PRL2006.pdf'>https://cours.etsmtl.ca/sys828/REFS/A1/Fawcett_PRL2006.pdf</a>"
 			},
 			"XMLSchema": "<pre class='prettyprint style2'>&lt;schema xmlns:qml=&quot;http://www.qualityml.org/1.0&quot; <br/>xmlns:un=&quot;http://www.uncertml.org/2.0&quot; <br/>xmlns=&quot;http://www.w3.org/2001/XMLSchema&quot; targetNamespace=&quot;http://www.qualityml.org/1.0&quot; <br/>elementFormDefault=&quot;qualified&quot; attributeFormDefault=&quot;unqualified&quot;&gt;<br/>&lt;import namespace=&quot;http://www.uncertml.org/2.0&quot; schemaLocation=&quot;../../uncertml/2.0/uncertml.xsd&quot;/&gt;<br/><br/><span class='indent'>&lt;element name=&quot;Sensitivity&quot; type=&quot;qml:ContinuousValuesSummaryStatisticType&quot; substitutionGroup=&quot;un:AbstractSummaryStatistic&quot;/&gt;</span></pre>",
 			"XMLExample": "<pre class='prettyprint'>&lt;un:StatisticsCollection xmlns:qml=&quot;http://www.qualityml.org/1.0&quot;<br /> xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; <br />xsi:schemaLocation=&quot;http://www.qualitymlorg/schemas/qualityml/1.0/qualityml.xsd&quot;&gt;<br /><span class='indent'>&lt;qml:Sensitivity&gt;</span><br /><span class='indent2'>&lt;qml:values&gt;0.83&lt;/qml:values&gt;</span><br /><span class='indent'>&lt;/qml:Sensitivity&gt;</span></pre>",
@@ -3706,7 +3954,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>Specificity relates to the test's ability to identify negative results. The specificity of a test is defined as the proportion of patients that are known not to have the disease who will test negative for it. This can also be written as: This can also be written as: <em>TNR = TN/N = TN/(TN+FP)</em></p><p>where FP = false positive, TN = true negative </p>"
+				"eng": "Specificity relates to the test's ability to identify negative results. The specificity of a test is defined as the proportion of patients that are known not to have the disease who will test negative for it. This can also be written as: This can also be written as: <em>TNR = TN/N = TN/(TN+FP)</em><br/><br/>where FP = false positive, TN = true negative "
 			},
 			"parameter":
 			[
@@ -3721,7 +3969,7 @@
 			],
 			"furtherInformation":
 			{
-				"eng": "<p><a href='http://en.wikipedia.org/wiki/Sensitivity_and_specificity'>http://en.wikipedia.org/wiki/Sensitivity_and_specificity</a></p><p>Fawcett T (2006) An introduction to ROC analysis: <a href='https://cours.etsmtl.ca/sys828/REFS/A1/Fawcett_PRL2006.pdf'>https://cours.etsmtl.ca/sys828/REFS/A1/Fawcett_PRL2006.pdf</a></p>"
+				"eng": "<a href='http://en.wikipedia.org/wiki/Sensitivity_and_specificity'>http://en.wikipedia.org/wiki/Sensitivity_and_specificity</a><br/><br/>Fawcett T (2006) An introduction to ROC analysis: <a href='https://cours.etsmtl.ca/sys828/REFS/A1/Fawcett_PRL2006.pdf'>https://cours.etsmtl.ca/sys828/REFS/A1/Fawcett_PRL2006.pdf</a>"
 			},
 			"XMLSchema": "<pre class='prettyprint style2'>&lt;schema xmlns:qml=&quot;http://www.qualityml.org/1.0&quot; <br/>xmlns:un=&quot;http://www.uncertml.org/2.0&quot; <br/>xmlns=&quot;http://www.w3.org/2001/XMLSchema&quot; targetNamespace=&quot;http://www.qualityml.org/1.0&quot; <br/>elementFormDefault=&quot;qualified&quot; attributeFormDefault=&quot;unqualified&quot;&gt;<br/>&lt;import namespace=&quot;http://www.uncertml.org/2.0&quot; schemaLocation=&quot;../../uncertml/2.0/uncertml.xsd&quot;/&gt;<br/><br/><span class='indent'>&lt;element name=&quot;Specificity&quot; type=&quot;qml:ContinuousValuesSummaryStatisticType&quot; substitutionGroup=&quot;un:AbstractSummaryStatistic&quot;/&gt;</span></pre>",
 			"XMLExample": "<pre class='prettyprint'>&lt;un:StatisticsCollection xmlns:qml=&quot;http://www.qualityml.org/1.0&quot;<br /> xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; <br />xsi:schemaLocation=&quot;http://www.qualitymlorg/schemas/qualityml/1.0/qualityml.xsd&quot;&gt;<br /><span class='indent'>&lt;qml:Specificity&gt;</span><br /><span class='indent2'>&lt;qml:values&gt;0.8&lt;/qml:values&gt;</span><br /><span class='indent'>&lt;/qml:Specificity&gt;</span></pre>",
@@ -3746,7 +3994,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>The standard deviation of a distribution or population is the square root of its variance and is given by <img src='StandardDeviation1.png'> where <img src='StandardDeviation2.png'>. The population standard deviation is given by <img src='StandardDeviation3.png'>  where <img src='StandardDeviation4.png'>, <em>x<sub>i<sub></em> represents with <em>i</em>'th observation of the quantity <em>x</em> in the population of size <em>n</em>. The standard deviation is a widely used measure of the variability or dispersion since it is reported in the natural units of the quantity being considered. Note that if a finite sample of a population has been used then the sample standard deviation is the appropriate unbiased estimator to use.</p>"
+				"eng": "The standard deviation of a distribution or population is the square root of its variance and is given by <img src='StandardDeviation1.png'> where <img src='StandardDeviation2.png'>. The population standard deviation is given by <img src='StandardDeviation3.png'>  where <img src='StandardDeviation4.png'>, <em>x<sub>i<sub></em> represents with <em>i</em>'th observation of the quantity <em>x</em> in the population of size <em>n</em>. The standard deviation is a widely used measure of the variability or dispersion since it is reported in the natural units of the quantity being considered. Note that if a finite sample of a population has been used then the sample standard deviation is the appropriate unbiased estimator to use."
 			},
 			"parameter": null,
 			"source": "UncertML",
@@ -3778,7 +4026,7 @@
 			],
 			"desc":
 			{
-				"eng": "<p>The variance of a random quantity (or distribution) is the average value of the square of the deviation of that variable from its mean, given by <img src='variance1.png'> where <img src='variance2.png'>. The complete population variance is given by <img src='variance3.png'>  where <img src='variance4.png'>, <em>x<sub>i<sub></em> represents with <em>i</em>'th observation of the quantity <em>x</em> in the population of size <em>n</em>. This is the estimator of the population variance and should be replaced by the sample variance when using samples of finite size.</p>"
+				"eng": "The variance of a random quantity (or distribution) is the average value of the square of the deviation of that variable from its mean, given by <img src='variance1.png'> where <img src='variance2.png'>. The complete population variance is given by <img src='variance3.png'>  where <img src='variance4.png'>, <em>x<sub>i<sub></em> represents with <em>i</em>'th observation of the quantity <em>x</em> in the population of size <em>n</em>. This is the estimator of the population variance and should be replaced by the sample variance when using samples of finite size."
 			},
 			"parameter": null,
 			"source": "UncertML",
@@ -3805,7 +4053,7 @@
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>One of the following categories: 'Very low', 'Low', 'Medium', 'High', Very high'.</p>"
+				"eng": "One of the following categories: 'Very low', 'Low', 'Medium', 'High', Very high'."
 			},
 			"parameter": null,
 			"source": "IPCC Guidance Note on Consistent Treatment of Uncertainties",
@@ -3832,7 +4080,7 @@
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "<p>One of the following categories: 'Excepcionally unlikely' (0-1% probability), 'Very unlikely' (1-10% probability), 'Unlikely' (10-33% probability), 'About as likely as not' (33-66% probability), 'Likely' (66-90% probability), 'Very likely' (90-99% probability), 'Virtually certain' (99-100% probability).</p>"
+				"eng": "One of the following categories: 'Excepcionally unlikely' (0-1% probability), 'Very unlikely' (1-10% probability), 'Unlikely' (10-33% probability), 'About as likely as not' (33-66% probability), 'Likely' (66-90% probability), 'Very likely' (90-99% probability), 'Virtually certain' (99-100% probability)."
 			},
 			"parameter": null,
 			"source": "IPCC Guidance Note on Consistent Treatment of Uncertainties",
@@ -4256,7 +4504,7 @@
 				"DifferentialErrorsX"
 			],
 			"metric": "MeanAbsolute",
-			"observations": "<p>this concept is called &quot;uncertainty&quot; in ISO 19157 </p>",
+			"observations": "this concept is called &quot;uncertainty&quot; in ISO 19157 ",
 			"origin": "ISO 19157 Id. 28"
 		},
 		{
@@ -4270,7 +4518,7 @@
 				"DifferentialErrorsY"
 			],
 			"metric": "MeanAbsolute",
-			"observations": "<p>this concept is called &quot;uncertainty&quot; in ISO 19157 </p>",
+			"observations": "this concept is called &quot;uncertainty&quot; in ISO 19157 ",
 			"origin": "ISO 19157 Id. 28"
 		},
 		{
@@ -4284,7 +4532,7 @@
 				"DifferentialErrors2D"
 			],
 			"metric": "MeanAbsolute2D",
-			"observations": "<p>this concept is called &quot;uncertainty&quot; in ISO 19157 </p>",
+			"observations": "this concept is called &quot;uncertainty&quot; in ISO 19157 ",
 			"origin": "ISO 19157 Id. 28"
 		},
 		{
@@ -4298,7 +4546,7 @@
 				"DifferentialErrors3D"
 			],
 			"metric": "MeanAbsolute3D",
-			"observations": "<p>this concept is called &quot;uncertainty&quot; in ISO 19157 </p>",
+			"observations": "this concept is called &quot;uncertainty&quot; in ISO 19157 ",
 			"origin": "ISO 19157 Id. 28"
 		},
 		{
@@ -4312,7 +4560,7 @@
 				"NonConformance"
 			],
 			"metric": "MeanAbsolute",
-			"observations": "<p>this concept is called &quot;uncertainty&quot; in ISO 19157 </p>",
+			"observations": "this concept is called &quot;uncertainty&quot; in ISO 19157 ",
 			"origin": "ISO 19157 Id. 28"
 		},
 		{
@@ -4326,7 +4574,7 @@
 				"DifferentialErrorsY"
 			],
 			"metric": "MeanAbsolute",
-			"observations": "<p>this concept is called &quot;uncertainty&quot; in ISO 19157 </p>",
+			"observations": "this concept is called &quot;uncertainty&quot; in ISO 19157 ",
 			"origin": "ISO 19157 Id. 28"
 		},
 		{
@@ -4340,7 +4588,7 @@
 				"DifferentialErrors2D"
 			],
 			"metric": "MeanAbsolute2D",
-			"observations": "<p>this concept is called &quot;uncertainty&quot; in ISO 19157 </p>",
+			"observations": "this concept is called &quot;uncertainty&quot; in ISO 19157 ",
 			"origin": "ISO 19157 Id. 28"
 		},
 		{
@@ -4354,7 +4602,7 @@
 				"DifferentialErrors3D"
 			],
 			"metric": "MeanAbsolute3D",
-			"observations": "<p>this concept is called &quot;uncertainty&quot; in ISO 19157 </p>",
+			"observations": "this concept is called &quot;uncertainty&quot; in ISO 19157 ",
 			"origin": "ISO 19157 Id. 28"
 		},
 		{
@@ -4609,7 +4857,7 @@
 			],
 			"domain_obs": "level='above'",
 			"metric": "items",
-			"observations": "<p>this concept is called &quot;uncertainty&quot; in ISO 19157</p>",
+			"observations": "this concept is called &quot;uncertainty&quot; in ISO 19157",
 			"origin": "ISO 19157 Id. 128"
 		},
 		{
@@ -4624,7 +4872,7 @@
 			],
 			"domain_obs": "level='above'",
 			"metric": "items",
-			"observations": "<p>this concept is called &quot;uncertainty&quot; in ISO 19157</p>",
+			"observations": "this concept is called &quot;uncertainty&quot; in ISO 19157",
 			"origin": "ISO 19157 Id. 128"
 		},
 		{
@@ -4639,7 +4887,7 @@
 			],
 			"domain_obs": "level='above'",
 			"metric": "items",
-			"observations": "<p>this concept is called &quot;uncertainty&quot; in ISO 19157</p>",
+			"observations": "this concept is called &quot;uncertainty&quot; in ISO 19157",
 			"origin": "ISO 19157 Id. 128"
 		},
 		{
@@ -4654,7 +4902,7 @@
 			],
 			"domain_obs": "level='above'",
 			"metric": "items",
-			"observations": "<p>this concept is called &quot;uncertainty&quot; in ISO 19157</p>",
+			"observations": "this concept is called &quot;uncertainty&quot; in ISO 19157",
 			"origin": "ISO 19157 Id. 128"
 		},
 		{
@@ -4669,7 +4917,7 @@
 			],
 			"domain_obs": "level='above'",
 			"metric": "items",
-			"observations": "<p>this concept is called &quot;uncertainty&quot; in ISO 19157</p>",
+			"observations": "this concept is called &quot;uncertainty&quot; in ISO 19157",
 			"origin": "ISO 19157 Id. 128"
 		},
 		{
@@ -4684,7 +4932,7 @@
 			],
 			"domain_obs": "level='above'",
 			"metric": "items",
-			"observations": "<p>this concept is called &quot;uncertainty&quot; in ISO 19157</p>",
+			"observations": "this concept is called &quot;uncertainty&quot; in ISO 19157",
 			"origin": "ISO 19157 Id. 128"
 		},
 		{
@@ -4699,7 +4947,7 @@
 			],
 			"domain_obs": "level='above'",
 			"metric": "items",
-			"observations": "<p>this concept is called &quot;uncertainty&quot; in ISO 19157</p>",
+			"observations": "this concept is called &quot;uncertainty&quot; in ISO 19157",
 			"origin": "ISO 19157 Id. 128"
 		},
 		{
@@ -4714,7 +4962,7 @@
 			],
 			"domain_obs": "level='above'",
 			"metric": "items",
-			"observations": "<p>this concept is called &quot;uncertainty&quot; in ISO 19157</p>",
+			"observations": "this concept is called &quot;uncertainty&quot; in ISO 19157",
 			"origin": "ISO 19157 Id. 128"
 		},
 		{
@@ -4849,7 +5097,7 @@
 			],
 			"domain_obs": "applied to 2D",
 			"metric": "ConfidenceEllipse",
-			"observations": "<p>confidence: uncertainty ellipse (68.3% --&gt; 1), confidence at 95%--&gt; 5.99,  confidence at 99%--&gt; 9.21)</p>",
+			"observations": "confidence: uncertainty ellipse (68.3% --&gt; 1), confidence at 95%--&gt; 5.99,  confidence at 99%--&gt; 9.21)",
 			"origin": "ISO 19157 Id. 50, Id. 51"
 		},
 		{
@@ -4864,7 +5112,7 @@
 			],
 			"domain_obs": "applied to 2D",
 			"metric": "ConfidenceEllipse",
-			"observations": "<p>confidence: uncertainty ellipse (68.3% --&gt; 1), confidence at 95%--&gt; 5.99,  confidence at 99%--&gt; 9.21)</p>",
+			"observations": "confidence: uncertainty ellipse (68.3% --&gt; 1), confidence at 95%--&gt; 5.99,  confidence at 99%--&gt; 9.21)",
 			"origin": "ISO 19157 Id. 50, Id. 51"
 		},
 		{
@@ -4879,7 +5127,7 @@
 			],
 			"domain_obs": "applied to 2D",
 			"metric": "ConfidenceEllipse",
-			"observations": "<p>confidence: uncertainty ellipse (68.3% --&gt; 1), confidence at 95%--&gt; 5.99,  confidence at 99%--&gt; 9.21)</p>",
+			"observations": "confidence: uncertainty ellipse (68.3% --&gt; 1), confidence at 95%--&gt; 5.99,  confidence at 99%--&gt; 9.21)",
 			"origin": "ISO 19157 Id. 50, Id. 51"
 		},
 		{
@@ -4894,7 +5142,7 @@
 			],
 			"domain_obs": "applied to 2D",
 			"metric": "ConfidenceEllipse",
-			"observations": "<p>confidence: uncertainty ellipse (68.3% --&gt; 1), confidence at 95%--&gt; 5.99,  confidence at 99%--&gt; 9.21)</p>",
+			"observations": "confidence: uncertainty ellipse (68.3% --&gt; 1), confidence at 95%--&gt; 5.99,  confidence at 99%--&gt; 9.21)",
 			"origin": "ISO 19157 Id. 50, Id. 51"
 		},
 		{
@@ -5494,7 +5742,7 @@
 			],
 			"domain_obs": null,
 			"metric": "Half-lengthConfidenceInterval",
-			"observations": "Common confidence intervals: 50%, 68.3%, 90%, 95%, 99%, 99.8%</p>",
+			"observations": "Common confidence intervals: 50%, 68.3%, 90%, 95%, 99%, 99.8%",
 			"origin": "ISO 19157 Id. 54, Id. 55, Id. 56, Id. 57, Id. 58, Id. 59"
 		},
 		{
