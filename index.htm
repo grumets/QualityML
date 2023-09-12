@@ -437,8 +437,8 @@ Here, some examples on how to encode quality metadata in ISO 19139 metadata docu
                      <gmd:valueType>
                         <gco:RecordType>rate (max=100)</gco:RecordType>
                      </gmd:valueType>
-					 <gmd:valueUnit/>
-					 <gmd:errorStatistic>
+                     <gmd:valueUnit/>
+                     <gmd:errorStatistic>
                         <gco:CharacterString>https://www.qualityml.org/1.0/metrics/Items</gco:CharacterString>
                      </gmd:errorStatistic>
                      <gmd:value>
@@ -459,39 +459,39 @@ Here, some examples on how to encode quality metadata in ISO 19139 metadata docu
    <gmd:dataQualityInfo>
       <gmd:DQ_DataQuality>
          <gmd:report>
-			<gmd:DQ_TemporalValidity>
-				<gmd:nameOfMeasure>
-					<gco:CharacterString>Temporal density</gco:CharacterString>
-				</gmd:nameOfMeasure>
-				<gmd:measureIdentification>
-					<gmd:MD_Identifier>
-						<gmd:code>
-							<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/measure/TemporalDensity?domain=Dates">TemporalDensity,Dates</gmx:Anchor>
-						</gmd:code>
-					</gmd:MD_Identifier>
-				</gmd:measureIdentification>
-				<gmd:result>
-					<gmd:DQ_QuantitativeResult>
-						<gmd:valueType>
-							<gco:RecordType>Integer (max=366)</gco:RecordType>
-						</gmd:valueType>
-						<gmd:valueUnit>
-						<gml:ConventionalUnit gml:id="ConventionalUnit1">
-							<gml:identifier codeSpace="urn:ogc:def:uom:UCUM">d</gml:identifier>
-							<gml:conversionToPreferredUnit uom="s">
-								<gml:factor>86400</gml:factor>
-							</gml:conversionToPreferredUnit>
-						</gml:ConventionalUnit>
-						</gmd:valueUnit>
-						<gmd:errorStatistic>
-							<gco:CharacterString>https://www.qualityml.org/1.0/metrics/items</gco:CharacterString>
-						</gmd:errorStatistic>
-						<gmd:value>
-							<gco:Record>22</gco:Record>
-						</gmd:value>
-					</gmd:DQ_QuantitativeResult>
-				</gmd:result>
-			</gmd:DQ_TemporalValidity>
+            <gmd:DQ_TemporalValidity>
+                <gmd:nameOfMeasure>
+                    <gco:CharacterString>Temporal density</gco:CharacterString>
+                </gmd:nameOfMeasure>
+                <gmd:measureIdentification>
+                    <gmd:MD_Identifier>
+                        <gmd:code>
+                            <gmx:Anchor xlink:href="https://www.qualityml.org/1.0/measure/TemporalDensity?domain=Dates">TemporalDensity,Dates</gmx:Anchor>
+                        </gmd:code>
+                    </gmd:MD_Identifier>
+                </gmd:measureIdentification>
+                <gmd:result>
+                    <gmd:DQ_QuantitativeResult>
+                        <gmd:valueType>
+                            <gco:RecordType>Integer (max=366)</gco:RecordType>
+                        </gmd:valueType>
+                        <gmd:valueUnit>
+                            <gml:ConventionalUnit gml:id="ConventionalUnit1">
+                                <gml:identifier codeSpace="urn:ogc:def:uom:UCUM">d</gml:identifier>
+                                <gml:conversionToPreferredUnit uom="s">
+                                    <gml:factor>86400</gml:factor>
+                                </gml:conversionToPreferredUnit>
+                            </gml:ConventionalUnit>
+                        </gmd:valueUnit>
+                        <gmd:errorStatistic>
+                            <gco:CharacterString>https://www.qualityml.org/1.0/metrics/items</gco:CharacterString>
+                        </gmd:errorStatistic>
+                        <gmd:value>
+                            <gco:Record>22</gco:Record>
+                        </gmd:value>
+                    </gmd:DQ_QuantitativeResult>
+                </gmd:result>
+            </gmd:DQ_TemporalValidity>
          </gmd:report>
       </gmd:DQ_DataQuality>
   </gmd:dataQualityInfo>
@@ -525,7 +525,7 @@ Note that:
                               Value  for  vertical  DEM  accuracy
                         </gco:RecordType>
                      </gmd:valueType>
-                     <gmd:valueUnit  xlink:href="urn:ogc:def:uom:OGC:1.0:metre"/>
+                     <gmd:valueUnit xlink:href="urn:ogc:def:uom:OGC:1.0:metre"/>
                      <gmd:value>
                         <gco:Record>
                            <un:NormalDistribution>
@@ -555,25 +555,19 @@ Note that:
          <gmd:report>
             <gmd:DQ_CompletenessOmission>
                <gmd:nameOfMeasure>
-                  <gco:CharacterString>
-                        Missing
-                  </gco:CharacterString>
+                  <gco:CharacterString>Missing</gco:CharacterString>
                </gmd:nameOfMeasure>
                <gmd:measureIdentification>
                   <gmd:MD_Identifier>
                      <gmd:code>
-                        <gco:CharacterString>
-                            http://www.qualityml.org/1.0/measure/Missing
-                        </gco:CharacterString>
+                        <gco:CharacterString>http://www.qualityml.org/1.0/measure/Missing</gco:CharacterString>
                      </gmd:code>
                   </gmd:MD_Identifier>
                </gmd:measureIdentification>
                <gmd:result>
                   <gmd:DQ_QuantitativeResult>
                      <gmd:valueType>
-                        <gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/items">
-                           Rate of missing items
-                        </gco:RecordType>
+                        <gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/items">Rate of missing items</gco:RecordType>
                      </gmd:valueType>
                      <gmd:valueUnit/>
                      <gmd:value>
@@ -625,9 +619,9 @@ LAYERS=TemperatureConfidenceInterval&amp;STYLES=</gmd:URL>
       <gmd:DQ_DataQuality>
          <gmd:report>
             <gmd:DQ_QuantitativeAttributeAccuracy>
-				<gmd:nameOfMeasure>
-					<gco:CharacterString>Quantitative Attribute Correctness</gco:CharacterString>
-				</gmd:nameOfMeasure>
+                <gmd:nameOfMeasure>
+                    <gco:CharacterString>Quantitative Attribute Correctness</gco:CharacterString>
+                </gmd:nameOfMeasure>
                 <gmd:measureIdentification>
                   <gmd:MD_Identifier>
                      <gmd:code>
@@ -637,7 +631,7 @@ LAYERS=TemperatureConfidenceInterval&amp;STYLES=</gmd:URL>
                      </gmd:code>
                   </gmd:MD_Identifier>
                 </gmd:measureIdentification>
-				<gmd:result>
+                <gmd:result>
                   <gmd:DQ_QuantitativeResult>
                      <gmd:valueType>
                         <gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/metrics/Half-lengthConfidenceInterval">
@@ -653,9 +647,9 @@ LAYERS=TemperatureConfidenceInterval&amp;STYLES=</gmd:URL>
                         </gco:Record>
                      </gmd:value>
                   </gmd:DQ_QuantitativeResult>
-				</gmd:result>
-			</gmd:DQ_QuantitativeAttributeAccuracy>
-		</gmd:report>
+                </gmd:result>
+            </gmd:DQ_QuantitativeAttributeAccuracy>
+         </gmd:report>
       </gmd:DQ_DataQuality>
    </gmd:dataQualityInfo>
 </gmd:MD_Metadata>
