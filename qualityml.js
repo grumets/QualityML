@@ -476,22 +476,25 @@ var trobat;
 	//metrics
 	cadena+="</p></td><td align=\"center\">";
 	//trobat=qml.metric.find(CercaIdObjecte, metric_matrix.metric);
-	trobat=CercaObjectePerId(qml.metric, metric_matrix.metric);
-	if(trobat)
+	if(metric_matrix.metric)
 	{
-		cadena+=("<a href=1.0/metrics/"+trobat.id+">metrics/"+trobat.id+"</a>");
-		if(trobat.alternativeName && trobat.alternativeName.length)
+		trobat=CercaObjectePerId(qml.metric, metric_matrix.metric);
+		if(trobat)
 		{
-			cadena+="<br><i>Alternative names:</i>";
-			for(var j=0; j<trobat.alternativeName.length;j++)
+			cadena+=("<a href=1.0/metrics/"+trobat.id+">metrics/"+trobat.id+"</a>");
+			if(trobat.alternativeName && trobat.alternativeName.length)
 			{
-				if (trobat.alternativeName[j].eng!="")
-				cadena+=("<br>"+trobat.alternativeName[j].eng);
+				cadena+="<br><i>Alternative names:</i>";
+				for(var j=0; j<trobat.alternativeName.length;j++)
+				{
+					if (trobat.alternativeName[j].eng!="")
+					cadena+=("<br>"+trobat.alternativeName[j].eng);
+				}
 			}
 		}
+		else
+			cadena+=metric_matrix.metric;
 	}
-	else
-		cadena+=metric_matrix.metric;
 
 
 	//observations
