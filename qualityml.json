@@ -478,9 +478,9 @@
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "Elements that have not been in the dataset.",
-				"cat": "Elements que no han estat al conjunt de dades.",
-				"spa": "Elementos que no han estado en el conjunto de datos."
+				"eng": "Elements within the dataset that should not have been present.",
+				"cat": "Elements al conjunt de dades que no haurien de ser-hi presents.",
+				"spa": "Elementos en el conjunto de datos que no deberían estar presentes."
 			},
 			"parameter": null,
 			"source": "ISO 19157: Id. 1 (boolean), Id. 2 (count), Id. 3 (rate)",
@@ -652,8 +652,7 @@
 				"spa": "Se utiliza habitualmente en imágenes para marcar píxeles que tienen un valor que no representa una medida correcta. Se puede informar como booleano por píxel o como porcentaje de píxeles 'sindatos' en una escena."
 			}
 		},
-		{
-			
+		{			
 			"id": "FlagAreas",
 			"name":
 			{
@@ -2196,37 +2195,28 @@
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "Existance of items (indicator), number of items (count) or rate of items (rate)",
-				"cat": "Existència d'articles (indicador), nombre d'articles (recompte) o taxa d'articles (taxa)",
-				"spa": "Existencia de artículos (indicador), número de artículos (recuento) o tasa de artículos (tasa)"
+				"eng": "Existence of items (indicator), number of items (count) or rate of items (rate)",
+				"cat": "Existència d'element (indicador), nombre d'elements (recompte) o taxa d'elements (taxa)",
+				"spa": "Existencia de elementos (indicador), número de elementos (recuento) o tasa de elementos (tasa)"
 			},
 			"parameter":
 			[
 				{
-					"id": "indicator",
+					"id": "subtype",
 					"desc":
 					{
-						"eng": "boolean",
-						"cat": "booleà",
-						"spa": "booleano"
+						"eng": "subtype (available options: \"indicator\" (boolean), \"count\" (integer), \"rate\" (double)",
+						"cat": "subtipus (opcions disponibles: \"indicator\" (boleà), \"count\" (enter), \"rate\" (real de doble precisió)",
+						"spa": "subtipo (opciones disponibles: \"indicator\" (boleano), \"count\" (entero), \"rate\" (real de doble precisión)"
 					}
 				},
 				{
-					"id": "count",
+					"id": "max",
 					"desc":
 					{
-						"eng": "int",
-						"cat": "ent",
-						"spa": "ent"
-					}
-				},
-				{
-					"id": "rate",
-					"desc":
-					{
-						"eng": "real, attribute: max(real)",
-						"cat": "real, atribut: màx(real)",
-						"spa": "real, atributo: máx(real)"
+						"eng": "maximum value (usually applies to \"rate\", e.g. 100 to indicate percentages, but can also apply to \"count\")",
+						"cat": "valor màxim (generalment aplica a \"rate\", e.g. 100 per indicar percentatges, però també pot aplicar a \"count\")",
+						"spa": "valor máximo (generalmente aplica a \"rate\", e.g. 100 para indicar porcentajes, pero también puede aplicar a \"count\")"
 					}
 				}
 			],
@@ -2244,7 +2234,7 @@
 			"XMLExample": "<h3 class='prettyprint'>Missing Quality Measure example</h3><pre class='prettyprint'>&lt;un:StatisticsCollection xmlns:qml=&quot;http://www.qualityml.org/1.0&quot; <br/>xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;<br/>xsi:schemaLocation=&quot;http://www.qualitymlorg/schemas/qualityml/1.0/qualityml.xsd&quot;&gt;</pre><h3 class='prettyprint'><em>Indicator</em></h3><pre class='prettyprint'>&lt;qml:Items&gt;<br/><span class='indent'>&lt;qml:indicator&gt;true&lt;/qml:indicator&gt;</span><br/>&lt;/qml:Items&gt;</pre><h3 class='prettyprint'><em>Count</em></h3><pre class='prettyprint'>&lt;qml:Items&gt;<br/><span class='indent'>&lt;qml:count&gt;5&lt;/qml:count&gt;</span><br/>&lt;/qml:Items&gt;</pre><h3 class=prettyprint'><em>Rate</em></h3><pre class='prettyprint'>&lt;qml:Items&gt;<br/><span class='indent'>&lt;qml:rate max=&quot;100&quot;&gt;66&lt;/qml:rate&gt;</span><br/>&lt;/qml:Items&gt;</pre>",
 			"JSONExample": "<pre class='prettyprint'>N/A</pre>",
 			"APIExample": "<pre class='prettyprint'>N/A</pre>",
-			"ValueConstraints": "<span class='style1'><strong>categories</strong>: <em>any string</em><br/><strong>counts</strong>: <em>any positive natural number</em></span><br/>"
+			"ValueConstraints": "<span class='style1'><strong>subtype</strong>: only three strings are possible <em>indicator</em>, <em>count</em> or <em>rate</em>; any string</em><br/><strong>max</strong>: <em>any positive natural number</em></span><br/>"
 		},
 		{
 			"id": "CommissionError",
@@ -2403,7 +2393,7 @@
 				"spa": "Valor medio de las incertidumbres <i>e<sub>i</sub></i> normalizado por el valor real <i>x<sub>i</sub></i> de una serie de medidas (< i>N</i>) se calcula como:<br/><br/><img src='MAPE.png' width='317' height='90' />"
 			},
 			"parameter": null,
-			"source": "GVQ",
+			"source": "GeoViQua",
 			"classes":
 			[
 				"Positional accuracy",
@@ -2784,7 +2774,7 @@
 				"spa": "Medida de las diferencias entre los valores predichos por un modelo o un estimador y los valores realmente observados<br/><br/><img src='MSE.jpg' alt='MSE' width='108' height='52'/>"
 			},
 			"parameter": null,
-			"source": "GVQ",
+			"source": "GeoViQua",
 			"classes":
 			[
 				"Positional accuracy",
@@ -3628,7 +3618,7 @@
 				"spa": "El coeficiente de correlación se representa habitualmente por la letra r<sup>2</sup> y puede denominarse el cuadrado del coeficiente de correlación de la muestra o el cuadrado del coeficiente de correlación de Pearson de la muestra. Podemos obtener una fórmula para r <sup>2</sup> sustituyendo las estimaciones de las covariancias y las varianzas basadas en una muestra en la fórmula. <img src='CoefficientCorrelation.PNG' width='354' height='71' />"
 			},
 			"parameter": null,
-			"source": "GVQ",
+			"source": "GeoViQua",
 			"classes":
 			[
 				"Thematic accuracy"
@@ -3668,7 +3658,7 @@
 				"spa": "El coeficiente de determinación se representa habitualmente por la letra R<sup>2</sup>. Un conjunto de datos tiene n valores observados marcados con <i>y<sub>1</sub>,...,y< sub> n</sub></i>, cada uno asociado a un valor ajustado (o moldeado o predicho) <i>f<sub>1</sub>,...,f<sub>n</sub> < /i> La diferencia entre <i>y<sub>y</sub>−f<sub>i</sub></i> a veces se conoce como residuos (<i>e<sub>i </sub> ></i>).La media de los valores observados es:<br/><img src='CoefficientDeterminationMean.PNG' width='128' height='69' /><br/><br/ >La expresión para R<sup>2</sup> es:<br/><br/><img src='CoefficientDetermination.PNG' width='298' height='86' /><br/> <br/>En la situación de un ajuste perfecto (o modelo, o predicción) con una varianza de error de estimación igual a cero, el R<sup>2</sup> resultante es igual a 1 (NSE = 1) Por el contrario, un ajuste (o modelo, o predicto) que produce una varianza de error de estimación igual a la varianza de los valores observados da como resultado un R<sup>2</sup>de 0 (NSE = 0). dad, R<sup>2</sup> = 0 indica que la f este (o moldear, o predecir) tiene la misma habilidad predictiva que la media de los valores observados en términos de la suma del error cuadrado. En el caso de un valor ajustado (o moldeado o predicho) con una varianza de error de estimación que es significativamente mayor que la varianza de las observaciones, el R<sup>2</sup> resulta negativo. R<sup>2</sup> < 0 se produce cuando la media observada es un mejor predictor que el ajuste (o modelo, o predecir). Los valores de R<sup>2</sup> más cercanos a 1 sugieren un ajuste (o moldear o predecir) con mayor habilidad predictiva."
 			},
 			"parameter": null,
-			"source": "GVQ",
+			"source": "GeoViQua",
 			"classes":
 			[
 				"Thematic accuracy"
@@ -4877,7 +4867,7 @@
 			"class": "DQ_LogicalConsistency",
 			"indicator": "DQ_ConceptualConsistency",
 			"DQ_Element": "gmd:DQ_ConceptualConsistency",
-			"measure": "InvalidOverlapsSurface",
+			"measure": "InvalidOverlapsSurfaces",
 			"measure_obs": null,
 			"domain":
 			[
@@ -5073,11 +5063,11 @@
 			"class": "DQ_PositionalAccuracy",
 			"indicator": "DQ_GriddedDataPositionalAccuracy",
 			"DQ_Element": "gmd:DQ_GriddedDataPositionalAccuracy",
-			"measure": "DifferentialErrorsX",
+			"measure": "MeanAbsoluteError",
 			"measure_obs": null,
 			"domain":
 			[
-				"NonConformance"
+				"DifferentialErrorsX"
 			],
 			"metric": "MeanAbsolute",
 			"observations": "this concept is called &quot;uncertainty&quot; in ISO 19157 ",

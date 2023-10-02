@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+</head>
+
+<body>
+
+<h1>Encoding Units in XML</h1>    
+
+<h2>1. Introduction</h2>
+
+<p>According to ISO standards, there are three types of units: base units, conventional units, and derived units.</p>
+
+<p>Base units are defined as units of measurement that cannot be derived by combining other base units within the same system of units. For example, in the International System of Units (SI), the meter (length), the second (time), the kilogram (mass), etc., are considered base units. Therefore, the set of base units depends on the system of units being used, allowing for different base units for the same type of measurement. For instance, in the case of mass units in the International System of Units (SI), the base unit is the kilogram, while in the Unified Code for Units of Measure (UCUM), it is the gram.</p>
+
+<p>Conventional units are those that are neither base units nor direct combinations of base units. Examples include the electronvolt, feet, nautical miles, and any measurement derived from base units like milligrams, hours, etc. To define a conventional unit, a conversion factor or formula to another preferred unit is needed.</p>
+
+<p>Derived units are defined by the combination of other units and are used for quantities different from those corresponding to base units, such as Hertz (s⁻¹) or Newton (kg·m/s²). Generally, derived units are intended to be directly based on the base units of a specific system. If a derived unit is not based on the base units of the system, it is better to use the concept of a conventional unit.</p>
+
+<p>There is some overlap between derived and conventional units, and sometimes it is easier or more convenient to document a unit of measure as either derived or conventional.</p>
+
+<h2>2. Encoding Units in XML:</h2>
+
+<p>Based on the introduction, there are three general configurations for documenting units in XML. The basic structure of each, along with variations, is shown below using some examples:</p>
+
+<h3>2.1. Base Units</h3>
+<ul>
+    <li><b>2.1.1. Encoding seconds (<i>s</i>):</b>
+        <pre>
+            <code>
+                &lt;gml:BaseUnit gml:id="BaseUnit_1"&gt;
+                    &lt;gml:identifier codeSpace="urn:ogc:def:uom:SI"&gt;s&lt;/gml:identifier&gt;
+                    &lt;gml:unitsSystem xlink:href="https://www.bipm.org"/&gt;
+                &lt;/gml:BaseUnit&gt;
+            </code>
+        </pre>
+    </li>
+    <li><b>2.1.2. Encoding radians (<i>rad</i>):</b>
+        <pre>
+            <code>        
+                &lt;gml:BaseUnit gml:id="BaseUnit_2"&gt;
+                    &lt;gml:identifier codeSpace="urn:ogc:def:uom:UCUM"&gt;rad&lt;/gml:identifier&gt;
+                    &lt;gml:unitsSystem xlink:href=" https://www.ucum.org"/&gt;
+                &lt;/gml:BaseUnit&gt;
+            </code>
+        </pre>
+
+        <p>Note that the radian is not a base unit of the SI. The SI does not have any base unit for measuring plane angles; however, we can document the radian as a base unit as long as we specify that we are referring to the classification of units in UCUM through the &lt;gml:unitsSystem&gt; element.</p>
+
+        <p>The &lt;gml:identifier&gt; element, along with its <i>codeSpace</i> attribute, allows us to reference the context in which the symbol or identifier of the unit we are documenting makes sense (in this case, <i>s</i> or <i>rad</i>). Therefore, we will use <a target="_blank" href="https://www.bipm.org">https://www.bipm.org</a> to refer to SI units and <a target="_blank" href="https://www.ucum.org">https://www.ucum.org</a> to refer to UCUM units.</p>
+    </li>
+</ul>
+<h3>2.2. Conventional Units</h3>
+<ul>
+    <li><b>2.2.1. Encoding hours (<i>h</i>):</b>
+        <pre>
+            <code>  
+                &lt;gml:ConventionalUnit gml:id="ConventionalUnit_1"&gt;
+                    &lt;gml:identifier codeSpace="urn:ogc:def:uom:UCUM"&gt;h&lt;/gml:identifier&gt;
+                    &lt;gml:conversionToPreferredUnit uom="s, https://ucum.org/ucum"&gt;
+                        &lt;gml:factor&gt;3600&lt;/gml:factor&gt;
+                    &lt;/gml:conversionToPreferredUnit&gt;
+                &lt;/gml:ConventionalUnit&gt;
+            </code>
+        </pre>
+
+
+    <p>Just as we saw in the case of base units, the &lt;gml:identifier&gt; element with its <i>codeSpace</i> attribute allows us to reference the context in which the symbol or identifier of the unit we are documenting makes sense.</p>
+
+    <p>With the &lt;gml:conversionToPreferredUnit&gt; element, we define the conversion factor to apply to convert the conventional unit we want to document to a preferred unit (in this case, minutes: 1 h = 3600 s). When the conversion is not exact, we shall use the &lt;gml:roughConversionToPreferredUnit&gt; element. The <i>uom</i> attribute is of type UomIdentifier and is formed following the structure (UomSymbol, UomUri), in accordance with gml/units.xsd.</p>
+
+    <p>Ideally, the reference should be towards a base unit of the unit system. However, in practice, this can be quite complicated. Imagine if we wanted to document kPa: we would need a factor of 1000 to convert to Pa. Additionally, since Pa is not a base unit, we would need to convert to N/m². As N is also not a base unit, we would need to convert to kg·m/s². So, 1 kPa is actually 1000(kg·m/s²)/m². How would we document this? It's not impossible, but it's quite convoluted. Therefore, our interpretation is that this <i>uom</i> should actually be a reference to a unit already defined elsewhere.</p>
+
+    <p>In the provided example, minutes are not base units of the UCUM, but their conversion to seconds (which is a base unit) is clearly defined and can be found through the <i>UomIdentifier</i>. In other words, the previous example could have been documented in the following way because minutes are already described in the list of units defined by UCUM:</p>
+
+        <pre>
+            <code> 
+                &lt;gml:ConventionalUnit gml:id="ConventionalUnit_1"&gt;
+                    &lt;gml:identifier codeSpace="urn:ogc:def:uom:UCUM"&gt;h&lt;/gml:identifier&gt;
+                    &lt;gml:conversionToPreferredUnit uom="min, https://ucum.org/ucum"&gt;
+                        &lt;gml:factor&gt;60&lt;/gml:factor&gt;
+                    &lt;/gml:conversionToPreferredUnit&gt;
+                &lt;/gml:ConventionalUnit&gt;
+            </code>
+        </pre>
+
+    <p>Here is an example where they refer to other units defined within the same document, which we believe is in line with what we are proposing: <a target="_blank" href="https://schemas.isotc211.org/schemas/19139/-/resources/uom/gmxUom.xml">https://schemas.isotc211.org/schemas/19139/-/resources/uom/gmxUom.xml</a>.</p>
+    </li>
+    <li><b>2.2.2. Encoding Celsius:</b>
+
+        <pre>
+            <code>
+                &lt;gml:ConventionalUnit gml:id="ConventionalUnit_2"&gt;
+                    &lt;gml:identifier codeSpace="urn:ogc:def:uom:UCUM"&gt;°C&lt;/gml:identifier&gt;
+                    &lt;gml:conversionToPreferredUnit uom="K, https://ucum.org/ucum"&gt;
+                        &lt;gml:formula&gt;°C-273.15&lt;/gml:formula&gt;
+                    &lt;/gml:conversionToPreferredUnit&gt;
+                &lt;/gml:ConventionalUnit&gt;
+            </code>    
+        </pre>
+
+    <p>In this case, as Celsius degrees are not a base unit and their conversion to Kelvin is not based on a multiplicative factor, we use the &lt;gml:formula&gt; element to document the formula that allows for the corresponding conversion.</p>
+
+    <p>Note: The factor and formula are mutually exclusive elements, meaning we document one or the other, but not both simultaneously. This makes sense because any factor can be incorporated into the formula itself.</p>
+    </li>
+    <li><b>2.2.3. Encoding litres (<i>l</i>):</b>
+        <pre>
+            <code>
+                &lt;gml:ConventionalUnit gml:id="ConventionalUnit_3"&gt;
+                    &lt;gml:identifier codeSpace="urn:ogc:def:uom:UCUM"&gt;l&lt;/gml:identifier&gt;
+                    &lt;gml:conversionToPreferredUnit uom="m, https://ucum.org/ucum"&gt;
+                        &lt;gml:factor&gt;0.001&lt;/gml:factor&gt;
+                    &lt;/gml:conversionToPreferredUnit&gt;
+                    &lt;gml:derivationUnitTerm uom="m,https://www.bipm.org" exponent="3"/&gt;
+                &lt;/gml:ConventionalUnit&gt;
+            </code>
+        </pre>
+
+    <p>Here we have that 1 liter (1 l) is equal to 1 cubic decimeter (1 dm³). As dm³ is not a base unit, we will use meters (m). To indicate that it is in m³, we use the &lt;gml:derivationUnitTerm&gt; element, where we have the exponent attribute, which is always an integer indicating the exponent to which the unit documented is raised in the <i>uom</i> attribute (as seen in previous examples). Thus, what we are saying here is that 1 liter is equal to 0.001 m³.</p>
+    </li>
+    <li><b>2.2.4. Encoding pH:</b>
+        <pre>
+            <code>
+                &lt;gml:ConventionalUnit gml:id="ConventionalUnit_4"&gt;
+                    &lt;gml:identifier codeSpace="urn:ogc:def:uom:UCUM"&gt;pH&lt;/gml:identifier&gt;
+                    &lt;gml:conversionToPreferredUnit uom="mol/l, https://ucum.org/ucum"&gt;
+                        &lt;gml:formula&gt; 10^-pH &lt;/gml:formula&gt;
+                    &lt;/gml:conversionToPreferredUnit&gt;
+                    &lt;gml:derivationUnitTerm uom="mol, https://ucum.org/ucum " exponent="1"/&gt;
+                    &lt;gml:derivationUnitTerm uom="l, https://ucum.org/ucum " exponent="-1"/&gt;
+                &lt;/gml:ConventionalUnit&gt;
+            </code>
+        </pre>
+    
+    <p>In this case, the pH is defined as (- log X), where X is a concentration expressed in mol/l. Therefore, we need to document a conversion formula using the &lt;gml:formula&gt; element, and we need to document the two derived terms that form the preferred unit using the &lt;gml:derivationUnitTerm&gt; elements.</p>
+    </li>
+</ul>
+<h3>2.3. Derived Units</h3>
+<ul>
+    <li><b>2.3.1. Encoding Hertz (<i>Hz</i>):</b>
+        <pre>
+            <code>
+                &lt;gml:DerivedUnit gml:id="DerivedUnit_1"&gt;
+                    &lt;gml:identifier codeSpace="urn:ogc:def:uom:UCUM"&gt;Hz&lt;/gml:identifier&gt;
+                    &lt;gml:derivationUnitTerm uom="s,https://www.bipm.org" exponent="-1"/&gt;
+                &lt;/gml:DerivedUnit&gt;
+            </code>
+        </pre>
+
+    <p>In this case, besides the identifier of the unit that we have seen in the previous examples, we need to indicate from which known units the measurement we are documenting is derived. We do this through the &lt;gml:derivationUnitTerm&gt; element where we specify, as we have seen in conventional units, the <i>uom</i> and the corresponding exponent.</p>
+    </li>
+    <li><b>2.3.2. Encoding Newtons (<i>N</i>):</b>
+        <pre>
+            <code>
+                &lt;gml:DerivedUnit gml:id="DerivedUnit_2"&gt;
+                    &lt;gml:identifier codeSpace="urn:ogc:def:uom:UCUM"&gt;N&lt;/gml:identifier&gt;
+                    &lt;gml:derivationUnitTerm uom="kg,https://www.bipm.org" exponent="1"/&gt;
+                    &lt;gml:derivationUnitTerm uom="m,https://www.bipm.org" exponent="1"/&gt;
+                    &lt;gml:derivationUnitTerm uom="s,https://www.bipm.org" exponent="-2"/&gt;
+                &lt;/gml:DerivedUnit&gt;
+            </code>
+        </pre>
+
+    <p>In this case, since the Newton is a combination of three different units, we need to list three &lt;gml:derivationUnitTerm&gt; elements with their respective <i>uom</i> and exponents.</p>
+    </li>
+    <li><b>2.3.3. Encoding parts per million (<i>ppm</i>):</b>
+        <pre>
+            <code>
+                &lt;gml:DerivedUnit gml:id="DerivedUnit_3"&gt;
+                    &lt;gml:identifier codeSpace="urn:ogc:def:uom:UCUM"&gt;ppm&lt;/gml:identifier&gt;
+                    &lt;gml:derivationUnitTerm uom="1" exponent="-6"/&gt;
+                &lt;/gml:DerivedUnit&gt;
+            </code>
+        </pre>
+
+    <p>Dimensionless units, such as percentages, parts per million, etc., appear in UCUM as derived units, and therefore, they would be documented following the previous example. Nevertheless, if documented as conventional units, the result would not be significantly different.</p>
+    </li>
+</ul>
+
+
+</body>
+</html>

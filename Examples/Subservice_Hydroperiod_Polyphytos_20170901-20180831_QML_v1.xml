@@ -899,7 +899,7 @@ ContentDate=20170901;20170906;20170916;20171006;20171021;20171205;20171220;20171
 					<gmd:result>
 						<gmd:DQ_QuantitativeResult>
 							<gmd:valueType>
-								<gco:RecordType>Integer (max=366)</gco:RecordType>
+								<gco:RecordType>Integer</gco:RecordType>
 							</gmd:valueType>
 							<gmd:valueUnit>
 								<gml:ConventionalUnit gml:id="ConventionalUnit1">
@@ -910,7 +910,7 @@ ContentDate=20170901;20170906;20170916;20171006;20171021;20171205;20171220;20171
 								</gml:ConventionalUnit>
 							</gmd:valueUnit>
 							<gmd:errorStatistic>
-								<gco:CharacterString>https://www.qualityml.org/1.0/metrics/items</gco:CharacterString>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/Items?subtype=count&amp;max=100">Items, count (max=366)</gmx:Anchor>							
 							</gmd:errorStatistic>
 							<gmd:value>
 								<gco:Record>22</gco:Record>
@@ -942,7 +942,7 @@ ContentDate=20170901;20170906;20170916;20171006;20171021;20171205;20171220;20171
 								</gml:ConventionalUnit>
 							</gmd:valueUnit>
 							<gmd:errorStatistic>
-								<gco:CharacterString>https://www.qualityml.org/1.0/metrics/MeanAbsolute</gco:CharacterString>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/MeanAbsolute">Mean Absolute</gmx:Anchor>
 							</gmd:errorStatistic>
 							<gmd:value>
 								<gco:Record>18.3</gco:Record>
@@ -974,7 +974,7 @@ ContentDate=20170901;20170906;20170916;20171006;20171021;20171205;20171220;20171
 								</gml:ConventionalUnit>
 							</gmd:valueUnit>
 							<gmd:errorStatistic>
-								<gco:CharacterString>https://www.qualityml.org/1.0/metrics/StandardDeviation</gco:CharacterString>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/StandardDeviation">Standard deviation</gmx:Anchor>
 							</gmd:errorStatistic>
 							<gmd:value>
 								<gco:Record>6.24</gco:Record>
@@ -1100,11 +1100,11 @@ ContentDate=20170901;20170906;20170916;20171006;20171021;20171205;20171220;20171
 					<gmd:result>
 						<gmd:DQ_QuantitativeResult>
 							<gmd:valueType>
-								<gco:RecordType>Double precision real (max=100)</gco:RecordType>
+								<gco:RecordType>Double precision real</gco:RecordType>
 							</gmd:valueType>
 							<gmd:valueUnit/>
 							<gmd:errorStatistic>
-								<gco:CharacterString>https://www.qualityml.org/1.0/metrics/OverallAccuracy</gco:CharacterString>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/OverallAccuracy?max=100">Overall Accuracy (max=100)</gmx:Anchor>
 							</gmd:errorStatistic>
 							<gmd:value>
 								<gco:Record>0.98</gco:Record>
@@ -1132,7 +1132,7 @@ ContentDate=20170901;20170906;20170916;20171006;20171021;20171205;20171220;20171
 							</gmd:valueType>
 							<gmd:valueUnit/>
 							<gmd:errorStatistic>
-								<gco:CharacterString>https://www.qualityml.org/1.0/metrics/KappaCoefficient</gco:CharacterString>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/KappaCoefficient?max=100">Kappa Coefficient (max=100)</gmx:Anchor>
 							</gmd:errorStatistic>
 							<gmd:value>
 								<gco:Record>0.97</gco:Record>
@@ -1156,11 +1156,11 @@ ContentDate=20170901;20170906;20170916;20171006;20171021;20171205;20171220;20171
 					<gmd:result>
 						<gmd:DQ_QuantitativeResult>
 							<gmd:valueType>
-								<gco:RecordType>Double precision real (max=100)</gco:RecordType>
+								<gco:RecordType>Double precision real</gco:RecordType>
 							</gmd:valueType>
 							<gmd:valueUnit/>
 							<gmd:errorStatistic>
-								<gco:CharacterString>https://www.qualityml.org/1.0/metrics/OmissionError</gco:CharacterString>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/OmissionError?max=100">Omission Error (max=100)</gmx:Anchor>
 							</gmd:errorStatistic>
 							<gmd:value>
 								<gco:Record>2.47</gco:Record>
@@ -1184,11 +1184,11 @@ ContentDate=20170901;20170906;20170916;20171006;20171021;20171205;20171220;20171
 					<gmd:result>
 						<gmd:DQ_QuantitativeResult>
 							<gmd:valueType>
-								<gco:RecordType>Double precision real (max=100)</gco:RecordType>
+								<gco:RecordType>Double precision real</gco:RecordType>
 							</gmd:valueType>
 							<gmd:valueUnit/>
 							<gmd:errorStatistic>
-								<gco:CharacterString>https://www.qualityml.org/1.0/metrics/CommissionError</gco:CharacterString>
+								<gmx:Anchor>https://www.qualityml.org/1.0/metrics/CommissionError?max=100">Commission Error (max=100)</gmx:Anchor>
 							</gmd:errorStatistic>
 							<gmd:value>
 								<gco:Record>1</gco:Record>

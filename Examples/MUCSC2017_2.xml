@@ -704,7 +704,7 @@
 							</gmd:valueType>
 							<gmd:valueUnit xlink:href="https://www.isotc211.org/2005/resources/uom/ML_gmxUom.xml#m"/>
 							<gmd:errorStatistic>
-								<gco:CharacterString>https://www.qualityml.org/1.0/metrics/RootMeanSquareError2D</gco:CharacterString>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/RootMeanSquareError2D">Root Mean Square Error 2D</gmx:Anchor>
 							</gmd:errorStatistic>
 							<gmd:value>
 								<gco:Record>3.7747</gco:Record>
@@ -735,7 +735,7 @@
 							</gmd:valueType>
 							<gmd:valueUnit xlink:href="https://www.isotc211.org/2005/resources/uom/ML_gmxUom.xml#m"/>
 							<gmd:errorStatistic>
-								<gco:CharacterString>https://www.qualityml.org/1.0/metrics/RootMeanSquareError</gco:CharacterString>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/RootMeanSquareError">Root Mean Square Error</gmx:Anchor>
 							</gmd:errorStatistic>
 							<gmd:value>
 								<gco:Record>5.6887</gco:Record>
@@ -766,7 +766,7 @@
 							</gmd:valueType>
 							<gmd:valueUnit xlink:href="https://www.isotc211.org/2005/resources/uom/ML_gmxUom.xml#m"/>
 							<gmd:errorStatistic>
-								<gco:CharacterString>https://www.qualityml.org/1.0/metrics/RootMeanSquareError</gco:CharacterString>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/RootMeanSquareError">Root Mean Square Error</gmx:Anchor>
 							</gmd:errorStatistic>
 							<gmd:value>
 								<gco:Record>3.8078</gco:Record>
@@ -816,11 +816,11 @@
 					<gmd:result>
 						<gmd:DQ_QuantitativeResult>
 							<gmd:valueType>
-								<gco:RecordType>Double precision real (max=100)</gco:RecordType>
+								<gco:RecordType>Double precision real</gco:RecordType>
 							</gmd:valueType>
 							<gmd:valueUnit/>
 							<gmd:errorStatistic>
-								<gco:CharacterString>https://www.qualityml.org/1.0/metrics/OverallAccuracy</gco:CharacterString>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/OverallAccuracy?max=100">Overall Accuracy (max=100)</gmx:Anchor>
 							</gmd:errorStatistic>
 							<gmd:value>
 								<gco:Record>98.66</gco:Record>
@@ -847,11 +847,11 @@
 					<gmd:result>
 						<gmd:DQ_QuantitativeResult>
 							<gmd:valueType>
-								<gco:RecordType>Double precision real (max=100)</gco:RecordType>
+								<gco:RecordType>Double precision real</gco:RecordType>
 							</gmd:valueType>
 							<gmd:valueUnit/>
 							<gmd:errorStatistic>
-								<gco:CharacterString>https://www.qualityml.org/1.0/metrics/OverallAccuracy</gco:CharacterString>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/OverallAccuracy?max=100">Overall Accuracy (max=100)</gmx:Anchor>
 							</gmd:errorStatistic>
 							<gmd:value>
 								<gco:Record>98.55</gco:Record>
@@ -878,11 +878,11 @@
 					<gmd:result>
 						<gmd:DQ_QuantitativeResult>
 							<gmd:valueType>
-								<gco:RecordType>Double precision real (max=100)</gco:RecordType>
+								<gco:RecordType>Double precision real</gco:RecordType>
 							</gmd:valueType>
 							<gmd:valueUnit/>
 							<gmd:errorStatistic>
-								<gco:CharacterString>https://www.qualityml.org/1.0/metrics/OverallAccuracy</gco:CharacterString>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/OverallAccuracy?max=100">Overall Accuracy (max=100)</gmx:Anchor>
 							</gmd:errorStatistic>
 							<gmd:value>
 								<gco:Record>96.69</gco:Record>
@@ -909,11 +909,11 @@
 					<gmd:result>
 						<gmd:DQ_QuantitativeResult>
 							<gmd:valueType>
-								<gco:RecordType>Double precision real (max=100)</gco:RecordType>
+								<gco:RecordType>Double precision real</gco:RecordType>
 							</gmd:valueType>
 							<gmd:valueUnit/>
 							<gmd:errorStatistic>
-								<gco:CharacterString>https://www.qualityml.org/1.0/metrics/OverallAccuracy</gco:CharacterString>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/OverallAccuracy?max=100">Overall Accuracy (max=100)</gmx:Anchor>
 							</gmd:errorStatistic>
 							<gmd:value>
 								<gco:Record>98.13</gco:Record>
@@ -940,11 +940,11 @@
 					<gmd:result>
 						<gmd:DQ_QuantitativeResult>
 							<gmd:valueType>
-								<gco:RecordType>Double precision real (max=100)</gco:RecordType>
+								<gco:RecordType>Double precision real</gco:RecordType>
 							</gmd:valueType>
 							<gmd:valueUnit/>
 							<gmd:errorStatistic>
-								<gco:CharacterString>https://www.qualityml.org/1.0/metrics/OverallAccuracy</gco:CharacterString>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/OverallAccuracy?max=100">Overall Accuracy (max=100)</gmx:Anchor>
 							</gmd:errorStatistic>
 							<gmd:value>
 								<gco:Record>98.12</gco:Record>
@@ -971,11 +971,11 @@
 					<gmd:result>
 						<gmd:DQ_QuantitativeResult>
 							<gmd:valueType>
-								<gco:RecordType>Double precision real (max=100)</gco:RecordType>
+								<gco:RecordType>Double precision real</gco:RecordType>
 							</gmd:valueType>
 							<gmd:valueUnit/>
 							<gmd:errorStatistic>
-								<gco:CharacterString>https://www.qualityml.org/1.0/metrics/OverallAccuracy</gco:CharacterString>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/OverallAccuracy?max=100">Overall Accuracy (max=100)</gmx:Anchor>
 							</gmd:errorStatistic>
 							<gmd:value>
 								<gco:Record>98.12</gco:Record>
