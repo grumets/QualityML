@@ -910,7 +910,7 @@ ContentDate=20170901;20170906;20170916;20171006;20171021;20171205;20171220;20171
 								</gml:ConventionalUnit>
 							</gmd:valueUnit>
 							<gmd:errorStatistic>
-								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/Items?subtype=count&amp;max=100">Items, count (max=366)</gmx:Anchor>							
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/Items?subtype=count&amp;max=100">Items</gmx:Anchor>							
 							</gmd:errorStatistic>
 							<gmd:value>
 								<gco:Record>22</gco:Record>
@@ -1104,7 +1104,7 @@ ContentDate=20170901;20170906;20170916;20171006;20171021;20171205;20171220;20171
 							</gmd:valueType>
 							<gmd:valueUnit/>
 							<gmd:errorStatistic>
-								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/OverallAccuracy?max=100">Overall Accuracy (max=100)</gmx:Anchor>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/OverallAccuracy?max=100">Overall Accuracy</gmx:Anchor>
 							</gmd:errorStatistic>
 							<gmd:value>
 								<gco:Record>0.98</gco:Record>
@@ -1132,7 +1132,7 @@ ContentDate=20170901;20170906;20170916;20171006;20171021;20171205;20171220;20171
 							</gmd:valueType>
 							<gmd:valueUnit/>
 							<gmd:errorStatistic>
-								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/KappaCoefficient?max=100">Kappa Coefficient (max=100)</gmx:Anchor>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/KappaCoefficient?max=100">Kappa Coefficient</gmx:Anchor>
 							</gmd:errorStatistic>
 							<gmd:value>
 								<gco:Record>0.97</gco:Record>
@@ -1160,7 +1160,7 @@ ContentDate=20170901;20170906;20170916;20171006;20171021;20171205;20171220;20171
 							</gmd:valueType>
 							<gmd:valueUnit/>
 							<gmd:errorStatistic>
-								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/OmissionError?max=100">Omission Error (max=100)</gmx:Anchor>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/OmissionError?max=100">Omission Error</gmx:Anchor>
 							</gmd:errorStatistic>
 							<gmd:value>
 								<gco:Record>2.47</gco:Record>
@@ -1188,7 +1188,7 @@ ContentDate=20170901;20170906;20170916;20171006;20171021;20171205;20171220;20171
 							</gmd:valueType>
 							<gmd:valueUnit/>
 							<gmd:errorStatistic>
-								<gmx:Anchor>https://www.qualityml.org/1.0/metrics/CommissionError?max=100">Commission Error (max=100)</gmx:Anchor>
+								<gmx:Anchor>https://www.qualityml.org/1.0/metrics/CommissionError?max=100">Commission Error</gmx:Anchor>
 							</gmd:errorStatistic>
 							<gmd:value>
 								<gco:Record>1</gco:Record>
