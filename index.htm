@@ -52,6 +52,8 @@
 <p>
 <b>All relative URIs in this page refer to <a href="http://www.qualityml.org/1.0/">http://www.qualityml.org/1.0/</a></b>
 
+<p>The research leading to these results has been carried out in several projects that have received funding from the European Union: GeoViQua (Seventh Framework Programme, grant agreement no. 265178), WQeMS  (Horizon 2020, grant agreement no. 101004157), EIFFEL (Horizon 2020, grant agreement no. 101003518) and CitiObs (Horizon Europe, grant agreement no. 101086421).</p>
+
 <a name="element"></a>
 <h2>Generic quality element</h2>
 <p>A Quality element is a combination of a <i>quality class</i>, a <i>quality indicator</i>, a <i>quality domain</i>, a <i>quality metric</i> (which include a metrics <i>name</i>, metrics <i>description</i>, metrics <i>parameters</i>, its <i>values</i> and <i>units of measure</i>). The combination of a quality domain and a quality metrics are commonly known as <i>quality measures</i>. We suggest 2 ways to map the QualityML concepts to ISO 19139 and ISO 19115-3. The first way makes a simple use of the ISO values keeping the structure of <i>Record</i> as simple as possible. The second one extends <i>Record</i> using QualityML XML schemas to allow a more structured encoding: </p>
@@ -218,7 +220,7 @@ The section about <a href="#xmlencoding">XML encodings</a> provides some example
 <a name="classes"></a>
 
 <h2>Quality classes</h2>
-<p>The <i>ISO 19157:2013 Geographic information - Data quality</i> defines 7 data quality elements (or classes) describing a certain aspect of the quality of geographic data in which quality elements can be classified. In 2022, we added a new class called "certainly" that is applicable to decision ready information. This class provide simple indicators for decision makers in an standardized language and it is inspired by the IPCC</p>
+<p>The <i>ISO 19157:2013 Geographic information - Data quality</i> defines 7 data quality elements (or classes) describing a certain aspect of the quality of geographic data in which quality elements can be classified. In 2022, we added a new class called "certainty" that is applicable to decision ready information. This class provide simple indicators for decision makers in an standardized language and it is inspired by the IPCC</p>
 
 <table border="1" id='taula_classes'>
 </table>
@@ -640,7 +642,7 @@ LAYERS=TemperatureConfidenceInterval&amp;STYLES=</gmd:URL>
                 <gmd:result>
                   <gmd:DQ_QuantitativeResult>
                      <gmd:valueType>
-                        <gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/metrics/Half-lengthConfidenceInterval">
+                        <gco:RecordType xlink:href="http://www.qualityml.org/1.0/metrics/Half-lengthConfidenceInterval">
                            Half-length Confidence Interval
                         </gco:RecordType>
                      </gmd:valueType>
@@ -663,9 +665,6 @@ LAYERS=TemperatureConfidenceInterval&amp;STYLES=</gmd:URL>
 
 <p align="center"><a href="index.htm#Principi"><img alt="Tornar" height="23" src="ArrowUp.jpg" width="23"/></a><br/>
 <i>Back to top of page</i></p>
-
-<hr>
-<p>The research leading to these results has been carried out in the GeoViQua project that has received funding from the European Union Seventh Framework Programme (FP7/2010-2013) under grant agreement no. 265178    </p>
 
 </div>
 </div><!-- /.container -->

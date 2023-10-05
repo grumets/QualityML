@@ -3613,11 +3613,22 @@
 			"alternativeName": null,
 			"desc":
 			{
-				"eng": "The coefficient of correlation is commonly represented by the letter r<sup>2</sup> and may be referred to as the square of the sample correlation coefficient or the square of the sample Pearson correlation coefficient. We can obtain a formula for r<sup>2</sup> by substituting estimates of the covariances and  variances based on a sample into the formula. The expression for r<sup>2</sup> is:<br/><br/><img src='CoefficentCorrelation.PNG' width='354' height='71' />",
-				"cat": "El coeficient de correlació es representa habitualment per la lletra r<sup>2</sup> i es pot denominar el quadrat del coeficient de correlació de la mostra o el quadrat del coeficient de correlació de Pearson de la mostra. Podem obtenir una fórmula per a r <sup>2</sup> substituint les estimacions de les covariàncies i les variàncies basades en una mostra a la fórmula. L'expressió de r<sup>2</sup> és:<br/><br/><img src='CoefficientCorrelation.PNG' width='354' height='71' />",
-				"spa": "El coeficiente de correlación se representa habitualmente por la letra r<sup>2</sup> y puede denominarse el cuadrado del coeficiente de correlación de la muestra o el cuadrado del coeficiente de correlación de Pearson de la muestra. Podemos obtener una fórmula para r <sup>2</sup> sustituyendo las estimaciones de las covariancias y las varianzas basadas en una muestra en la fórmula. <img src='CoefficientCorrelation.PNG' width='354' height='71' />"
+				"eng": "The coefficient of determination is the proportion of the variation in the dependent variable that is predictable from an independent variable. Is commonly represented by the letter r<sup>2</sup> and may be referred to as the square of the sample correlation coefficient or the square of the sample Pearson correlation coefficient. We can obtain a formula for r<sup>2</sup> by substituting estimates of the covariances and  variances based on a sample into the formula. The expression for r<sup>2</sup> is:<br/><br/><img src='CoefficentCorrelation.PNG' width='354' height='71' />",
+				"cat": "El coeficient de correlació és la proporció de la variació en una variable dependent que és explicable per una variable independent. Es representa habitualment per la lletra r<sup>2</sup> i es pot denominar el quadrat del coeficient de correlació de la mostra o el quadrat del coeficient de correlació de Pearson de la mostra. Podem obtenir una fórmula per a r <sup>2</sup> substituint les estimacions de les covariàncies i les variàncies basades en una mostra a la fórmula. L'expressió de r<sup>2</sup> és:<br/><br/><img src='CoefficientCorrelation.PNG' width='354' height='71' />",
+				"spa": "El coeficiente de correlación es la proporción de la variación en una variable dependiente que es explicable por una variable independiente. Se representa habitualmente por la letra r<sup>2</sup> y puede denominarse el cuadrado del coeficiente de correlación de la muestra o el cuadrado del coeficiente de correlación de Pearson de la muestra. Podemos obtener una fórmula para r <sup>2</sup> sustituyendo las estimaciones de las covariancias y las varianzas basadas en una muestra en la fórmula. <img src='CoefficientCorrelation.PNG' width='354' height='71' />"
 			},
-			"parameter": null,
+			"parameter":
+			[
+				{
+					"id": "max",
+					"desc":
+					{
+						"eng": "maximum value (e.g. 100 to indicate percentages)",
+						"cat": "valor màxim (e.g. 100 per indicar percentatges)",
+						"spa": "valor máximo (e.g. 100 para indicar porcentajes)"
+					}
+				}	
+			],
 			"source": "GeoViQua",
 			"classes":
 			[
@@ -3653,11 +3664,22 @@
 			],
 			"desc":
 			{
-				"eng": "The coefficient of determination is commonly represented by the letter R<sup>2</sup>. A data set has n observed values marked <i>y<sub>1</sub>,...,y<sub>n</sub></i>, each associated with a fitted (or modeled, or predicted) value <i>f<sub>1</sub>,...,f<sub>n</sub></i>. The difference between <i>y<sub>i</sub>−f<sub>i</sub></i> is sometimes refered as residuals (<i>e<sub>i</sub></i>).The mean of the observed values is:<br/><img src='CoefficentDeterminationMean.PNG' width='128' height='69' /><br/><br/>The expression for R<sup>2</sup> is:<br/><br/><img src='CoefficentDetermination.PNG' width='298' height='86' /><br/><br/>In the situation of a perfect fit (or model, or predict) with an estimation error variance equal to zero, the resulting R<sup>2</sup> equals 1 (NSE = 1). Conversely, a fit (or model, or predict) that produces an estimation error variance equal to the variance of the observed values results in a R<sup>2</sup>of 0 (NSE = 0). In reality, R<sup>2</sup> = 0 indicates that the fit (or model, or predict) has the same predictive skill as the mean of the observed values in terms of the sum of the squared error. In the case of a fitted (or modeled, or predicted) values with an estimation error variance that is significantly larger than the variance of the observations, the R<sup>2</sup> becomes negative. R<sup>2</sup> < 0 occurs when the observed mean is a better predictor than the fit (or model, or predict). Values of the R<sup>2</sup> nearer to 1, suggest a fit (or model, or predict) with more predictive skill.",
-				"cat": "El coeficient de determinació es representa habitualment per la lletra R<sup>2</sup>. Un conjunt de dades té n valors observats marcats amb <i>y<sub>1</sub>,...,y<sub> n</sub></i>, cadascun associat a un valor ajustat (o modelat o predit) <i>f<sub>1</sub>,...,f<sub>n</sub>< /i>. La diferència entre <i>y<sub>i</sub>−f<sub>i</sub></i> de vegades es coneix com a residus (<i>e<sub>i</sub> ></i>).La mitjana dels valors observats és:<br/><img src='CoefficientDeterminationMean.PNG' width='128' height='69' /><br/><br/>L'expressió per a R<sup>2</sup> és:<br/><br/><img src='CoefficientDetermination.PNG' width='298' height='86' /><br/><br/>En la situació d'un ajustament perfecte (o model, o predicció) amb una variància d'error d'estimació igual a zero, el R<sup>2</sup> resultant és igual a 1 (NSE = 1). Per contra, un ajustament (o model, o predict) que produeix una variància d'error d'estimació igual a la variància dels valors observats dóna com a resultat un R<sup>2</sup>de 0 (NSE = 0). En realitat, R<sup>2</sup> = 0 indica que la f aquest (o modelar, o predir) té la mateixa habilitat predictiva que la mitjana dels valors observats en termes de la suma de l'error quadrat. En el cas d'un valor ajustat (o modelat o predit) amb una variància d'error d'estimació que és significativament més gran que la variància de les observacions, l'R<sup>2</sup> esdevé negatiu. R<sup>2</sup> < 0 es produeix quan la mitjana observada és un millor predictor que l'ajust (o model, o predir). Els valors de R<sup>2</sup> més propers a 1 suggereixen un ajust (o modelar o predir) amb més habilitat predictiva.",
-				"spa": "El coeficiente de determinación se representa habitualmente por la letra R<sup>2</sup>. Un conjunto de datos tiene n valores observados marcados con <i>y<sub>1</sub>,...,y< sub> n</sub></i>, cada uno asociado a un valor ajustado (o moldeado o predicho) <i>f<sub>1</sub>,...,f<sub>n</sub> < /i> La diferencia entre <i>y<sub>y</sub>−f<sub>i</sub></i> a veces se conoce como residuos (<i>e<sub>i </sub> ></i>).La media de los valores observados es:<br/><img src='CoefficientDeterminationMean.PNG' width='128' height='69' /><br/><br/ >La expresión para R<sup>2</sup> es:<br/><br/><img src='CoefficientDetermination.PNG' width='298' height='86' /><br/> <br/>En la situación de un ajuste perfecto (o modelo, o predicción) con una varianza de error de estimación igual a cero, el R<sup>2</sup> resultante es igual a 1 (NSE = 1) Por el contrario, un ajuste (o modelo, o predicto) que produce una varianza de error de estimación igual a la varianza de los valores observados da como resultado un R<sup>2</sup>de 0 (NSE = 0). dad, R<sup>2</sup> = 0 indica que la f este (o moldear, o predecir) tiene la misma habilidad predictiva que la media de los valores observados en términos de la suma del error cuadrado. En el caso de un valor ajustado (o moldeado o predicho) con una varianza de error de estimación que es significativamente mayor que la varianza de las observaciones, el R<sup>2</sup> resulta negativo. R<sup>2</sup> < 0 se produce cuando la media observada es un mejor predictor que el ajuste (o modelo, o predecir). Los valores de R<sup>2</sup> más cercanos a 1 sugieren un ajuste (o moldear o predecir) con mayor habilidad predictiva."
+				"eng": "The coefficient of determination is commonly represented by the letter R<sup>2</sup>. A data set has n observed values marked <i>y<sub>1</sub>,...,y<sub>n</sub></i>, each associated with a fitted (or modeled, or predicted) value <i>f<sub>1</sub>,...,f<sub>n</sub></i>. The difference between <i>y<sub>i</sub>−f<sub>i</sub></i> is sometimes refered as residuals (<i>e<sub>i</sub></i>).The mean of the observed values is:<br/><img src='CoefficentDeterminationMean.PNG' width='128' height='69' /><br/><br/>The expression for R<sup>2</sup> is:<br/><br/><img src='CoefficentDetermination.PNG' width='298' height='86' /><br/><br/>In the situation of a perfect fit (or model, or predict) with an estimation error variance equal to zero, the resulting R<sup>2</sup> equals 1 (NSE = 1). Conversely, a fit (or model, or predict) that produces an estimation error variance equal to the variance of the observed values results in a R<sup>2</sup> of 0 (NSE = 0). In reality, R<sup>2</sup> = 0 indicates that the fit (or model, or predict) has the same predictive skill as the mean of the observed values in terms of the sum of the squared error. In the case of a fitted (or modeled, or predicted) values with an estimation error variance that is significantly larger than the variance of the observations, the R<sup>2</sup> becomes negative. R<sup>2</sup> < 0 occurs when the observed mean is a better predictor than the fit (or model, or predict). Values of the R<sup>2</sup> nearer to 1, suggest a fit (or model, or predict) with more predictive skill. It is usual to express it as a percentatge.",
+				"cat": "El coeficient de determinació es representa habitualment per la lletra R<sup>2</sup>. Un conjunt de dades té n valors observats marcats amb <i>y<sub>1</sub>,...,y<sub> n</sub></i>, cadascun associat a un valor ajustat (o modelat o predit) <i>f<sub>1</sub>,...,f<sub>n</sub>< /i>. La diferència entre <i>y<sub>i</sub>−f<sub>i</sub></i> de vegades es coneix com a residus (<i>e<sub>i</sub> ></i>).La mitjana dels valors observats és:<br/><img src='CoefficientDeterminationMean.PNG' width='128' height='69' /><br/><br/>L'expressió per a R<sup>2</sup> és:<br/><br/><img src='CoefficientDetermination.PNG' width='298' height='86' /><br/><br/>En la situació d'un ajustament perfecte (o model, o predicció) amb una variància d'error d'estimació igual a zero, el R<sup>2</sup> resultant és igual a 1 (NSE = 1). Per contra, un ajustament (o model, o predict) que produeix una variància d'error d'estimació igual a la variància dels valors observats dóna com a resultat un R<sup>2</sup> de 0 (NSE = 0). En realitat, R<sup>2</sup> = 0 indica que la f aquest (o modelar, o predir) té la mateixa habilitat predictiva que la mitjana dels valors observats en termes de la suma de l'error quadrat. En el cas d'un valor ajustat (o modelat o predit) amb una variància d'error d'estimació que és significativament més gran que la variància de les observacions, l'R<sup>2</sup> esdevé negatiu. R<sup>2</sup> < 0 es produeix quan la mitjana observada és un millor predictor que l'ajust (o model, o predir). Els valors de R<sup>2</sup> més propers a 1 suggereixen un ajust (o modelar o predir) amb més habilitat predictiva. És habitual expressar-ho com un percentatge.",
+				"spa": "El coeficiente de determinación se representa habitualmente por la letra R<sup>2</sup>. Un conjunto de datos tiene n valores observados marcados con <i>y<sub>1</sub>,...,y< sub> n</sub></i>, cada uno asociado a un valor ajustado (o moldeado o predicho) <i>f<sub>1</sub>,...,f<sub>n</sub> < /i> La diferencia entre <i>y<sub>y</sub>−f<sub>i</sub></i> a veces se conoce como residuos (<i>e<sub>i </sub> ></i>).La media de los valores observados es:<br/><img src='CoefficientDeterminationMean.PNG' width='128' height='69' /><br/><br/ >La expresión para R<sup>2</sup> es:<br/><br/><img src='CoefficientDetermination.PNG' width='298' height='86' /><br/> <br/>En la situación de un ajuste perfecto (o modelo, o predicción) con una varianza de error de estimación igual a cero, el R<sup>2</sup> resultante es igual a 1 (NSE = 1) Por el contrario, un ajuste (o modelo, o predicto) que produce una varianza de error de estimación igual a la varianza de los valores observados da como resultado un R<sup>2</sup> de 0 (NSE = 0). dad, R<sup>2</sup> = 0 indica que la f este (o moldear, o predecir) tiene la misma habilidad predictiva que la media de los valores observados en términos de la suma del error cuadrado. En el caso de un valor ajustado (o moldeado o predicho) con una varianza de error de estimación que es significativamente mayor que la varianza de las observaciones, el R<sup>2</sup> resulta negativo. R<sup>2</sup> < 0 se produce cuando la media observada es un mejor predictor que el ajuste (o modelo, o predecir). Los valores de R<sup>2</sup> más cercanos a 1 sugieren un ajuste (o moldear o predecir) con mayor habilidad predictiva. Es habitual expresarlo como un porcentaje."
 			},
-			"parameter": null,
+			"parameter": 
+			[
+				{
+					"id": "max",
+					"desc":
+					{
+						"eng": "maximum value (e.g. 100 to indicate percentages)",
+						"cat": "valor màxim (e.g. 100 per indicar percentatges)",
+						"spa": "valor máximo (e.g. 100 para indicar porcentajes)"
+					}
+				}
+			],
 			"source": "GeoViQua",
 			"classes":
 			[
@@ -6988,7 +7010,7 @@
 			],
 			"domain_obs": null,
 			"metric": "Half-lengthConfidenceInterval",
-			"observations": "For the Half-lengthConfidenceInterval the common confidence intervals are: 50%, 68.3%, 90%, 95%, 99%, 99.8%",
+			"observations": "Common confidence intervals are: 50%, 68.3%, 90%, 95%, 99%, 99.8%",
 			"origin": "ISO 19157 Id. 68, Id. 69, Id. 70, Id. 71, Id. 72, Id. 73"
 		},
 		{
@@ -7003,7 +7025,7 @@
 			],
 			"domain_obs": null,
 			"metric": "correlation",
-			"observations": "For the Half-lengthConfidenceInterval the common confidence intervals are: 50%, 68.3%, 90%, 95%, 99%, 99.8%",
+			"observations": "Common confidence intervals are: 50%, 68.3%, 90%, 95%, 99%, 99.8%",
 			"origin": "ISO 19157 Id. 68, Id. 69, Id. 70, Id. 71, Id. 72, Id. 73"
 		},
 		{
@@ -7033,8 +7055,8 @@
 			],
 			"domain_obs": null,
 			"metric": "CoefficientOfCorrelation",
-			"observations": "For the Half-lengthConfidenceInterval the common confidence intervals are: 50%, 68.3%, 90%, 95%, 99%, 99.8%",
-			"origin": "ISO 19157 Id. 68, Id. 69, Id. 70, Id. 71, Id. 72, Id. 73"
+			"observations": null,
+			"origin": "GVQ"
 		},
 		{
 			"class": "DQ_ThematicAccuracy",
