@@ -820,7 +820,7 @@
 							</gmd:valueType>
 							<gmd:valueUnit/>
 							<gmd:errorStatistic>
-								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/OverallAccuracy?max=100">Overall Accuracy (max=100)</gmx:Anchor>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/OverallAccuracy?max=100">Overall Accuracy</gmx:Anchor>
 							</gmd:errorStatistic>
 							<gmd:value>
 								<gco:Record>98.66</gco:Record>
@@ -851,7 +851,7 @@
 							</gmd:valueType>
 							<gmd:valueUnit/>
 							<gmd:errorStatistic>
-								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/OverallAccuracy?max=100">Overall Accuracy (max=100)</gmx:Anchor>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/OverallAccuracy?max=100">Overall Accuracy</gmx:Anchor>
 							</gmd:errorStatistic>
 							<gmd:value>
 								<gco:Record>98.55</gco:Record>
@@ -882,7 +882,7 @@
 							</gmd:valueType>
 							<gmd:valueUnit/>
 							<gmd:errorStatistic>
-								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/OverallAccuracy?max=100">Overall Accuracy (max=100)</gmx:Anchor>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/OverallAccuracy?max=100">Overall Accuracy</gmx:Anchor>
 							</gmd:errorStatistic>
 							<gmd:value>
 								<gco:Record>96.69</gco:Record>
@@ -913,7 +913,7 @@
 							</gmd:valueType>
 							<gmd:valueUnit/>
 							<gmd:errorStatistic>
-								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/OverallAccuracy?max=100">Overall Accuracy (max=100)</gmx:Anchor>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/OverallAccuracy?max=100">Overall Accuracy</gmx:Anchor>
 							</gmd:errorStatistic>
 							<gmd:value>
 								<gco:Record>98.13</gco:Record>
@@ -944,7 +944,7 @@
 							</gmd:valueType>
 							<gmd:valueUnit/>
 							<gmd:errorStatistic>
-								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/OverallAccuracy?max=100">Overall Accuracy (max=100)</gmx:Anchor>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/OverallAccuracy?max=100">Overall Accuracy</gmx:Anchor>
 							</gmd:errorStatistic>
 							<gmd:value>
 								<gco:Record>98.12</gco:Record>
@@ -975,7 +975,7 @@
 							</gmd:valueType>
 							<gmd:valueUnit/>
 							<gmd:errorStatistic>
-								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/OverallAccuracy?max=100">Overall Accuracy (max=100)</gmx:Anchor>
+								<gmx:Anchor xlink:href="https://www.qualityml.org/1.0/metrics/OverallAccuracy?max=100">Overall Accuracy</gmx:Anchor>
 							</gmd:errorStatistic>
 							<gmd:value>
 								<gco:Record>98.12</gco:Record>
