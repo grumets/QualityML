@@ -1442,9 +1442,9 @@
 				"spa": "Error cronológico"
 			},
 			"alternativeName": null,
-			"desc": "Indication that an event is incorrectly ordered against the other events",
+			"desc": null,
 			"parameter": null,
-			"source": "ISO 19157, Id. 159",
+			"source": null,
 			"classes":
 			[
 				"Temporal quality"
@@ -2282,7 +2282,7 @@
 			{
 				"eng": "False Positive Rate",
 				"cat": "Taxa de fals positius",
-				"spa": "Tasa de falsos positivos"
+				"spa": "Tasa de falso positivos"
 			},
 			"alternativeName":
 			[
@@ -3261,7 +3261,7 @@
 					"eng": "Relative misclassification matrix"
 				},
 				{
-					"eng": "Normalized confusion matrix"
+					"eng": "Normalized confussion matrix"
 				}
 			],
 			"desc":
@@ -4132,9 +4132,6 @@
 			[
 				{
 					"eng": "PPV"
-				},
-				{
-					"eng": "Precision"
 				}
 			],
 			"desc":
@@ -4387,7 +4384,7 @@
 					"eng": "True negative rate (TNR)"
 				},
 				{
-					"eng": "Selectivity"
+					"eng": "Selectivity (TPR)"
 				}				
 			],
 			"desc":
@@ -4688,6 +4685,20 @@
 			[
 				"predictedValues"
 			],
+			"metric": "FalsePositive",
+			"observations": null,
+			"origin": "A3C"
+		},
+		{
+			"class": "DQ_Completeness",
+			"indicator": "DQ_CompletenessCommission",
+			"DQ_Element": "gmd:DQ_CompletenessCommission",
+			"measure": "Misclassification",
+			"measure_obs": null,
+			"domain":
+			[
+				"predictedValues"
+			],
 			"metric": "FalsePositiveRate",
 			"observations": null,
 			"origin": "A3C"
@@ -4703,6 +4714,20 @@
 				"actualValues"
 			],
 			"metric": "CommissionError",
+			"observations": null,
+			"origin": "A3C"
+		},
+		{
+			"class": "DQ_Completeness",
+			"indicator": "DQ_CompletenessCommission",
+			"DQ_Element": "gmd:DQ_CompletenessCommission",
+			"measure": "Misclassification",
+			"measure_obs": null,
+			"domain":
+			[
+				"actualValues"
+			],
+			"metric": "FalsePositive",
 			"observations": null,
 			"origin": "A3C"
 		},
@@ -4844,7 +4869,7 @@
 			],
 			"metric": "items",
 			"observations": null,
-			"origin": "ISO 19157: Id. 9 (boolean), GVQ (count), Id. 12 (rate)"
+			"origin": "ISO 19157: Id. 8 + Id. 9 (boolean), Id. 10 + GVQ (count), Id. 12 + Id. 13 (rate)"
 		},
 		{
 			"class": "DQ_LogicalConsistency",
@@ -4858,7 +4883,7 @@
 			],
 			"metric": "items",
 			"observations": null,
-			"origin": "ISO 19157: Id. 8 (boolean), Id. 10 (count), Id. 13 (rate)"
+			"origin": "ISO 19157: Id. 8 + Id. 9 (boolean), Id. 10 + GVQ (count), Id. 12 + Id. 13 (rate)"
 		},
 		{
 			"class": "DQ_LogicalConsistency",
@@ -4886,7 +4911,7 @@
 			],
 			"metric": "items",
 			"observations": null,
-			"origin": "ISO 19157 Id. 15 (boolean), GVQ (count), Id. 17 (rate)"
+			"origin": "ISO 19157 Id. 14 + Id. 15 (boolean), Id. 16 + GVQ (count), Id. 17 + Id. 18 (rate)"
 		},
 		{
 			"class": "DQ_LogicalConsistency",
@@ -4900,7 +4925,7 @@
 			],
 			"metric": "items",
 			"observations": null,
-			"origin": "ISO 19157 Id. 14 (boolean), Id. 16 (count), Id. 18 (rate)"
+			"origin": "ISO 19157 Id. 14 + Id. 15 (boolean), Id. 16 + GVQ (count), Id. 17 + Id. 18 (rate)"
 		},
 		{
 			"class": "DQ_LogicalConsistency",
@@ -4914,7 +4939,7 @@
 			],
 			"metric": "items",
 			"observations": null,
-			"origin": "ISO 19157 Id. 119 (boolean), Id. 19 (count), Id. 20 (rate)"
+			"origin": "GVQ (boolean), ISO 19157 Id. 119 (boolean), Id. 19 (count), Id. 20 (rate)"
 		},
 		{
 			"class": "DQ_LogicalConsistency",
@@ -5615,7 +5640,7 @@
 			"measure_obs": null,
 			"domain":
 			[
-				"actualValues"
+				"actualValue"
 			],
 			"domain_obs": "applied to 2D",
 			"metric": "ConfidenceEllipse",
@@ -5645,7 +5670,7 @@
 			"measure_obs": null,
 			"domain":
 			[
-				"actualValues"
+				"actualValue"
 			],
 			"domain_obs": "applied to 2D",
 			"metric": "ConfidenceEllipse",
@@ -6265,7 +6290,7 @@
 			"domain_obs": null,
 			"metric": "items",
 			"observations": null,
-			"origin": "ISO 19157 Id. 15 (boolean), GVQ (count), Id. 17 (rate)"
+			"origin": "ISO 19157 Id. 14 + Id.15 (boolean), Id.16 + GVQ (count), Id.17 + Id.18 (rate)"
 		},
 		{
 			"class": "DQ_TemporalQuality",
@@ -6280,7 +6305,7 @@
 			"domain_obs": null,
 			"metric": "items",
 			"observations": null,
-			"origin": "ISO 19157 Id. 14 (boolean), Id.16 (count), Id. 18 (rate)"
+			"origin": "ISO 19157 Id. 14 + Id.15 (boolean), Id.16 + GVQ (count), Id.17 + Id.18 (rate)"
 		},
 		{
 			"class": "DQ_TemporalQuality",
@@ -6335,10 +6360,10 @@
 			"measure_obs": null,
 			"domain":
 			[
-				"Dates"
+				"TBD"
 			],
 			"domain_obs": null,
-			"metric": "items",
+			"metric": "TBD",
 			"observations": null,
 			"origin": "ISO 19157 Id. 159"
 		},
@@ -6355,7 +6380,7 @@
 			"domain_obs": null,
 			"metric": "items",
 			"observations": null,
-			"origin": "GVQ (boolean), ISO 19157 Id. 60 (count), Id. 61 (rate)"
+			"origin": "GVQ (boolean), ISO 19157 Id. 60 (count), Id. 61 (rate), Id. 62 (confusion matrix, count), Id. 63 (confusion matrix, rate), Id. 64 (Kappa coefficient)"
 		},
 		{
 			"class": "DQ_ThematicAccuracy",
@@ -6370,7 +6395,7 @@
 			"domain_obs": null,
 			"metric": "ConfusionMatrix",
 			"observations": null,
-			"origin": "ISO 19157 Id. 62"
+			"origin": "GVQ (boolean), ISO 19157 Id. 60 (count), Id. 61 (rate), Id. 62 (confusion matrix, count), Id. 63 (confusion matrix, rate), Id. 64 (Kappa coefficient)"
 		},
 		{
 			"class": "DQ_ThematicAccuracy",
@@ -6385,7 +6410,7 @@
 			"domain_obs": null,
 			"metric": "RelativeConfusionMatrix",
 			"observations": null,
-			"origin": "ISO 19157 Id. 63"
+			"origin": "GVQ (boolean), ISO 19157 Id. 60 (count), Id. 61 (rate), Id. 62 (confusion matrix, count), Id. 63 (confusion matrix, rate), Id. 64 (Kappa coefficient)"
 		},
 		{
 			"class": "DQ_ThematicAccuracy",
@@ -6400,7 +6425,7 @@
 			"domain_obs": null,
 			"metric": "KappaCoefficient",
 			"observations": null,
-			"origin": "ISO 19157 Id. 64"
+			"origin": "GVQ (boolean), ISO 19157 Id. 60 (count), Id. 61 (rate), Id. 62 (confusion matrix, count), Id. 63 (confusion matrix, rate), Id. 64 (Kappa coefficient)"
 		},
 		{
 			"class": "DQ_ThematicAccuracy",
@@ -6415,7 +6440,7 @@
 			"domain_obs": null,
 			"metric": "OmissionError",
 			"observations": null,
-			"origin": "GVQ"
+			"origin": "GVQ (boolean), ISO 19157 Id. 60 (count), Id. 61 (rate), Id. 62 (confusion matrix, count), Id. 63 (confusion matrix, rate), Id. 64 (Kappa coefficient)"
 		},
 		{
 			"class": "DQ_ThematicAccuracy",
@@ -6430,7 +6455,7 @@
 			"domain_obs": null,
 			"metric": "Reliability",
 			"observations": null,
-			"origin": "GVQ"
+			"origin": "GVQ (boolean), ISO 19157 Id. 60 (count), Id. 61 (rate), Id. 62 (confusion matrix, count), Id. 63 (confusion matrix, rate), Id. 64 (Kappa coefficient)"
 		},
 		{
 			"class": "DQ_ThematicAccuracy",
@@ -6445,7 +6470,7 @@
 			"domain_obs": null,
 			"metric": "AverageReliability",
 			"observations": null,
-			"origin": "GVQ"
+			"origin": "GVQ (boolean), ISO 19157 Id. 60 (count), Id. 61 (rate), Id. 62 (confusion matrix, count), Id. 63 (confusion matrix, rate), Id. 64 (Kappa coefficient)"
 		},
 		{
 			"class": "DQ_ThematicAccuracy",
@@ -6460,7 +6485,7 @@
 			"domain_obs": null,
 			"metric": "CommissionError",
 			"observations": null,
-			"origin": "GVQ"
+			"origin": "GVQ (boolean), ISO 19157 Id. 60 (count), Id. 61 (rate), Id. 62 (confusion matrix, count), Id. 63 (confusion matrix, rate), Id. 64 (Kappa coefficient)"
 		},
 		{
 			"class": "DQ_ThematicAccuracy",
@@ -6475,7 +6500,7 @@
 			"domain_obs": null,
 			"metric": "Accuracy",
 			"observations": null,
-			"origin": "GVQ"
+			"origin": "GVQ (boolean), ISO 19157 Id. 60 (count), Id. 61 (rate), Id. 62 (confusion matrix, count), Id. 63 (confusion matrix, rate), Id. 64 (Kappa coefficient)"
 		},
 		{
 			"class": "DQ_ThematicAccuracy",
@@ -6490,7 +6515,7 @@
 			"domain_obs": null,
 			"metric": "AverageAccuracy",
 			"observations": null,
-			"origin": "GVQ"
+			"origin": "GVQ (boolean), ISO 19157 Id. 60 (count), Id. 61 (rate), Id. 62 (confusion matrix, count), Id. 63 (confusion matrix, rate), Id. 64 (Kappa coefficient)"
 		},
 		{
 			"class": "DQ_ThematicAccuracy",
@@ -6505,7 +6530,37 @@
 			"domain_obs": null,
 			"metric": "OverallAccuracy",
 			"observations": null,
-			"origin": "GVQ"
+			"origin": "GVQ (boolean), ISO 19157 Id. 60 (count), Id. 61 (rate), Id. 62 (confusion matrix, count), Id. 63 (confusion matrix, rate), Id. 64 (Kappa coefficient)"
+		},
+		{
+			"class": "DQ_ThematicAccuracy",
+			"indicator": "DQ_ThematicClassificationCorrectness",
+			"DQ_Element": "gmd:DQ_ThematicClassificationCorrectness",
+			"measure": "Misclassification",
+			"measure_obs": null,
+			"domain":
+			[
+				"predictedValues", "actualValues"
+			],
+			"domain_obs": null,
+			"metric": "DiscreteClassification",
+			"observations": null,
+			"origin": "GVQ (boolean), ISO 19157 Id. 60 (count), Id. 61 (rate), Id. 62 (confusion matrix, count), Id. 63 (confusion matrix, rate), Id. 64 (Kappa coefficient)"
+		},
+		{
+			"class": "DQ_ThematicAccuracy",
+			"indicator": "DQ_ThematicClassificationCorrectness",
+			"DQ_Element": "gmd:DQ_ThematicClassificationCorrectness",
+			"measure": "Misclassification",
+			"measure_obs": null,
+			"domain":
+			[
+				"predictedValues", "actualValues"
+			],
+			"domain_obs": null,
+			"metric": "DiscreteConfusionMatrix",
+			"observations": null,
+			"origin": "GVQ (boolean), ISO 19157 Id. 60 (count), Id. 61 (rate), Id. 62 (confusion matrix, count), Id. 63 (confusion matrix, rate), Id. 64 (Kappa coefficient)"
 		},
 		{
 			"class": "DQ_ThematicAccuracy",
@@ -6520,7 +6575,7 @@
 			"domain_obs": null,
 			"metric": "Sensitivity",
 			"observations": null,
-			"origin": "GVQ"
+			"origin": "GVQ (boolean), ISO 19157 Id. 60 (count), Id. 61 (rate), Id. 62 (confusion matrix, count), Id. 63 (confusion matrix, rate), Id. 64 (Kappa coefficient)"
 		},
 		{
 			"class": "DQ_ThematicAccuracy",
@@ -6535,7 +6590,52 @@
 			"domain_obs": null,
 			"metric": "Specificity",
 			"observations": null,
-			"origin": "GVQ"
+			"origin": "GVQ (boolean), ISO 19157 Id. 60 (count), Id. 61 (rate), Id. 62 (confusion matrix, count), Id. 63 (confusion matrix, rate), Id. 64 (Kappa coefficient)"
+		},
+		{
+			"class": "DQ_ThematicAccuracy",
+			"indicator": "DQ_ThematicClassificationCorrectness",
+			"DQ_Element": "gmd:DQ_ThematicClassificationCorrectness",
+			"measure": "Misclassification",
+			"measure_obs": null,
+			"domain":
+			[
+				"predictedValues", "actualValues"
+			],
+			"domain_obs": null,
+			"metric": "TruePositive",
+			"observations": null,
+			"origin": "GVQ (boolean), ISO 19157 Id. 60 (count), Id. 61 (rate), Id. 62 (confusion matrix, count), Id. 63 (confusion matrix, rate), Id. 64 (Kappa coefficient)"
+		},
+		{
+			"class": "DQ_ThematicAccuracy",
+			"indicator": "DQ_ThematicClassificationCorrectness",
+			"DQ_Element": "gmd:DQ_ThematicClassificationCorrectness",
+			"measure": "Misclassification",
+			"measure_obs": null,
+			"domain":
+			[
+				"predictedValues", "actualValues"
+			],
+			"domain_obs": null,
+			"metric": "TrueNegative",
+			"observations": null,
+			"origin": "GVQ (boolean), ISO 19157 Id. 60 (count), Id. 61 (rate), Id. 62 (confusion matrix, count), Id. 63 (confusion matrix, rate), Id. 64 (Kappa coefficient)"
+		},
+		{
+			"class": "DQ_ThematicAccuracy",
+			"indicator": "DQ_ThematicClassificationCorrectness",
+			"DQ_Element": "gmd:DQ_ThematicClassificationCorrectness",
+			"measure": "Misclassification",
+			"measure_obs": null,
+			"domain":
+			[
+				"predictedValues", "actualValues"
+			],
+			"domain_obs": null,
+			"metric": "FalsePositive",
+			"observations": null,
+			"origin": "GVQ (boolean), ISO 19157 Id. 60 (count), Id. 61 (rate), Id. 62 (confusion matrix, count), Id. 63 (confusion matrix, rate), Id. 64 (Kappa coefficient)"
 		},
 		{
 			"class": "DQ_ThematicAccuracy",
@@ -6550,7 +6650,7 @@
 			"domain_obs": null,
 			"metric": "FalseNegative",
 			"observations": null,
-			"origin": "GVQ"
+			"origin": "GVQ (boolean), ISO 19157 Id. 60 (count), Id. 61 (rate), Id. 62 (confusion matrix, count), Id. 63 (confusion matrix, rate), Id. 64 (Kappa coefficient)"
 		},
 		{
 			"class": "DQ_ThematicAccuracy",
@@ -6565,7 +6665,7 @@
 			"domain_obs": null,
 			"metric": "FalsePositiveRate",
 			"observations": null,
-			"origin": "GVQ"
+			"origin": "GVQ (boolean), ISO 19157 Id. 60 (count), Id. 61 (rate), Id. 62 (confusion matrix, count), Id. 63 (confusion matrix, rate), Id. 64 (Kappa coefficient)"
 		},
 		{
 			"class": "DQ_ThematicAccuracy",
@@ -6580,7 +6680,7 @@
 			"domain_obs": null,
 			"metric": "PositivePredictiveValue",
 			"observations": null,
-			"origin": "GVQ"
+			"origin": "GVQ (boolean), ISO 19157 Id. 60 (count), Id. 61 (rate), Id. 62 (confusion matrix, count), Id. 63 (confusion matrix, rate), Id. 64 (Kappa coefficient)"
 		},
 		{
 			"class": "DQ_ThematicAccuracy",
@@ -6595,7 +6695,7 @@
 			"domain_obs": null,
 			"metric": "FalseDiscoveryRate",
 			"observations": null,
-			"origin": "GVQ"
+			"origin": "GVQ (boolean), ISO 19157 Id. 60 (count), Id. 61 (rate), Id. 62 (confusion matrix, count), Id. 63 (confusion matrix, rate), Id. 64 (Kappa coefficient)"
 		},
 		{
 			"class": "DQ_ThematicAccuracy",
@@ -6610,7 +6710,7 @@
 			"domain_obs": null,
 			"metric": "MatthewsCorrelationCoefficient",
 			"observations": null,
-			"origin": "GVQ"
+			"origin": "GVQ (boolean), ISO 19157 Id. 60 (count), Id. 61 (rate), Id. 62 (confusion matrix, count), Id. 63 (confusion matrix, rate), Id. 64 (Kappa coefficient)"
 		},
 		{
 			"class": "DQ_ThematicAccuracy",
@@ -6670,7 +6770,7 @@
 			"domain_obs": null,
 			"metric": "AreaUnderROCCurve",
 			"observations": null,
-			"origin": "GVQ"
+			"origin": "GVQ (boolean), ISO 19157 Id. 60 (count), Id. 61 (rate), Id. 62 (confusion matrix, count), Id. 63 (confusion matrix, rate), Id. 64 (Kappa coefficient)"
 		},
 		{
 			"class": "DQ_ThematicAccuracy",
@@ -6685,7 +6785,7 @@
 			"domain_obs": null,
 			"metric": "items",
 			"observations": null,
-			"origin": "GVQ (boolean, count), ISO 19157 Id. 66 (correct items rate)"
+			"origin": "GVQ (boolean), ISO 19157 Id. 65 (count), Id. 67 + Id. 66 (rate)"
 		},
 		{
 			"class": "DQ_ThematicAccuracy",
@@ -6700,7 +6800,7 @@
 			"domain_obs": null,
 			"metric": "items",
 			"observations": null,
-			"origin": "GVQ (boolean), ISO 19157 Id. 65 (error count), Id. 67 (error rate)"
+			"origin": "GVQ (boolean), ISO 19157 Id. 65 (count), Id. 67 + Id. 66 (rate)"
 		},
 		{
 			"class": "DQ_ThematicAccuracy",
@@ -6925,8 +7025,8 @@
 			],
 			"domain_obs": null,
 			"metric": "correlation",
-			"observations": null,
-			"origin": null
+			"observations": "Common confidence intervals are: 50%, 68.3%, 90%, 95%, 99%, 99.8%",
+			"origin": "ISO 19157 Id. 68, Id. 69, Id. 70, Id. 71, Id. 72, Id. 73"
 		},
 		{
 			"class": "DQ_ThematicAccuracy",
