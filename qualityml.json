@@ -4798,37 +4798,9 @@
 			"measure_obs": null,
 			"domain":
 			[
-				"predictedValues"
-			],
-			"metric": "FalseNegative",
-			"observations": null,
-			"origin": "A3C"
-		},
-		{
-			"class": "DQ_Completeness",
-			"indicator": "DQ_CompletenessOmission",
-			"DQ_Element": "gmd:DQ_CompletenessOmission",
-			"measure": "Misclassification",
-			"measure_obs": null,
-			"domain":
-			[
 				"actualValues"
 			],
 			"metric": "OmissionError",
-			"observations": null,
-			"origin": "A3C"
-		},
-		{
-			"class": "DQ_Completeness",
-			"indicator": "DQ_CompletenessOmission",
-			"DQ_Element": "gmd:DQ_CompletenessOmission",
-			"measure": "Misclassification",
-			"measure_obs": null,
-			"domain":
-			[
-				"actualValues"
-			],
-			"metric": "FalseNegative",
 			"observations": null,
 			"origin": "A3C"
 		},
@@ -6534,21 +6506,6 @@
 			],
 			"domain_obs": null,
 			"metric": "Specificity",
-			"observations": null,
-			"origin": "GVQ"
-		},
-		{
-			"class": "DQ_ThematicAccuracy",
-			"indicator": "DQ_ThematicClassificationCorrectness",
-			"DQ_Element": "gmd:DQ_ThematicClassificationCorrectness",
-			"measure": "Misclassification",
-			"measure_obs": null,
-			"domain":
-			[
-				"predictedValues", "actualValues"
-			],
-			"domain_obs": null,
-			"metric": "FalseNegative",
 			"observations": null,
 			"origin": "GVQ"
 		},
