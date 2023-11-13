@@ -8,42 +8,49 @@
 	<link rel="stylesheet" type="text/css" href="/qualityml.css" />
     <script type="text/javascript" src="/qualityml.js"></script>
     <!-- Bootstrap core CSS -->
-    <link href="/css4/bootstrap.min.css" rel="stylesheet"/>	
+    <link href="/css4/bootstrap.min.css" rel="stylesheet"/>
 
     <!-- Custom styles for this template--> 
 	
      <!-- Estils del projecte -->
-    <link href="/css4/miramon.css" rel="stylesheet"/>	
+    <link href="/css4/miramon.css" rel="stylesheet"/>
 	
 </head>
 
 <body onLoad="CarregaQualityMLjson();">
 <div class="container">
 <div class="text-justify">
+    <form align="right" onChange="setLang();">
+        <select id="sel_language">
+        <option value="eng" selected="selected">English</option>
+        <option value="cat">Català</option>
+        <option value="spa">Español</option>
+        </select>
+     </form>
 <a href="/"><img src="/qualityml.png" border="0"/></a>
 <hr />
 
 <table border="1" class="definition">
     <tbody>
         <tr>
-            <th>URI:</th>
-            <td><a href="http://www.qualityml.org/1.0/qualityComposition">http://www.qualityml.org/1.0/qualityComposition</a></td>
+            <th id="t_uri">URI:</th>
+            <td id="c_uri"><a href="http://www.qualityml.org/1.0/qualityComposition">http://www.qualityml.org/1.0/qualityComposition</a></td>
         </tr>
         <tr>
-            <th>Name:</th>
-            <td>Quality composition</td>
+            <th id="t_name">Name:</th>
+            <td id="c_name">Quality composition</td>
         </tr>
         <tr>
-            <th>Alternative names:</th>
-            <td>&nbsp;</td>
+            <th id="t_altName">Alternative names:</th>
+            <td id="c_altName">&nbsp;</td>
         </tr>
         <tr>
-            <th>Definition:</th>
-            <td class="definition">Component that represents a composition of other components for visualization purposes</td>
+            <th id="t_def">Definition:</th>
+            <td id="c_def" class="definition">Component that represents a composition of other components for visualization purposes</td>
         </tr>
         <tr>
-            <th>Source:</th>
-            <td>WMQ-Q</td>
+            <th id="t_source">Source:</th>
+            <td id="c_source">WMQ-Q</td>
         </tr>
     </tbody>
 </table>

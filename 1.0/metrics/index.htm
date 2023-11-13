@@ -8,13 +8,12 @@
 	<link rel="stylesheet" type="text/css" href="/qualityml.css" />
     <script type="text/javascript" src="/qualityml.js"></script>
     <!-- Bootstrap core CSS -->
-    <link href="/css4/bootstrap.min.css" rel="stylesheet"/>	
+    <link href="/css4/bootstrap.min.css" rel="stylesheet"/>
 
     <!-- Custom styles for this template--> 
 	
      <!-- Estils del projecte -->
-    <link href="/css4/miramon.css" rel="stylesheet"/>	
-	<script type="text/javascript" src="/qualityml.js"></script>
+    <link href="/css4/miramon.css" rel="stylesheet"/>
 	
 	<!-- Instructions for pretify from: http://rahularora.net/google-code-prettify/ -->
 	<link rel="stylesheet" href="/google-code-prettify/prettify.css" />
@@ -23,62 +22,77 @@
 </head>
 <body onLoad="CarregaQualityMLjson();setTimeout('prettyPrint()',300);">
 <div class="container">
-<div class="text-justify">	
+<div class="text-justify">
+    <form align="right" onChange="setLang();">
+        <select id="sel_language">
+        <option value="eng" selected="selected">English</option>
+        <option value="cat">Català</option>
+        <option value="spa">Español</option>
+        </select>
+     </form>    	
 <a href="/"><img src="/qualityml.png" border="0"/></a>
 <hr />
 <table>
     <tbody>
         <tr>
-            <th>URI:</th>
+            <th id="t_uri">URI:</th>
             <td id="metric_uri"></td>
         </tr>
         <tr>
-            <th>Name:</th>
+            <th id="t_name">Name:</th>
             <td id="metric_name"></td>
         </tr>
         <tr>
-            <th>Alternative names:</th>
+            <th id="t_altName">Alternative names:</th>
             <td id="metric_alt_names"></td>
         </tr>
         <tr>
-            <th>Definition:</th>
+            <th id="t_def">Definition:</th>
             <td class="definition" id="metric_desc"></td>
         </tr>
         <tr>
-            <th>Parameters:</th>
+            <th id="t_form">Formula:</th>
+            <td id="metric_formula"></td>
+        </tr>
+        <tr>
+            <th id="t_param">Parameters:</th>
             <td id="metric_params"></td>
         </tr>
         <tr>
-            <th>Source:</th>
+            <th id="t_source">Source:</th>
             <td id="metric_source"></td>
 	</tr>
         <tr>
-            <th>Classes:</th>
+            <th id="t_class">Classes:</th>
             <td id="metric_class"></td>
         </tr>
         <tr>
-            <th>Further information:</th>
+            <th id="t_info">Further information:</th>
             <td id="metric_info"></td>
         </tr>
         <tr>
-            <th>XML schema:</th>
+            <th id="t_19139_xml_example">19139 XML example:</th>
+            <td id="metric_19139_xml_exemple"></td>
+        </tr>
+        <tr>
+            <th id="t_xml_schema">XML schema:</th>
             <td id="metric_xml_schema"></td>
    	</tr>
         <tr>
-            <th>XML example:</th>
+            <th id="t_xml_example">XML example:</th>
             <td id="metric_xml_example"></td>
         </tr>
         <tr>
-            <th>JSON example:</th>
+            <th id="t_json_example">JSON example:</th>
             <td id="metric_json_example"></pre>
           </td>
         </tr>
         <tr>
-            <th>API example:</th>
+            <th id="t_api_example">API example:</th>
             <td id="metric_api_example"></td>
         </tr>
         <tr>
-            <th>Value constraints:</th>
+            <th id="t_valConst">Value constraints:</th>
             <td id="metric_value_constraints"></td>
         </tr>
     </tbody>

@@ -20,30 +20,37 @@
 <body onLoad="CarregaQualityMLjson();">
 <div class="container">
 <div class="text-justify">
+    <form align="right" onChange="setLang();">
+        <select id="sel_language">
+        <option value="eng" selected="selected">English</option>
+        <option value="cat">Català</option>
+        <option value="spa">Español</option>
+        </select>
+     </form>
 <a href="/"><img src="/qualityml.png" border="0"/></a>
 <hr />
 
 <table border="1" class="definition">
     <tbody>
         <tr>
-            <th>URI:</th>
-            <td><a href="http://www.qualityml.org/1.0/values">http://www.qualityml.org/1.0/values</a></td>
+            <th id="t_uri">URI:</th>
+            <td id="c_uri"><a href="http://www.qualityml.org/1.0/values">http://www.qualityml.org/1.0/values</a></td>
         </tr>
         <tr>
-            <th>Name:</th>
-            <td>Values</td>
+            <th id="t_name">Name:</th>
+            <td id="c_name">Values</td>
         </tr>
         <tr>
-            <th>Alternative names:</th>
-            <td>&nbsp;</td>
+            <th id="t_altName">Alternative names:</th>
+            <td id="c_altName">&nbsp;</td>
         </tr>
         <tr>
-            <th>Definition:</th>
-            <td class="definition">Parameter or component that more closely represent the actual values measured</td>
+            <th id="t_def">Definition:</th>
+            <td id="c_def"class="definition">Parameter or component that more closely represent the actual values measured</td>
         </tr>
         <tr>
-            <th>Source:</th>
-            <td>WMQ-Q</td>
+            <th id="t_source">Source:</th>
+            <td id="c_source">WMQ-Q</td>
         </tr>
     </tbody>
 </table>

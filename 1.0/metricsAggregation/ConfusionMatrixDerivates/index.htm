@@ -21,45 +21,52 @@
 <div class="container">
 <div class="text-justify">	
 
+    <form align="right" onChange="setLang();">
+        <select id="sel_language">
+        <option value="eng" selected="selected">English</option>
+        <option value="cat">Català</option>
+        <option value="spa">Español</option>
+        </select>
+     </form>
 <a href="/"><img src="/qualityml.png" border="0"/></a>
 <hr />
 <table>
     <tbody>
         <tr>
-            <th>URI:</th>
+            <th id="t_uri">URI:</th>
             <td><a href="http://www.qualityml.org/1.0/metricsAggregation/ConfusionMatrixDerivates">http://www.qualityml.org/1.0/metricsAggregation/ConfusionMatrixDerivates</a></td>
         </tr>
         <tr>
-            <th>Name:</th>
+            <th id="t_name">Name:</th>
             <td>Confusion Matrix Derivates</td>
         </tr>
         <tr>
-            <th>Alternative names:</th>
+            <th id="t_altName">Alternative names:</th>
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <th>Definition:</th>
+            <th id="t_def">Definition:</th>
             <td class="definition"><p>&nbsp;</p>
           <p>&nbsp;</p>          </td>
         </tr>
         <tr>
-            <th>Parameters:</th>
+            <th id="t_param">Parameters:</th>
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <th>Source:</th>
+            <th id="t_source">Source:</th>
             <td>GeoViQua</td>
         </tr>
         <tr>
-            <th>Categories:</th>
+            <th id="t_catego">Categories:</th>
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <th>Further information:</th>
+            <th id="t_info">Further information:</th>
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <th>XML schema:</th>
+            <th id="t_xml_schema">XML schema:</th>
             <td>
           <pre class="prettyprint style2">&lt;schema xmlns:qml=&quot;http://www.qualityml.org/1.0&quot; 
 xmlns:un=&quot;http://www.uncertml.org/2.0&quot; 
@@ -71,21 +78,21 @@ elementFormDefault=&quot;qualified&quot; attributeFormDefault=&quot;unqualified&
 	&lt;complexType name=&quot;ConfusionMatrixDerivatesType&quot;&gt;<br />		&lt;complexContent&gt;<br />			&lt;extension base=&quot;qml:AbstractMetricsAggregationType&quot;&gt;<br />				&lt;sequence&gt;<br />					&lt;element ref=&quot;qml:ConfusionMatrix&quot; minOccurs=&quot;0&quot;/&gt;<br />					&lt;element ref=&quot;qml:OmissionError&quot; minOccurs=&quot;0&quot;/&gt;<br />					&lt;element ref=&quot;qml:CommissionError&quot; minOccurs=&quot;0&quot;/&gt;<br />					&lt;element ref=&quot;qml:Reliability&quot; minOccurs=&quot;0&quot;/&gt;<br />					&lt;element ref=&quot;qml:AverageReliability&quot; minOccurs=&quot;0&quot;/&gt;<br />					&lt;element ref=&quot;qml:Accuracy&quot; minOccurs=&quot;0&quot;/&gt;<br />					&lt;element ref=&quot;qml:AverageAccuracy&quot; minOccurs=&quot;0&quot;/&gt;<br />					&lt;element ref=&quot;qml:OverallAccuracy&quot; minOccurs=&quot;0&quot;/&gt;<br />					&lt;element ref=&quot;qml:KappaCoefficient&quot; minOccurs=&quot;0&quot;/&gt;<br />				&lt;/sequence&gt;<br />			&lt;/extension&gt;<br />		&lt;/complexContent&gt;<br />	&lt;/complexType&gt;</pre>          </td>
         </tr>
         <tr>
-            <th>XML example:</th>
+            <th id="t_xml_example">XML example:</th>
             <td><pre><span class="prettyprint"></span><span class="prettyprint">N/A</span></pre>          </td>
         </tr>
         <tr>
-            <th>JSON example:</th>
+            <th id="t_json_example">JSON example:</th>
             <td>
                 <pre class="prettyprint">N/A</pre>          </td>
         </tr>
         <tr>
-            <th>API example:</th>
+            <th id="t_api_example">API example:</th>
             <td>
                 <pre class="prettyprint">N/A</pre>            </td>
         </tr>
         <tr>
-            <th>Value constraints:</th>
+            <th id="t_valConst">Value constraints:</th>
             <td><span class="style1"><strong>categories</strong>: <em>any string</em><br />
             <strong>counts</strong>: <em>any positive natural number</em></span><br /></td>
         </tr>

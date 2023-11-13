@@ -1,11 +1,11 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>QualityML</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon"/>
-	<script language="JavaScript" src="/qualityml.js"></script>
-
+	 <script language="JavaScript" src="/qualityml.js"></script>
+   
     <!-- Bootstrap core CSS -->
     <link href="css4/bootstrap.min.css" rel="stylesheet"/>	
 
@@ -26,283 +26,98 @@
 <div class="container">
 <div class="text-justify">
 <a id="Principi" name="Principi"></a>
+   <form align="right" onChange="setLang();">
+      <select id="sel_language">
+      <option value="eng" selected="selected">English</option>
+      <option value="cat">Català</option>
+      <option value="spa">Español</option>
+      </select>
+   </form>
 <h1 style="color:#8FBBDB; background-color:#FFFFFF"><img  src="/qualityml_big.png"><br>Quality Indicators Dictionary and Markup Language</h1>
 <hr/>
 
-<p>The scenario of rapidly growing geodata catalogues requires tools focused on facilitate users the choice of products. Having quality fields populated in metadata allow the users to rank and then select the best fit-for-purpose products. In this direction, QualityML is a dictionary that contains hierarchically structured concepts to precisely define and relate quality levels: from quality classes to quality measurements. These levels are used to encode quality semantics for geospatial data by mapping them to the corresponding metadata schemas. The benefits of having encoded quality semantics, in the case of data producers, are related with improvements in their product discovery and better transmission of their characteristics. In the case of data users, they would better compare quality and uncertainty measures to take the best selection of data as well as to perform dataset intercomparison. Also, it allows other components (such as visualization, discovery, or comparison tools) to be quality-aware and interoperable.
-<p>On one hand, the QualityML is a profile of the ISO geospatial metadata standards (e.g. ISO 19157) providing a set of rules for precisely documenting quality measure parameters that is structured in 5 levels. On the other hand, QualityML includes semantics and vocabularies for the quality concepts. Whenever possible, it uses statistic expressions from the UncertML dictionary (<a href="https://web.archive.org/web/20161029215452/http://uncertml.org">http://www.uncertml.org</a>) encoding. However, it also extends UncertML to provide a list of alternative metrics that are commonly used to quantify quality beyond the uncertainty concept. Unfortunately, the website of UncertML was shut down in 2016. It still can be queried from the <a href="https://web.archive.org/web/20161029215452/http://uncertml.org">Web Archive project</a>. Given the situation, in 2018 QualityML decided to duplicate all UncertML records that were used at that time.
-<p>Finally, keep in mind that QualityML is not just suitable for encoding geospatial dataset level quality but also considers pixel and object level uncertainties. This is done by linking the  metadata quality descriptions with layers representing not just the data, but the uncertainty values associated with each geospatial element.
-<p>This page is structured in the following sections:
+<p id="intro_p_01">The scenario of rapidly growing geodata catalogues requires tools focused on facilitate users the choice of products. Having quality fields populated in metadata allow the users to rank and then select the best fit-for-purpose products. In this direction, QualityML is a dictionary that contains hierarchically structured concepts to precisely define and relate quality levels: from quality classes to quality measurements. These levels are used to encode quality semantics for geospatial data by mapping them to the corresponding metadata schemas. The benefits of having encoded quality semantics, in the case of data producers, are related with improvements in their product discovery and better transmission of their characteristics. In the case of data users, they would better compare quality and uncertainty measures to take the best selection of data as well as to perform dataset intercomparison. Also, it allows other components (such as visualization, discovery, or comparison tools) to be quality-aware and interoperable.</p>
+<p id="intro_p_02">On one hand, the QualityML is a profile of the ISO geospatial metadata standards (e.g. ISO 19157) providing a set of rules for precisely documenting quality measure parameters that is structured in 5 levels. On the other hand, QualityML includes semantics and vocabularies for the quality concepts. Whenever possible, it uses statistic expressions from the UncertML dictionary (<a href="https://web.archive.org/web/20161029215452/http://uncertml.org">http://www.uncertml.org</a>) encoding. However, it also extends UncertML to provide a list of alternative metrics that are commonly used to quantify quality beyond the uncertainty concept. Unfortunately, the website of UncertML was shut down in 2016. It still can be queried from the <a href="https://web.archive.org/web/20161029215452/http://uncertml.org">Web Archive project</a>. Given the situation, in 2018 QualityML decided to duplicate all UncertML records that were used at that time.</p>
+<p id="intro_p_03">Finally, keep in mind that QualityML is not just suitable for encoding geospatial dataset level quality but also considers pixel and object level uncertainties. This is done by linking the  metadata quality descriptions with layers representing not just the data, but the uncertainty values associated with each geospatial element.</p>
+<p id="intro_p_04">This page is structured in the following sections:</p>
 <ul>
-<li><a href="#element">Generic quality element</a>
-<li><a href="#classes">Quality classes</a>
-<li><a href="#indicators">Quality indicators</a>
+<li><a id="sect_GenQualElem" href="#element">Generic quality element</a>
+<li><a id="sect_QualClas" href="#classes">Quality classes</a>
+<li><a id="sect_QualInd" href="#indicators">Quality indicators</a>
 <ul>
-<li><a href="#Hydro_indicators">Hydrology INSPIRE quality indicators</a>
+<li><a id="sect_QualIndHydro" href="#Hydro_indicators">Hydrology INSPIRE quality indicators</a>
 </ul>
-<li><a href="#matrix">Quality measures by quality class (linked to classes, indicators, domains and matrices)</a>
-<li><a href="#domain">Quality domains</a>
-<li><a href="#metrics">Quality metrics</a>
-<li><a href="#sets">Quality metrics sets</a>
-<li><a href="#reserved_words">Reserved words</a>
-<li><a href="#xmlencoding">XML encoding</a>
+<li><a id="sect_QualMeas" href="#matrix">Quality measures by quality class (linked to classes, indicators, domains and matrices)</a>
+<li><a id="sect_QualDom" href="#domain">Quality domains</a>
+<li><a id="sect_QualMet" href="#metrics">Quality metrics</a>
+<li><a id="sect_QualMetSets" href="#sets">Quality metrics sets</a>
+<li><a id="sect_ResWords" href="#reserved_words">Reserved words</a>
+<li><a id="sect_XMLcode" href="#xmlencoding">XML encoding</a>
 </ul>
 
-<p>A URI is defined for each <i>measure</i>, <i>domain</i> and <i>metric</i>.
-<p>
-<b>All relative URIs in this page refer to <a href="https://www.qualityml.org/1.0/">https://www.qualityml.org/1.0/</a></b>
+<p id="intro_p_05">A URI is defined for each <i>measure</i>, <i>domain</i> and <i>metric</i>.</p>
+<p id="intro_p_06"><b>All relative URIs in this page refer to <a href="https://www.qualityml.org/1.0/">https://www.qualityml.org/1.0/</a></b></p>
 
-<p>The research leading to these results has been carried out in several projects that have received funding from the European Union: GeoViQua (Seventh Framework Programme, grant agreement no. 265178), WQeMS  (Horizon 2020, grant agreement no. 101004157), EIFFEL (Horizon 2020, grant agreement no. 101003518) and CitiObs (Horizon Europe, grant agreement no. 101086421).</p>
+<p id="intro_p_07">The research leading to these results has been carried out in several projects that have received funding from the European Union: GeoViQua (Seventh Framework Programme, grant agreement no. 265178), WQeMS  (Horizon 2020, grant agreement no. 101004157), EIFFEL (Horizon 2020, grant agreement no. 101003518) and CitiObs (Horizon Europe, grant agreement no. 101086421).</p>
 
 <a name="element"></a>
-<h2>Generic quality element</h2>
-<p>A Quality element is a combination of a <i>quality class</i>, a <i>quality indicator</i>, a <i>quality domain</i>, a <i>quality metric</i> (which include a metrics <i>name</i>, metrics <i>description</i>, metrics <i>parameters</i>, its <i>values</i> and <i>units of measure</i>). The combination of a quality domain and a quality metrics are commonly known as <i>quality measures</i>. We suggest 2 ways to map the QualityML concepts to ISO 19139 and ISO 19115-3. The first way makes a simple use of the ISO values keeping the structure of <i>Record</i> as simple as possible. The second one extends <i>Record</i> using QualityML XML schemas to allow a more structured encoding: </p>
+<h2 id="title_h2_GenQualElem">Generic quality element</h2>
+<p id="GenQualElem_p_01">A Quality element is a combination of a <i>quality class</i>, a <i>quality indicator</i>, a <i>quality domain</i>, a <i>quality metric</i> (which include a metrics <i>name</i>, metrics <i>description</i>, metrics <i>parameters</i>, its <i>values</i> and <i>units of measure</i>). The combination of a quality domain and a quality metrics are commonly known as <i>quality measures</i>. We suggest 2 ways to map the QualityML concepts to ISO 19139 and ISO 19115-3. The first way makes a simple use of the ISO values keeping the structure of <i>Record</i> as simple as possible. The second one extends <i>Record</i> using QualityML XML schemas to allow a more structured encoding: </p>
 <br>
-Without extending <i>Record</i>. RECOMMENDED as implementation does not support extending the XML encoding. See the complete XML encoding of this example <a href="#xmlencoding-1">here</a>.
+<p id="GenQualElem_p_02">Without extending <i>Record</i>. RECOMMENDED as implementation does not support extending the XML encoding. See the complete XML encoding of this example<a href="#xmlencoding-1"> here.</a></p>
 <br>
-<table border="1">
-  <tr>
-    <td bgcolor="#CCCCCC" align="center" scope="col"><b>Concept</b</td>
-    <td bgcolor="#CCCCCC" align="center" scope="col"><b>ISO 19139 mapping</b</td>
-    <td bgcolor="#CCCCCC" align="center" scope="col"><b>ISO 19115-3 mapping</b</td>
-    <td bgcolor="#CCCCCC" align="center" scope="col"><b>Example</b></td>
-  </tr>
-  <tr>
-    <td align="center">Quality class and<br>
-      quality indicator</td>
-    <td align="left">Name of the DQ_Element</td>
-    <td align="left">Name of the DQ_Element</td>
-    <td align="left"><i>ISO 19139:</i> gmd:DQ_CompletenessCommission<br>
-        <i>ISO 19115-3:</i> mdq:DQ_CompletenessCommission</td>
-  </tr>
-  <tr>
-    <td align="center">Quality measure name, Quality domain name</td>
-    <td align="left">gmd:nameOfMeasure</td>
-    <td align="left">mdq:nameOfMeasure</td>
-    <td align="left">Excess,NonConformance</td>
-  </tr>
-  <tr>
-   <td align="center">Quality measure<br>identification, domain identification</td>
-   <td align="left">gmd:measureIdentification/gmd:MD_Identifier/<br>gmd:code/gmx:Anchor@xlink:href</td>
-   <td align="left">mdq:measureIdentification/mcc:MD_Identifier/mcc:code/gcx:Anchor@xlink:href<br>
-mdq:measureIdentification/mcc:MD_Identifier/mcc:codeSpace/gcx:Anchor@xlink:href<br>
-mdq:measureIdentification/mcc:MD_Identifier/mcc:version</td>
-   <td align="left">https://www.qualityml.org/1.0/measure/Excess?domain=NonConformance<br>
-https://www.qualityml.org <i>(Only in ISO 19115-3)</i><br>
-1.0 <i>(Only in ISO 19115-3)</i></td></tr>
-  <tr>
-    <td align="center">Quality measure and domain description (domain value list if necessary)</td>
-    <td align="left">gmd:measureDescription</td>
-    <td align="left">mdq:measureDescription</td>
-    <td align="left">Indication of elements within the dataset or sample that should not have been present. The conformance or non-conformance can be expressed as a boolean, count or rate. </br>Non conformance field of measurement</td>
-  </tr>
-  <tr>
-    <td align="center">Metrics identifier and parameters</td>
-    <td align="left">gmd:result/gmd:DQ_QuantitativeResult/gmd:errorStatistic</td>
-    <td align="left">mdq:result/mdq:DQ_QuantitativeResult/mdq:errorStatistic</td>
-    <td align="left">https://www.qualityml.org/1.0/metrics/Items?subtype=rate&max=100</td>
-  </tr>
-  <tr>
-    <td align="center">Metrics value type</td>
-    <td align="left">gmd:result/gmd:DQ_QuantitativeResult/gmd:ValueType</td>
-    <td align="left">mdq:result/mdq:DQ_QuantitativeResult/mdq:ValueType</td>
-    <td align="left">Double precision real</td>
-  </tr>
-  <tr>
-    <td align="center">Metrics value</td>
-    <td align="left">gmd:value/gco:Record</td>
-    <td align="left">mdq:value/gco:Record</td>
-    <td align="left">3</td>
-  </tr>
-  <tr>
-    <td align="center">Units of measure</td>
-    <td align="left">gmd:valueUnit@xlink:href</td>
-    <td align="left">mdq:valueUnit@xlink:href</td>
-    <td align="left">urn:ogc:def:uom:OGC:1.0:percent</td>
-  </tr>
-</table>
-<br>
-<p align="center"><a href="index.htm#Principi"><img alt="Tornar" height="23" src="ArrowUp.jpg" width="23"/></a><br/>
-<i>Back to top of page</i></p>
 
-With an extension of <i>Record</i>. Not commonly supported by implementations.
+<!-- taula Generic Quality Elements 1-->
+<div id="t_GenQualElem_01">
+</div>
+
+<p id="GenQualElem_p_03">With an extension of <i>Record</i>. Not commonly supported by implementations.</p>
 <br>
-<table border="1">
-  <tr>
-    <td bgcolor="#CCCCCC" align="center" scope="col"><b>Concept</b></td>
-    <td bgcolor="#CCCCCC" align="center" scope="col"><b>ISO 19139 mapping</b></td>
-    <td bgcolor="#CCCCCC" align="center" scope="col"><b>ISO 19115-3 mapping</b></td>
-    <td bgcolor="#CCCCCC" align="center" scope="col"><b>Example</b></td>
-  </tr>
-  <tr>
-    <td align="center">Quality class and<br> quality indicator</td>
-    <td align="left">Name of the DQ_Element</td>
-    <td align="left">Name of the DQ_Element</td>
-    <td align="left"><i>ISO 19139:</i> gmd:DQ_CompletenessCommission<br><i>ISO 19115-3:</i> mdq:DQ_CompletenessCommission</td>
-  </tr>
-  <tr>
-    <td align="center">Quality measure name</td>
-    <td align="left">gmd:nameOfMeasure</td>
-    <td align="left">mdq:nameOfMeasure</td>
-    <td align="left">Excess</td>
-  </tr>
-  <tr>
-    <td align="center">Quality measure<br>identification</td>
-    <td align="left">gmd:measureIdentification/gmd:MD_Identifier/<br>gmd:code/gmx:Anchor@xlink:href</td>
-    <td align="left">mdq:measureIdentification/mcc:MD_Identifier/mcc:code/gcx:Anchor@xlink:href<br>
-mdq:measureIdentification/mcc:MD_Identifier/mcc:codeSpace/gcx:Anchor@xlink:href<br>
-mdq:measureIdentification/mcc:MD_Identifier/mcc:version</td>
-    <td align="left">https://www.qualityml.org/1.0/measure/Excess<br>
-https://www.qualityml.org <i>(Only in ISO 19115-3)</i><br>
-1.0 <i>(Only in ISO 19115-3)</i></td></tr>
-  <tr>
-    <td align="center">Quality measure description</td>
-    <td align="left">gmd:measureDescription</td>
-    <td align="left">mdq:measureDescription</td>
-    <td align="left">Indication of elements within the dataset or sample that should not have been present.<br>The conformance or non-conformance can be expressed as a boolean, count or rate.</td>
-  </tr>
-  <tr>
-    <td align="center">Quality domain</td>
-    <td align="left">gmd:value/gco:Record/*</td>
-    <td align="left">mdq:value/gco:Record/*</td>
-    <td align="left">qml:NonConformance</td>
-  </tr>
-  <tr>
-    <td align="center">Quality domain<br>parameters</td>
-    <td align="left">gmd:value/gco:Record/<FONT COLOR="gray">qml:NonConformance</font>/*<br>
-qml:range/qml:min <i>and/or</i> qml:range/qml:max <i>and/or</i> qml:rule</td>
-    <td align="left">mdq:value/gco:Record/<FONT COLOR="gray">qml:NonConformance</font>/*<br>
-qml:range/qml:min <i>and/or</i> qml:range/qml:max <i>and/or</i> qml:rule</td>
-    <td align="left"><i>qml:rule</i>: Indication of excess items<br><i>Usually parameters for the domain are not needed</i></td>
-  </tr>
-  <tr>
-    <td align="center">Metrics description</td>
-    <td align="left">gmd:valueType/gco:RecordType</td>
-    <td align="left">mdq:valueRecordType/gco:RecordType</td>
-    <td align="left">Excess items</td>
-  </tr>
-  <tr>
-    <td align="center">Metrics identifier</td>
-    <td align="left">gmd:valueType/gco:RecordType@xlink:href</td>
-    <td align="left">mdq:valueRecordType/gco:RecordType@xlink:href</td>
-    <td align="left">https://www.qualityml.org/1.0/metrics/items</td>
-  </tr>
-  <tr>
-    <td align="center">Metrics parameters</td>
-    <td align="left">gmd:value/gco:Record/<FONT COLOR="gray">qml:Items</font>/*</td>
-    <td align="left">mdq:value/gco:Record/<FONT COLOR="gray">qml:Items</font>/*</td>
-    <td align="left">qml:rate <i>and</i> qml:max<br><i>"qml:indicator" or "qml:count" are also options</td>
-  </tr>
-  <tr>
-    <td align="center">Metrics value</td>
-    <td align="left">gmd:value/gco:Record/<FONT COLOR="gray">qml:Items</font>/<FONT COLOR="gray">qml:rate</font><br>
-gmd:value/gco:Record/<FONT COLOR="gray">qml:Items</font>/<FONT COLOR="gray">qml:rate@max</font></td>
-    <td align="left">mdq:value/gco:Record/<FONT COLOR="gray">qml:Items</font>/<FONT COLOR="gray">qml:rate</font><br>
-mdq:value/gco:Record/<FONT COLOR="gray">qml:Items</font>/<FONT COLOR="gray">qml:rate@max</font></td>
-    <td align="left">66<br>100</td>
-  </tr>
-  <tr>
-    <td align="center">Units of measure</td>
-    <td align="left">gmd:valueUnit@xlink:href</td>
-    <td align="left">mdq:valueUnit@xlink:href</td>
-    <td align="left">urn:ogc:def:uom:OGC:1.0:percent</td>
-  </tr>
-</table>
-<br>
-<p align="center"><a href="index.htm#Principi"><img alt="Tornar" height="23" src="ArrowUp.jpg" width="23"/></a><br/>
-<i>Back to top of page</i></p>
+
+<!-- taula Generic Quality Elements 2-->
+<div id="t_GenQualElem_02">
+</div>
 
 <!-- The complete XML file used on previous table can be found in 19139 and 19115-3 codifications. -->
-The section about <a href="#xmlencoding">XML encodings</a> provides some examples on how to encode the QualityML concepts in ISO 19139 or 19115-3 documents.
+<p id="GenQualElem_p_04">The section about <a href="#xmlencoding">XML encodings</a> provides some examples on how to encode the QualityML concepts in ISO 19139 or 19115-3 documents.</p>
 
 <hr>
 
 <a name="classes"></a>
 
-<h2>Quality classes</h2>
-<p>The <i>ISO 19157:2013 Geographic information - Data quality</i> defines 7 data quality elements (or classes) describing a certain aspect of the quality of geographic data in which quality elements can be classified. In 2022, we added a new class called "certainty" that is applicable to decision ready information. This class provide simple indicators for decision makers in an standardized language and it is inspired by the IPCC</p>
+<h2 id="title_h2_QualClas">Quality classes</h2>
+<p id="QualClas_p_01">The <i>ISO 19157:2013 Geographic information - Data quality</i> defines 7 data quality elements (or classes) describing a certain aspect of the quality of geographic data in which quality elements can be classified. In 2022, we added a new class called "certainty" that is applicable to decision ready information. This class provide simple indicators for decision makers in an standardized language and it is inspired by the IPCC</p>
 
-<table border="1" id='taula_classes'>
-</table>
+<!--<table border="1" id='taula_classes'>
+</table>-->
+<div id='taula_classes'></div>
 
 <hr>
 <a name="indicators"></a>
 
-<h2>Quality indicators</h2>
-The <i>ISO 19157:2013 Geographic information - Data quality</i> defines 18 quality indicators (or sub-classes) in which quality elements can be classified. <br><br>
+<h2 id="title_h2_QualInd">Quality indicators</h2>
+<p id="QualInd_p_01">The <i>ISO 19157:2013 Geographic information - Data quality</i> defines 18 quality indicators (or sub-classes) in which quality elements can be classified.</p>
 
-<table border="1" id='taula_indicadors'>
-</table>
-<br>
-<p align="center"><a href="index.htm#Principi"><img alt="Tornar" height="23" src="ArrowUp.jpg" width="23"/></a><br/>
-<i>Back to top of page</i></p>
+<div id='taula_indicadors'></div>
+<!--<table border="1" id='taula_indicadors'>
+</table>-->
 
 <a name="Hydro_indicators"></a>
 <br>
-<h3 style="color:#8FBBFF">Data quality elements recommended by INSPIRE spatial data theme Hydrography</h3>
-<table border=1>
-  <tr>
-    <td bgcolor="#CCCCCC" align="center"><b>Quality class</b></td>
-    <td bgcolor="#CCCCCC" align="center"><b>Quality indicator</b></td>
-    <td bgcolor="#CCCCCC" align="center"><b>Description</b></td>
-  </tr>
-  <tr>
-	<td align="center">Completeness</td>	
-	<td align="center">Completeness commission</td>	
-	<td align="center">Excess data present in the dataset, as described by the scope</td>
-</tr>
-<tr>
-	<td align="center">Completeness</td>
-	<td align="center">Completeness omission</td>
-	<td align="center">Data absent from the dataset, as described by the scope</td>
-</tr>
-<tr>
-	<td align="center">Logical consistency</td>	
-	<td align="center">Conceptual consistency</td>	
-	<td align="center">Adherence to rules of the conceptual schema</td>
-</tr>
-<tr>
-	<td align="center">Logical consistency</td>	
-	<td align="center">Domain consistency</td>
-	<td align="center">Adherence of values to the value domains</td>
-</tr>
-<tr>
-	<td align="center">Logical consistency</td>	
-	<td align="center">Topological consistency</td>	
-	<td align="center">Correctness of the explicitly encoded topological characteristics of the dataset as described by the scope</td>
-</tr>
-<tr>
-	<td align="center">Positional accuracy</td>	
-	<td align="center">Absolute external positional accuracy</td>	
-	<td align="center">Closeness of reported coordinate values to values accepted as or being true</td>
-</tr>
-<tr>
-	<td align="center">Positional accuracy</td>	
-	<td align="center">Relative internal positional accuracy</td>	
-	<td align="center">Closeness of the relative positions of features in the scope to their respective relative positions accepted as or being true</td>
-</tr>
-<tr>
-	<td align="center">Thematic accuracy</td>
-	<td align="center">Non quantitative attribute accuracy</td>
-	<td align="center">Accuracy of non-quantitative attributes</td>
-</tr>
-<tr>
-	<td align="center">Thematic accuracy</td>
-	<td align="center">Quantitative attribute accuracy</td>
-	<td align="center">Accuracy of quantitative attributes</td> 
-</table>
-<i>source: <a href="https://inspire.ec.europa.eu/file/1729/download?token=LfNVPj1X">INSPIRE Data Specification on Hydrography – Technical Guidelines (pdf, 3.77 MB)</a></i>
+<h3 id="title_h3_QualIndHydro" style="color:#8FBBFF">Data quality elements recommended by INSPIRE spatial data theme Hydrography</h3>
+<div id="taula_hydro"></div>
 
-<p>
-<p><b>INSPIRE recommendation</b></p>
-Where it is impossible to express the evaluation of a data quality element in a quantitative way, the evaluation of the element should be expressed with a textual statement as a data quality descriptive result.
+<p id="QualInd_p_02"><i>source: <a href="https://inspire.ec.europa.eu/file/1729/download?token=LfNVPj1X">INSPIRE Data Specification on Hydrography – Technical Guidelines (pdf, 3.77 MB)</a></i></p>
+
+<p id="QualInd_p_03"><b>INSPIRE recommendation</b></p>
+<p id="QualInd_p_04">Where it is impossible to express the evaluation of a data quality element in a quantitative way, the evaluation of the element should be expressed with a textual statement as a data quality descriptive result.</p>
 
 <hr>
 <a name="matrix"></a>
 
-<h2>Quality measures matrices</h2>
+<h2 id="title_h2_QualMtx">Quality measures matrices</h2>
 
-We provide a matrix of the combinations of indicators, measures and metrics commonly used for each quality class. Both ISO 19157 and ISO 19138 have a list of metrics in the Annex D and share the same identifier (last field in the tables). Actually ISO 19157 supersedes ISO 19138 and contains all metrics in ISO 19138 but adds the new Id. 119 (<i>Physical structure conflicts</i>), Id. 128 (<i>Bias of positions</i>), Id. 159 (<i>Chronological error</i>) and Ids. 101 to 104 (<i>Aggregation Measures</i>).
+<p id="QualMtx_p_01">We provide a matrix of the combinations of indicators, measures and metrics commonly used for each quality class. Both ISO 19157 and ISO 19138 have a list of metrics in the Annex D and share the same identifier (last field in the tables). Actually ISO 19157 supersedes ISO 19138 and contains all metrics in ISO 19138 but adds the new Id. 119 (<i>Physical structure conflicts</i>), Id. 128 (<i>Bias of positions</i>), Id. 159 (<i>Chronological error</i>) and Ids. 101 to 104 (<i>Aggregation Measures</i>).</p>
 
 <div id="taules_quality_matrices">
 </div>
@@ -310,118 +125,44 @@ We provide a matrix of the combinations of indicators, measures and metrics comm
 <hr>
 <a name="domain"></a>
 
-<h2>Quality domain</h2>
-This section contains the definition of the domain where quality metrics are applied (including link to the schema).<br><br>
+<h2 id="title_h2_QualDom">Quality domain</h2>
+<p id="QualDom_p_01">This section contains the definition of the domain where quality metrics are applied (including link to the schema).</p><br>
 
-<table border="1" bordercolor="#CCCCCC" id='taula_dominis'>
-</table>
-
-<br>
-<p align="center"><a href="index.htm#Principi"><img alt="Tornar" height="23" src="ArrowUp.jpg" width="23"/></a><br/>
-<i>Back to top of page</i></p>
+<div id="taula_dominis"></div>
 
 <hr>
 <a name="metrics"></a>
 
-<h2>Quality Metrics</h2>
+<h2 id="title_h2_QualMet">Quality Metrics</h2>
 
-Whenever possible, UncertML statistics are used. When needed new metrics are defined here based on uncertml basic types. In some sense QualityML extends <a href="https://web.archive.org/web/20161029215452/statistics">UncertML</a>.
-<p>
-<a href="schemas">XML schemas and examples are available here</a> (for convenience a exact copy of uncertml is included). <br>
+<p id="QualMet_p_01">Whenever possible, UncertML statistics are used. When needed new metrics are defined here based on uncertml basic types. In some sense QualityML extends <a href="https://web.archive.org/web/20161029215452/statistics">UncertML</a>.</p>
+
+<p id="QualMet_p_02"><a href="schemas">XML schemas and examples are available here</a> (for convenience a exact copy of uncertml is included).</p> <br>
 <br>
-<table border="1" bordercolor="#CCCCCC" id='taula_metriques'>
-</table>
 
-<p align="center"><a href="index.htm#Principi"><img alt="Tornar" height="23" src="ArrowUp.jpg" width="23"/></a><br/>
-<i>Back to top of page</i></p>
+<div id="taula_metriques"></div>
 
 <a name="sets"></a>
-<h2>Quality metrics sets</h2>
+<h2 id="title_h2_QualMetSets">Quality metrics sets</h2>
 
-This table provides a way to aggregate some quality metrics in a single element that can group them. This is particularly useful when using several related metrics in the ISO 19139 encoding.
+<p id="QualMetSets_p_01">This table provides a way to aggregate some quality metrics in a single element that can group them. This is particularly useful when using several related metrics in the ISO 19139 encoding.</p>
 
-<table width="90%" border="1">
-  <tr bordercolor="#CCCCCC" bgcolor="#CCCCCC">
-    <td align="center" scope="col"><div align="center">URI</div></td>
-    <td align="center" scope="col">Metrics aggregation</td>
-    <td scope="col">Elements</td>
-    <td align="center" scope="col"><div align="center">Origin</div></td>
-  </tr>
-  <tr>
-    <td><div align="center"><a href="https://www.qualityml.org/1.0/metricsAggregation/DiscreteClassification">metricsAggregation\DiscreteClassification</a></div></td>
-    <td><div align="center"><strong>Discrete Classification</strong></div></td>
-    <td><a href="https://www.qualityml.org/1.0/metrics/DiscreteConfusionMatrix">metrics\DiscreteConfusionMatrix</a><br>
-      <a href="https://www.qualityml.org/1.0/metrics/TruePositive">metrics\TruePositive</a><br>
-      <a href="https://www.qualityml.org/1.0/metrics/TrueNegative">metrics\TrueNegative</a><br>
-      <a href="https://www.qualityml.org/1.0/metrics/FalsePositive">metrics\FalsePositive</a><br>
-      <a href="https://www.qualityml.org/1.0/metrics/FalseNegative">metrics\FalseNegative</a><br>
-      <a href="https://www.qualityml.org/1.0/metrics/Sensitivity">metrics\Sensitivity</a><br>
-      <a href="https://www.qualityml.org/1.0/metrics/Specificity">metrics\Specificity</a><br>
-      <a href="https://www.qualityml.org/1.0/metrics/OverallAccuracy">metrics\OverallAccuracy</a><br>
-      <a href="https://www.qualityml.org/1.0/metrics/FalsePositiveRate">metrics\FalsePositiveRate</a><br>
-      <a href="https://www.qualityml.org/1.0/metrics/PositivePredictiveValue">metrics\PositivePredictiveValue</a><br>
-      <a href="https://www.qualityml.org/1.0/metrics/FalseDiscoveryRate">metrics\FalseDiscoveryRate</a><br>
-      <a href="https://www.qualityml.org/1.0/metrics/MatthewsCorrelationCoefficient">metrics\MatthewsCorrelationCoefficient</a><br>
-    <a href="https://www.qualityml.org/1.0/metrics/AreaUnderROCCurve">metrics\AreaUnderROCCurve</a></td>
-    <td><div align="center">GVQ</div></td>
-  </tr>
-  <tr>
-    <td><div align="center"><a href="https://www.qualityml.org/1.0/metricsAggregation/ConfusionMatrixDerivates">metricsAggregation\ConfusionMatrixDerivates</a></div></td>
-    <td><div align="center"><strong>Confusion Matrix Derivates</strong></div></td>
-    <td><a href="https://www.qualityml.org/1.0/metrics/ConfusionMatrix">metrics\ConfusionMatrix</a><br>
-    <a href="https://www.qualityml.org/1.0/metrics/OmissionError">metrics\OmissionError</a><br>
-    <a href="https://www.qualityml.org/1.0/metrics/CommissionError">metrics\CommissionError</a><br>    
-    <a href="https://www.qualityml.org/1.0/metrics/Reliability">metrics\Reliability</a><br>        
-    <a href="https://www.qualityml.org/1.0/metrics/AverageReliability">metrics\AverageReliability</a><br>        
-    <a href="https://www.qualityml.org/1.0/metrics/Accuracy">metrics\Accuracy</a><br>        
-    <a href="https://www.qualityml.org/1.0/metrics/AverageAccuracy">metrics\AverageAccuracy</a><br>            
-    <a href="https://www.qualityml.org/1.0/metrics/OverallAccuracy">metrics\OverallAccuracy</a><br>                
-    <a href="https://www.qualityml.org/1.0/metrics/KappaCoefficient">metrics\KappaCoefficient</a><br></td>
-    <td><div align="center">GVQ</div></td>
-  </tr>
-</table>
-
-<p align="center"><a href="index.htm#Principi"><img alt="Tornar" height="23" src="ArrowUp.jpg" width="23"/></a><br/>
-<i>Back to top of page</i></p>
+<!--taula Quality metrics sets-->
+<div id="t_QualMetSets"></div>
 
 <br>
 <a name="reserved_words"></a>
-<h2>Other reserved words</h2>
+<h2 id="title_h2_ResWords">Reserved words</h2>
 
-This table provides a list of keywords that are useful for the WMS-Q specification.
+<p id="ResWords_p_01">This table provides a list of keywords that are useful for the WMS-Q specification.</p>
 
-<table width="90%" border="1">
-  <tr bordercolor="#CCCCCC" bgcolor="#CCCCCC">
-    <td align="center" scope="col"><div align="center">URI</div></td>
-    <td align="center" scope="col">Name</td>
-    <td align="center" scope="col"><div align="center">Meaning</div></td>
-  </tr>
-  <tr>
-    <td><div align="center"><a href="https://www.qualityml.org/1.0/values">values</a></div></td>
-    <td><div align="center"><strong>Values</strong></div></td>
-    <td>Parameter or component that more closely represent the actual values measured</td>
-  </tr>
-  <tr>
-    <td><div align="center"><a href="https://www.qualityml.org/1.0/qualityCollection">qualityCollection</a></div></td>
-    <td><div align="center"><strong>Quality collection</strong></div></td>
-    <td>Variable that is decomposed in components or parameters</td>
-  </tr>
-  <tr>
-    <td><div align="center"><a href="https://www.qualityml.org/1.0/qualityComposition">qualityComposition</a></div></td>
-    <td><div align="center"><strong>Quality composition</strong></div></td>
-    <td>Component that represents a composition of other components for visualization purposes</td>
-  </tr>
-</table>
-
-<p align="center"><a href="index.htm#Principi"><img alt="Tornar" height="23" src="ArrowUp.jpg" width="23"/></a><br/>
-<i>Back to top of page</i></p>
-<br>
+<div id="t_ResWords"></div>
 
 <a name="xmlencoding"></a>
-<h2>XML encoding</h2>
-Here, some examples on how to encode quality metadata in ISO 19139 metadata documents using the qualityML framework and the qualityML URIs are presented. These examples shown only the "gmd:dataQualityInfo", but a couple of complete metadata examples can be found <a target="_blank" href="examples/Index.htm">here</a>.
+<h2 id="title_h2_XMLcode">XML encoding</h2>
+<p id="XMLcode_p_01">Here, some examples on how to encode quality metadata in ISO 19139 metadata documents using the qualityML framework and the qualityML URIs are presented. These examples shown only the "gmd:dataQualityInfo", but a couple of complete metadata examples can be found <a target="_blank" href="examples/Index.htm">here</a>.</p>
 
-<h4>Example using QualityML in an ISO metadata, without extending <i>Record</i> (so, without the need for the qml or uml namespace) for dataset level quality (Recommended: e.g. a GeoNetwork record using ISO 19115:2003 template)</h4>
+<h4 id="XMLcode_h4_01">Example using QualityML in an ISO metadata, without extending <i>Record</i> (so, without the need for the qml or uml namespace) for dataset level quality (Recommended: e.g. a GeoNetwork record using ISO 19115:2003 template)</h4>
 <a name="xmlencoding-1"></a>
 <xmp>
 <gmd:MD_Metadata>
@@ -460,7 +201,7 @@ Here, some examples on how to encode quality metadata in ISO 19139 metadata docu
 </gmd:MD_Metadata>
 </xmp>
 
-<h4>Example using QualityML in an ISO metadata, without extending <i>Record</i> (so, without the need for the qml or uml namespace) for dataset level quality (Recommended: e.g. a GeoNetwork record using ISO 19115:2003 template) with conventional units of measure</h4>
+<h4 id="XMLcode_h4_02">Example using QualityML in an ISO metadata, without extending <i>Record</i> (so, without the need for the qml or uml namespace) for dataset level quality (Recommended: e.g. a GeoNetwork record using ISO 19115:2003 template) with conventional units of measure</h4>
 <xmp>
 <gmd:MD_Metadata>
    <gmd:dataQualityInfo>
@@ -505,21 +246,10 @@ Here, some examples on how to encode quality metadata in ISO 19139 metadata docu
 </gmd:MD_Metadata>
 </xmp>
 
-Note that:
-<ul>
-<li>List of UoM (vocabulary) <a href="https://ucum.org/ucum#section-Base-Units">Unified Code for Units of Measure (UCUM)</a>, also in https://github.com/ucum-org/ucum
-<li>How to encode UoM <i>namespace</i>: https://confluence.csiro.au/display/seegrid/OGC+URN+Scheme
-<li><i>Base units</i> are the fundamental units defined in the international system
-<li><i>Conventional units</i> are units derived from other units by conversion factors (eg: a minute is derive from 60 seconds)
-<li><i>Derived units</i> are units derived from combination of basic units (e.g. an acceleration is derived from m and s squared: m/s<sup>2</sup>)
-<li>You can find more details about how to encode units in XML in this <a href="DocumentingUnitsinXML.htm">page</a></li>
-</ul>
+<div id="XMLcode_li_01">
+</div>
 
-<p align="center"><a href="index.htm#Principi"><img alt="Tornar" height="23" src="ArrowUp.jpg" width="23"/></a><br/>
-<i>Back to top of page</i></p>
-<br>
-
-<h4>Example using UncertML in an ISO metadata extending "Record" (extending XML is not commonly supported by implementations)</h4>
+<h4 id="XMLcode_h4_03">Example using UncertML in an ISO metadata extending "Record" (extending XML is not commonly supported by implementations)</h4>
 <xmp>
 <gmd:MD_Metadata>
    <md:dataQualityInfo>
@@ -551,11 +281,13 @@ Note that:
 </gmd:MD_Metadata>
 </xmp>
 
+<div id="XMLcode_btt_01">
 <p align="center"><a href="index.htm#Principi"><img alt="Tornar" height="23" src="ArrowUp.jpg" width="23"/></a><br/>
-<i>Back to top of page</i></p>
+<i id="backToTop">Back to top of page</i></p>
 <br>
+</div>
 
-<h4>Example using QualityML in an ISO metadata extending "record" for dataset level quality (extending XML is not commonly supported by implementations)</h4>
+<h4 id="XMLcode_h4_04">Example using QualityML in an ISO metadata extending "record" for dataset level quality (extending XML is not commonly supported by implementations)</h4>
 <xmp>
 <gmd:MD_Metadata>
    <md:dataQualityInfo>
@@ -594,11 +326,13 @@ Note that:
 </gmd:MD_Metadata>
 </xmp>
 
+<div id="XMLcode_btt_02">
 <p align="center"><a href="index.htm#Principi"><img alt="Tornar" height="23" src="ArrowUp.jpg" width="23"/></a><br/>
-<i>Back to top of page</i></p>
+<i id="backToTop">Back to top of page</i></p>
 <br>
+</div>
 
-<h4>Example using QualityML in an ISO metadata extending "Record" at pixel level quality (extending XML is not commonly supported by implementations)</h4>
+<h4 id="XMLcode_h4_05">Example using QualityML in an ISO metadata extending "Record" at pixel level quality (extending XML is not commonly supported by implementations)</h4>
 <xmp>
 <gmd:MD_Metadata>
    <gmd:distributionInfo>
@@ -663,8 +397,10 @@ LAYERS=TemperatureConfidenceInterval&amp;STYLES=</gmd:URL>
 </gmd:MD_Metadata>
 </xmp>
 
+<div id="XMLcode_btt_03">
 <p align="center"><a href="index.htm#Principi"><img alt="Tornar" height="23" src="ArrowUp.jpg" width="23"/></a><br/>
-<i>Back to top of page</i></p>
+<i id="backToTop">Back to top of page</i></p>
+</div>
 
 </div>
 </div><!-- /.container -->
