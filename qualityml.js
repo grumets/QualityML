@@ -1,4 +1,4 @@
-var msg_backToTop=({eng:"Back to top of page", cat:"Torna a l'inici", spa:"Volver al inicio"});
+﻿var msg_backToTop=({eng:"Back to top of page", cat:"Torna a l'inici", spa:"Volver al inicio"});
 var msg_uri={eng:"URI",cat:"URI", spa:"URI"};
 var msg_name={eng:"Name",cat:"Nom", spa:"Nombre"};
 var msg_altName={eng:"Alternative names",cat:"Noms alternatius", spa:"Nombres alternativos"};
@@ -40,7 +40,7 @@ function arrayBufferToString(buffer){
     return str;
 }
 
-//variable global que en diu en quin idioma es mostra la pàigna. Per defecte Anglés.
+//variable global que en diu en quin idioma es mostra la pàgina. Per defecte Anglés.
 var Lang="eng";
 
 function setLang(){
@@ -197,7 +197,7 @@ var i;
 	}
 	
 	// identificador
-	document.getElementById("measure_uri").innerHTML="<a href=\"http://www.qualityml.org/1.0/measure/"+measure.id+"\">http://www.qualityml.org/1.0/measure/"+measure.id+"</a>";
+	document.getElementById("measure_uri").innerHTML="<a href=\"https://www.qualityml.org/1.0/measure/"+measure.id+"\">https://www.qualityml.org/1.0/measure/"+measure.id+"</a>";
 	
 	// nom de la mesura
 	document.getElementById("measure_name").innerHTML=(measure.name)?measure.name[lang]:"";
@@ -295,7 +295,7 @@ var i;
 	}
 	
 	// identificador
-	document.getElementById("domain_uri").innerHTML="<a href=\"http://www.qualityml.org/1.0/domain/"+domain.id+"\">http://www.qualityml.org/1.0/domain/"+domain.id+"</a>";
+	document.getElementById("domain_uri").innerHTML="<a href=\"https://www.qualityml.org/1.0/domain/"+domain.id+"\">https://www.qualityml.org/1.0/domain/"+domain.id+"</a>";
 	
 	// nom del domini
 	document.getElementById("domain_name").innerHTML=(domain.name)?domain.name[lang]:"";
@@ -411,7 +411,7 @@ var i;
 	}
 	
 	// identificador
-	document.getElementById("metric_uri").innerHTML="<a href=\"http://www.qualityml.org/1.0/metrics/"+metric.id+"\">http://www.qualityml.org/1.0/metrics/"+metric.id+"</a>";
+	document.getElementById("metric_uri").innerHTML="<a href=\"https://www.qualityml.org/1.0/metrics/"+metric.id+"\">https://www.qualityml.org/1.0/metrics/"+metric.id+"</a>";
 	
 	// nom de la mètrica
 	document.getElementById("metric_name").innerHTML=(metric.name)?metric.name[lang]:"";
@@ -611,7 +611,7 @@ function DonaCadenaInteriorTaulaURINomeParamSource(qml_array, subpath, lang)
 	for(i=0;i<qml_array.length;i++)
 	{
 		cadena+="<tr><td align=\"center\">";
-		cadena+="<p><a href=\"http://www.qualityml.org/1.0/" + subpath + "/"+ qml_array[i].id +"\">"+ subpath + "/" + qml_array[i].id + "</a></p>";
+		cadena+="<p><a href=\"https://www.qualityml.org/1.0/" + subpath + "/"+ qml_array[i].id +"\">"+ subpath + "/" + qml_array[i].id + "</a></p>";
 		cadena+="</td><td align=\"center\"><b>";
 		cadena+=qml_array[i].name[lang];
 		cadena+="</b></td><td align=\"left\">";
@@ -856,7 +856,7 @@ function PintaQualityCollection(lang, extra_param)
 {
 
 	if (document.getElementById("c_uri"))
-		document.getElementById("c_uri").innerHTML='<a href="http://www.qualityml.org/1.0/qualityCollection">http://www.qualityml.org/1.0/qualityCollection</a>';
+		document.getElementById("c_uri").innerHTML='<a href="https://www.qualityml.org/1.0/qualityCollection">https://www.qualityml.org/1.0/qualityCollection</a>';
 	if (document.getElementById("c_name"))
 		document.getElementById("c_name").innerHTML=DonaCadenaJSON({eng:"Quality collection", cat:"Col·lecció de qualitat", spa:"Colección de calidad"});	
 	//if (document.getElementById("c_altName"))
@@ -872,7 +872,7 @@ function PintaQualityCollection(lang, extra_param)
 function PintaQualityComposition(lang, extra_param)
 {
 	if (document.getElementById("c_uri"))
-		document.getElementById("c_uri").innerHTML='<a href="	http://www.qualityml.org/1.0/qualityComposition">	http://www.qualityml.org/1.0/qualityComposition</a>';
+		document.getElementById("c_uri").innerHTML='<a href="https://www.qualityml.org/1.0/qualityComposition">https://www.qualityml.org/1.0/qualityComposition</a>';
 	if (document.getElementById("c_name"))
 		document.getElementById("c_name").innerHTML=DonaCadenaJSON({eng:"Quality composition", cat:"Composició de qualitat", spa:"Composición de calidad"});	
 	//if (document.getElementById("c_altName"))
@@ -888,7 +888,7 @@ function PintaQualityComposition(lang, extra_param)
 function PintaValues(lang, extra_param)
 {
 	if (document.getElementById("c_uri"))
-	document.getElementById("c_uri").innerHTML='<a href="	http://www.qualityml.org/1.0/values">	http://www.qualityml.org/1.0/values</a>';
+	document.getElementById("c_uri").innerHTML='<a href="https://www.qualityml.org/1.0/values">https://www.qualityml.org/1.0/values</a>';
 	if (document.getElementById("c_name"))
 		document.getElementById("c_name").innerHTML=DonaCadenaJSON({eng:"Values", cat:"Valors", spa:"Valores"});	
 	//if (document.getElementById("c_altName"))

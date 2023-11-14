@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns:qmld="http://www.qualityml.org/1.0/domain" xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.qualityml.org/1.0/domain" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<schema xmlns:qmld="https://www.qualityml.org/1.0/domain" xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="https://www.qualityml.org/1.0/domain" elementFormDefault="qualified" attributeFormDefault="unqualified">
 	<!--==== Basic Types ====-->
 	<simpleType name="level">
 		<restriction base="string">
