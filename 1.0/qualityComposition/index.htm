@@ -20,13 +20,15 @@
 <body onLoad="CarregaQualityMLjson();">
 <div class="container">
 <div class="text-justify">
-    <form align="right" onChange="setLang();">
-        <select id="sel_language">
-        <option value="eng" selected="selected">English</option>
-        <option value="cat">Català</option>
-        <option value="spa">Español</option>
-        </select>
-     </form>
+<div style="float:right;">
+ <form onChange="setLang();">
+    <select id="sel_language">
+    <option value="eng" selected="selected">English</option>
+    <option value="cat">Català</option>
+    <option value="esp">Español</option>
+    </select>
+ </form>
+</div>
 <a href="/"><img src="/qualityml.png" border="0"/></a>
 <hr />
 
@@ -34,7 +36,7 @@
     <tbody>
         <tr>
             <th id="t_uri">URI:</th>
-            <td id="c_uri"><a href="https://www.qualityml.org/1.0/qualityComposition">https://www.qualityml.org/1.0/qualityComposition</a></td>
+            <td id="c_uri"><a href="http://www.qualityml.org/1.0/qualityComposition">http://www.qualityml.org/1.0/qualityComposition</a></td>
         </tr>
         <tr>
             <th id="t_name">Name:</th>

@@ -20,21 +20,22 @@
 <body onLoad="CarregaQualityMLjson();">
 <div class="container">
 <div class="text-justify">	
-
-    <form align="right" onChange="setLang();">
-        <select id="sel_language">
-        <option value="eng" selected="selected">English</option>
-        <option value="cat">Català</option>
-        <option value="spa">Español</option>
-        </select>
-     </form>
+<div style="float:right;">
+ <form onChange="setLang();">
+    <select id="sel_language">
+    <option value="eng" selected="selected">English</option>
+    <option value="cat">Català</option>
+    <option value="esp">Español</option>
+    </select>
+ </form>
+</div>
 <a href="/"><img src="/qualityml.png" border="0"/></a>
 <hr />
 <table>
     <tbody>
         <tr>
             <th id="t_uri">URI:</th>
-            <td><a href="https://www.qualityml.org/1.0/metricsAggregation/ConfusionMatrixDerivates">https://www.qualityml.org/1.0/metricsAggregation/ConfusionMatrixDerivates</a></td>
+            <td><a href="http://www.qualityml.org/1.0/metricsAggregation/ConfusionMatrixDerivates">http://www.qualityml.org/1.0/metricsAggregation/ConfusionMatrixDerivates</a></td>
         </tr>
         <tr>
             <th id="t_name">Name:</th>
@@ -68,9 +69,9 @@
         <tr>
             <th id="t_xml_schema">XML schema:</th>
             <td>
-          <pre class="prettyprint style2">&lt;schema xmlns:qml=&quot;https://www.qualityml.org/1.0&quot; 
+          <pre class="prettyprint style2">&lt;schema xmlns:qml=&quot;http://www.qualityml.org/1.0&quot; 
 xmlns:un=&quot;http://www.uncertml.org/2.0&quot; 
-xmlns=&quot;http://www.w3.org/2001/XMLSchema&quot; targetNamespace=&quot;https://www.qualityml.org/1.0&quot; 
+xmlns=&quot;http://www.w3.org/2001/XMLSchema&quot; targetNamespace=&quot;http://www.qualityml.org/1.0&quot; 
 elementFormDefault=&quot;qualified&quot; attributeFormDefault=&quot;unqualified&quot;&gt;<br />&lt;import namespace=&quot;http://www.uncertml.org/2.0&quot; schemaLocation=&quot;../../uncertml/2.0/uncertml.xsd&quot;/&gt;
 
 
