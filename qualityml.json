@@ -2877,7 +2877,7 @@
 				"Positional accuracy"
 			],
 			"furtherInformation": null,
-			"XMLSchema": "<pre class='prettyprint style2'>&lt;schema xmlns:qml=&quot;https://www.qualityml.org/1.0&quot;<br/>xmlns:un=&quot;http://www.uncertml.org/2.0&quot;<br/>xmlns=&quot;http://www.w3.org/2001/XMLSchema&quot; targetNamespace=&quot;https://www.qualityml.org/1.0&quot;<br/>elementFormDefault=&quot;qualified&quot; attributeFormDefault=&quot;unqualified&quot;&gt;<br/>&lt;import namespace=&quot;http://www.uncertml.org/2.0&quot; schemaLocation=&quot;../../uncertml/2.0/uncertml.xsd&quot;/&gt;<br/>&lt;element name=&quot;ConfidenceEllipse&quot; type=&quot;qml:ConfidenceEllipseType&quot; substitutionGroup=&quot;un:AbstractSummaryStatistic&quot;/&gt;<br/><span class='indent'>&lt;complexType name=&quot;ConfidenceEllipseType&quot;&gt;</span><br/><span class='indent2'>&lt;complexContent&gt;</span><br/><span class='indent3'>&lt;extension base=&quot;un:AbstractSummaryStatisticType&quot;&gt;</span><br/><span class='indent4'>&lt;sequence&gt;</span><br/><span class='indent5'>&lt;element name=&quot;a&quot; type=&quot;un:ContinuousValuesType&quot;/&gt;</span><br/><span class='indent5'>&lt;element name=&quot;b&quot; type=&quot;un:ContinuousValuesType&quot;/&gt;</span><br/><span class='indent5'>&lt;element name=&quot;a_angle&quot; type=&quot;un:ContinuousValuesType&quot;/&gt;</span><br/><span class='indent4'>&lt;/sequence&gt;</span><br/><span class='indent4'>&lt;attribute name=&quot;confidence&quot; use=&quot;required&quot;&gt;</span><br/><span class='indent5'>&lt;simpleType&gt;</span><br/><span class='indent6'>&lt;restriction base=&quot;double&quot;&gt;</span><br/><span class='indent7'>&lt;pattern value=&quot;0.683&quot;/&gt;</span><br/><span class='indent7'>&lt;pattern value=&quot;0.95&quot;/&gt;</span><br/><span class='indent7'>&lt;pattern value=&quot;0.99&quot;/&gt;</span><br/><span class='indent6'>&lt;/restriction&gt;</span><br/><span class='indent5'>&lt;/simpleType&gt;</span><br/><span class='indent4'>&lt;/attribute&gt;</span><br/><span class='indent3'>&lt;/extension&gt;</span><br/><span class='indent2'>&lt;/complexContent&gt;</span><br/><span class='indent'>&lt;/complexType&gt;</span></pre>",
+			"XMLSchema": "<pre class='prettyprint style2'>&lt;schema xmlns:qml=&quot;https://www.qualityml.org/1.0&quot;<br/>xmlns:un=&quot;http://www.uncertml.org/2.0&quot;<br/>xmlns=&quot;http://www.w3.org/2001/XMLSchema&quot; targetNamespace=&quot;https://www.qualityml.org/1.0&quot;<br/>elementFormDefault=&quot;qualified&quot; attributeFormDefault=&quot;unqualified&quot;&gt;<br/>&lt;import namespace=&quot;http://www.uncertml.org/2.0&quot; schemaLocation=&quot;../../uncertml/2.0/uncertml.xsd&quot;/&gt;<br/>&lt;element name=&quot;ConfidenceEllipse&quot; type=&quot;qml:ConfidenceEllipseType&quot; substitutionGroup=&quot;un:AbstractSummaryStatistic&quot;/&gt;<br/><span class='indent'>&lt;complexType name=&quot;ConfidenceEllipseType&quot;&gt;</span><br/><span class='indent2'>&lt;complexContent&gt;</span><br/><span class='indent3'>&lt;extension base=&quot;un:AbstractSummaryStatisticType&quot;&gt;</span><br/><span class='indent4'>&lt;sequence&gt;</span><br/><span class='indent5'>&lt;element name=&quot;a&quot; type=&quot;un:ContinuousValuesType&quot;/&gt;</span><br/><span class='indent5'>&lt;element name=&quot;b&quot; type=&quot;un:ContinuousValuesType&quot;/&gt;</span><br/><span class='indent5'>&lt;element name=&quot;a_angle&quot; type=&quot;un:ContinuousValuesType&quot;/&gt;</span><br/><span class='indent4'>&lt;/sequence&gt;</span><br/><span class='indent4'>&lt;attribute name=&quot;confidence&quot; use=&quot;required&quot;&gt;</span><br/><span class='indent5'>&lt;simpleType&gt;</span><br/><span class='indent6'>&lt;restriction base=&quot;double&quot;&gt;</span><br/><span class='indent7'>&lt;pattern value=&quot;0.683&quot;/&gt;</span><br/><span class='indent7'>&lt;pattern value=&quot;0.95&quot;/&gt;</span><br/RMS><span class='indent7'>&lt;pattern value=&quot;0.99&quot;/&gt;</span><br/><span class='indent6'>&lt;/restriction&gt;</span><br/><span class='indent5'>&lt;/simpleType&gt;</span><br/><span class='indent4'>&lt;/attribute&gt;</span><br/><span class='indent3'>&lt;/extension&gt;</span><br/><span class='indent2'>&lt;/complexContent&gt;</span><br/><span class='indent'>&lt;/complexType&gt;</span></pre>",
 			"ValueConstraints":
 			{
 				"eng":"<span class='style1'><strong>categories</strong>: <em>any string</em><br/><strong>counts</strong>: <em>any positive natural number</em></span><br/>",
@@ -2961,9 +2961,9 @@
 			],
 			"desc":
 			{
-				"eng": "Measure of the differences between values predicted by a model or an estimator and the values actually observed.",
-				"cat": "Mesura de les diferències entre els valors predits per un model o un estimador i els valors realment observats.",
-				"spa": "Medida de las diferencias entre los valores predichos por un modelo o un estimador y los valores realmente observados."
+				"eng": "Measure of the differences between values predicted by a model or an estimator and the values actually observed. The RMSE of a sample is the quadratic mean of the differences between the observed values and predicted ones.",
+				"cat": "Mesura de les diferències entre els valors predits per un model o un estimador i els valors realment observats. L'RMSE d'una mostra és la mitjana quadràtica de les diferències entre els valors observats i els predits.",
+				"spa": "Medida de las diferencias entre los valores predichos por un modelo o un estimador y los valores realmente observados. El RMSE de una muestra es el promedio cuadrático de las diferencias entre los valores observados y los valores predichos."
 			},
 			"form":
 			{
@@ -3008,9 +3008,9 @@
 			],
 			"desc":
 			{
-				"eng": "Measure of the differences between values predicted by a model or an estimator and the values actually observed.",
-				"cat": "Mesura de les diferències entre els valors predits per un model o un estimador i els valors realment observats.",
-				"spa": "Medida de las diferencias entre los valores predichos por un modelo o un estimador y los valores realmente observados."
+				"eng": "Average of the squares of the differences between the values predicted by a model or an estimator, and the values actually observed.",
+				"cat": "Mitjana dels quadrats de les diferències entre els valors predits per un model o un estimador, i els valors realment observats.",
+				"spa": "Promedio de los cuadrados de las diferencias entre los valores predichos por un modelo o estimador y los valores observados realmente."
 			},
 			"form":
 			{
@@ -3055,9 +3055,9 @@
 			],
 			"desc":
 			{
-				"eng": "Measure of the differences between 2D values predicted by a model or an estimator and the values actually observed.",
-				"cat": "Mesura de les diferències entre els valors 2D predits per un model o un estimador i els valors realment observats.",
-				"spa": "Medida de las diferencias entre los valores 2D predichos por un modelo o un estimador y los valores realmente observados."
+				"eng": "Measure of the differences between 2D values predicted by a model or an estimator and the values actually observed. The RMSE of a sample is the quadratic mean of the differences between the 2D observed values and 2D predicted ones.",
+				"cat": "Mesura de les diferències entre els valors 2D predits per un model o un estimador i els valors realment observats. L'RMSE d'una mostra és la mitjana quadràtica de les diferències entre els valors 2D observats i els valors 2D predits.",
+				"spa": "Medida de las diferencias entre los valores 2D predichos por un modelo o un estimador y los valores realmente observados. El RMSE de una muestra es el promedio cuadrático de las diferencias entre los valores 2D observados y los valores 2D predichos."
 			},
 			"form": 
 			{
@@ -3100,9 +3100,9 @@
 			],
 			"desc":
 			{
-				"eng": "Measure of the differences between values predicted by a model or an estimator and the values actually observed.",
-				"cat": "Mesura de les diferències entre els valors predits per un model o un estimador i els valors realment observats.",
-				"spa": "Medida de las diferencias entre los valores predichos por un modelo o un estimador y los valores realmente observados."
+				"eng": "Measure of the differences between values predicted by a model or an estimator and the values actually observed. The RMSE of a sample is the quadratic mean of the differences between the 3D observed values and 3D predicted ones.",
+				"cat": "Mesura de les diferències entre els valors predits per un model o un estimador i els valors realment observats. L'RMSE d'una mostra és la mitjana quadràtica de les diferències entre els valors 3D observats i els valors 3D predits.",
+				"spa": "Medida de las diferencias entre los valores predichos por un modelo o un estimador y los valores realmente observados. El RMSE de una muestra es el promedio cuadrático de las diferencias entre los valores 3D observados y los valores 3D predichos."
 			},
 			"form":
 			{
@@ -3150,9 +3150,9 @@
 			],
 			"desc":
 			{
-				"eng": "Measure of the differences between values predicted by a model or an estimator and the values actually observed.",
-				"cat": "Mesura de les diferències entre els valors predits per un model o un estimador i els valors realment observats.",
-				"spa": "Medida de las diferencias entre los valores predichos por un modelo o un estimador y los valores realmente observados."
+				"eng": "Measure of the differences between values predicted by a model or an estimator and the values actually observed. The NRMSE of a sample is the quadratic mean of the differences between the observed values and predicted (by a model) ones.",
+				"cat": "Mesura de les diferències entre els valors predits per un model o un estimador i els valors realment observats.  L'RMSE d'una mostra és la mitjana quadràtica de les diferències entre els valors observats i els valors predits pel model.",
+				"spa": "Medida de las diferencias entre los valores predichos por un modelo o un estimador y los valores realmente observados. El RMSE de una muestra es el promedio cuadrático de las diferencias entre los valores observados y los valores predichos por el modelo."
 			},
 			"form":
 			{
